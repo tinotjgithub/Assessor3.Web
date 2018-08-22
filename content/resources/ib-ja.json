@@ -1,0 +1,2012 @@
+{
+  "marking": {
+    "worklist": {
+      "worklist-type": {
+        "live": "ライブ",
+        "atypical": "Atypical",
+        "atypical-header-text": "Atypical marking",
+        "supervisorRemark": "リーダーによる再採点",
+        "practice": "練習",
+        "approval": "資格認定",
+        "esTeamApproval": "ES Team Approval DO NOT TRANSLATE"
+      },
+      "response-allocation-error-dialog": {
+        "ok-button": "OK",
+        "response-allocation-error-header-withdrawnMarker": "採点のクオリティーに関する問題点",
+        "response-allocation-error-header": "新しい答案を取得できません",
+        "response-allocation-error-withdrawnMarker": "このQIGで採点のクオリティーに関する問題点が見つかったことにより、承認済の他のQIGの採点ができなくなることはありません。",
+        "response-allocation-error-maximumConcurrentResponseLimitReached": "同時ダウンロードの上限に達しました。",
+        "response-allocation-error-noResponseAvailable": "現在ダウンロードできる答案はありません。後で再度確認してください。",
+        "response-allocation-error-concurrentLimitNotMet": " {0} 件の答案がダウンロードされました。採点できる答案がないため、これ以上答案をダウンロードすることはできません。",
+        "response-allocation-error-markingLimitReached": "すでに採点目標に達しているため、 {0} 件しか答案がダウンロードされませんでした。",
+        "response-allocation-error-maximumAllocatedResponseLimitReached": "すでに採点目標に達しているため、 答案はダウンロードされませんでした。",
+        "response-allocation-error-sessionClosed": "セッションが終了したときにマークするレスポンスをダウンロードすることはできません。"
+      },
+      "approval-status-changed-dialog": {
+        "header": "承認状況が変わりました",
+        "body": "この問題群に関してあなたの承認状況が変わりました。チームリーダーからフィードバックが提供されるまで、答案をダウンロードまたは提出することができません。ワークリストにダウンロード済の答案があれば、それらを見直すことができます。承認済の他のQIGの採点ができなくなるわけではありません。",
+        "body-quality-feedback": "この問題群に関してあなたの承認状況が変わりました。このシードに関するチームリーダーからのフィードバックを受け入れるまで、答案をダウンロードまたは提出することはできません。チームリーダーがすでにあなたの採点についてフィードバックを提供しています。承認済の他のQIGの採点ができなくなるわけではありません。"
+      },
+      "view-switcher": {
+        "tile-view": "タイリング",
+        "list-view": "リストビュー"
+      },
+      "left-panel": {
+        "send-message": "メッセージを送信する",
+        "my-supervisor": "私のチームリーダー",
+        "supervisor-online": "オンライン",
+        "supervisor-offline": "オフライン",
+        "supervisor-offline-less-than-1-hour": "オフライン１時間未満",
+        "supervisor-offline-hour": "オフライン{0}時間",
+        "supervisor-offline-hours": "オフライン{0}時間",
+        "supervisor-offline-day": "オフライン{0} 日",
+        "supervisor-offline-days": "オフライン{0} 日",
+        "submitted-count-label": "提出済",
+        "days-until-target": "まであと　　日",
+        "target-date-label": "目標：",
+        "target-completed-date-label": "完了：",
+        "target-completed": "完了：",
+        "over-allocation-tooltip": "ライブマーキング目標のロック解除済",
+        "marking-instructions": "マーキングの手順",
+        "show-hide-panel-tooltip": "試験官情報を表示／非表示",
+        "request-marking-check-button": "Request marking check"
+      },
+      "tile-view-labels": {
+        "amd": "絶対差：",
+        "tmd": "総合点差：",
+        "allocated": "割りあて済",
+        "submitted": "提出済",
+        "last-updated": "最終更新",
+        "to-end-of-grace-period": " 猶予期間満了まで"
+      },
+      "response-data": {
+        "amd-tooltip": "各問題項目におけるあなたの評点とスタンダーダイゼーションチームの評点の差を合計したもの",
+        "tmd-tooltip": "あなたがつけた総合点とスタンダーダイゼションチームにより設定された総合点の差",
+        "seed-indicator": "シード",
+        "promoted-seed-indicator": "プロモートシード",
+        "definitive-indicator": "確実な",
+        "marking-not-started": "採点未着手",
+        "submit-button": "提出する",
+        "additional-objects-icon-tooltip": "答案には追加ページがあります",
+        "additional-objects-not-annotated-icon-tooltip": "答案には、評点を提出する前に注釈をつける必要がある追加ページがあります。",
+        "exceptions-icon-tooltip": "この答案には、関連づけられた例外が１つ以上あります。これらが原因で採点完了時に答案を提出できなくなることはありません。例外を閲覧するにはアイコンをクリックしてください。",
+        "blocking-exceptions-icon-tooltip": "この答案には、関連づけられた例外が１つ以上あります。これらの例外が解決され、提出済となるまで、答案を提出することはできません。例外を閲覧するにはこのアイコンをクリックしてください。",
+        "resolved-exceptions-icon-tooltip": "この答案には、確認をした上で提出すべき解決済の例外が{0} 件あります。これらが原因で採点完了時に答案を提出できなくなることはありません。例外を閲覧するにはこのアイコンをクリックしてください。",
+        "resolved-and-blocking-exceptions-icon-tooltip": "この答案には、確認をした上で提出すべき解決済の例外が{0} 件あります。これらの例外が提出済となるまで、答案を提出することはできません。例外を閲覧するにはこのアイコンをクリックしてください。",
+        "not-all-pages-annotated-icon-tooltip": "注釈がついていないページがあります",
+        "response-id-tooltip": "答案 - {0}",
+        "hours-to-end-of-grace": "{0}時間",
+        "hour-to-end-of-grace": "{0}時間",
+        "messages-icon-tooltip": "この答案には、関連づけられたメッセージが１つ以上あります。メッセージを閲覧するにはこのアイコンをクリックしてください。",
+        "unread-messages-icon-tooltip": "この答案には、関連づけられた未読メッセージが１つ以上あります。メッセージを閲覧するにはこのアイコンをクリックしてください。",
+        "practice-response-title": "練習 ",
+        "standardisation-response-title": "資格認定",
+        "second-standardisation-response-title": "第2回資格認定",
+        "stm-standardisation-response-title": "STM Standardisation DO NOT TRANSLATE",
+        "not-all-files-viewed-icon-tooltip": "Not all files have been viewed in this response",
+        "mark-change-reason-not-specified-icon-tooltip": "評点変更理由の入力が必要です"
+      },
+      "auto-approved-dialog": {
+        "ok-button": "OK",
+        "header": "おつかれさまでした",
+        "summary-standardisation": "資格認定用の採点が完了しました。",
+        "summary-stm-standardisation": "第2回資格認定用の採点が完了しました。",
+        "summary-second-standardisation": "第2回資格認定用の採点が完了しました。",
+        "body-standardisation": "ライブマーキング開始が自動承認されました。所定のワークリストを選択すれば、いつでもあなたが採点した提出済の資格認定用答案や練習用答案を見ることができます。",
+        "body-excess-standardisation-responses-removed": "ライブマーキング開始が自動承認されました。資格認定用の採点が完了し、ワークリストに残っていた未提出の資格認定用答案は取り除かれました。所定のワークリストを選択すると、いつでもあなたが採点した提出済の資格認定用答案を見ることができます。",
+        "body-stm-standardisation": "ライブマーキング開始が自動承認されました。ワークリスト画面の横にある所定の答案タイプをクリックすれば、いつでもあなたが採点した提出済の資格認定用答案や練習用答案を参照することができます。",
+        "body-excess-second-standardisation-responses-removed": "ライブマーキング開始が自動承認されました。第2回資格認定用の採点が完了し、ワークリストに残っていた未提出の第2回資格認定用答案は取り除かれました。所定のワークリストを選択すれば、いつでもあなたが採点した提出済の第2回資格認定用答案を見ることができます。",
+        "body-excess-stm-standardisation-responses-removed": "ライブマーキング開始が自動承認されました。第2回資格認定用の採点が完了し、ワークリストに残っていた未提出の第2回資格認定用答案は取り除かれました。所定のワークリストを選択すれば、いつでもあなたが採点した提出済の第2回資格認定用答案を見ることができます。"
+      },
+      "action-buttons": {
+        "submit-button": "答案を提出する",
+        "allocate-button-target-reached-indicator": "目標に達しました",
+        "allocate-button": "新しい答案",
+        "allocate-button-concurrent-limit-reached-indicator": "未提出の答案が上限に達しました",
+        "allocate-button-not-approved-tooltip": "チームリーダーからあなたの採点に関するフィードバックを受けるまで、さらに答案をダウンロードすることはできません。",
+        "allocate-button-suspended-indicator": "審査保留中",
+        "submit-button-not-approved-tooltip": "チームリーダーからあなたの採点に関するフィードバックを受けるまで、答案を提出することはできません。",
+        "submit-button-suspended-indicator": "審査保留中",
+        "allocate-single-response": "単一の答案",
+        "allocate-to-concurrent-limit": "未提出答案の上限まで",
+        "allocate-button-tooltip": "Select number of responses to download"
+      },
+      "no-responses-available-helper": {
+        "header": "ダウンロード可能な答案はありません",
+        "body": "現在採点のためにダウンロードできる答案はありません。後で再度確認してください。"
+      },
+      "marking-target-complete-helper": {
+        "header": "ライブマーキングの目標達成",
+        "body": "すでにこのQIGについては採点目標を達成しているため、さらに答案をダウンロードすることはできません。未処理の再採点用答案や他のQIGで割りあてられた答案があれば引き続き採点することができます。"
+      },
+      "empty-worklist-helper": {
+        "header": "ダウンロード済の答案なし",
+        "body-line-1": "ワークリストは空です。採点を開始する前にいくつか答案をダウンロードする必要があります。 ",
+        "body-line-2": "「新しい答案」ボタンをクリックすると、あなたの未提出答案の上限である{0} 件まで答案がダウンロードされます。",
+        "body-line-3": "Note that if you have open re-marks that do not have a quota these will also count towards your open response limit and may prevent you from downloading more live responses."
+      },
+      "open-for-marking-tab": "採点可能",
+      "submitted-editable-tab": "提出済 - 変更可能",
+      "submitted-closed-tab": "提出済 - 変更不可",
+      "worklist-headers": {
+        "live": "ライブマーキング",
+        "practice": "練習用の採点",
+        "standardisation": "資格認定用の採点",
+        "secondstandardisation": "第2回資格認定用の採点",
+        "stm-standardisation": "STM Standardisation marking DO NOT TRANSLATE",
+        "simulation": "Simulation Marking",
+        "atypical": "Atypical marking"
+      },
+      "perform-marking-check": {
+        "worklist-of-examiner": "of",
+        "perform-marking-check-body-1": "You have been asked to check the marks of one or more examiners. Select ",
+        "perform-marking-check-link": "here",
+        "perform-marking-check-body-2": " to view and perform a marking check.",
+        "set-marking-as-checked-button": "Set marking as checked"
+      },
+      "submit-response-dialog": {
+        "body": "この答案を提出してよろしいですか？",
+        "header": "答案を提出する",
+        "body-simulation": "Are you sure  you want to submit this response? The response marks shall not be saved or visible after submission."
+      },
+      "submit-all-responses-dialog": {
+        "body": "採点が完了した答案をすべて提出してよろしいですか？",
+        "header": "答案を提出する",
+        "body-simulation": "Are you sure you want to submit all marked responses? The response marks shall not be saved or visible after submission."
+      },
+      "response-submission-error-dialog": {
+        "body-single-response-not-submitted": "この答案を提出できませんでした。ワークリストを確認して、もう一度お試しください。",
+        "body-some-responses-not-submitted": "いくつかの答案を提出できませんでした。ワークリストを確認して、もう一度お試しください。",
+        "body-single-response-already-submitted": "This response could not be submitted because it has already been submitted previously.",
+        "body-some-responses-already-submitted": "One or more responses could not be submitted because they have already been submitted previously.",
+        "header": "答案を提出できません"
+      },
+      "not-approved-helper": {
+        "body-line-1": "あなたの資格認定用の採点は、審査のためにあなたのチームのリーダーに送られました。",
+        "body-line-2": "フィードバックを受け取るまでこの問題項目群の採点を続けることはできません。許容差外で提出された第1回資格認定用の答案については、チームリーダーからフィードバックが送られます。許容差外で提出された第２回資格認定用の答案については、ＩＢカーディフからフィードバックが送られます。これにより、採点目標がある他の問題項目群を採点できないようになることはありません。",
+        "header": "アドバイスをお待ちください。"
+      },
+      "quality-feedback-dialog": {
+        "body": "あなたが提出したシードに許容差内のものがあります。あなたの採点を確定済の評点と照らし合わせて確認したい場合には、提出済ワークリストの「変更不可」に進んでください。",
+        "header": "フィードバック"
+      },
+      "marking-check-status": {
+        "Checked": "Checked",
+        "CheckRequested": "Check requested",
+        "Unchecked": "Unchecked",
+        "NotApproved": "Not approved",
+        "Suspended": "Pending Review"
+      },
+      "request-marking-check-error-dialog": {
+        "header-approval-status-changed": "Approval status changed",
+        "body-approval-status-changed": "Your status has changed and you are no longer allowed to perform this action.",
+        "header-withdrawn": "Withdrawn from marking",
+        "body-withdrawn": "You have been withdrawn from this question group. This will not prevent you from accessing other question groups where you have a quota.",
+        "header-hierarchy-changed": "Examiner hierarchy changed",
+        "body-hierarchy-changed": "Your role has changed and you are no longer allowed to perform this action.",
+        "header-no-examiners-available": "Marking check request",
+        "body-no-examiners-available": "A marking check cannot be requested because there is no one in the marking hierarchy with the correct permissions to perform a check."
+      },
+      "request-marking-check-menu": {
+        "header": "Please select the examiner(s) who you want to check your marks."
+      },
+      "perform-marking-check-confirmation-dialog": {
+        "body": "Are you sure that you want to set the marking of {0} as checked? You will no longer be able to access their worklist.",
+        "header": "Marking check completed"
+      },
+      "list-view-column-headers": {
+        "sort-by-tooltip": "Toggle sorting by",
+        "exceptions": "例外",
+        "messages": "メッセージ",
+        "last-updated": "最終更新",
+        "allocated": "割りあて済",
+        "total-mark": "評点",
+        "time-to-end-of-grace-period": "猶予期間満了までの時間",
+        "progress": "進捗",
+        "submitted": "提出済",
+        "centre-number": "センター",
+        "centre-candidate-number": "受験者",
+        "original-marker": "最初の試験官",
+        "response-id": "答案ID",
+        "accuracy": "正確さ",
+        "amd": "絶対差",
+        "tmd": "総合点差",
+        "tag": "タグ"
+      },
+      "simulation-helper": {
+        "body-line-1": "Your worklist is empty. Before you can start marking you need to download some responses. Any marking you enter in simulation mode will not be returned as live marks. When the simulation marking period ends, your simulation marking will be deleted automatically and you will not be able to refer back to it.",
+        "body-line-2": "Clicking the 'Get new response' button will download a simulation response into your worklist for you to mark."
+      },
+      "submitted-editable-worklist-helper": "You can edit the marks of the responses in this list until the end of grace period. Any changes you make will be automatically saved. When the grace period  for a response ends, it will automatically move to the closed list and marks will be returned to your awarding body.",
+      "quality-feedback-helper": {
+        "quality-feedback-outstanding": "あなたが提出したシードは許容差外です。答案を開いてフィードバックを確認したら、「フィードバックを受理する」ボタンを使用してフィードバックを受理してください。これを完了すれば、採点を続けることができます。",
+        "quality-feedback-outstanding-and-suspended": "あなたが提出したシードは許容差外です。答案を開いてフィードバックを確認したら、「フィードバックを受理する」ボタンを使用してフィードバックを受理してください。これを完了すれば採点を続けることができますが、チームリーダーからあなたの採点に関するフィードバックが提供されるまでさらに答案をダウンロードしたり、提出したりすることはできません。"
+      },
+      "exited-simulation-dialog": {
+        "header": "Standardisation setup is complete",
+        "subheader-multiple-qigs": "Standardisation setup is now complete for the following QIG(s):",
+        "subheader-single-qig": "Standardisation setup is now complete for the following QIG:",
+        "body-multiple-qigs": "You are now able to start Marking. Simulation mode will no longer be available for the above QIG(s).",
+        "body-single-qig": "You are now able to start Marking. Simulation mode will no longer be available for the above QIG."
+      }
+    },
+    "response": {
+      "saving-marks-error-dialog": {
+        "header-error-saving-marks": "評点および注釈の保存に関するエラー",
+        "body-error-saving-marks-single-response": "この答案につけた評点および注釈を保存できませんでした。見直して、抜けている評点や注釈があればもう一度つけてください。",
+        "body-error-saving-marks-multiple-responses": "以下の答案につけた評点および注釈を保存できませんでした。見直して、抜けている評点や注釈があればつけてください。",
+        "body-cannot-leave-response-partially-marked-in-grace": "この答案は提出済なので、すべての問題項目は採点済のはずです。すべての問題項目に対して評点を入力したことを確認してください。",
+        "header-grace-period-expired": "猶予期間はすでに終了しました。",
+        "body-must-annotate-all-pages-in-grace": "この答案は提出済であるため、すべてのページに少なくとも１つ注釈をつけるか、答案全体ビューで「参照済」ボタンを使用して各ページの内容を閲覧済であることを確定するまで他のページへ移動することはできません。",
+        "header-must-annotate-all-pages-in-grace": "注釈がついていないページがあります。",
+        "body-grace-period-expired-changes-not-saved": "すでに猶予期間が経過しているため、答案{0} の評点および注釈の変更は保存されませんでした。この答案はすでにあなたの提出済ワークリストへ移動されています。"
+      },
+      "complete-button-dialog": {
+        "yes-button": "はい",
+        "no-button": "いいえ",
+        "body": "この操作により、未採点の問題項目すべてに対してＮＲ（無解答）のマークが入力されます。操作を続行してよろしいですか？"
+      },
+      "script-images": {
+        "script-image-tooltip": "Script Image"
+      },
+      "previous-marks": {
+        "first-marking-short": "第1回",
+        "first-marking-long": "第1回採点",
+        "definitive-marking-long": "確定済評点",
+        "definitive-marking-short": "確定済",
+        "display-marks-header": "評点を表示する",
+        "display-annotations-header": "注釈",
+        "current-marks": "現在の評点",
+        "previous-marks-checkbox-tooltip-show": "前の評点を表示",
+        "previous-marks-checkbox-tooltip-hide": "前の評点を非表示",
+        "definitive-marks-checkbox-tooltip-show": "確定した評点を表示",
+        "definitive-marks-checkbox-tooltip-hide": "確定した評点を非表示",
+        "previous-annotations-switch-tooltip-hide": "これらの前の注釈を非表示",
+        "previous-annotations-switch-tooltip-show": "これらの前の注釈を表示",
+        "definitive-annotations-switch-tooltip-hide": "確定した注釈を非表示にする",
+        "definitive-annotations-switch-tooltip-show": "確定した注釈を表示する"
+      },
+      "navigation-bar": {
+        "previous-response-button-tooltip": "前の答案",
+        "next-response-button-tooltip": "次の答案",
+        "response-id-label": "答案",
+        "response-position-in-worklist": "ワークリスト{1} 件中{0} 件",
+        "simulation-response-id-label": "Simulation response",
+        "worklist-breadcrumb": "ワークリスト"
+      },
+      "page-number-indicator": {
+        "image-number-label": "画像",
+        "image-number-of-label": "の",
+        "page-number-label": "ページ",
+        "image-number-label-booklet-view": "画像",
+        "page-number-label-booklet-view": "ページ",
+        "script-label": "答案"
+      },
+      "save-indicator": {
+        "saving-marks": "評点を保存しています．．．"
+      },
+      "comments-side-view": {
+        "hide-comments": "コメントを隠す",
+        "hide-comments-tooltip": "スクリプトに関するコメントを見る"
+      },
+      "on-page-comment-box": {
+        "side-view-icon-tooltip": "スクリプトの横にコメントを表示する",
+        "comment-placeholder-text": "コメントを入力",
+        "delete-icon-tooltip": "コメントを削除する"
+      },
+      "left-toolbar": {
+        "full-response-view-button-tooltip": "答案全体を閲覧する",
+        "messages-button-tooltip-new-message": "新しいメッセージ",
+        "messages-button-tooltip-linked-messages": "関連づけられたメッセージ",
+        "zoom-rotate-button-tooltip": "ズーム／回転",
+        "problems-button-tooltip": "Problems with this response"
+      },
+      "annotations-toolbar": {
+        "expand-button-tooltip": "ツールパネルを拡大する",
+        "collapse-button-tooltip": "ツールパネルを折りたたむ",
+        "plus-button-tooltip": "ツールを追加する"
+      },
+      "zoom-rotate-panel": {
+        "rotate-clockwise-tooltip": "画像を右回りに回転する",
+        "rotate-anticlockwise-tooltip": "画像を左回りに回転する",
+        "zoom-fit-height-tooltip": "高さに合わせる",
+        "zoom-fit-width-tooltip": "幅に合わせる",
+        "zoom-fit-height": "高さに合わせる",
+        "zoom-fit-width": "幅に合わせる",
+        "zoom-out-tooltip": "ズームアウトする",
+        "zoom-in-tooltip": "ズームインする",
+        "zoom-level-tooltip": "現在のズーム率",
+        "zoom": "ズーム",
+        "rotate": "回転"
+      },
+      "mark-scheme-panel": {
+        "previous-question-button-tooltip": "前の問題",
+        "next-question-button-tooltip": "次の問題",
+        "reset-mark-button": "リセット",
+        "reset-mark-button-tooltip": "この問題項目の評点と注釈をリセットする",
+        "total-marks": "総合点",
+        "no-response-button": "無解答 ",
+        "next-mark-button-tooltip": "次へ",
+        "previous-mark-button-tooltip": "前へ",
+        "no-response": "NR（無解答）",
+        "optionality-tooltip": "この答案には追加問題があります。マークスキームに従って、総合点に算入されない全問題項目につけられた評点が削除されます。",
+        "accept-quality-feedback-button": "フィードバックを受理する",
+        "complete-button": "完了",
+        "complete-button-tooltip-when-enabled": "未採点の問題項目すべてに対してNR（無解答）のマークを入力する",
+        "complete-button-tooltip-when-disabled": "この答案に関する最低条件を満たすのに十分な数の問題に対して評点もしくはNRを入力していない場合、このボタンを使用することはできません。受験者が十分な数の問題に解答していない場合には、完了ボタンをクリックする前に１つ以上の問題に対してNRを入力してください。  ",
+        "mark-by": "マークする",
+        "mark-by-candidate": "候補者",
+        "mark-by-question": "質問",
+        "annotations-switch-tooltip-hide": "現在の注釈を非表示にするにはここをクリックしてください。",
+        "annotations-switch-tooltip-show": "現在の注釈を表示するにはここをクリックしてください。",
+        "annotations-switch-label": "注釈",
+        "comments-switch-tooltip-hide": "Hide comments panel",
+        "comments-switch-tooltip-show": "Show comments panel",
+        "comments-switch-label": "Comments",
+        "unzoned-indicator-tooltip": "この質問項目にはコンテンツが割り当てられていません"
+      },
+      "invalid-mark-dialog": {
+        "header": "無効な評点",
+        "body-numeric": "{0} と {1}の間の評点を入力してください",
+        "body-non-numeric": "有効なマークを入力してください",
+        "ok-button": "OK"
+      },
+      "mba-max-mark-exceeded-dialog": {
+        "header": "Maximum mark exceeded",
+        "body": "Adding this annotation would cause the maximum mark of {0} for this question item to be exceeded. The annotation has not been applied."
+      },
+      "reset-mark-dialog": {
+        "header": "評点と注釈をリセットする",
+        "body-when-mark-deleted": "あなたは当初つけた評点をリセットしました。注釈も同様に取り除きますか？",
+        "body-when-reset-button-clicked": "この操作により関連の問題項目の評点と注釈がすべてリセットされます。この操作を実行してよろしいですか？"
+      },
+      "annotation-context-menu": {
+        "remove-annotation": "注釈を削除",
+        "change-colour": "色を変更する",
+        "black": "黒",
+        "red": "赤",
+        "green": "緑",
+        "blue": "青",
+        "yellow": "黄",
+        "pink": "ピンク",
+        "remove-bookmark": "删除书签 删除书签",
+        "remove-ruler": "ルーラーを削除",
+        "remove-protractor": "分度器を取り外す",
+        "add-multiline": "追加する",
+        "remove-multiline": "除去する",
+        "change-colour-multiline": "色を変更する",
+        "point-multiline": "ポイント",
+        "line-multiline": "ライン",
+        "all-multiline": "すべて"
+      },
+      "end-of-list-dialog": {
+        "header": "ワークリストに戻る",
+        "body": "あなたはワークリストにある最後の答案に到達しました。ワークリストに戻って採点を提出しますか？",
+        "yes-button": "はい",
+        "no-button": "いいえ"
+      },
+      "delete-comment-dialog": {
+        "header": "「削除」を確定する",
+        "body": "このコメントを削除してよろしいですか？",
+        "yes-button": "はい",
+        "no-button": "いいえ"
+      },
+      "annotation-toolbar-helper": {
+        "header": "ツールバーをカスタマイズする",
+        "body-before-adding-stamp-with-overlays": "このツールバーに定期的に使用するアノテーションをドラッグします。オーバレイツールをお気に入りツールバーにドラッグすることはできません",
+        "body-before-adding-stamp": "よく使用する注釈やツールをこのツールバーにドラッグしてください。",
+        "body-after-adding-stamp": "注釈やツールをお気に入りツールバーに追加し終わったら、このボタンを使用してツールのリストを折りたたみ、採点を開始してください。このボタンをクリックすれば再びツールバーを拡大することができます。"
+      },
+      "accept-quality-feedback-dialog": {
+        "header": "フィードバックを受理する",
+        "body": "この答案に関するフィードバックに目を通しましたか？",
+        "yes-button": "はい",
+        "no-button": "いいえ"
+      },
+      "overlays": {
+        "ruler-tooltip": "Ruler",
+        "protractor-tooltip": "Protractor",
+        "multiline-overlay-tooltip": "Multi-line"
+      },
+      "stamps": {
+        "stamp_11": "チェックマークをつける",
+        "stamp_21": "×印をつける",
+        "stamp_31": "BOD",
+        "stamp_41": "FT",
+        "stamp_51": "ISW",
+        "stamp_61": "M0",
+        "stamp_71": "M1",
+        "stamp_81": "M2",
+        "stamp_91": "A0",
+        "stamp_101": "A1",
+        "stamp_111": "A2",
+        "stamp_121": "W0",
+        "stamp_131": "W1",
+        "stamp_141": "W2",
+        "stamp_151": "ハイライト",
+        "stamp_161": "リンク",
+        "stamp_171": "クリックしてコメントを閲覧する",
+        "stamp_181": "ページ外コメント",
+        "stamp_182": "改良したページ外コメント",
+        "stamp_191": "NBOD",
+        "stamp_201": "TV",
+        "stamp_211": "P（ページ）",
+        "stamp_221": "E",
+        "stamp_231": "/",
+        "stamp_241": "ECF",
+        "stamp_251": "SC",
+        "stamp_261": "^",
+        "stamp_271": "REP",
+        "stamp_281": "?",
+        "stamp_291": "I",
+        "stamp_301": "R",
+        "stamp_311": "L1",
+        "stamp_321": "L2",
+        "stamp_331": "L3",
+        "stamp_341": "L4",
+        "stamp_351": "C",
+        "stamp_361": "S",
+        "stamp_371": "A",
+        "stamp_381": "L1---",
+        "stamp_391": "L1--",
+        "stamp_401": "L1-",
+        "stamp_411": "L2--",
+        "stamp_421": "L2-",
+        "stamp_431": "L3-",
+        "stamp_441": "L5",
+        "stamp_451": "R1",
+        "stamp_461": "R2",
+        "stamp_471": "R3",
+        "stamp_481": "CON",
+        "stamp_491": "POT",
+        "stamp_501": "NAQ",
+        "stamp_511": "RE",
+        "stamp_521": "NGE",
+        "stamp_531": "SF",
+        "stamp_541": "{",
+        "stamp_551": "} ",
+        "stamp_561": "LNK",
+        "stamp_571": "B1",
+        "stamp_581": "B2",
+        "stamp_591": "RM1",
+        "stamp_601": "KU",
+        "stamp_611": "K ",
+        "stamp_621": "CONT",
+        "stamp_631": "REL",
+        "stamp_641": "NAR",
+        "stamp_651": "BIO",
+        "stamp_661": "EG",
+        "stamp_671": "ILL",
+        "stamp_681": "Q",
+        "stamp_691": "EXP",
+        "stamp_701": "SLASH",
+        "stamp_711": "GM",
+        "stamp_721": "OFR",
+        "stamp_731": "VG ",
+        "stamp_741": "DEV",
+        "stamp_751": "RES",
+        "stamp_761": "SUS",
+        "stamp_771": "DET",
+        "stamp_781": "PLC",
+        "stamp_791": "IRRL",
+        "stamp_801": "|",
+        "stamp_811": "参照済",
+        "stamp_821": "U",
+        "stamp_831": "J",
+        "stamp_841": "T-",
+        "stamp_851": "T",
+        "stamp_861": "T+",
+        "stamp_881": "P-",
+        "stamp_891": "F",
+        "stamp_901": "F-",
+        "stamp_911": "Pre",
+        "stamp_921": "Te",
+        "stamp_931": "O",
+        "stamp_941": "V",
+        "stamp_951": "JU",
+        "stamp_961": "L",
+        "stamp_971": "HA",
+        "stamp_981": "INVL",
+        "stamp_991": "FA",
+        "stamp_1001": "定規",
+        "stamp_1002": "QWC+",
+        "stamp_1011": "分度器",
+        "stamp_1012": "+にチェックマークをつける",
+        "stamp_1021": "オーバーレイ",
+        "stamp_1022": "XCS",
+        "stamp_1031": "問題にチェックマークをつける",
+        "stamp_1041": "上向き矢印",
+        "stamp_1051": "下向き矢印",
+        "stamp_1061": "-1",
+        "stamp_1071": "挿入記号",
+        "stamp_1081": "DOT",
+        "stamp_1091": "+",
+        "stamp_1101": "緑線",
+        "stamp_1111": "IR ",
+        "stamp_1121": "NE",
+        "stamp_1131": "AL",
+        "stamp_1141": "IL",
+        "stamp_1151": "LM",
+        "stamp_1161": "NOM",
+        "stamp_1171": "-",
+        "stamp_1181": "POS",
+        "stamp_1191": "1にチェックマークをつける",
+        "stamp_1201": "2にチェックマークをつける",
+        "stamp_1211": "3にチェックマークをつける",
+        "stamp_1221": "4にチェックマークをつける",
+        "stamp_1231": "5にチェックマークをつける",
+        "stamp_1241": "6にチェックマークをつける",
+        "stamp_1251": "7にチェックマークをつける",
+        "stamp_1261": "8にチェックマークをつける",
+        "stamp_1271": "9にチェックマークをつける",
+        "stamp_1281": "10にチェックマークをつける",
+        "stamp_1291": "11にチェックマークをつける",
+        "stamp_1301": "12にチェックマークをつける",
+        "stamp_1311": "XSP",
+        "stamp_1321": "XP",
+        "stamp_1331": "XSS",
+        "stamp_1341": "XV",
+        "stamp_1351": "楕円",
+        "stamp_1361": "横線",
+        "stamp_1371": "波形横線",
+        "stamp_1381": "波形縦線",
+        "stamp_1391": "語順",
+        "stamp_1401": "[",
+        "stamp_1411": "]",
+        "stamp_1421": "1",
+        "stamp_1431": "2",
+        "stamp_1441": "3",
+        "stamp_1451": "4",
+        "stamp_1461": "5",
+        "stamp_1471": "1/2マークにチェックマークをつける",
+        "stamp_1481": "左向き矢印",
+        "stamp_1491": "右向き矢印",
+        "stamp_1501": "ND",
+        "stamp_1511": "ＰＥ",
+        "stamp_1521": "AE",
+        "stamp_1531": "EE",
+        "stamp_1541": "NUT",
+        "stamp_1551": "PD",
+        "stamp_1561": "2+2",
+        "stamp_1571": "1+2",
+        "stamp_1581": "2+1",
+        "stamp_1591": "1+1",
+        "stamp_1601": "0",
+        "stamp_1611": "N0",
+        "stamp_1621": "N1",
+        "stamp_1631": "N2",
+        "stamp_1641": "N3",
+        "stamp_1651": "N4",
+        "stamp_1661": "APP",
+        "stamp_1671": "AN",
+        "stamp_1681": "BP",
+        "stamp_1691": "OF",
+        "stamp_1701": "OFR_BIG",
+        "stamp_1711": "PAG",
+        "stamp_1721": "REP_BIG",
+        "stamp_1731": "SEEN_BIG",
+        "stamp_1741": "ゼロ",
+        "stamp_1751": "1にチェックマークをつける",
+        "stamp_1761": "2にチェックマークをつける",
+        "stamp_1771": "TICK_HALF",
+        "stamp_1781": "A3",
+        "stamp_1791": "B0",
+        "stamp_1801": "EVAL",
+        "stamp_1811": "FTX",
+        "stamp_1821": "MR",
+        "stamp_1831": "Ｔエラー",
+        "stamp_1841": "無関係",
+        "stamp_1851": "3にチェックマークをつける",
+        "stamp_1861": "5にチェックマークをつける",
+        "stamp_1871": "AG",
+        "stamp_1881": "R0",
+        "stamp_1891": "N5",
+        "stamp_1901": "N6",
+        "stamp_1911": "D",
+        "stamp_1921": "AP",
+        "stamp_1931": "WB",
+        "stamp_1941": "Rad",
+        "stamp_1951": "Deg",
+        "stamp_1961": "WV",
+        "stamp_1971": "VAM",
+        "stamp_1981": "C0",
+        "stamp_1991": "C1",
+        "stamp_2001": "C2",
+        "stamp_2011": "C3",
+        "stamp_2021": "C4",
+        "stamp_2031": "C5",
+        "stamp_2041": "C6",
+        "stamp_2051": "FP",
+        "stamp_2061": "UP",
+        "stamp_2071": "G0",
+        "stamp_2081": "G1",
+        "stamp_2091": "G2",
+        "stamp_2101": "G3",
+        "stamp_2111": "GDIG",
+        "stamp_2121": "AQ",
+        "stamp_2131": "CKS",
+        "stamp_2141": "GA",
+        "stamp_2151": "GD",
+        "stamp_2161": "GEXA",
+        "stamp_2171": "GEXP",
+        "stamp_2181": "GUT",
+        "stamp_2191": "IU",
+        "stamp_2201": "L0",
+        "stamp_2211": "LD",
+        "stamp_2221": "LLS",
+        "stamp_2231": "TCE",
+        "stamp_2241": "TNCE",
+        "stamp_2251": "UR",
+        "stamp_2261": "OC",
+        "stamp_2271": "WARG",
+        "stamp_2281": "WKAR",
+        "stamp_2291": "NMRD",
+        "stamp_2301": "VL",
+        "stamp_2311": "SGP",
+        "stamp_2321": "ALT",
+        "stamp_2331": "NWS",
+        "stamp_2341": "OK",
+        "stamp_2351": "RQ",
+        "stamp_2361": "SD",
+        "stamp_2371": "NEX",
+        "stamp_2381": "-1U",
+        "stamp_2391": "NW",
+        "stamp_2401": "Qcl",
+        "stamp_2411": "Qst",
+        "stamp_2421": "=",
+        "stamp_2431": "WTTE",
+        "stamp_2441": "Adv",
+        "stamp_2451": "Dis",
+        "stamp_2461": "差",
+        "stamp_2471": "sim",
+        "stamp_2481": "「着色可能」にチェックマークをつける",
+        "stamp_2491": "APD",
+        "stamp_2501": "UPD",
+        "stamp_2511": "FPD",
+        "stamp_2521": "-1SD",
+        "stamp_2531": "変更",
+        "stamp_2541": "統合",
+        "stamp_2551": "説明的",
+        "stamp_2561": "EXC",
+        "stamp_2571": "主張",
+        "stamp_2581": "優れた点",
+        "stamp_2591": "aにチェックマークをつける",
+        "stamp_2601": "bにチェックマークをつける",
+        "stamp_2611": "cにチェックマークをつける",
+        "stamp_2621": "dにチェックマークをつける",
+        "stamp_2631": "eにチェックマークをつける",
+        "stamp_2641": "fにチェックマークをつける",
+        "stamp_2651": "gにチェックマークをつける",
+        "stamp_2661": "hにチェックマークをつける",
+        "stamp_2671": "kにチェックマークをつける",
+        "stamp_2681": "jにチェックマークをつける",
+        "stamp_2691": "kにチェックマークをつける",
+        "stamp_2701": "lにチェックマークをつける",
+        "stamp_2711": "mにチェックマークをつける",
+        "stamp_2721": "nにチェックマークをつける",
+        "stamp_2731": "1_halfにチェックマークをつける",
+        "stamp_2741": "2_halfにチェックマークをつける",
+        "stamp_2751": "3_halfにチェックマークをつける",
+        "stamp_2761": "4_halfにチェックマークをつける",
+        "stamp_2771": "MAX",
+        "stamp_2781": "big_P",
+        "stamp_2791": "4にチェックマークをつける",
+        "stamp_2801": "G",
+        "stamp_2811": "A1FT",
+        "stamp_2821": "CPV",
+        "stamp_2831": "GIN",
+        "stamp_2841": "CTH",
+        "stamp_2851": "GKI",
+        "stamp_2861": "NTH",
+        "stamp_2871": "DNF",
+        "stamp_2881": "HEX",
+        "stamp_2891": "DES",
+        "stamp_2901": "REF",
+        "stamp_2911": "GEN",
+        "stamp_2921": "A+",
+        "stamp_2931": "B+",
+        "stamp_2941": "C+",
+        "stamp_2951": "D+",
+        "stamp_2961": "A-",
+        "stamp_2971": "B-",
+        "stamp_2981": "C-",
+        "stamp_2991": "D-",
+        "stamp_3001": "AEr",
+        "stamp_3011": "DM",
+        "stamp_3021": "GP",
+        "stamp_3031": "ILbl",
+        "stamp_3041": "NExa",
+        "stamp_3051": "REx",
+        "stamp_3061": "TSmp",
+        "stamp_3071": "UA",
+        "stamp_3081": "PP",
+        "stamp_3091": "RP",
+        "stamp_3101": "PN",
+        "stamp_3111": "RN",
+        "stamp_3121": "JP",
+        "stamp_3131": "JN",
+        "stamp_3132": "FLIP",
+        "stamp_3133": "FM",
+        "stamp_3134": "XE",
+        "stamp_3135": "ごとにチェックマークをつける",
+        "stamp_3136": "0+1",
+        "stamp_3137": "1+0",
+        "stamp_3138": "0+2",
+        "stamp_3139": "2+0",
+        "stamp_3140": "PU",
+        "stamp_3141": "*SYN",
+        "stamp_3142": "BaEv",
+        "stamp_3143": "AdEv",
+        "stamp_3144": "PEOC",
+        "stamp_3145": "規準A",
+        "stamp_3146": "規準B",
+        "stamp_3147": "規準C",
+        "stamp_3148": "規準D",
+        "stamp_3149": "規準E",
+        "stamp_3150": "規準F",
+        "stamp_3151": "規準G",
+        "stamp_3152": "規準H",
+        "stamp_3153": "規準I",
+        "stamp_3154": "規準J",
+        "stamp_3155": "規準K",
+        "stamp_3156": "+RQ",
+        "stamp_3157": "-RQ",
+        "stamp_3158": "Unsp",
+        "stamp_3159": "CTX",
+        "stamp_3160": "+Str",
+        "stamp_3161": "GSEv",
+        "stamp_3162": "NSEv",
+        "stamp_3163": "EUOS",
+        "stamp_3164": "1/4マークにチェックマークをつける",
+        "stamp_3165": "GKQ",
+        "stamp_3166": "A1F",
+        "stamp_3167": "許可しますか？",
+        "stamp_3168": "AO1",
+        "stamp_3169": "AO2",
+        "stamp_3170": "AO3",
+        "stamp_3171": "BAN",
+        "stamp_3172": "B1F",
+        "stamp_3173": "BEV",
+        "stamp_3174": "DP",
+        "stamp_3175": "DT",
+        "stamp_3176": "E0",
+        "stamp_3177": "E1",
+        "stamp_3178": "E2",
+        "stamp_3179": "ELAB",
+        "stamp_3180": "ENG",
+        "stamp_3181": "FIW",
+        "stamp_3182": "FW",
+        "stamp_3183": "Gan",
+        "stamp_3184": "Gapp",
+        "stamp_3185": "Geval",
+        "stamp_3186": "INAC",
+        "stamp_3187": "JUST",
+        "stamp_3188": "LF",
+        "stamp_3192": "NC",
+        "stamp_3193": "NMS",
+        "stamp_3194": "PAR",
+        "stamp_3195": "Ran",
+        "stamp_3196": "Rapp",
+        "stamp_3197": "REL?",
+        "stamp_3198": "Reval",
+        "stamp_3199": "UNCO",
+        "stamp_3200": "VAGU",
+        "stamp_3201": "WAO1",
+        "stamp_3202": "WAO2",
+        "stamp_3203": "WEAK",
+        "stamp_3204": "WENG",
+        "stamp_3205": "WKU",
+        "stamp_3206": "WLAB",
+        "stamp_3207": "WNR",
+        "stamp_3208": "WR",
+        "stamp_3209": "SUMC",
+        "stamp_3210": "WAYS",
+        "stamp_3211": "TF",
+        "stamp_3212": "WRPO",
+        "stamp_3213": "WRPR",
+        "stamp_3214": "WRDR",
+        "on-page-comment-tooltip": "コメント"
+      },
+      "discard-message-or-exception-dialog": {
+        "body": "新しいメッセージを開くと、現在開いているメッセージへの変更は破棄されます。操作を続行してよろしいですか？未保存の変更結果が失われますが、よろしいですか？"
+      },
+      "message-list-panel": {
+        "create-new-message": "新しいメッセージを作成する"
+      },
+      "message-panel": {
+        "header": "メッセージ"
+      },
+      "bookmarks-panel": {
+        "page": "ページ",
+        "add-new-bookmark": "新しいブックマークを追加",
+        "go-back": "戻る",
+        "return-to-selected-page": "選択したページに戻る"
+      },
+      "exception-list-panel": {
+        "reject-rig": "Reject the response",
+        "raise-new-exception": "新しい例外を提出する",
+        "open-blocking-exception-tooltip": "この例外が解決され、提出済となるまで、答案を提出することはできません。"
+      },
+      "reject-rig-confirmation-dialog": {
+        "body": "Rejecting this response will put it back into the pool for someone else to mark; you will not be able to download it again. You should only do this if you believe you know the candidate, or your awarding body has advised you of other cases where you should reject a response. Are you sure you want to continue?",
+        "header": "Reject response",
+        "cancel-button": "Cancel",
+        "ok-button": "OK"
+      },
+      "raise-exception-panel": {
+        "selected-question": "Selected question ",
+        "entire-response": "Entire response",
+        "exception-relates-to-label": "This exception relates to:",
+        "exception-type-label": "以下の理由で例外を提出します：",
+        "minimise-icon-tooltip": "最小化する",
+        "maximise-icon-tooltip": "最大化する",
+        "close-icon-tooltip": "閉じる",
+        "submit-button": "Submit",
+        "open-exception-exists-against-response": "この答案に対してすでにこのタイプの未解決の例外が存在します。",
+        "open-exception-exists-against-question": "この問題に対してすでにこのタイプの未解決の例外が存在します。",
+        "comment-placeholder": "ここにメッセージを入力してください...",
+        "select-exception-type-placeholder": "Select Exception Type",
+        "exception-type-tooltip": "Exception type",
+        "blocking-exception-description": "Raising this exception will prevent you from submitting this response and only once the exception has been resolved and closed by you will it be possible to submit the response.",
+        "non-blocking-exception-description": "Raising this exception will not prevent you from submitting this response.",
+        "incorrect-component-or-paper-additional-description": " Please note that if the response is moved to correct component it will no longer appear in your list of responses to mark.",
+        "file-cannot-be-accessed-or-read-additional-description": " Please note that if this file is removed in order for another one to be uploaded in its place, it is likely that you will not receive this same response again for marking and any marking would unfortunately be lost.",
+        "new-exception-subtitle-has-unmanagedslao": "I am unable to mark this response due to the following reason:"
+      },
+      "discard-exception-dialog": {
+        "body": "送信せずにこの例外を破棄してよろしいですか？",
+        "body-navigate-away": "例外は未保存で、破棄されることになりますが、このページから移動してよろしいですか？",
+        "body-raise-new": "既存の未送信の例外を破棄してよろしいですか？",
+        "body-open-another": "新しい例外を開くと、既存の例外への変更は破棄されます。未保存の変更が失われますが、よろしいですか？",
+        "header": "例外を破棄する",
+        "yes-button": "はい",
+        "no-button": "いいえ"
+      },
+      "view-exception-panel": {
+        "header": "例外ID"
+      },
+      "close-exception-dialog": {
+        "body": "この例外を閉じてよろしいですか？",
+        "header": "例外を閉じる"
+      },
+      "exception-escalation-points": {
+        "4": "This exception will be escalated to RM Service desk.",
+        "3": "This exception will be escalated to the Assessment Operations Officer for the subject you are marking.",
+        "2": "This exception will be raised to your Supervisor."
+      },
+      "eur-marks-change-popout": {
+        "body": "この答案の評点を変更した理由を説明してください。",
+        "header": "評点変更理由"
+      },
+      "leaving-response-warning-dialog": {
+        "header": "Leaving response",
+        "body": "Please review the following before leaving this response:",
+        "stay-in-response-button": "Stay in response",
+        "leave-response-button": "Leave response",
+        "ok-button": "OK"
+      },
+      "submit-response-warning-dialog": {
+        "header": "Submit response",
+        "body": "Please review the following before submitting this response:",
+        "stay-in-response-button": "Stay in response",
+        "submit-response-button": "Submit response"
+      },
+      "leaving-or-submitting-response-warnings": {
+        "not-all-pages-annotated": "Not all pages are annotated. You will be unable to submit the response until you either place at least one annotation on every page, or use the 'Mark as seen' button in full response view to confirm that you have viewed the content of each page.",
+        "not-all-pages-annotated-in-grace": "You cannot leave this response and save your changes until you either place at least one annotation on every page, or use the 'Mark as seen' button in full response view to confirm that you have viewed the content of each page.",
+        "eur-mark-change-reason-not-applied": "You will be unable to submit the response until you explain why you have changed the marks.",
+        "eur-mark-change-reason-not-applied-in-grace": "You cannot leave this response and save your changes until you explain why you have changed the marks.",
+        "message-will-be-discarded": "The message you are currently writing will be discarded.",
+        "exception-will-be-discarded": "The exception you are currently raising will be discarded.",
+        "not-all-slaos-annotated": "Not all additional pages are annotated. You will be unable to submit the response until you place at least one annotation on every additional page.",
+        "not-all-slaos-annotated-in-grace": "You cannot leave this response and save your changes until you place at least one annotation on every additional page.",
+        "all-questions-marked-nr": "All question items in this response have been assigned a ‘No response’ (NR) mark which implies that the candidate has not attempted any of the questions.",
+        "questions-marked-nr": "'No response’ (NR) has been assigned to one or more items included in the total mark. This implies that the candidate has not followed the rubric.",
+        "questions-marked-nr-used-in-total": "A ‘No response’ (NR) mark has been assigned to one or more mandatory question items. This implies that the candidate has not attempted these questions.",
+        "questions-marked-not-used-in-total": "Marks have been assigned to one or more items that are not included in the total mark. This implies that the candidate has not followed the rubric.",
+        "enhanced-off-page-comment-will-be-discarded": "Changes you have made to the selected comment will be discarded.",
+        "not-all-files-viewed": "現在の応答に関連するすべてのファイルが表示されているわけではありません。すべてのファイルを表示するまで、応答を送信できません。",
+        "file-downloaded-outside": "Please ensure that you have closed any files you have downloaded and opened outside of Assessor for this response."
+      },
+      "ecoursework-file-browser": {
+        "header": "ファイル",
+        "collapse-button-tooltip": "ファイルリストの折りたたみパネル",
+        "expand-button-tooltip": "ファイルリストパネルを展開する",
+        "previous-button-tooltip": "前",
+        "next-button-tooltip": "次",
+        "show-more-metadata": "Show more ...",
+        "show-less-metadata": "Show less ..."
+      },
+      "media-player": {
+        "download-icon-tooltip": "Download file",
+        "play-original-file": "Play original file",
+        "play-transcoded-file": "Play transcoded file",
+        "file-to-play-icon-tooltip": "Select version of file to play",
+        "download-transcoded-icon-tooltip": "Download transcoded version of this file",
+        "browser-not-supported-error": "お使いのブラウザはオーディオ/ビデオファイルを再生できません。 サポートされているデバイスとブラウザを使用していることを確認してください",
+        "play-pause-button-tooltip": "遊びます/一時停止する",
+        "play-button-tooltip": "遊びます",
+        "pause-button-tooltip": "一時停止する",
+        "playback-time-tooltip": "メディア再生時間",
+        "unmute-button-tooltip": "ミュート",
+        "mute-button-tooltip": "ミュート",
+        "volume-slider-tooltip": "メディアボリュームレベル",
+        "mute-unmute-button-tooltip": "ミュート/ミュート",
+        "full-screen-button-tooltip": "Full screen",
+        "exit-full-screen-button-tooltip": "Exit full screen",
+        "file-name": "file-name",
+        "thumbnail-view": "Thumbnail view",
+        "list-view": "List view"
+      },
+      "media-player-error-dialog": {
+        "header-audio": "Unable to play audio file",
+        "body-audio-network-error": "There was a problem with the connection when trying to load the audio file. Please try selecting the file again.",
+        "body-audio-generic-error": "There was a problem loading the audio file. Please try selecting the file again. If the issue persists, please raise an exception and include the file name and error details.",
+        "header-video": "Unable to play video file",
+        "body-video-network-error": "There was a problem with the connection when trying to load the video file. Please try selecting the file again.",
+        "body-video-generic-error": "There was a problem loading the video file. Please try selecting the file again. If the issue persists, please raise an exception and include the file name and error details.",
+        "error-details": "Error Code : {0} <br/> Error details : {1}",
+        "quick-link-play-transcoded": "transcoded version",
+        "quick-link-play-original": "original version",
+        "quick-link-download-file": "opening the file outside Assessor 3",
+        "quick-link-or": " or ",
+        "quick-link-raise-exception": "raise an exception",
+        "quick-link-play-alternate": "You can also try playing the ",
+        "quick-link-play-alternate-suffix": " of this file."
+      },
+      "off-page-comments-panel": {
+        "comment-text-placeholder": "Add comment here"
+      },
+      "enhanced-off-page-comments-panel": {
+        "add-comment": "Add comment",
+        "comment-text-placeholder": "Add comment here",
+        "item-column-header": "Item",
+        "file-column-header": "File",
+        "comment-column-header": "Comment",
+        "delete-button": "Delete",
+        "cancel-button": "Cancel",
+        "close-button": "Close",
+        "save-button": "Save",
+        "question-item-dropdown-tooltip": "関連する質問項目： ",
+        "file-dropdown-tooltip": "関連ファイル： "
+      },
+      "delete-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "このコメントを削除してもよろしいですか？",
+        "header": "コメントを削除"
+      },
+      "discard-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "このコメントに加えた変更を破棄してもよろしいですか？",
+        "header": "変更を破棄"
+      },
+      "discard-new-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "このコメントを破棄してもよろしいですか？",
+        "header": "コメントを破棄する"
+      }
+    },
+    "full-response-view": {
+      "script-page": {
+        "suppressed-page-tooltip": "このページは受験者の答案に関連がなく、また、受験者を特定する情報を含んでいる可能性があるため閲覧できません。",
+        "suppressed-page": "隠れたページ",
+        "additional-page-indicator": "Additional page",
+        "mark-this-page-button": "このページを採点する",
+        "view-this-page-button": "このページを閲覧する",
+        "flag-as-seen-button": "参照済のフラグをオンにする",
+        "link-to-question-button": "Link to question",
+        "view-and-edit-links-button": "View & edit links"
+      },
+      "view-one-page": "1 ページ",
+      "view-two-page": "2 ページ",
+      "view-four-page": "4 ページ",
+      "view-one-page-tooltip": "1 ページビュー",
+      "view-two-page-tooltip": "2 ページビュー",
+      "view-four-page-tooltip": "4 ページビュー",
+      "only-show-unannotated-pages": "注釈がついていないページのみ表示",
+      "show-all-pages-of-script": "Show all pages",
+      "show-all-pages-of-script-tooltip": "Show all pages of script",
+      "only-show-unannotated-additional-pages-tooltip": "Only show unannotated additional pages",
+      "all-pages-annotated-text-full-response": "この答案のすべてのページに注釈がついています",
+      "all-pages-annotated-text-no-pages-to-display-full-response": "表示可能な注釈がついていないページはありません",
+      "page-linking-popup": {
+        "header": "Please choose question item(s) to link this page to",
+        "ok-button": "Cancel",
+        "cancel-button": "OK"
+      },
+      "unlink-annotations-exist-dialog": {
+        "header": "Annotated pages",
+        "body": "You may not unlink the following question item(s) because there are annotations related to them on this page. Please remove the annotations before unlinking."
+      },
+      "manage-slaos-dialog": {
+        "header": "Manage additional pages",
+        "body": "This candidate's response contains additional pages that are not part of the main answer booklet. Please review these pages carefully. Once you have either linked each page to one or more question items, or flagged it as \"Seen\", you will be able to start marking the response.",
+        "ok-button": "OK"
+      },
+      "slaos-managed-dialog": {
+        "header": "Additional pages managed",
+        "body": "All additional pages have been linked to a question item or flagged as \"Seen\". Would you like to start marking this response now?",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "slao-link-removal-dialog": {
+        "header": "Confirm review of additional page",
+        "body": "By removing all links from this page you are confirming that this page does not contain anything that would count towards the candidate's mark for this response. If this is correct please select \"OK\". Otherwise please select \"Cancel\" and then link it to the question item(s) it relates to.",
+        "ok-button": "OK",
+        "cancel-button": "Cancel"
+      },
+      "manage-slaos-remark-dialog": {
+        "header": "Review additional pages",
+        "body": "This candidate's response contains additional pages that are not part of the main answer booklet. The original examiner has already reviewed these and either linked them to question item(s) or flagged them as \"Seen\". Please review these pages and links carefully, and make adjustments if required, before you start reviewing and adjusting the original marks.",
+        "ok-button": "OK"
+      },
+      "back-to-marking-button": "採点",
+      "back-to-marking-button-tooltip": "採点に戻る",
+      "problems-button-while-managing-slaos-tooltip": "Problems with this response",
+      "flag-as-seen-dialog": {
+        "header": "Confirm review of additional page",
+        "body": "By selecting \"OK\" you are confirming that this page does not contain anything that would count towards the candidate's mark for this response. If this is correct please select \"OK\". Otherwise please select \"Cancel\" and then link it to the question item(s) it relates to.",
+        "ok-button": "OK",
+        "cancel-button": "Cancel"
+      }
+    }
+  },
+  "generic": {
+    "busy-indicator": {
+      "responseAllocation": "答案をダウンロードしています．．．お待ちください。",
+      "submit": "答案を提出しています．．．お待ちください。",
+      "submitAll": "答案を提出しています．．．お待ちください。",
+      "none": "ロードしています．．．",
+      "saveEmail": "Ｅメールアドレスを保存しています．．．",
+      "loadingResponse": "ロードしています．．．",
+      "savingMarksAndAnnotations": "評点および注釈を保存しています。お待ちください．．．",
+      "savingMarksAndAnnotations-offline": "Assessorが作業結果を保存しようとしていますが、現在オフラインです。インターネット接続をご確認ください。接続が確立されると、作業結果は自動的に保存されます。ブラウザーを閉じないでください。閉じると、未保存の変更結果は失われます。",
+      "loadingModules": "ロードしています．．．",
+      "submitInResponseScreen": "答案を提出しています．．．お待ちください。",
+      "loadResponseInMessage": "答案の詳細をロードしています．．",
+      "loadingHistoryDetails": "Loading.."
+    },
+    "error-dialog": {
+      "header": "予期せぬエラー",
+      "view-more": "より詳しい情報を閲覧する",
+      "ok-button": "OK",
+      "body": "この動作を完了できませんでした。もう一度お試しください。なお、問題が解決しない場合には、emarking@ibo.orgにご連絡ください。",
+      "body-error-saving-user-options": "申し訳ありません。ユーザー設定の変更を保存できませんでした。ユーザーメニューを開いて、もう一度お試しください。",
+      "body-network-error": "ネットワークエラーサーバーに接続できません。",
+      "body-response-removed": "For your information response ID {0} has been removed  for question group {1}."
+    },
+    "browser-warnings": {
+      "close-browser-warning": "「ログアウト」ボタンを使用してAssessorからログアウトし、作業結果を保存するようにしてください。ログアウトせずにブラウザーを閉じると、未保存の作業結果は失われます。"
+    },
+    "offline-dialog": {
+      "header": "オフライン作業",
+      "body": "Assessorがサーバーと通信できないため、この動作を完了することができません。インターネット接続をご確認の上、もう一度お試しください。。作業結果が失われないよう、オンライン状態に戻るまでログアウトしたり、ブラウザーを閉じたりしないでください。",
+      "body-user-options-changed": "Assessorがサーバーと通信できないため、設定を保存してログアウトすることができません。インターネット接続をご確認の上、もう一度お試しください。"
+    },
+    "approval-statuses": {
+      "None": "なし",
+      "NotApproved": "未承認",
+      "PracticeCompleted": "練習完了",
+      "StandardisationCompleted": "資格認定完了",
+      "Approved": "承認済",
+      "ApprovedReview": "審査承認済",
+      "UnapprovedRestandardise": "Un Approved Restandardise DO NOT TRANSLATE",
+      "UnapprovedRejected": "Un Approved Rejected DO NOT TRANSLATE",
+      "Withdrawn": "撤回済",
+      "Suspended": "審査保留中",
+      "ConditionallyApproved": "Conditionally Approved  DO NOT TRANSLATE",
+      "status-changed-header": "承認状況が変わりました",
+      "status-changed": "この問題群に関してあなたの承認状況が変わりました。チームリーダーからフィードバックが提供されるまで、答案をダウンロードまたは提出することができません。ワークリストにダウンロード済の答案があれば、それらを見直すことができます。承認済の他のQIGの採点ができなくなるわけではありません。",
+      "status-changed-qualityfeedback": "この問題群に関してあなたの承認状況が変わりました。このシードに関するチームリーダーからのフィードバックを受け入れるまで、答案をダウンロードまたは提出することはできません。チームリーダーがすでにあなたの採点についてフィードバックを提供しています。承認済の他のQIGの採点ができなくなるわけではありません。",
+      "AwaitingApproval": "承認待ち",
+      "Complete": "コンプリート"
+    },
+    "examiner-roles": {
+      "assistantExaminer": "試験官",
+      "teamLeader": "チームリーダー",
+      "principalExaminer": "主任試験官",
+      "administrator": "アドミニストレーター",
+      "generalMarker": "総合採点者",
+      "viewer": "Viewer DO NOT TRANSLATE",
+      "assistantPrincipalExaminer": "Assistant Principal Examiner DO NOT TRANSLATE",
+      "assistantExaminer_MFI_SSU": "Assistant Examiner MFI SSU DO NOT TRANSLATE",
+      "assistantExaminer_MFI": "Assistant Examiner MFI DO NOT TRANSLATE",
+      "subjectMarker_MFI_Marking_Centre": "SubjectMarker MFI Marking Centre DO NOT TRANSLATE",
+      "subjectMarker_MFI_Home": "Subject Marker MFI Home DO NOT TRANSLATE",
+      "serviceDelivery": "Service Delivery DO NOT TRANSLATE",
+      "superAdministrator": "スーパー・アドミニストレーター",
+      "seniorTeamLeader": "シニアチームリーダー ",
+      "principalModerator_Postal": "Principal Moderator Postal DO NOT TRANSLATE",
+      "autoMarker": "自動採点機能",
+      "subjectMarker_MFI_H_SSU": "Subject Marker MFI H SSU DO NOT TRANSLATE",
+      "autoApprovedSeniorTeamLeader": "Auto Approved Senior Team Leader DO NOT TRANSLATE",
+      "autoMessaging": "オートメッセージ",
+      "adminRemarker": "再採点者：アセスメント・オフィサー(AO)",
+      "assistantExaminer_Visiting": "Assistant Examiner Visiting DO NOT TRANSLATE"
+    },
+    "logout-dialog": {
+      "body": "ログアウトしてよろしいですか？",
+      "header": "ログアウト確定",
+      "yes-button": "はい",
+      "no-button": "いいえ",
+      "ask-every-time": "毎回確認する"
+    },
+    "user-menu": {
+      "profile-section": {
+        "logout-button": "ログアウト",
+        "edit-settings": "設定を編集",
+        "user-name": "ユーザー名",
+        "email-validation-message": "有効なＥメールアドレスを入力してください。",
+        "email-address-placeholder": "Ｅメールアドレスを入力",
+        "save-email-button": "保存する",
+        "cancel-email-button": "キャンセル"
+      },
+        "user-options": {
+            "logout-confirmation": "ログアウト確定",
+            "logout-confirmation-tooltip": "Logout confirmation",
+            "assign-single-digit-marks-without-pressing-enter": "Assign single digit marks without pressing Enter",
+            "pause-media-when-offpage-comments-are-added": "Pause media when offpage comments are added",
+            "language": "言語"
+        },
+      "email-address-saved-dialog": {
+        "body": "あなたのRM Assessorアカウントに関連付けられたＥメールアドレスの更新が完了しました。必要であれば、関連システムでもＥメールアドレスを更新するようにしてください（例：Ｅメールアドレスの変更を通知するようIBから求められる場合やあなたがrm.comを通じてサポートを要請する場合）。",
+        "header": "更新を完了しました"
+      }
+    },
+    "marking-modes": {
+      "None": "なし",
+      "PreStandardisation": "PreStandardisation DO NOT TRANSLATE",
+      "Practice": "練習",
+      "Approval": "資格認定",
+      "ES_TeamApproval": "第2回資格認定",
+      "Pre_ES_TeamStandardisation": "Pre ES TeamStandardisation DO NOT TRANSLATE",
+      "StandardisationReview": "資格認定用採点の審査",
+      "SeedingReview": "シーディング用採点の審査",
+      "LiveMarking": "採点",
+      "Remarking": "再採点",
+      "Adjudication": "Adjudication DO NOT TRANSLATE",
+      "Sample": "Sample DO NOT TRANSLATE",
+      "Seeding": "シーディング",
+      "MarkFromPaper": "Mark From Paper DO NOT TRANSLATE",
+      "Simulation": "シミュレーション",
+      "Marking": "採点",
+      "SecondStandardisation": "第2回資格認定",
+      "RemarkPooled": "Remark Pooled",
+      "PooledResultsEnquiry": "Results Enquiry Pooled",
+      "AtRiskPooled": "At Risk Pooled",
+      "EnquiryUponResultPooled": "Enquiry Upon Results Review",
+      "GradeReviewPooled": "Grade Review Pooled",
+      "PooledAdminRemark": "Pooled Admin Re-mark",
+      "PooledCaseReviewRemark": "Pooled Case Review Re-mark",
+      "AdjudicationPooled": "Adjudication Pooled",
+      "RemarkPooled1": "Re-mark Pooled 1",
+      "RemarkPooled2": "Re-mark Pooled 2",
+      "RemarkPooled3": "Re-mark Pooled 3"
+    },
+    "navigation-bar": {
+      "inbox-tooltip": "受信箱",
+      "inbox": "受信箱",
+      "user-menu-tooltip": "ユーザープロフィールおよびユーザー設定",
+      "offline-tooltip": "オフライン作業;最後にオンライン状態だったのは ",
+      "offline-tooltip-minutes-ago": " 分前",
+      "breadcrumbs": {
+        "home": "Home",
+        "team-management-for": "Team Management for ",
+        "worklist-for": "Worklist for ",
+        "team": "Team",
+        "worklist": "Worklist",
+        "inbox": "Inbox",
+        "marking-check": "Marking Check",
+        "team-management": "Team Management"
+      },
+      "menu": "Menu",
+      "menu-tooltip": "Navigation options",
+      "exception": "Exceptions"
+    },
+    "accuracy-indicators": {
+      "accurate": "正確",
+      "accurate-tooltip": "この答案にあなたがつけた評点は、確定した評点と一致しています",
+      "inaccurate": "不正確",
+      "inaccurate-tooltip": "この答案にあなたがつけた評点は、確定した評点と一致しておらず、許容差外です。",
+      "in-tolerance": "許容差内",
+      "in-tolerance-tooltip": "この答案にあなたがつけた評点は、確定した評点と一致していませんが、許容差内です。"
+    },
+    "remark-types": {
+      "long-names": {
+        "PooledResultsEnquiry": "Results Enquiry Pooled DO NOT TRANSLATE",
+        "GradeReviewPooled": "Grade Review Pooled DO NOT TRANSLATE",
+        "AtRiskPooled": "アット・リスクにより保留",
+        "EnquiryUponResultPooled": "Enquiry Upon Result Pooled DO NOT TRANSLATE",
+        "RemarkPooled": "Pooled Re-mark DO NOT TRANSLATE",
+        "PooledAdminRemark": "AOによる再採点により保留",
+        "PooledCaseReviewRemark": "Pooled Case Review Re-mark DO NOT TRANSLATE",
+        "RemarkPooled1": "RP1 Remark DO NOT TRANSLATE",
+        "RemarkPooled2": "RP2 Remark DO NOT TRANSLATE",
+        "RemarkPooled3": "RP3 Remark DO NOT TRANSLATE",
+        "AdjudicationPooled": "Adjudication Pooled Remark DO NOT TRANSLATE",
+        "ArbitrationRemark": "Arbitration Remark DO NOT TRANSLATE",
+        "PriorityRemark": "Priority Remark DO NOT TRANSLATE",
+        "AtRisk": "アット・リスク",
+        "EnquiryUponResult": "結果に関する問い合わせ(EUR)",
+        "RemarkRIGExaminer": "General Re{0}mark 3 DO NOT TRANSLATE",
+        "RemarkCandidateExaminer": "General Re{0}mark 4 DO NOT TRANSLATE",
+        "GradeReviewDirected": "Grade Review Directed DO NOT TRANSLATE",
+        "PartialRemark": "Partial Re{0}mark DO NOT TRANSLATE",
+        "Remark": "再{0}採点",
+        "ResultEnquiry": "結果に関する問い合わせ",
+        "ReviewRemark": "再{0}採点を審査する",
+        "SampleRemark": "Sample Re{0}mark DO NOT TRANSLATE",
+        "SeedingRemark": "Seeding Re{0}mark DO NOT TRANSLATE",
+        "SupervisorRemark": "リーダーによる再{0}採点",
+        "WithdrawnSeedRemark": "撤回されたシードの再{0}採点",
+        "RemarkCandidateRIG": "G1備考",
+        "AdminRemark": "Admin re-mark"
+      },
+      "short-names": {
+        "AberrantMarker": "AM",
+        "ReallocateRIG": "RM",
+        "GradeReview": "GR DO NOT TRANSLATE",
+        "PriorityResultEnquiry": "PRE",
+        "ResultEnquiry": "RE DO NOT TRANSLATE",
+        "SeedingRemark": "SR.",
+        "RemarkCandidate": "RC",
+        "RemarkRIGExaminer": "RRE",
+        "RemarkCandidateExaminer": "RCE",
+        "PartialRemark": "PRM DO NOT TRANSLATE",
+        "GradeReviewDirected": "GRD DO NOT TRANSLATE",
+        "InsufficientSample": "IS DO NOT TRANSLATE",
+        "PooledResultsEnquiry": "REP DO NOT TRANSLATE",
+        "SupervisorRemark": "SPR.",
+        "GradeReviewPooled": "GRP DO NOT TRANSLATE",
+        "RemarkCandidateRIG": "G1",
+        "SampleRemark": "SAM",
+        "AtRisk": "AR.",
+        "AtRiskPooled": "ARP",
+        "EnquiryUponResult": "EUR",
+        "EnquiryUponResultPooled": "ERP DO NOT TRANSLATE",
+        "Remark": "R",
+        "RemarkPooled": "RP DO NOT TRANSLATE",
+        "ReviewRemark": "RR DO NOT TRANSLATE",
+        "PooledAdminRemark": "ADR",
+        "PooledCaseReviewRemark": "CRR DO NOT TRANSLATE",
+        "WithdrawnSeedRemark": "WSR",
+        "RemarkPooled1": "RP1 DO NOT TRANSLATE",
+        "RemarkPooled2": "RP2 DO NOT TRANSLATE",
+        "RemarkPooled3": "RP3 DO NOT TRANSLATE",
+        "AdjudicationPooled": "ADJ DO NOT TRANSLATE",
+        "DeallocationRemark": "DLR",
+        "DoubleMarking": "DM DO NOT TRANSLATE",
+        "ArbitrationRemark": "ARB DO NOT TRANSLATE",
+        "PriorityRemark": "PR1 DO NOT TRANSLATE"
+      }
+    },
+    "exception-statuses": {
+      "open": "Open",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    },
+    "exception-types": {
+      "1": {
+        "name": "カラー画像のリクエスト",
+        "details": "画像が不鮮明なため、受験者の答案を採点することができません。より鮮明な画像が必要であるため、この画像のカラー版をリクエストします。答案全体を再度スキャンする必要はありません。例えば、薄い色で書かれている答案や、読むことが困難な図画による答案などがこれにあたります。カラー画像のリクエストは対応に最長24時間かかる可能性があること、そしてさらに多くの画像処理が必要になることからダウンロードと採点により時間がかかる可能性があることに留意してください。"
+      },
+      "2": {
+        "name": "画像の再スキャンリクエスト",
+        "details": "提出理由：ＤＰの試験のみ報告先：RM提出日：画像が判読不可能または不鮮明です。画像が正しく配置されていません。スキャン中に紙が折れています。次のステップ:ＲＭから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "3": {
+        "name": "学問的不正行為の疑い ",
+        "details": "提出理由：評価要素報告先：ＩＢ提出日盗用またはその他の不正行為の疑いがあります。次のステップ:通常通り答案を採点し、提出してください。不正行為を理由とする点数の調整は行わないでください。"
+      },
+      "4": {
+        "name": "不適切な内容",
+        "details": "提出理由：評価要素報告先：ＩＢへの提出日：受験者の答案は、不快、非常識または不適切です。次のステップ:通常通り答案を採点し、提出してください。不適切な内容であるという理由で特別な点数の調整をすることは避けてください。"
+      },
+      "5": {
+        "name": "懸念事項",
+        "details": "提出理由：評価要素報告先：ＩＢ提出日：受験者の健康状態に関する懸念がうかがえる答案次のステップ:通常通り答案を採点し、提出してください。健康状態に関する懸念を理由とする点数の調整は行わないでください。"
+      },
+      "6": {
+        "name": "誤った試験",
+        "details": "画像が私が採点している試験と一致していないため、この項目を採点することができません。"
+      },
+      "7": {
+        "name": "判読不可能",
+        "details": "解答を判読できないため、この受験者の答案を採点することができません。問題は画像ではなく筆跡なので、再度スキャンしても状況は改善されないでしょう。例えば、手書き文字が読みにくい場合や最初に書いたものの上に解答を重ねて書いている場合がこれに当たります。"
+      },
+      "8": {
+        "name": "問題の指示もしくはマークスキームと一致しない答案",
+        "details": "提出理由：評価要素報告先：あなたのチームリーダー提出日規定のマークスキームまたは評価規準によって受験者の答案を採点することができません。次のステップ:チームリーダーから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "9": {
+        "name": "誤って分類された答案",
+        "details": "答案の一部が別の受験者のものであるか、誤って分類された疑いがあるため採点することができません。"
+      },
+      "10": {
+        "name": "複数受験者の答案",
+        "details": "提出理由：ＤＰの試験報告先：RM提出日：答案には複数の受験者の解答が含まれています。次のステップ:答案の採点を続行しないでください。ＲＭから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "11": {
+        "name": "答案に表紙しか含まれていない",
+        "details": "提出理由：ＤＰの試験報告先：RM提出日：表紙しか含まれていません。次のステップ:答案の採点を続行しないでください。ＲＭから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "12": {
+        "name": "誤ったコンポーネントもしくは試験",
+        "details": "提出理由：ＤＰの試験報告先：RM提出日答案は、あなたが採点中の評価要素、試験またはＱＩＧに対応していません。次のステップ:答案の採点を続行しないでください。あなたのワークリストから答案が削除され次第、ＲＭから連絡があります。"
+      },
+      "13": {
+        "name": "答案ではないもの",
+        "details": "提出理由：ＤＰの試験報告先：ＩＢ提出日出席簿や座席表といった無関係のアイテムが受験者の試験と一緒にスキャンされています。次のステップ:通常通り答案を採点し、提出してください。他のアイテムが含まれていることを理由とした点数の調整は行わないでください。"
+      },
+      "14": {
+        "name": "画像にアクセスできない、あるいは読むことができない",
+        "details": "提出理由：学校がアップロードしたｅコースワーク、コンピューターを使用するＭＹＰの試験報告先：ＩＢ提出日答案の一部または答案全体を閲覧することができません。次のステップ:答案の採点を続行しないでください。ＩＢから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "15": {
+        "name": "受験者の健康状態等に関する懸念",
+        "details": "この受験者の答案に対して懸念事項があります。この答案の調査を希望します。"
+      },
+      "16": {
+        "name": "不正行為に関する懸念",
+        "details": "この受験者の答案に関して不正行為があるのではないかと疑っています。この答案の調査を希望します。"
+      },
+      "17": {
+        "name": "PA照会",
+        "details": "この答案を採点する上で問題があり、それはチームリーダーの助けを借りても解決できません。"
+      },
+      "18": {
+        "name": "ゾーニング・エラー：行方不明のコンテンツ",
+        "details": "提出理由：ＤＰの試験のみ報告先：RM提出日：受験者の解答の一部が見つかりません。または、受験者が所定の解答欄以外の部分に解答の続きを記入しています。次のステップ:答案の採点を続行しないでください。ＲＭから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "19": {
+        "name": "ゾーニング・エラー：その他のコンテンツ"
+      },
+      "20": {
+        "name": "マークスキームに関する問い合わせ",
+        "details": "マークスキームとこの受験者の答案が一致しないと思われるため、ゾーンに割り当てることができません。"
+      },
+      "21": {
+        "name": "費やされた時間以外の指導に関する懸念　",
+        "details": "提出理由：ＤＰの課題論文（ＥＥ）報告先：ＩＢ提出日コメントがない、もしくはコメントに含まれる情報について懸念があります。詳細を記載してください。次のステップ:通常通り答案を採点し、提出してください。コメントに関する懸念を理由とした点数の調整は行わないでください。"
+      },
+      "22": {
+        "name": "方針に対する違反",
+        "details": "提出理由：学校がアップロードしたeコースワーク報告先：ＩＢ提出日動物実験に関する方針など、ＩＢの方針に対する違反がありました。次のステップ:通常通り答案を採点し、提出してください。方針に対する違反を理由とした点数の調整は行わないでください。"
+      },
+      "23": {
+        "name": "道徳的ガイドラインまたは科目別ガイドラインに対する違反",
+        "details": "提出理由：学校がアップロードしたeコースワーク報告先：ＩＢ提出日倫理または科目別ガイドラインに関する違反がありました。次のステップ:通常通り答案を採点し、提出してください。違反を理由とした点数の調整は行わないでください。"
+      },
+      "24": {
+        "name": "間違ったファイル",
+        "details": "提出理由：学校がアップロードしたeコースワーク報告先：ＩＢ提出日学校が評価要素に無関係のファイルをアップロードしています。次のステップ:答案の採点を続行しないでください。ＩＢから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "25": {
+        "name": "エラー：ファイルアクセス",
+        "details": "提出理由：学校がアップロードしたeコースワーク報告先：ＩＢ提出日：採点対象の答案に開くことができないファイルが含まれています。次のステップ:答案の採点を続行しないでください。ＩＢから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "26": {
+        "name": "間違った画像",
+        "details": "提出理由：コンピューターを使用するＭＹＰの試験報告先：ＩＢ提出日答案は、特定のＱＩＧに正しく関連づけられていません。次のステップ:ＩＢから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "27": {
+        "name": "未完成の学習課題",
+        "details": "提出理由：学校がアップロードしたeコースワーク報告先：ＩＢ提出日アップロード済の答案には欠落しているページがあるようです。次のステップ:答案の採点を続行しないでください。ＩＢから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "28": {
+        "name": "科目の履修条件に沿っていない学習成果物",
+        "details": "提出理由：学校がアップロードしたeコースワーク報告先：ＩＢ提出日受験者は、誤ったレベルか前年（もしくは翌年）の履修条件に基づく課題に取り組みました。または、受験者が取り組んだ課題は科目の評価規準を満たしていません。次のステップ:答案の採点を続行しないでください。ＩＢから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "29": {
+        "name": "一般的な学習課題の例外",
+        "details": "提出理由：学校がアップロード済のｅコースワーク（報告先）：ＩＢ提出日その他すべてのｅコースワークに関する問題について次のステップ:答案の採点を続行しないでください。ＩＢから回答を得たら、答案を提出する前に例外を解決済とする必要があります。"
+      },
+      "30": {
+        "name": "外部機関のための書簡の欠如",
+        "details": "提出理由：ＤＰの課題論文（ＥＥ）報告先：ＩＢ提出日研究は学校以外の機関で実施されていますが、添付書簡がありません。次のステップ:通常通り答案を採点し、提出してください。添付書簡がないことを理由とした点数の調整は行わないでください。"
+      },
+      "31": {
+        "name": "ファイルアクセスに関する問題",
+        "details": "この答案に関するファイルにアクセスする上で問題が発生しており、この問題を解決し、採点を続けるためにはサポートが必要です。"
+      },
+      "32": {
+        "name": "行方不明のファイル・誤ったファイル",
+        "details": "この受験者の答案に関するファイルが１つ以上間違っている、または不明であるため、採点を完了することができません。"
+      },
+      "33": {
+        "name": "制限語数（字数）超過",
+        "details": "受験者の解答は規定の制限語数（字数）を10％以上超過しています。"
+      },
+      "34": {
+        "name": "追加資料－行方不明",
+        "details": "受験者は所定のリソース、研究データまたは情報をまとめた資料を提出していません。"
+      },
+      "35": {
+        "name": "追加資料－制限語数または制限ページ数超過",
+        "details": "受験者が提出したリソース、研究データまたは情報をまとめた資料が、制限語数または制限ページ数を超過しています。"
+      },
+      "36": {
+        "name": "追加資料－相当量の転写",
+        "details": "受験者はリソースシートや調査、情報をまとめた資料からかなり多くの文章や話を転写しています。"
+      },
+      "37": {
+        "name": "一般的な例外　Ａ",
+        "details": "採点の手引きに詳述した通りに使用する"
+      },
+      "38": {
+        "name": "一般的な例外　Ｂ",
+        "details": "採点の手引きに詳述した通りに使用する"
+      }
+    },
+    "response": {
+      "exception-panel": {
+        "back-to-exceptions": "Back to Exceptions",
+        "escalate-button": "Escalate",
+        "resolve-button": "Resolve"
+      },
+      "view-exception-panel": {
+        "Escalate": "Escalate",
+        "Resolve": "Resolve",
+        "Close": "Close"
+      },
+      "escalate-exception-dialog": {
+        "header": "Escalate exception",
+        "body": "Please add a comment before escalating this exception."
+      },
+      "resolve-exception-dialog": {
+        "header": "Resolve exception",
+        "body": "Please add a comment before resolving this exception."
+      }
+    },
+    "navigation-menu": {
+      "close": "Close",
+      "home": "Home",
+      "recent": "Recent",
+      "my-marking": "My Marking",
+      "reports": "Reports",
+      "team-management": "Team Management"
+    },
+    "toggle-button-states": {
+      "on": "ON",
+      "off": "OFF"
+    },
+    "worklist": {
+      "information-text": "情報"
+    }
+  },
+  "home": {
+    "qig-statuses": {
+      "Suspended": "審査保留中",
+      "Practice": "練習用の採点",
+      "StandardisationMarking": "資格認定用の採点",
+      "AwaitingApproval": "承認待ち",
+      "SecondStandardisationMarking": "第2回資格認定用の採点",
+      "STMStandardisationMarking": "STM Standardisation Marking DO NOT TRANSLATE",
+      "LiveMarking": "ライブマーキング",
+      "WaitingStandardisation": "資格認定待ち",
+      "LiveComplete": "ライブマーキング完了",
+      "Simulation": "シミュレーション採点",
+      "QualityFeedback": "フィードバック保留中",
+      "NoLiveTarget": "ライブマーキング目標なし",
+      "LiveTargetOverAllocation": "ライブマーキング目標のロック解除済"
+    },
+    "qig-data": {
+      "responses-in-worklist-icon-tooltip": "採点を完了しなければならない未提出の答案があります",
+      "responses-available-icon-tooltip": "現在ダウンロードできる答案があります ",
+      "responses-available-simulation-icon-tooltip": "There are responses available for Simulation Marking",
+      "simulation-status-tooltip": "You are currently working in Simulation mode. When standardisation completes, any scripts will be cleared down and Simulation mode will end.",
+      "marking-progress-tooltip": "{0} 提出済 - 変更不可 {1} 提出済 - 変更可能 {2} 採点可能",
+      "open-responses-in-over-allocation": "開く",
+      "my-marking-button": "私のマーキング",
+      "remarks-available-indicator": "備考",
+      "remarks-available-indicator-tooltip": "あなたがダウンロードしてマークすることができるプールで利用可能な未割り当ての発言応答があります（適格性制限の対象となります）",
+      "team-management-button": "チーム管理",
+      "team-management-button-stuck-examiners-tooltip": "There are stuck examiners requiring action",
+      "team-management-button-locked-examiners-tooltip": "You have locked examiners requiring action",
+      "open-re-mark-indicator-icon-tooltip": "あなたは発言に対する応答が割り当てられています"
+    },
+    "home-page": {
+      "no-qigs-available-to-mark-placeholder": "採点可能なQIGはありません。"
+    }
+  },
+  "login": {
+    "login-page": {
+      "login-to": "にログインする",
+      "marking-button-tooltip": "RMAssessor{0}にログインする",
+      "marking-button": "採点",
+      "marking-or-fam": "または",
+      "fam-button-tooltip": "ファミリアライゼーションモードにログインして、RMAssessor{0}の使用を練習する",
+      "fam-button": "ファミリアライゼーション",
+      "forgot-password-tooltip": "Forgot password? DO NOT TRANSLATE",
+      "forgot-password": "Forgot password? DO NOT TRANSLATE",
+      "username": "ユーザーネーム",
+      "password": "パスワード",
+      "username-password-validation-message": "ユーザーネームとパスワードを入力してください。",
+      "username-validation-message": "ユーザーネームを入力してください。",
+      "password-validation-message": "パスワードを入力してください。",
+      "cookies-disabled": "ログインする前にブラウザー設定でCookieを有効にしてください。",
+      "caps-lock-on-warning": "Ｃａｐｓ ｌｏｃｋが有効になっています",
+      "copyright": " RM Results, 無断複写、転載を禁じます。",
+      "welcome-message": "RM Assessor{0} へようこそ",
+      "welcome-detail": "世界で最も広く使用され、大きな利用効果が期待されるオンライン{0}採点プラットフォーム",
+      "language-selector-tooltip": "言語を選択してください",
+      "language-selector-dropdown-tooltip": "言語",
+      "awarding-body-logo-tooltip": "Awarding body logo"
+    },
+    "logging-in": {
+      "please-wait": "ログインしています・・・お待ちください",
+      "incorrect-password": "入力したユーザーネームまたはパスワードが間違っています。もう一度お試しください。",
+      "connection-lost": "Assessorはサーバーと接続できません。インターネット接続をご確認の上、もう一度お試しください。",
+      "login-failed": "ログインに失敗しました。もう一度お試しください。"
+    },
+    "auto-log-out": {
+      "automatically-logged-out-timeout": "一定時間作動していなかったため、ログアウトしました",
+      "automatically-logged-out-logged-in-different-browser": "You have been logged out as you have logged in again in a different browser window"
+    },
+    "cookie-panel": {
+      "close-button": "閉じる",
+      "cookies-link": "Cookie",
+      "message-part-1": "RM Assessor{0} 効率的で信頼できる採点体験をお届けするためにCookieを使用しています。Cookieの詳細および本サイトでCookieを使用する理由については、本サイト ",
+      "message-part-2": " に記載しておりますので、ご覧ください。本サイトを引き続き利用されますと、Cookieの使用に同意することになる旨をご留意ください。",
+      "message-part-2-cookies-disabled": " に記載しておりますので、ご覧ください。ブラウザーのCookieが無効になっています－これによりログインできません。ログインする前にブラウザーを調整してCookieを有効にしてください。",
+      "dont-show-again": "今後このメッセージを表示しない",
+      "cookies-link-tooltip": "View information about the cookies RM Assessor{0} uses"
+    },
+    "cookie-detail-page": {
+      "table-header-name": "名前",
+      "table-header-purpose": "目的",
+      "language-cookie-purpose": "ユーザーが選択した言語を保存しています",
+      "cookie-page-cookie-purpose": "ユーザーが永久にCookie通知パネルを非表示にすることを選択したかどうかを判断します",
+      "cookies-on-this-site-part-1": "本サイトが適切に機能するようにするために、あなたのコンピューターでCookieを有効にする必要があります。Cookieがないと、ウェブサイトの基本的な部分のいくつかが適切に機能しません。 ",
+      "cookies-on-this-site-part-2": "当サイトで使用されているCookieには以下が含まれます：",
+      "cookies-on-this-site-header": "当サイトではCookieを使用しています。",
+      "table-header-type": "タイプ（今セッションのみまたは常時）",
+      "cookie-type-persistent": "常時",
+      "what-are-cookies-part-1": "Cookieとは、いろいろなウェブページを訪問する際にあなたのコンピューターに送られ、保存される少量のテキストファイルのことです。当社は詳細な個人情報を蓄積するのではなく、たとえば、サイト内のナビゲーションを容易にしたり、ユーザーのプレファレンスを記憶したりすることにより、Cookieから収集した情報をサイト体験の向上に役立てます。Cookieがあなたのコンピューターやファイルに問題を起こすことはありません。",
+      "what-are-cookies-part-2": "Cookieには、あなたがサイトを訪問している間だけ保存され、ブラウザーを閉じると削除される「セッションCookie」 と、一定期間保存され、あなたがサイトを再訪すると作動する「パーシステントCookie」 があります。                                                                                  一般的には、セッションCookieは認証のために利用され、パーシステントCookieはプレファレンスを保存するために利用されます。",
+      "what-are-cookies-header": "Cookieとは？",
+      "ga-cookie-purpose": "Googleアナリティクスに使用されます。",
+      "gat-cookie-purpose": "Googleアナリティクスに使用されます。",
+      "auth-cookie-purpose": "認証に使用されます。",
+      "cookie-type-session": "セッション",
+      "session-id-cookie-purpose": "本サイトが適切に機能するようにするために、あなたのコンピューターでCookieを有効にする必要があります。Cookieがないと、ウェブサイトの基本的な部分のいくつかが適切に機能しません。"
+    },
+    "forgot-password-dialog": {
+      "body": "この操作により、新しいブラウザーウィンドウまたはタブが開きます。操作を続行してよろしいですか？",
+      "header": "Forgot Password DO NOT TRANSLATE",
+      "yes-button": "はい",
+      "no-button": "いいえ"
+    }
+  },
+  "messaging": {
+    "compose-message": {
+      "please-select-qig-placeholder": "選択してください．．．",
+      "new-message-header": "新しいメッセージ",
+      "send-button": "送信",
+      "send-button-tooltip": "送信",
+      "discard-message-dialog": {
+        "body-discard": "送信せずにこのメッセージを破棄してよろしいですか？",
+        "body-navigated-away": "未保存のメッセージは破棄されることになりますが、このページから移動してよろしいですか？",
+        "body-start-new-message-while-composing": "既存の未送信メッセージを破棄してよろしいですか？",
+        "header": "メッセージを破棄する",
+        "yes-button": "はい",
+        "no-button": "いいえ"
+      },
+      "to-button": "宛先",
+      "subject": "件名",
+      "associated-response": "関連する答案",
+      "subject-placeholder": "件名を入力してください。",
+      "message-body-placeholder": "ここにメッセージを入力してください...",
+      "priority": {
+        "standard": "通常",
+        "important": "重要",
+        "priority-tooltip": "メッセージ優先度"
+      },
+      "minimise-icon-tooltip": "最小化する",
+      "maximise-icon-tooltip": "最大化する",
+      "close-icon-tooltip": "閉じる",
+      "select-qig-placeholder": "QIGを選択してください",
+      "reply-header": "メッセージに返信する",
+      "forward-header": "メッセージを転送する",
+      "forward-prefix": "FW :",
+      "reply-prefix": "RE :",
+      "question-group": "問題群",
+      "recipient-selector": {
+        "entire-team": "チーム全体",
+        "ok-button": "OK",
+        "cancel-button": "キャンセル"
+      },
+      "tiny-mce": {
+        "Cut": "切り取り",
+        "Div": "Div",
+        "Paste": "貼り付け",
+        "Close": "閉じる",
+        "Pre": "Pre",
+        "Blockquote": "引用",
+        "Formats": "フォーマット",
+        "Headers": "ヘッダー",
+        "Blocks": "ブロック",
+        "Undo": "元に戻す",
+        "Strike-through": "取り消し線",
+        "Superscript": "上付き文字",
+        "Subscript": "下付き文字",
+        "Redo": "やり直し",
+        "Paragraph": "段落",
+        "Ok": "Ok",
+        "Bold": "太字",
+        "Code": "コード",
+        "Italic": "斜体",
+        "Underline": "下線",
+        "Cancel": "キャンセル",
+        "Justify": "両端揃え",
+        "Inline": "インライン",
+        "Copy": "コピー",
+        "Square": "Square",
+        "Default": "デフォルト",
+        "Circle": "Circle",
+        "Disc": "Disc",
+        "Name": "名前",
+        "Anchor": "アンカー",
+        "Emoticons": "顔文字",
+        "Robots": "ロボット（テキスト）",
+        "Title": "タイトル",
+        "Keywords": "キーワード",
+        "Encoding": "エンコーディング",
+        "Description": "ディスクリプション",
+        "Author": "作者",
+        "Full-screen": "フルスクリーン表示",
+        "General": "概要",
+        "Advanced": "詳細な",
+        "Source": "ソース",
+        "Border": "枠線（境界線）",
+        "Style": "スタイル",
+        "Dimensions": "寸法",
+        "URL": "URL",
+        "Anchors": "アンカー",
+        "None": "なし",
+        "Target": "目標",
+        "Poster": "ポスター",
+        "Embed": "埋め込む",
+        "Preview": "プレビュー",
+        "Print": "印刷",
+        "Save": "保存する",
+        "Replace": "置換",
+        "Next": "次へ",
+        "Find": "検索",
+        "Prev": "前へ",
+        "Spell-check": "スペルチェック",
+        "Finish": "終了",
+        "Ignore": "無視",
+        "Rows": "行",
+        "Height": "高さ",
+        "Alignment": "アラインメント",
+        "Row": "行",
+        "Body": "本文",
+        "Caption": "見出し",
+        "Footer": "フッター",
+        "Scope": "適用範囲",
+        "Column": "列",
+        "Cell": "セル",
+        "Header": "ヘッダー",
+        "Right": "右",
+        "Cols": "列",
+        "Width": "幅",
+        "Left": "左",
+        "Centre": "センター",
+        "Templates": "テンプレート",
+        "Insert": "挿入",
+        "File": "ファイル",
+        "Edit": "編集",
+        "Tools": "ツール",
+        "View": "表示",
+        "Table": "表",
+        "Format": "フォーマット"
+      },
+      "new-message-templates": {
+        "reply": "<p><span style=\"font-family:{0}; font-size:{1};\">&#65279;</span></p><p><span style=\"font-family:{0}; font-size: {1};\"><br><br>日付: {2} <br> 差出人: {3}</span></p>{4}</span></p>",
+        "forward": "<p><span style=\"font-family:{0}; font-size:{1};\">&#65279;</span></p><p><span style=\"font-family:{0}; font-size: {1};\"><br><br>日付: {2} <br> 差出人: {3}</span></p>{4}</span></p>",
+        "new": "<p><span style=\"font-family:{0}; font-size: {1};\">&#65279;</span></p>"
+      }
+    },
+    "message-lists": {
+      "top-panel": {
+        "inbox-tab": "受信箱",
+        "sent-tab": "送信済",
+        "deleted-tab": "削除済",
+        "new-message-button": "新しいメッセージ"
+      },
+      "message-detail": {
+        "date-today": "今日",
+        "inbox": "差出人：",
+        "sent": "宛先:",
+        "associated-response-id": "答案ID：",
+        "high-important-banner": "このメッセージは重要度「高」で送信されました。",
+        "high-mandatory-banner": "これは必須メッセージです。",
+        "reply-button": "返信",
+        "forward-button": "転送",
+        "delete-button": "削除",
+        "more-recipients": "もっと",
+        "system-message": "システムメッセージ"
+      },
+      "delete-message-dialog": {
+        "body": "このメッセージを削除してよろしいですか？",
+        "header": "メッセージを削除",
+        "yes-button": "はい",
+        "no-button": "いいえ"
+      },
+      "quality-feedback-pending-dialog": {
+        "body": "Please go to your closed worklist and accept quality feedback on submitted seeds before viewing this response."
+      }
+    },
+    "mandatory-message-dialog": {
+      "header": "必須メッセージを閲覧する",
+      "body": "必須メッセージを1つ以上受信しました。メッセージを閲覧するには「OK」をクリックしてください。"
+    },
+    "system-messages": {
+      "1": {
+        "subject": "自動承認",
+        "content": "資格認定用の採点の合格を受け、「QIG{0}」についての採点が自動承認されました。ライブマーキングを開始することができます。後日審査担当者から追加のフィードバックを受けるかもしれません。"
+      },
+      "2": {
+        "subject": "あなたのチームメンバーが自動承認されました",
+        "content": "「QIG{0}」についての資格認定用の採点の合格を受け、私は自動承認されました。"
+      },
+      "3": {
+        "subject": "採点チームを更新",
+        "content": "「QIG{0}」についての採点が自動承認された採点者"
+      },
+      "4": {
+        "subject": "条件つき自動承認",
+        "content": "Following successful qualification, you have been conditionally auto approved for QIG {0}.DO NOT TRANSLATE You may now start live marking upto the conditional approval limit set by your reviewer.DO NOT TRANSLATE You will be fully approved at a later date by your reviewer. DO NOT TRANSLATE"
+      },
+      "5": {
+        "subject": "Subordinate Conditionally Approved DO NOT TRANSLATE",
+        "content": "Following successful qualification, I have been conditionally approved for QIG {0}.DO NOT TRANSLATE I can mark live scripts upto the conditional approval limit but require you to fully approve me.DO NOT TRANSLATE"
+      },
+      "6": {
+        "subject": "採点チームを更新",
+        "content": "Marker Conditionally Approved for QIG {0}.DO NOT TRANSLATE"
+      },
+      "7": {
+        "subject": "自動で中断",
+        "content": "You have been suspended from marking QIG {0} due to submitting inaccurate responses.DO NOT TRANSLATE You may receive additional feedback from your reviewer at a later date."
+      },
+      "8": {
+        "subject": "あなたのチームメンバーの採点が自動で中断されました",
+        "content": "QIG{0}について不正確な採点をした答案を提出したことにより採点を中断されました。"
+      },
+      "10": {
+        "subject": "Please check my marking DO NOT TRANSLATE",
+        "content": " {0} に対する私のライブマーキング・ワークリストへのアクセス権をあなたに付与しました。私の採点を審査し、答案が適切に採点されていると承認する場合には、私の作業をチェックしたことを示してください。DO NOT TRANSLATE If you have any comments or concerns about my marking please discuss this with me.DO NOT TRANSLATE"
+      },
+      "11": {
+        "subject": "Marks CheckedDO NOT TRANSLATE",
+        "content": "このセッションにおけるあなたの採点をチェックしました。DO NOT TRANSLATE"
+      },
+      "12": {
+        "subject": "Review Re-mark Completed DO NOT TRANSLATE",
+        "content": "I have completed all the Review Re-marks requested.DO NOT TRANSLATE"
+      },
+      "13": {
+        "subject": "採点目標を更新",
+        "content": "{0} に対するあなたの採点目標が更新されました。更新されたのは以下の目標です:{1}"
+      },
+      "14": {
+        "subject": "猶予期間が更新されました。",
+        "content": "{0} の猶予期間が {2} 時間に変更されたことに留意してください。 つまり、このメッセージの送信前に提出された答案はすべて提出後{1} 時間保留されますが、このメッセージの送信後に提出された答案はすべて提出後{2}時間保留されるということです。"
+      },
+      "16": {
+        "subject": "ゾーニングに関する例外が提出されました。",
+        "content": "あなたの提出済ワークリストにある受験者の答案ID{0}のゾーニングは、他の試験官により例外が提出されたことを受けて現在審査中です。画像が表示された位置は、この例外の結果により変わる可能性があります。この件が解決されると、すでに提出した答案を再度見直し、当初付与した評点が解決後の時点においても適切であることを確認するように、IBから連絡があります。もし連絡がない場合には、IBにできるだけ速やかにお知らせください。"
+      },
+      "17": {
+        "subject": "ゾーニングに関する例外が解決されました。",
+        "content": "あなたの提出済ワークリストにある受験者の答案ID{0}のゾーニングは、他の採点者により例外が提出された後決定されました。これにより、あなたが採点した解答項目のゾーンが変わった可能性があります。あなたの提出済の答案を再検討し、当初付与した評点が現時点でも適切であることを確認してください。もし連絡がない場合には、IBにできるだけ速やかにお知らせください。"
+      },
+      "18": {
+        "subject": "チームメンバーの承認状況の更新",
+        "content": "{0} の承認の状況を{1} から {2}に更新しました。"
+      },
+      "19": {
+        "subject": "ディスプレイ ID {0}に関する変更通知",
+        "content-removed": "ディスプレイID {0}はチェックのためあなたのワークリストから削除されました。",
+        "content-replaced": "For your information, Display ID {0} has been put back in your worklist following quality checks, thanks for your time."
+      },
+      "20": {
+        "subject": "ロックされている試験官が採点から退きました。",
+        "content": "私はすでにQIG{0}の採点から退いたので、今後承認管理ワークリストに基づいて対応していただく必要はありません。"
+      },
+      "21": {
+        "subject": "RIGが削除されました",
+        "content": "ディスプレイID {0}はQIG{1} のあなたのワークリストから削除されました。"
+      },
+      "22": {
+        "subject": "採点の手引きの変更に関する通知",
+        "content": "{0} を対象とした採点の手引きの最新バージョンが利用可能となりました。DO NOT TRANSLATE Please ensure you download and use this version instead of the previous one.DO NOT TRANSLATE"
+      },
+      "23": {
+        "subject": "{0}のワークリストから答案が取り除かれました。",
+        "content": "コンポーネント{0}の１つ以上の答案があなたのワークリストから取り除かれました。"
+      },
+      "24": {
+        "subject": "RIG{0} は取り除かれました",
+        "content": "RIG{0} は、チェックのためあなたのワークリストから取り除かれました。"
+      },
+      "25": {
+        "subject": "Notification of Change to Marking Instructions document DO NOT TRANSLATE",
+        "content": "A new Marking Instructions file for {0} has been made available.DO NOT TRANSLATE Please ensure you view this in your Marking Instructions worklist. DO NOT TRANSLATE"
+      },
+      "26": {
+        "subject": "再採点の削除に関する通知",
+        "content": "ディスプレイID {0}は問題項目{1} のあなたの再採点ワークリストから削除されました。"
+      },
+      "27": {
+        "subject": "Notification of response moved from worklist",
+        "content": "The Response - {0} in your {1} worklist with open exception(s) of '{2}' has been taken by your team leader {3} and moved to the {1} worklist of {3} for further marking. You can no longer access this response in your {1} worklist for viewing or marking."
+      }
+    }
+  },
+  "team-management": {
+    "multiqig-selecteditem-default-text": "Select another QIG",
+    "multiqig-name-header-text": "QIGs",
+    "multiqig-examiner-lockcount-header-text": "Examiners locked",
+    "multiqig-examiner-stuckcount-header-text": "Examiners stuck",
+    "examiner-worklist": {
+      "response-data": {
+        "exceptions-icon-tooltip": "This response has one or more linked exceptions. None of these will prevent the response being submitted when marking is complete. Click this icon to view the exceptions.",
+        "blocking-exceptions-icon-tooltip": "This response has one or more linked exceptions. The marker will not be able to submit the response until these exceptions have been resolved and closed. Click this icon to view the exceptions.",
+        "resolved-exceptions-icon-tooltip": "This response has {0} exceptions that are resolved and waiting to be closed. None of these will prevent the response being submitted when marking is complete. Click this icon to view the exceptions.",
+        "resolved-and-blocking-exceptions-icon-tooltip": "This response has {0} exceptions that are resolved and waiting to be closed. The marker will not be able to submit the response until they have closed these exceptions. Click this icon to view the exceptions.",
+        "auto-reviewed": "Auto-reviewed"
+      },
+      "change-status": {
+        "ok-button": "OK",
+        "change-status-button": "Change status",
+        "not-approved": "Not Approved",
+        "approve": "Approve",
+        "suspend": "Suspend",
+        "send-second-standardisation": "Send 2nd Standardisation",
+        "approve-pending-review": "Approve pending review"
+      },
+      "change-status-sep": {
+        "Approve": "Approve",
+        "ProvideSecondStandardisation": "Send 2nd Standardisation",
+        "Re_approve": "Re{0}approve"
+      },
+      "filters": {
+        "filter-by": "Filter by:",
+        "all-responses": "All responses",
+        "seeds-only": "Seeds only",
+        "unreviewed-seeds-only": "Unreviewed seeds only"
+      },
+      "subordinate-withdrawn-dialog": {
+        "SubordinateExaminerWithdrawn-title": "Examiner withdrawn from marking",
+        "SubordinateExaminerWithdrawn-content": "This examiner has been withdrawn from this question group and this is no longer an available action."
+      },
+      "withdrawn-dialog": {
+        "Withdrawn-title": "Withdrawn from marking",
+        "Withdrawn-content": "You have been withdrawn from this question group. This will not prevent you from accessing other question groups where you have a quota."
+      },
+      "hierarchy-changed-dialog": {
+        "HierarchyChanged-title": "Examiner hierarchy changed",
+        "HierarchyChanged-content": "Your role has changed and you are no longer allowed to perform this action."
+      },
+      "suspended-dialog": {
+        "Suspended-title": "Approval status changed",
+        "Suspended-content": "Your status has changed and you are no longer allowed to perform this action."
+      },
+      "subordinate-status-already-changed-dialog": {
+        "ExaminerStatusAlreadyChanged-title": "Status already changed",
+        "ExaminerStatusAlreadyChanged-content": "The examiner status has been already changed."
+      }
+    },
+    "left-panel": {
+      "my-team": "私のチーム",
+      "help-examiners": "他の審査官を助ける",
+      "exceptions": "例外",
+      "show-hide-panel-tooltip": "チーム概要の表示/非表示",
+      "sublink-Exceptions": "open exception",
+      "sublink-multi-Exceptions": "open exceptions",
+      "sublink-HelpExaminersLocked": "locked to me",
+      "sublink-Stuck": "requiring action"
+    },
+    "my-team": {
+      "column-headers": {
+        "examiner": "審査官",
+        "target-progress": "ターゲットの進捗状況",
+        "state": "状態",
+        "total-qigs-active": "Total QIGs Active",
+        "total-qigs-requiring-action": "Total QIGs Requiring action"
+      },
+      "examiner-targets": {
+        "live": "ライブ",
+        "practice": "練習",
+        "standardisation": "標準化",
+        "stm-standardisation": "STMの標準化",
+        "second-standardisation": "2番目の標準化",
+        "examiner-target-live": "リマーキング",
+        "examiner-target-simulation": "シミュレーション"
+      }
+    },
+    "response": {
+      "promote-panel": {
+        "header": "Promote response",
+        "promote-to-reuse-bucket-button-tooltip": "Promote response to Re-use Bucket",
+        "promote-to-seed-button": "To Seed",
+        "promote-to-reuse-bucket-button": "To Re-use Bucket"
+      },
+      "left-toolbar": {
+        "promote-to-seed-button-tooltip": "Promote response to seed"
+      },
+      "promote-to-reuse-bucket-dialog": {
+        "header": "Promote to Reuse Bucket",
+        "body": "Are you sure you want to promote the selected response to re-use bucket?",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "promote-to-reuse-bucket-not-latest-marks-dialog": {
+        "header": "Latest Response",
+        "body": "The response you have selected is not the latest set of marks awarded for this candidate and therefore cannot be promoted to the re-use bucket",
+        "ok-button": "OK"
+      },
+      "promote-to-seed-dialog": {
+        "header": "Promote to seed",
+        "body-own-response": "Promoting this response to a seed will remove it from your marking worklist and it will be available in Standardisation Setup.",
+        "body-stm-subordinate-response": "Promoting this response to a seed will remove it from the current examiner's worklist and it will be available in Standardisation Setup.",
+        "body-non-stm-subordinate-response": "By promoting this response to a seed it will remain in the current examiner's worklist and it will also be available in Standardisation Setup.",
+        "ok-button": "OK",
+        "cancel-button": "Cancel",
+        "body-not-fully-marked": "This response must be 100%% marked before it can be promoted to a seed.",
+        "body-remarks-exist": "The following re-marks exist for this response:",
+        "body-remarks-exist-confirmation": "Promoting this responses to a seed will remove it from your marking worklist and it will be available in the Standardisation Setup.",
+        "body-dynamic-sampling": "By promoting this response to a seed it will remain in your marking worklist and it will also be available in Standardisation Setup."
+      },
+      "promote-to-seed-no-seeding-dialog": {
+        "header": "Response not promoted",
+        "body": "The response cannot be promoted to seed as examiners have not been assigned a seeding rate or seeding frequency and the Standardisation seed target is set as zero."
+      },
+      "promote-to-seed-examiner-withdrawn-dialog": {
+        "header": "Examiner withdrawn from marking",
+        "body": "This examiner has been withdrawn from this question group and this is no longer an available action."
+      },
+      "supervisor-sampling-comments": {
+        "0": "None",
+        "1": "OK",
+        "2": "Feedback given",
+        "3": "Action required"
+      },
+      "sampling-error-dialog-already-sampled": {
+        "header": "Response already sampled",
+        "body": "This response has been sampled by another supervisor. Please select OK and then re-open the response to view the updated sampling status."
+      },
+      "sampling-error-dialog-withdrawn": {
+        "header": "Withdrawn from marking",
+        "body": "You have been withdrawn from this question group. This will not prevent you from accessing other question groups where you have a quota."
+      },
+      "sampling-error-dialog-subordinate-withdrawn": {
+        "header": "Examiner withdrawn from marking",
+        "body": "This examiner has been withdrawn from this question group and this is no longer an available action."
+      },
+      "sampling-error-dialog-hierarchy-changed": {
+        "header": "Examiner hierarchy changed",
+        "body": "Your role has changed and you are no longer allowed to perform this action."
+      },
+      "mark-scheme-panel": {
+        "supervisor-sampling-button": "Supervisor sampling"
+      },
+      "review-comments": {
+        "1": "すべて正しい",
+        "2": "良い",
+        "3": "受け入れ可能：フィードバックなし",
+        "4": "受け入れ可能：フィードバックを与える",
+        "5": "懸念を引き起こす：フィードバックを与える",
+        "6": "許容できない：PEに相談する"
+      }
+    },
+    "help-examiners": {
+      "locks-in-qig-dialog": {
+        "header": "フィードバックを必要とする審査官",
+        "body": "現在、以下の審査官が拘束されています。",
+        "select-a-qig": "管理する質問グループを選択してください。",
+        "locks-plural": "ロック"
+      }
+    }
+  }
+}

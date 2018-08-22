@@ -1,0 +1,41 @@
+﻿{
+
+  "IB": {
+    "openqigmarking": "Worklist data will be displayed here",
+    "examinersuspend": "Suspended"  
+
+  },
+   "AQA": {
+
+    "URL":"https://esm53assessor3devaqa.assessor.rm.com/#/",
+    "validusername": "A3AQ_tpareksh2",
+    "validpassword": "Computer1",
+    "validusernameUser1": "A3IB_tpareksh2s",
+    "validpasswordUser1": "39sss88",
+    "invalidUsername": "p3ccasuperadmi1155",
+    "invalidPassword": "COmputer12",
+    "usernameCharacters": "$##$@%$%$&^",
+    "passwordCharacters": "#$#$@^&*(",
+    "invalidMessage": "#$#$@^&*(",
+    "invalidMessageUserName": "#$#$@^&*(",
+    "invalidMessagePassword": "#$#$@^&*(",
+    "customerLogoText": "AQA",
+    "errorMessage": "The username or password that you've entered is incorrect. Please try again.",
+    "errorMessageNoData": "Please enter your username and password",
+    "errorMessageUserName": "Please enter a username",
+    "errorMessagePassword": "Please enter a password",
+    "languages": "English,Deutsch,Español,Français",
+    "english": "English",
+    "deutsch": "Deutsch",
+    "spanish": "Spanish",
+    "french": "French",
+    "arabic": "arabic",
+	 "logOutMessage": "Are you sure you want to logout?"
+
+  }
+
+
+
+
+}
+ 

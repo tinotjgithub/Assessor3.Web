@@ -1,0 +1,2444 @@
+{
+  "marking": {
+    "worklist": {
+      "worklist-type": {
+        "live": "Vivir Vivir",
+        "supervisorRemark": "Observación SupervisorObservación Supervisor",
+        "practice": "Práctica Práctica",
+        "approval": "Aprobación Aprobación",
+        "atypical": "Untypisch",
+        "atypical-header-text": "Atypische Kennzeichnung",
+        "esTeamApproval": "ES Aprobación del equipoES Aprobación del equipo",
+        "enquiryuponresult": "Consultas sobre los ResultadosConsultas sobre los Resultados",
+        "gradeReviewDirected": "Grado Dirigido ComentarioGrado Dirigido Comentario"
+      },
+      "response-allocation-error-dialog": {
+        "ok-button": "DE ACUERDODE ACUERDO",
+        "response-allocation-error-header-withdrawnMarker": "Retirado de marcadoRetirado de marcado",
+        "response-allocation-error-header": "Obtener nuevas respuestasObtener nuevas respuestas",
+        "response-allocation-error-withdrawnMarker": "No se puede solicitar nuevas respuestas para marcar como le han retirado de marcado.No se puede solicitar nuevas respuestas para marcar como le han retirado de marcado.",
+        "response-allocation-error-maximumConcurrentResponseLimitReached": "Ya ha solicitado el número máximo de respuestas concurrentes para su marcado del blanco actual.Ya ha solicitado el número máximo de respuestas concurrentes para su marcado del blanco actual.",
+        "response-allocation-error-noResponseAvailable": "Actualmente no hay respuestas disponibles para descargar para el marcado . Por favor, inténtelo más adelante.Actualmente no hay respuestas disponibles para descargar para el marcado . Por favor, inténtelo más adelante.",
+        "response-allocation-error-concurrentLimitNotMet": "{0} respuesta(s) han sido descargados. No es posible descargar más respuestas para marcar ya que no hay más respuestas disponibles.{0} respuestas han sido descargados. No es posible descargar más respuestas para marcar ya que no hay más respuestas disponibles.",
+        "response-allocation-error-markingLimitReached": "Sólo {0} respuesta(s) se han descargado como el número de respuestas en la lista de trabajo ha alcanzado el número de respuestas necesarias para cumplir con su objetivo marcado.Sólo {0} respuestas se han descargado como el número de respuestas en la lista de trabajo ha alcanzado el número de respuestas necesarias para cumplir con su objetivo marcado.",
+        "response-allocation-error-maximumAllocatedResponseLimitReached": "No es posible descargar más respuestas a la marca como ya se ha alcanzado el objetivo marcado actual.No es posible descargar más respuestas a la marca como ya se ha alcanzado el objetivo marcado actual.",
+        "response-allocation-error-sessionClosed": "Het is niet mogelijk om reacties te downloaden om te markeren als de sessie is gesloten."
+      },
+      "atypical-allocation-dialog": {
+        "header": "Respuesta atípica encontrada Respuesta atípica encontrada",
+        "mark-now": "Marcar ahora Marcar ahora",
+        "move-to-worklist": "Mover a lista de trabajo Mover a lista de trabajo",
+        "cancel": "Cancelar Cancelar"
+      },
+      "approval-status-changed-dialog": {
+        "header": "Estado de aprobación cambióEstado de aprobación cambió",
+        "body": "Su estado de aprobación en este grupo de preguntas ha cambiado y no se puede descargar o enviar respuestas hasta que su supervisor le proporciona retroalimentación . Todavía se puede revisar cualquier respuesta que ya han sido descargados en su lista de trabajo. Esto no impedirá que se pueda marcar otros grupos de preguntas donde se tiene una cuota.Su estado de aprobación en este grupo de preguntas ha cambiado y no se puede descargar o enviar respuestas hasta que su supervisor le proporciona retroalimentación . Todavía se puede revisar cualquier respuesta que ya han sido descargados en su lista de trabajo. Esto no impedirá que se pueda marcar otros grupos de preguntas donde se tiene una cuota.",
+        "body-relatedQIG": "No se han enviado todas las respuestas porque aún no ha recibido la aprobación para marcar No se han enviado todas las respuestas porque aún no ha recibido la aprobación para marcar",
+        "body-quality-feedback": "Su estado de aprobación en este grupo de preguntas ha cambiado y no se puede descargar o enviar respuestas hasta que haya aceptado comentarios acerca de esta semilla, y su supervisor le ha proporcionado más comentarios acerca de su marcaje . Esto no impedirá que se pueda marcar otros grupos de preguntas donde se tiene una cuota.Su estado de aprobación en este grupo de preguntas ha cambiado y no se puede descargar o enviar respuestas hasta que haya aceptado comentarios acerca de esta semilla, y su supervisor le ha proporcionado más comentarios acerca de su marcaje . Esto no impedirá que se pueda marcar otros grupos de preguntas donde se tiene una cuota.",
+        "body-withdrawn": "No puede enviar respuestas porque ha sido retirado del equipo de marcado para este grupo de preguntas No puede enviar respuestas porque ha sido retirado del equipo de marcado para este grupo de preguntas."
+      },
+      "view-switcher": {
+        "tile-view": "vista del azulejo vista del azulejo",
+        "list-view": "Vista de la listaVista de la lista"
+      },
+      "left-panel": {
+        "send-message": "Enviar mensajeEnviar mensaje",
+        "my-supervisor": "Mi supervisorMi supervisor",
+        "supervisor-online": "En líneaEn línea",
+        "supervisor-offline": "Desconectado Desconectado",
+        "supervisor-offline-less-than-1-hour": "Desconectado menos de una horaDesconectado menos de una hora",
+        "supervisor-offline-hour": "Desconectado {0} horaDesconectado {0} hora",
+        "supervisor-offline-hours": "Desconectado {0} horasDesconectado {0} horas",
+        "supervisor-offline-day": "Desconectado {0} díaDesconectado {0} día",
+        "supervisor-offline-days": "Desconectado {0} díasDesconectado {0} días",
+        "submitted-count-label": "Presentada Presentada",
+        "days-until-target": "días hastadías hasta",
+        "target-date-label": "Objetivo: Objetivo:",
+        "target-completed-date-label": "Completado: Completado:",
+        "target-completed": "Completado Completado",
+        "over-allocation-tooltip": "Objetivo vivir desbloqueadoObjetivo vivir desbloqueado",
+        "marking-instructions": "markering instructies",
+        "show-hide-panel-tooltip": "Información de marcadores mostrar / ocultarInformación de marcadores mostrar / ocultar",
+        "request-marking-check-button": "Solicitud de marcado de cheques Solicitud de marcado de cheques"
+      },
+      "supervisor-remark-decision": {
+        "original-marks-chosen": "origineel origineel",
+        "remark-chosen": "Opmerking Opmerking"
+      },
+      "tile-view-labels": {
+        "amd": "Diferencia absoluta: Diferencia absoluta: ",
+        "tmd": "Diferencia total:Diferencia total:",
+        "allocated": "destacado destacado",
+        "submitted": "staca staca",
+        "last-updated": "escanearon escanearon",
+        "to-end-of-grace-period": " tot het einde van Grace Period"
+      },
+      "response-data": {
+        "amd-tooltip": "La diferencia total entre las marcas que concede y las marcas definitivas establecidas por el equipo examinador supervisor , calculada a través de cada elemento pregunta individualLa diferencia total entre las marcas que concede y las marcas definitivas establecidas por el equipo examinador supervisor , calculada a través de cada elemento pregunta individual",
+        "tmd-tooltip": "La diferencia entre la puntuación total general que otorgan , y la puntuación total global establecido por el equipo examinador supervisorLa diferencia entre la puntuación total general que otorgan , y la puntuación total global establecido por el equipo examinador supervisor",
+        "seed-indicator": "Semilla Semilla",
+        "promoted-seed-indicator": "Geförderte Samen",
+        "definitive-indicator": "Endgültig",
+        "submit-button": "suari suari",
+        "marking-not-started": "ajustes Nom usuarioajustes Nom usuario",
+        "exceptions-icon-tooltip": "Tiene excepciones asociadasTiene excepciones asociadas. Haga clic en este icono para ver las excepciones.",
+        "blocking-exceptions-icon-tooltip": "excepciones abiertas están bloqueando presentaciónexcepciones abiertas están bloqueando presentación. Haga clic en este icono para ver las excepciones.",
+        "zoning-exceptions-icon-tooltip": "De zonering van het script van deze kandidaat wordt beoordeeld na een uitzondering tegen een ander antwoord. Houd er rekening mee dat de weergegeven beeldzones als gevolg van deze uitzondering kunnen worden gewijzigd. De marker kan dit antwoord niet indienen voordat deze uitzondering is opgelost.",
+        "resolved-exceptions-icon-tooltip": "Tiene excepciones {0} asociadas.Tiene excepciones {0} asociadas. Haga clic en este icono para ver las excepciones.",
+        "resolved-and-blocking-exceptions-icon-tooltip": "excepciones abiertas están {0} bloqueando presentación.excepciones abiertas están {0} bloqueando presentación. Haga clic en este icono para ver las excepciones.",
+        "hours-to-end-of-grace": "{0} uur uur",
+        "hour-to-end-of-grace": "{0} uur uur",
+        "response-id-tooltip": "Respuesta - {0}Respuesta - {0}",
+        "additional-objects-icon-tooltip": "Tiene páginas con las respuestas adicionalesTiene páginas con las respuestas adicionales",
+        "additional-objects-not-annotated-icon-tooltip": "No todas las páginas de respuesta adicionales anotadosNo todas las páginas de respuesta adicionales anotados",
+        "not-all-pages-annotated-icon-tooltip": "No todas las páginas anotadasNo todas las páginas anotadas",
+        "messages-icon-tooltip": "Esta respuesta tiene uno o más mensajes vinculados. Haga clic en este icono para ver los mensajes.Esta respuesta tiene uno o más mensajes vinculados. Haga clic en este icono para ver los mensajes.",
+        "unread-messages-icon-tooltip": "Esta respuesta tiene uno o más mensajes enlazados. Haga clic en este icono para ver los mensajes.Esta respuesta tiene uno o más mensajes enlazados. Haga clic en este icono para ver los mensajes.",
+        "practice-response-title": "Práctica Práctica ",
+        "standardisation-response-title": "Normalización Normalización",
+        "second-standardisation-response-title": "2 lugar Normalización2 lugar Normalización",
+        "stm-standardisation-response-title": "STM NormalizaciónSTM Normalización",
+        "not-all-files-viewed-icon-tooltip": "No todos los archivos se han visto en esta respuesta No todos los archivos se han visto en esta respuesta",
+        "supervisor-remark-decision-not-specified-icon-tooltip": "Diese Antwort kann erst nach der Endnote des Kandidaten eingereicht werden, und der Grund ist ausgewählt",
+        "wholeresponse-indicator": "Ganze AntwortGanze Antwort",
+        "stm-setup-response-tittle": "ScripttScriptt"
+      },
+      "auto-approved-dialog": {
+        "ok-button": "DE ACUERDODE ACUERDO",
+        "header": "FelicitacionesFelicitaciones",
+        "summary-standardisation": "Su normalización llevan a cabo el marcado .Su normalización llevan a cabo el marcado .",
+        "summary-stm-standardisation": "Su STM normalización llevan a cabo el marcado.Su STM normalización llevan a cabo el marcado.",
+        "summary-second-standardisation": "Su 2nd normalización llevan a cabo el marcado.Su 2nd normalización llevan a cabo el marcado.",
+        "body-standardisation": "La precisión de su marcado está dentro de la tolerancia definida y que ha sido aprobado de forma automática al iniciar el marcado directo . Usted puede mirar en sus respuestas de normalización y práctica presentadas en cualquier momento mediante la selección de la lista de trabajo correspondiente .La precisión de su marcado está dentro de la tolerancia definida y que ha sido aprobado de forma automática al iniciar el marcado directo . Usted puede mirar en sus respuestas de normalización y práctica presentadas en cualquier momento mediante la selección de la lista de trabajo correspondiente .",
+        "body-excess-standardisation-responses-removed": "La precisión de su marcado está dentro de la tolerancia definida y que ha sido aprobado de forma automática al iniciar el marcado directo . Su marca de normalización se ha completado y las restantes respuestas de normalización abiertas en su lista de trabajo se han eliminado . Usted puede mirar en sus respuestas de normalización presentadas en cualquier momento mediante la selección de la lista de trabajo correspondienteLa precisión de su marcado está dentro de la tolerancia definida y que ha sido aprobado de forma automática al iniciar el marcado directo . Su marca de normalización se ha completado y las restantes respuestas de normalización abiertas en su lista de trabajo se han eliminado . Usted puede mirar en sus respuestas de normalización presentadas en cualquier momento mediante la selección de la lista de trabajo correspondiente",
+        "body-stm-standardisation": "La precisión de su marcado está dentro de la tolerancia definida y que ha sido aprobado de forma automática al iniciar el marcado directo . Se puede hacer referencia en sus respuestas de normalización y práctica presentadas en cualquier momento haciendo clic en el tipo de respuesta necesaria en el lado de la pantalla de la lista de trabajo.La precisión de su marcado está dentro de la tolerancia definida y que ha sido aprobado de forma automática al iniciar el marcado directo . Se puede hacer referencia en sus respuestas de normalización y práctica presentadas en cualquier momento haciendo clic en el tipo de respuesta necesaria en el lado de la pantalla de la lista de trabajo.",
+        "body-excess-second-standardisation-responses-removed": "La precisión de su marcado está dentro de la tolerancia definida y que ha sido aprobado de forma automática al iniciar el marcado directo . Su segunda marca de la estandarización se ha completado y los restantes abiertos 2ª respuestas de normalización en la lista de trabajo se han eliminado . Usted puede mirar en sus respuestas 2º de normalización presentadas en cualquier momento mediante la selección de la lista de trabajo correspondiente .La precisión de su marcado está dentro de la tolerancia definida y que ha sido aprobado de forma automática al iniciar el marcado directo . Su segunda marca de la estandarización se ha completado y los restantes abiertos 2ª respuestas de normalización en la lista de trabajo se han eliminado . Usted puede mirar en sus respuestas 2º de normalización presentadas en cualquier momento mediante la selección de la lista de trabajo correspondiente .",
+        "body-excess-stm-standardisation-responses-removed": "La precisión de su marcado está dentro de la tolerancia definida y que ha sido aprobado de forma automática al iniciar el marcado directo . la marcación de la normalización STM se ha completado y las restantes respuestas de normalización MCI abierta en su lista de trabajo se han eliminado . Usted puede mirar en sus respuestas STM de normalización presentadas en cualquier momento mediante la selección de la lista de trabajo correspondiente La precisión de su marcado está dentro de la tolerancia definida y que ha sido aprobado de forma automática al iniciar el marcado directo . la marcación de la normalización STM se ha completado y las restantes respuestas de normalización MCI abierta en su lista de trabajo se han eliminado . Usted puede mirar en sus respuestas STM de normalización presentadas en cualquier momento mediante la selección de la lista de trabajo correspondiente "
+      },
+      "atypical": {
+        "centre-search-label": "Centrar Centrar",
+        "candidate-search-label": "Candidato Candidato",
+        "search-button": "Buscar Buscar",
+        "search-button-tooltip": "Buscar una respuesta atípica a mark Buscar una respuesta atípica a mark",
+        "centre-search-tooltip": "Introduzca un número de centro para buscar Introduzca un número de centro para buscar",
+        "candidate-search-tooltip": "Introduzca un número de candidato para buscar Introduzca un número de candidato para buscar"
+      },
+      "atypical-search-error-dialog": {
+        "atypical-search-error-disabled": "You are not in an approved state for all the QIGs that make up this paper and is no longer allowed to perform this action.",
+        "atypical-search-error-0": "Ningún candidato esperado para este trabajo coincide con los datos introducidos. Compruebe los números del centro y del candidato e inténtelo de nuevo.Ningún candidato esperado para este trabajo coincide con los datos introducidos. Compruebe los números del centro y del candidato e inténtelo de nuevo.",
+        "atypical-search-error-10": "Ningún candidato esperado para este trabajo coincide con los datos introducidos. Compruebe los números del centro y del candidato e inténtelo de nuevo. Ningún candidato esperado para este trabajo coincide con los datos introducidos. Compruebe los números del centro y del candidato e inténtelo de nuevo.",
+        "atypical-search-error-4": "Ningún candidato esperado para este trabajo coincide con los datos introducidos. Compruebe los números del centro y del candidato e inténtelo de nuevo.Ningún candidato esperado para este trabajo coincide con los datos introducidos. Compruebe los números del centro y del candidato e inténtelo de nuevo.",
+        "atypical-search-error-5": "La respuesta asociada con este candidato no es atípica. Compruebe los números del centro y del candidato e inténtelo de nuevo.La respuesta asociada con este candidato no es atípica. Compruebe los números del centro y del candidato e inténtelo de nuevo.",
+        "atypical-search-error-6": "Usted no es elegible para marcar los documentos de este centro. Compruebe el número del centro y vuelva a intentarlo.Usted no es elegible para marcar los documentos de este centro. Compruebe el número del centro y vuelva a intentarlo.",
+        "atypical-search-error-7": "Esta respuesta fue eliminada previamente de su lista de trabajo por su entidad otorgante, por lo que no se le puede asignar de nuevo.Esta respuesta fue eliminada previamente de su lista de trabajo por su entidad otorgante, por lo que no se le puede asignar de nuevo.",
+        "atypical-search-error-2": "Esta respuesta ya está en tu lista de trabajo.Esta respuesta ya está en tu lista de trabajo",
+        "atypical-search-error-3": "Esta respuesta ya está en tu lista de trabajo. Esta respuesta ya está en tu lista de trabajo",
+        "atypical-search-error-8": "Esta respuesta ya ha sido asignada a otro examinador.Esta respuesta ya ha sido asignada a otro examinador.",
+        "atypical-search-error-9": "Anteriormente, rechazó esta respuesta, por lo que no se le puede asignar de nuevo.Anteriormente, rechazó esta respuesta, por lo que no se le puede asignar de nuevo.",
+        "atypical-search-error-1": "La respuesta para el centro {0}, candidato {1} pertenece a {2}. Por favor, confirme si desea marcarlo ahora, muévalo a su lista de trabajo para marcarlo más tarde, o cancele y no lo descargue."
+      },
+      "action-buttons": {
+        "submit-button": "lificac Nombrelificac Nombre",
+        "allocate-button": "Obtener nuevas respuestasObtener nuevas respuestas",
+        "allocate-button-remarks": "Obtener nueva respuestaObtener nuevas respuesta",
+        "allocate-button-concurrent-limit-reached-indicator": "Alcanzado el límite de respuesta abiertaAlcanzado el límite de respuesta abierta",
+        "allocate-button-not-approved-tooltip": "No se puede conseguir nuevas respuestas hasta que haya recibido información sobre su marcaje de su supervisor .No se puede conseguir nuevas respuestas hasta que haya recibido información sobre su marcaje de su supervisor .",
+        "allocate-button-suspended-indicator": "Revisión pendienteRevisión pendiente",
+        "submit-button-not-approved-tooltip": "No se puede enviar respuestas hasta que haya recibido información sobre su marcaje de su supervisor.No se puede enviar respuestas hasta que haya recibido información sobre su marcaje de su supervisor.",
+        "submit-button-suspended-indicator": "Revisión pendienteRevisión pendiente",
+        "allocate-single-response": "Respuesta solaRespuesta sola",
+        "allocate-to-concurrent-limit": "Hasta abrir límite de respuestaHasta abrir límite de respuesta",
+        "allocate-button-tooltip": "Select number of responses to download",
+        "allocate-whole-response": "Whole response"
+      },
+      "no-responses-available-helper": {
+        "header": "No hay nada para descargarNo hay nada para descargar",
+        "body": "Actualmente no hay respuestas disponibles para descargar de verificación marking.Please de nuevo más tarde.Actualmente no hay respuestas disponibles para descargar de verificación marking.Please de nuevo más tarde."
+      },
+      "empty-worklist-helper": {
+        "header": "No hay respuestas TransferidoNo hay respuestas Transferido",
+        "body-line-1": "Su lista de trabajo está vacía. Antes de que pueda empezar a marcar es necesario descargar algunas respuestas.Su lista de trabajo está vacía. Antes de que pueda empezar a marcar es necesario descargar algunas respuestas.",
+        "body-line-2": "Al hacer clic en el botón 'Obtener nuevas respuestas' descargará respuestas para llenar su lista de trabajo para su límite de {0} respuestas abiertas.Al hacer clic en el botón 'Obtener nuevas respuestas' descargará respuestas para llenar su lista de trabajo para su límite de {0} respuestas abiertas.",
+        "body-line-3": "Tenga en cuenta que si tiene marcas remotas abiertas que no tienen una cuota, éstas también se contabilizarán para el límite de respuesta abierto y podrían impedir que descargue más respuestas en directo. Tenga en cuenta que si tiene marcas remotas abiertas que no tienen una cuota, éstas también se contabilizarán para el límite de respuesta abierto y podrían impedir que descargue más respuestas en directo."
+      },
+      "open-for-marking-tab": "Abierto parael marcadoAbierto parael marcado",
+      "submitted-editable-tab": "Enviado - editableEnviado - editable",
+      "submitted-closed-tab": "Enviado - cerradoEnviado - cerrado",
+      "worklist-headers": {
+        "live": "vivir marcadovivir marcado",
+        "practice": "marcando la prácticamarcando la práctica",
+        "standardisation": "marcando Normalizaciónmarcando Normalización",
+        "secondstandardisation": "Segundo lugar marcado NormalizaciónSegundo lugar marcado Normalización",
+        "stm-standardisation": "STM marcado NormalizaciónSTM marcado Normalización",
+        "simulation": "Simulatie Markering",
+        "atypical": "Atypische Kennzeichnung"
+      },
+      "submit-response-dialog": {
+        "body": "páginas con las respuestas adici?páginas con las respuestas adici?",
+        "header": "Alcanzado respuestaAlcanzado respuesta",
+        "body-simulation": "Weet u zeker dat u dit antwoord wilt indienen? De antwoordmerken worden niet na ontvangst opgeslagen of zichtbaar."
+      },
+      "submit-all-responses-dialog": {
+        "body": "páginas con las respuestas adici adicionales?páginas con las respuestas adici adicionales?",
+        "header": "Alcanzado respuestasAlcanzado respuestas",
+        "body-simulation": "Weet u zeker dat u alle gemarkeerde reacties wilt indienen? De antwoordmerken worden niet na ontvangst opgeslagen of zichtbaar."
+      },
+      "response-submission-error-dialog": {
+        "body-single-response-not-submitted": "nuevas respuestas' descargará respuestas para llenar su lista de trabajo.nuevas respuestas' descargará respuestas para llenar su lista de trabajo.",
+        "body-some-responses-not-submitted": "Obtener nuevas respuestas' descargará respuestas para lle.Obtener nuevas respuestas' descargará respuestas para lle.",
+        "header": "Obtener nuevas respuestasObtener nuevas respuestas"
+      },
+      "not-approved-helper": {
+        "body-line-1": "Su estandarización marcado ha sido enviada a su supervisor para su revisión.Su estandarización marcado ha sido enviada a su supervisor para su revisión.",
+        "body-line-2": "Usted no será capaz de seguir marcando este grupo de preguntas hasta que su supervisor le ha proporcionado feedback.the estado se actualizará automáticamente cuando la crítica es complete.This no impedirá que se pueda marcar otros artículos de interrogación donde tiene una cuota.Usted no será capaz de seguir marcando este grupo de preguntas hasta que su supervisor le ha proporcionado feedback.the estado se actualizará automáticamente cuando la crítica es complete.This no impedirá que se pueda marcar otros artículos de interrogación donde tiene una cuota.",
+        "header": "Por favor espere a que el consejoPor favor espere a que el consejo"
+      },
+      "quality-feedback-dialog": {
+        "body": "Usted ha presentado una o más semillas dentro de la tolerancia de las marcas definitivas dadas por el equipo examinador supervisor . Si desea revisar su caracterización con respecto a las marcas definitivas , puede hacerlo en el Enviado - lista de trabajo cerrada .Usted ha presentado una o más semillas dentro de la tolerancia de las marcas definitivas dadas por el equipo examinador supervisor . Si desea revisar su caracterización con respecto a las marcas definitivas , puede hacerlo en el Enviado - lista de trabajo cerrada .",
+        "header": "retroalimentación de calidadretroalimentación de calidad"
+      },
+      "marking-check-status": {
+        "Checked": "ComprobadoComprobado",
+        "CheckRequested": "Cheque pedidoCheque pedido",
+        "Unchecked": "Desenfrenado",
+        "NotApproved": "No aprovado No aprovado",
+        "Suspended": "Revisión pendiente Revisión pendiente"
+      },
+      "request-marking-check-error-dialog": {
+        "header-approval-status-changed": "Estado de aprobación cambiado",
+        "body-approval-status-changed": "Tu estado ha cambiado y ya no puedes realizar esta acción.",
+        "header-withdrawn": "Retirado del marcado",
+        "body-withdrawn": "Usted ha sido retirado de este grupo de preguntas. Esto no le impedirá acceder a otros grupos de preguntas en los que tenga una cuota.",
+        "header-hierarchy-changed": "Cambios en la jerarquía del examinador",
+        "body-hierarchy-changed": "Tu función ha cambiado y ya no puedes realizar esta acción.",
+        "header-no-examiners-available": "Marcado de la solicitud de verificación Marcado de la solicitud de verificación",
+        "body-no-examiners-available": "No se puede solicitar una comprobación de marcado porque no hay nadie en la jerarquía de marcado con los permisos correctos para realizar una comprobación. No se puede solicitar una comprobación de marcado porque no hay nadie en la jerarquía de marcado con los permisos correctos para realizar una comprobación."
+      },
+      "request-marking-check-menu": {
+        "header": "Por favor, seleccione el examinador (s) que desea comprobar sus calificaciones. Por favor, seleccione el examinador (s) que desea comprobar sus calificaciones."
+      },
+      "perform-marking-check": {
+        "perform-marking-check-body-1": "Sie wurden gebeten, die Marken eines oder mehrerer Prüfer zu überprüfen. Wählen Sie ",
+        "perform-marking-check-link": "hier",
+        "perform-marking-check-body-2": " , um eine Markierungsprüfung zu sehen und durchzuführen.",
+        "set-marking-as-checked-button": "Zet markering als gecontroleerd",
+        "worklist-of-examiner": "van"
+      },
+      "perform-marking-check-confirmation-dialog": {
+        "body": "Weet u zeker dat u de markering van {0} wilt instellen als gecontroleerd? U heeft geen toegang tot hun werklijst.",
+        "header": "Markeringscontrole voltooid"
+      },
+      "list-view-column-headers": {
+        "sort-by-tooltip": "Toggle sorting by Toggle sorting by",
+        "exceptions": "excepciones excepciones",
+        "messages": "mensajes mensajes",
+        "accuracy": "Genauigkeit Genauigkeit",
+        "last-updated": "Última actualización Última actualización",
+        "allocated": "Asignado Asignado",
+        "total-mark": "nota totals nota totals",
+        "time-to-end-of-grace-period": "Tiempo hasta el final de la gracia Tiempo hasta el final de la gracia",
+        "progress": "Progreso Progreso",
+        "submitted": "Presentada Presentada",
+        "amd": "Diferencia absoluta Diferencia absoluta",
+        "tmd": "Diferencia total Diferencia total",
+        "response-id": "ID de respuestaID de respuesta",
+        "centre-number": "Centrar Centrar",
+        "centre-candidate-number": "Candidato Candidato",
+        "original-marker": "Original del marcador Original del marcador",
+        "original-mark-accuracy": "Original marken genauigkeit Original marken genauigkeit",
+        "original-mark": "Original marken Original marken",
+        "final-mark-selected": "Endgültige Markierung ausgewählt",
+        "tag": "Tag Tag"
+      },
+      "simulation-helper": {
+        "body-line-1": "Uw werklijst is leeg. Voordat u kunt markeren, moet u enkele reacties downloaden. Elke markering die u in de simulatie modus invoert, wordt niet weergegeven als live markeringen. Wanneer de simulatie markeringsperiode eindigt, wordt uw simulatiemarkering automatisch verwijderd en kunt u er niet naar terugkeren.",
+        "body-line-2": "Door op de knop 'Nieuwe reactie' te klikken, downloadt u een simulatie-reactie in uw werklijst om u te markeren."
+      },
+      "submitted-editable-worklist-helper": "You can edit the marks of the responses in this list until the end of grace period. Any changes you make will be automatically saved. When the grace period  for a response ends, it will automatically move to the closed list and marks will be returned to your awarding body.",
+      "quality-feedback-helper": {
+        "quality-feedback-outstanding": "Usted ha presentado una semilla que está fuera de tolerancia con las marcas definitivas dadas por el equipo examinador supervisor . Por favor, abra la respuesta a revisar la información sobre su semilla y luego usar el botón ' Aceptar el feedback ' dentro de la respuesta a reconocer que ha aceptado las votaciones . Cuando haya hecho esto usted será capaz de seguir marcando.Usted ha presentado una semilla que está fuera de tolerancia con las marcas definitivas dadas por el equipo examinador supervisor . Por favor, abra la respuesta a revisar la información sobre su semilla y luego usar el botón ' Aceptar el feedback ' dentro de la respuesta a reconocer que ha aceptado las votaciones . Cuando haya hecho esto usted será capaz de seguir marcando.",
+        "quality-feedback-outstanding-and-suspended": "Usted ha presentado una semilla que está fuera de tolerancia con las marcas definitivas dadas por el equipo examinador supervisor . Por favor, abra la respuesta a revisar la información sobre su semilla y luego usar el botón ' Aceptar el feedback ' dentro de la respuesta a reconocer que ha aceptado las votaciones . Cuando haya hecho esto usted será capaz de seguir marcando , pero usted no será capaz de descargar o enviar respuestas hasta que su supervisor le ha proporcionado más comentarios acerca de su marcaje.Usted ha presentado una semilla que está fuera de tolerancia con las marcas definitivas dadas por el equipo examinador supervisor . Por favor, abra la respuesta a revisar la información sobre su semilla y luego usar el botón ' Aceptar el feedback ' dentro de la respuesta a reconocer que ha aceptado las votaciones . Cuando haya hecho esto usted será capaz de seguir marcando , pero usted no será capaz de descargar o enviar respuestas hasta que su supervisor le ha proporcionado más comentarios acerca de su marcaje."
+      },
+      "tag-tooltips": {
+        "no-tag": "Voeg tag toe Voeg tag toe",
+        "red": "rode tag rode tag",
+        "blue": "Blauwe tag Blauwe tag",
+        "yellow": "Geel tag Geel tag",
+        "green": "Groene tag Groene tag",
+        "violet": "Violet tag Violet tag",
+        "pink": "Roze tag Roze tag",
+        "orange": "Oranje tag Oranje tag",
+        "lightgreen": "Licht groen tag Licht groen tag",
+        "purple": "Purper tag Purper tag",
+        "add-tag": "Toevoegen tag Toevoegen tag"
+      },
+      "exited-simulation-dialog": {
+        "header": "Standaardisatie setup is voltooid",
+        "subheader-multiple-qigs": "Standaardisatie setup is nu compleet voor de volgende QIG (s):",
+        "subheader-single-qig": "Standaardisatie setup is nu compleet voor de volgende QIG:",
+        "body-multiple-qigs": "U kunt nu Markeren starten. Simulatie modus zal niet meer beschikbaar zijn voor bovenstaande QIG (en).",
+        "body-single-qig": "U kunt nu Markeren starten. De simulatie modus is niet meer beschikbaar voor de bovenstaande QIG."
+      },
+      "autozoned-warning-dialog": {
+        "header": "Autozoned Autozoned",
+        "body": "Reacties in deze vraaggroep zijn automatisch gezoneerd. Breng een uitzondering aan als u inhoud ziet die bij een vraag hoort die niet kan worden gemarkeerd. Reacties in deze vraaggroep zijn automatisch gezoneerd. Breng een uitzondering aan als u inhoud ziet die bij een vraag hoort die niet kan worden gemarkeerd.",
+        "ok-button": "OK OK"
+      }
+    },
+    "response": {
+      "saving-marks-error-dialog": {
+        "header-error-saving-marks": "Error al guardar las marcas y anotacionesError al guardar las marcas y anotaciones",
+        "body-error-saving-marks-single-response": "Las marcas y anotaciones les ha asignado anteriormente a esta respuesta no podrían salvarse . Por favor, revise y aplica las marcas que faltan y las anotaciones de nuevo.Las marcas y anotaciones les ha asignado anteriormente a esta respuesta no podrían salvarse . Por favor, revise y aplica las marcas que faltan y las anotaciones de nuevo.",
+        "body-error-saving-marks-multiple-responses": "Las marcas y las anotaciones no pueden guardarse para la siguiente respuesta ( s ) . Por favor, revisar y aplicar cualquier marca que faltan y las anotaciones de nuevo.Las marcas y las anotaciones no pueden guardarse para la siguiente respuesta ( s ) . Por favor, revisar y aplicar cualquier marca que faltan y las anotaciones de nuevo.",
+        "header-grace-period-expired": "período de gracia expiróperíodo de gracia expiró",
+        "body-grace-period-expired-changes-not-saved": "Los ajustes realizados en las marcas y anotaciones de respuesta { 0 } no se guardaron porque el período de gracia ha expirado . Esta respuesta se ha trasladado a su Enviado - lista de trabajo cerrados.Los ajustes realizados en las marcas y anotaciones de respuesta { 0 } no se guardaron porque el período de gracia ha expirado . Esta respuesta se ha trasladado a su Enviado - lista de trabajo cerrados.",
+        "body-response-removed-from-worklist": "Reactie {0} is nu verwijderd uit uw werklijst en de wijzigingen kunnen niet worden opgeslagen.",
+        "header-response-removed-from-worklist": "Reactie verwijderd"
+      },
+      "complete-button-dialog": {
+        "yes-button": "SíSí",
+        "no-button": "NoNo",
+        "body": "Esto introducir un signo de NR para todos los elementos de interrogación sin marcar . ¿Desea continuar?Esto introducir un signo de NR para todos los elementos de interrogación sin marcar . ¿Desea continuar?"
+      },
+      "script-images": {
+        "script-image-tooltip": "Script Image",
+        "view-whole-page": "Gesamte Seite ansehen"
+      },
+      "supervisor-remark-decision": {
+        "none": "Keine: Ich werde später entscheiden Keine: Ich werde später entscheiden",
+        "nonjudgementalerror": "Bemerkungen: Über-Urteil-Bemerkungen: Nicht-beurteilungsfehler tal error Bemerkungen: Über-Urteil-Bemerkungen: Nicht-beurteilungsfehler tal error",
+        "judgementaloutsidetolerance": "Bemerkungen: Urteil außerhalb Toleranz Bemerkungen: Urteil außerhalb Toleranz",
+        "originalmarks": "Originalmarken: Original als Endnoten markiert Originalmarken: Original als Endnoten markiert",
+        "popout-body": "Bitte wählen Sie aus, welche Markierungen Sie als Schlussmarkierungen und Grund setzen möchten. Bitte wählen Sie aus, welche Markierungen Sie als Schlussmarkierungen und Grund setzen möchten.",
+        "original-mark-accuracy": "Original-Zeichengenauigkeit Original-Zeichengenauigkeit",
+        "total-mark-difference": "Gesamtzeichenunterschied Gesamtzeichenunterschied",
+        "absolute-mark-difference": "Absoluter Markierungsunterschied Absoluter Markierungsunterschied",
+        "popout-header": "Bemerkung Zusammenfassung Bemerkung Zusammenfassung",
+        "no-decision-tooltip": "Bemerkung Entscheidung nicht ausgewählt Bemerkung Entscheidung nicht ausgewählt",
+        "decision-tooltip": "Ansicht / Bearbeiten Bemerkung Entscheidung Ansicht / Bearbeiten Bemerkung Entscheidung"
+      },
+      "previous-marks": {
+        "first-marking-short": "1ª1ª",
+        "first-marking-long": "marcando el 1 demarcando el 1 de",
+        "definitive-marking-long": "marcas definitivasmarcas definitivas",
+        "definitive-marking-short": "DEF DEF",
+        "display-marks-header": "marcas de visualizaciónmarcas de visualización",
+        "display-annotations-header": "anotaciones anotaciones",
+        "comments": "Kommentare",
+        "current-marks": "Marcas actualesMarcas actuales",
+        "previous-marks-checkbox-tooltip-show": "Mostrar estas marcas anterioresMostrar estas marcas anteriores",
+        "previous-marks-checkbox-tooltip-hide": "Ocultar estas marcas anterioresOcultar estas marcas anteriores",
+        "previous-annotations-switch-tooltip-hide": "Ocultar estas anotaciones anterioresOcultar estas anotaciones anteriores",
+        "previous-annotations-switch-tooltip-show": "Mostrar estas anotaciones anterioresMostrar estas anotaciones anteriores",
+        "current-comments-radio-button-tooltip": "Toon huidige reacties",
+        "previous-comments-radio-button-tooltip": "Toon huidige reacties",
+        "definitive-comments-radio-button-tooltip": "Toon definitieve opmerkingen",
+        "people-icon": "Choose which marks and annotations to show"
+      },
+      "navigation-bar": {
+        "previous-response-button-tooltip": "respuesta anteriorrespuesta anterior",
+        "next-response-button-tooltip": "respuesta al siguienterespuesta al siguiente",
+        "response-id-label": "RespuestaRespuesta",
+        "response-position-in-worklist": "{0} de {1} en la lista{0} de {1} en la lista",
+        "atypical-response-id-label": "Atípico respuesta Atípico respuesta",
+        "simulation-response-id-label": "Simulatie respons",
+        "worklist-breadcrumb": "Lista de trabajoLista de trabajo",
+        "atypical-remark-response-id-label": "Atípico",
+        "script-position": "({0} of {1} in centrumn {2})"
+      },
+      "page-number-indicator": {
+        "image-number-label": "Imágenes Imágenes",
+        "image-number-of-label": "ofof",
+        "page-number-label": "Página Página",
+        "image-number-label-booklet-view": "Imágenes Imágenes",
+        "page-number-label-booklet-view": "Páginas Páginas",
+        "script-label": "guión guión"
+      },
+      "question": "Pregunta: ",
+      "save-indicator": {
+        "saving-marks": "ahorro de marcas ahorro de marcas..."
+      },
+      "comments-side-view": {
+        "hide-comments": "Ocultar Comentarios Ocultar Comentarios",
+        "hide-comments-tooltip": "Ver comentarios en el script Ver comentarios en el script"
+      },
+      "on-page-comment-box": {
+        "side-view-icon-tooltip": "Ver comentarios en la parte lateral de la secuencia de comandos Ver comentarios en la parte lateral de la secuencia de comandos",
+        "comment-placeholder-text": " Tipo Comentarios Tipo Comentarios",
+        "delete-icon-tooltip": "Eliminar comentarioEliminar comentario"
+      },
+      "left-toolbar": {
+        "full-response-view-button-tooltip": "Ver Respuesta completaVer Respuesta completa",
+        "messages-button-tooltip-new-message": "Nuevo mensaje Nuevo mensaje",
+        "messages-button-tooltip-linked-messages": "Mensajes enlazados Mensajes enlazados",
+        "zoom-rotate-button-tooltip": "Enfocar / GirarEnfocar / Girar",
+        "bookmarks-button-tooltip": "Lesezeichen Lesezeichen",
+        "problems-button-tooltip": "Problemen met dit antwoord"
+      },
+      "annotations-toolbar": {
+        "expand-button-tooltip": "Ampliar el panel de herramientasAmpliar el panel de herramientas",
+        "collapse-button-tooltip": "panel de herramientas de colapsopanel de herramientas de colapso",
+        "plus-button-tooltip": "Añadir herramientaAñadir herramienta"
+      },
+      "zoom-rotate-panel": {
+        "rotate-clockwise-tooltip": "Turni bildon lauhorlognadlaTurni bildon lauhorlognadla",
+        "rotate-anticlockwise-tooltip": "Rotacii bildo maldekstrenRotacii bildo maldekstren",
+        "zoom-fit-height-tooltip": "Amplía todas las imágenes para adaptarse a la altura del área de visualización de la escrituraAmplía todas las imágenes para adaptarse a la altura del área de visualización de la escritura",
+        "zoom-fit-width-tooltip": "Amplía todas las imágenes a la anchura de la zona de visualización de la escrituraAmplía todas las imágenes a la anchura de la zona de visualización de la escritura",
+        "zoom-fit-height": "Ajustar alturaAjustar altura",
+        "zoom-fit-width": "Ajuste anchoAjuste ancho",
+        "zoom-out-tooltip": "Disminuir el zoomDisminuir el zoom",
+        "zoom-in-tooltip": "Acercarse Acercarse",
+        "zoom-level-tooltip": "nivel de zoom actualnivel de zoom actual",
+        "zoom": "Enfocar Enfocar",
+        "rotate": "Girar Girar"
+      },
+      "mark-scheme-panel": {
+        "previous-question-button-tooltip": "cuestión previacuestión previa",
+        "next-question-button-tooltip": "Próxima preguntaPróxima pregunta",
+        "total-marks": "Notas totalesNotas totales",
+        "reset-mark-button": "Reiniciar Reiniciar",
+        "reset-mark-button-tooltip": "Restablecer marca y anotaciones por este concepto pregunta@!",
+        "no-response-button": "Ninguna respuesta Ninguna respuesta",
+        "next-mark-button-tooltip": "Siguiente Siguiente",
+        "previous-mark-button-tooltip": "Anterior Anterior",
+        "no-response": "SrSr",
+        "optionality-tooltip": "Esta respuesta contiene preguntas opcionales. Una línea se mostrará para todos los elementos de interrogación que no serán incluidos en la puntuación total acuerdo con la rúbrica definida.Esta respuesta contiene preguntas opcionales. Una línea se mostrará para todos los elementos de interrogación que no serán incluidos en la puntuación total acuerdo con la rúbrica definida.",
+        "accept-quality-feedback-button": "aceptar el feedbackaceptar el feedback",
+        "complete-button": "Completar Completar",
+        "complete-button-tooltip-when-enabled": "Entre un signo de NR para todos los elementos de interrogación sin marcarEntre un signo de NR para todos los elementos de interrogación sin marcar",
+        "complete-button-tooltip-when-disabled": "Sólo puede utilizar este botón una vez que haya ingresado manualmente marcas contra los elementos suficientes de interrogación para satisfacer la rúbrica de este cuadernillo de preguntasSólo puede utilizar este botón una vez que haya ingresado manualmente marcas contra los elementos suficientes de interrogación para satisfacer la rúbrica de este cuadernillo de preguntas",
+        "mark-by": "Mark by",
+        "mark-by-candidate": "Kandidat",
+        "mark-by-question": "Frage",
+        "annotations-switch-tooltip-hide": "Haga clic para ocultar anotaciones actualesHaga clic para ocultar anotaciones actuales",
+        "annotations-switch-tooltip-show": "Haga clic para mostrar anotaciones actualesHaga clic para mostrar anotaciones actuales",
+        "annotations-switch-label": "anotacionesanotaciones",
+        "comments-switch-tooltip-hide": "Verberg commentaarpaneel",
+        "comments-switch-tooltip-show": "Toon commentaarpaneel",
+        "comments-switch-label": "Comments",
+        "unzoned-indicator-tooltip": "Dieser Fragenposition wurde kein Inhalt zugewiesen",
+        "link-indicator-tooltip": "Pagina ('s) zijn gekoppeld aan dit vraagitem"
+      },
+      "invalid-mark-dialog": {
+        "header": "marca no válidomarca no válido",
+        "body-numeric": "Por favor, introduzca una marca entre {0} y {1}Por favor, introduzca una marca entre {0} y {1}",
+        "body-non-numeric": "Vul een geldig merk Vul een geldig merk",
+        "ok-button": "DE ACUERDODE ACUERDO"
+      },
+      "mba-max-mark-exceeded-dialog": {
+        "header": "Maximum mark overschreden",
+        "body": "Het toevoegen van deze annotatie zou de maximale teken van {0} voor deze vraag Item worden overschreden veroorzaken. De annotatie is niet toegepast."
+      },
+      "reset-mark-dialog": {
+        "header": "Restablecer marcas y anotacionesRestablecer marcas y anotaciones",
+        "body-when-mark-deleted": "Ha restablecido las notas asignadas originalmente , hace que desea eliminar las anotaciones , asíHa restablecido las notas asignadas originalmente , hace que desea eliminar las anotaciones , así",
+        "body-when-reset-button-clicked": "Esto restablecerá la marca y eliminar todas las anotaciones para el elemento pregunta asociada . ¿Seguro que quieres hacer esto?Esto restablecerá la marca y eliminar todas las anotaciones para el elemento pregunta asociada . ¿Seguro que quieres hacer esto?"
+      },
+      "annotation-context-menu": {
+        "remove-annotation": "Retire la anotación Retire la anotación",
+        "change-colour": "Color de fondoColor de fondo",
+        "black": "Negro Negro",
+        "red": "Rojo Rojo",
+        "green": "Verd eVerde",
+        "blue": "Azul Azul",
+        "yellow": "Amarillo Amarillo",
+        "pink": "Rosado Rosado",
+        "remove-bookmark": "Verwijder Bladwijzer",
+        "remove-ruler": "Ruler verwijderen",
+        "remove-protractor": "Verwijder de gradenboog",
+        "add-multiline": "toevoegen",
+        "remove-multiline": "verwijderen",
+        "change-colour-multiline": "verander kleur",
+        "point-multiline": "punt",
+        "line-multiline": "lijn",
+        "all-multiline": "alle",
+        "remove-multiline-shared": "Verwijder multiline"
+      },
+      "end-of-list-dialog": {
+        "header": "Regresar a la lista de trabajo Regresar a la lista de trabajo",
+        "body": "Has llegado a la última respuesta en la lista de trabajo . ¿Le gustaría volver a la lista de trabajo para que pueda presentar su marcado ?Has llegado a la última respuesta en la lista de trabajo . ¿Le gustaría volver a la lista de trabajo para que pueda presentar su marcado ?",
+        "yes-button": "Sí Sí",
+        "no-button": "No No"
+      },
+      "delete-comment-dialog": {
+        "header": "Confirmar eliminaciónConfirmar eliminación",
+        "body": "¿Seguro que desea eliminar este comentario ?¿Seguro que desea eliminar este comentario ?",
+        "yes-button": "Sí Sí",
+        "no-button": "No No"
+      },
+      "annotation-toolbar-helper": {
+        "header": "Vor dem Markieren",
+        "header_customise": "Personaliza tu barra de herramientasPersonaliza tu barra de herramientas",
+        "body-before-adding-stamp-with-overlays": "Beachten Sie, dass Sie die Überlagerungstools hier nicht ziehen können.",
+        "body-before-adding-stamp": "Ziehen Sie die Anmerkungen, die Sie regelmäßig verwenden, in diesen Bereich. Diese Anmerkungen sind dann immer sichtbar, ohne dass die gesamte Symbolleiste erweitert werden muss. Sie müssen mindestens eine Anmerkung in die Symbolleiste ziehen, um mit der Markierung fortzufahren.",
+        "body-after-adding-stamp": "Cuando haya terminado de añadir anotaciones barra de favoritos , utilice este botón para contraer la lista completa anotaciones y empezar a marcar . Pueden ampliar posteriormente a través de este botón.Cuando haya terminado de añadir anotaciones y herramientas a la barra de favoritos , utilice este botón para contraer la lista completa de herramientas y empezar a marcar . Pueden ampliar posteriormente a través de este botón."
+      },
+      "accept-quality-feedback-dialog": {
+        "header": "aceptar el feedback aceptar el feedback",
+        "body": "Por favor, confirma que ha revisado y aceptado la información proporcionada por esta respuesta.Por favor, confirma que ha revisado y aceptado la información proporcionada por esta respuesta.",
+        "yes-button": "YesYes",
+        "no-button": "NoNo"
+      },
+      "overlays": {
+        "ruler-tooltip": "Heerser",
+        "protractor-tooltip": "Gradenboog",
+        "multiline-overlay-tooltip": "Multi-line"
+      },
+      "stamps": {
+        "stamp_11": "S-TickS-Tick",
+        "stamp_21": "S-CrossS-Cross",
+        "stamp_31": "S-BODS-BOD",
+        "stamp_41": "S-FTS-FT",
+        "stamp_51": "S-ISWS-ISW",
+        "stamp_61": "S-M0S-M0",
+        "stamp_71": "S-M1S-M1",
+        "stamp_81": "S-M2S-M2",
+        "stamp_91": "S-A0S-A0",
+        "stamp_101": "S-A1S-A1",
+        "stamp_111": "S-A2S-A2",
+        "stamp_121": "S-W0S-W0",
+        "stamp_131": "S-W1S-W1",
+        "stamp_141": "S-W2S-W2",
+        "stamp_151": "S-HighlightS-Highlight",
+        "stamp_161": "S-LinkS-Link",
+        "stamp_171": "Haga clic para ver comentarioHaga clic para ver comentario",
+        "stamp_181": "S-Off Page CommentS-Off Page Comment",
+        "stamp_182": "S-Enhanced Off Page CommentS-Enhanced Off Page Comment",
+        "stamp_191": "S-NBODS-NBOD",
+        "stamp_201": "S-TVS-TV",
+        "stamp_211": "S-PS-P",
+        "stamp_221": "S-ES-E",
+        "stamp_231": "S-/S-/",
+        "stamp_241": "S-ECFS-ECF",
+        "stamp_251": "S-SCS-SC",
+        "stamp_261": "S-^S-^",
+        "stamp_271": "S-REPS-REP",
+        "stamp_281": "S-?S-?",
+        "stamp_291": "S-IS-I",
+        "stamp_301": "S-RS-R",
+        "stamp_311": "S-L1S-L1",
+        "stamp_321": "S-L2S-L2",
+        "stamp_331": "S-L3S-L3",
+        "stamp_341": "S-L4S-L4",
+        "stamp_351": "S-CS-C",
+        "stamp_361": "S-SS-S",
+        "stamp_371": "S-AS-A",
+        "stamp_381": "S-L1---S-L1---",
+        "stamp_391": "S-L1--S-L1--",
+        "stamp_401": "S-L1-S-L1-",
+        "stamp_411": "S-L2--S-L2--",
+        "stamp_421": "S-L2-S-L2-",
+        "stamp_431": "S-L3-S-L3-",
+        "stamp_441": "S-L5S-L5",
+        "stamp_451": "S-R1S-R1",
+        "stamp_461": "S-R2S-R2",
+        "stamp_471": "S-R3S-R3",
+        "stamp_481": "S-CONS-CON",
+        "stamp_491": "S-POTS-POT",
+        "stamp_501": "S-NAQS-NAQ",
+        "stamp_511": "S-RES-RE",
+        "stamp_521": "S-NGES-NGE",
+        "stamp_531": "S-SFS-SF",
+        "stamp_541": "S-{S-{",
+        "stamp_551": "S-} S-} ",
+        "stamp_561": "S-LNKS-LNK",
+        "stamp_571": "S-B1S-B1",
+        "stamp_581": "S-B2S-B2",
+        "stamp_591": "S-RM1S-RM1",
+        "stamp_601": "S-KUS-KU",
+        "stamp_611": "S-K S-K ",
+        "stamp_621": "S-CONTS-CONT",
+        "stamp_631": "S-RELS-REL",
+        "stamp_641": "S-NARS-NAR",
+        "stamp_651": "S-BIOS-BIO",
+        "stamp_661": "S-EGS-EG",
+        "stamp_671": "S-ILLS-ILL",
+        "stamp_681": "S-QS-Q",
+        "stamp_691": "S-EXPS-EXP",
+        "stamp_701": "S-SLASHS-SLASH",
+        "stamp_711": "S-GMS-GM",
+        "stamp_721": "S-OFRS-OFR",
+        "stamp_731": "S-VG S-VG ",
+        "stamp_741": "S-DEVS-DEV",
+        "stamp_751": "S-RESS-RES",
+        "stamp_761": "S-SUSS-SUS",
+        "stamp_771": "S-DETS-DET",
+        "stamp_781": "S-PLCS-PLC",
+        "stamp_791": "S-IRRLS-IRRL",
+        "stamp_801": "S-|S-|",
+        "stamp_811": "S-SEENS-SEEN",
+        "stamp_821": "S-US-U",
+        "stamp_831": "S-JS-J",
+        "stamp_841": "S-T-S-T-",
+        "stamp_851": "S-TS-T",
+        "stamp_861": "S-T+S-T+",
+        "stamp_881": "S-P-S-P-",
+        "stamp_891": "S-FS-F",
+        "stamp_901": "S-F-S-F-",
+        "stamp_911": "S-PreS-Pre",
+        "stamp_921": "S-TeS-Te",
+        "stamp_931": "S-OS-O",
+        "stamp_941": "S-VS-V",
+        "stamp_951": "S-JUS-JU",
+        "stamp_961": "S-LS-L",
+        "stamp_971": "S-HAS-HA",
+        "stamp_981": "S-INVLS-INVL",
+        "stamp_991": "S-FAS-FA",
+        "stamp_1001": "S-RulerS-Ruler",
+        "stamp_1002": "S-QWC+S-QWC+",
+        "stamp_1011": "S-ProtractorS-Protractor",
+        "stamp_1012": "S-Tick PlusS-Tick Plus",
+        "stamp_1021": "S-OverlayS-Overlay",
+        "stamp_1022": "S-XCSS-XCS",
+        "stamp_1031": "S-Tick QuestionS-Tick Question",
+        "stamp_1041": "S-Up ArrowS-Up Arrow",
+        "stamp_1051": "S-Down ArrowS-Down Arrow",
+        "stamp_1061": "S--1S--1",
+        "stamp_1071": "S-CaretS-Caret",
+        "stamp_1081": "S-DOTS-DOT",
+        "stamp_1091": "S-+S-+",
+        "stamp_1101": "S-Green LS-Green L",
+        "stamp_1111": "S-IR S-IR ",
+        "stamp_1121": "S-NES-NE",
+        "stamp_1131": "S-ALS-AL",
+        "stamp_1141": "S-ILS-IL",
+        "stamp_1151": "S-LMS-LM",
+        "stamp_1161": "S-NOMS-NOM",
+        "stamp_1171": "S--S--",
+        "stamp_1181": "S-POSS-POS",
+        "stamp_1191": "S-Tick 1S-Tick 1",
+        "stamp_1201": "S-Tick 2S-Tick 2",
+        "stamp_1211": "S-Tick 3S-Tick 3",
+        "stamp_1221": "S-Tick 4S-Tick 4",
+        "stamp_1231": "S-Tick 5S-Tick 5",
+        "stamp_1241": "S-Tick 6S-Tick 6",
+        "stamp_1251": "S-Tick 7S-Tick 7",
+        "stamp_1261": "S-Tick 8S-Tick 8",
+        "stamp_1271": "S-Tick 9S-Tick 9",
+        "stamp_1281": "S-Tick 10S-Tick 10",
+        "stamp_1291": "S-Tick 11S-Tick 11",
+        "stamp_1301": "S-Tick 12S-Tick 12",
+        "stamp_1311": "S-XSPS-XSP",
+        "stamp_1321": "S-XPS-XP",
+        "stamp_1331": "S-XSSS-XSS",
+        "stamp_1341": "S-XVS-XV",
+        "stamp_1351": "S-EllipseS-Ellipse",
+        "stamp_1361": "S-H LineS-H Line",
+        "stamp_1371": "S-H WavyS-H Wavy",
+        "stamp_1381": "S-V WavyS-V Wavy",
+        "stamp_1391": "S-Word OrderS-Word Order",
+        "stamp_1401": "S-[S-[",
+        "stamp_1411": "S-]S-]",
+        "stamp_1421": "S-1S-1",
+        "stamp_1431": "S-2S-2",
+        "stamp_1441": "S-3S-3",
+        "stamp_1451": "S-4S-4",
+        "stamp_1461": "S-5S-5",
+        "stamp_1471": "S-Tick Half MarkS-Tick Half Mark",
+        "stamp_1481": "S-Left ArrowS-Left Arrow",
+        "stamp_1491": "S-Right ArrowS-Right Arrow",
+        "stamp_1501": "S-NDS-ND",
+        "stamp_1511": "S-PES-PE",
+        "stamp_1521": "S-AES-AE",
+        "stamp_1531": "S-EES-EE",
+        "stamp_1541": "S-NUTS-NUT",
+        "stamp_1551": "S-PDS-PD",
+        "stamp_1561": "S-2+2S-2+2",
+        "stamp_1571": "S-1+2S-1+2",
+        "stamp_1581": "S-2+1S-2+1",
+        "stamp_1591": "S-1+1S-1+1",
+        "stamp_1601": "S-0S-0",
+        "stamp_1611": "S-N0S-N0",
+        "stamp_1621": "S-N1S-N1",
+        "stamp_1631": "S-N2S-N2",
+        "stamp_1641": "S-N3S-N3",
+        "stamp_1651": "S-N4S-N4",
+        "stamp_1661": "S-APPS-APP",
+        "stamp_1671": "S-ANS-AN",
+        "stamp_1681": "S-BPS-BP",
+        "stamp_1691": "S-OFS-OF",
+        "stamp_1701": "S-OFR_BIGS-OFR_BIG",
+        "stamp_1711": "S-PAGS-PAG",
+        "stamp_1721": "S-REP_BIGS-REP_BIG",
+        "stamp_1731": "S-SEEN_BIGS-SEEN_BIG",
+        "stamp_1741": "S-ZEROS-ZERO",
+        "stamp_1751": "S-TICK_1S-TICK_1",
+        "stamp_1761": "S-TICK_2S-TICK_2",
+        "stamp_1771": "S-TICK_HALFS-TICK_HALF",
+        "stamp_1781": "S-A3S-A3",
+        "stamp_1791": "S-B0S-B0",
+        "stamp_1801": "S-EVALS-EVAL",
+        "stamp_1811": "S-FTXS-FTX",
+        "stamp_1821": "S-MRS-MR",
+        "stamp_1831": "S-TErrorS-TError",
+        "stamp_1841": "S-Not RelevantS-Not Relevant",
+        "stamp_1851": "S-Tick_3S-Tick_3",
+        "stamp_1861": "S-Tick_5S-Tick_5",
+        "stamp_1871": "S-AGS-AG",
+        "stamp_1881": "S-R0S-R0",
+        "stamp_1891": "S-N5S-N5",
+        "stamp_1901": "S-N6S-N6",
+        "stamp_1911": "S-DS-D",
+        "stamp_1921": "S-APS-AP",
+        "stamp_1931": "S-WBS-WB",
+        "stamp_1941": "S-RadS-Rad",
+        "stamp_1951": "S-DegS-Deg",
+        "stamp_1961": "S-WVS-WV",
+        "stamp_1971": "S-VAMS-VAM",
+        "stamp_1981": "S-C0S-C0",
+        "stamp_1991": "S-C1S-C1",
+        "stamp_2001": "S-C2S-C2",
+        "stamp_2011": "S-C3S-C3",
+        "stamp_2021": "S-C4S-C4",
+        "stamp_2031": "S-C5S-C5",
+        "stamp_2041": "S-C6S-C6",
+        "stamp_2051": "S-FPS-FP",
+        "stamp_2061": "S-UPS-UP",
+        "stamp_2071": "S-G0S-G0",
+        "stamp_2081": "S-G1S-G1",
+        "stamp_2091": "S-G2S-G2",
+        "stamp_2101": "S-G3S-G3",
+        "stamp_2111": "S-GDIGS-GDIG",
+        "stamp_2121": "S-AQS-AQ",
+        "stamp_2131": "S-CKSS-CKS",
+        "stamp_2141": "S-GAS-GA",
+        "stamp_2151": "S-GDS-GD",
+        "stamp_2161": "S-GEXAS-GEXA",
+        "stamp_2171": "S-GEXPS-GEXP",
+        "stamp_2181": "S-GUTS-GUT",
+        "stamp_2191": "S-IUS-IU",
+        "stamp_2201": "S-L0S-L0",
+        "stamp_2211": "S-LDS-LD",
+        "stamp_2221": "S-LLSS-LLS",
+        "stamp_2231": "S-TCES-TCE",
+        "stamp_2241": "S-TNCES-TNCE",
+        "stamp_2251": "S-URS-UR",
+        "stamp_2261": "S-OCS-OC",
+        "stamp_2271": "S-WARGS-WARG",
+        "stamp_2281": "S-WKARS-WKAR",
+        "stamp_2291": "S-NMRDS-NMRD",
+        "stamp_2301": "S-VLS-VL",
+        "stamp_2311": "S-SGPS-SGP",
+        "stamp_2321": "S-ALTS-ALT",
+        "stamp_2331": "S-NWSS-NWS",
+        "stamp_2341": "S-OKS-OK",
+        "stamp_2351": "S-RQS-RQ",
+        "stamp_2361": "S-SDS-SD",
+        "stamp_2371": "S-NEXS-NEX",
+        "stamp_2381": "S--1US--1U",
+        "stamp_2391": "S-NWS-NW",
+        "stamp_2401": "S-QclS-Qcl",
+        "stamp_2411": "S-QstS-Qst",
+        "stamp_2421": "S-=S-=",
+        "stamp_2431": "S-WTTES-WTTE",
+        "stamp_2441": "S-AdvS-Adv",
+        "stamp_2451": "S-DisS-Dis",
+        "stamp_2461": "S-diffS-diff",
+        "stamp_2471": "S-simS-sim",
+        "stamp_2481": "S-Tick_ColourableS-Tick_Colourable",
+        "stamp_2491": "S-APDS-APD",
+        "stamp_2501": "S-UPDS-UPD",
+        "stamp_2511": "S-FPDS-FPD",
+        "stamp_2521": "S--1SDS--1SD",
+        "stamp_2531": "S-ChangeS-Change",
+        "stamp_2541": "S-SynthesisS-Synthesis",
+        "stamp_2551": "S-DescriptiveS-Descriptive",
+        "stamp_2561": "S-EXCS-EXC",
+        "stamp_2571": "S-AssertionS-Assertion",
+        "stamp_2581": "S-Good PointS-Good Point",
+        "stamp_2591": "S-TickaS-Ticka",
+        "stamp_2601": "S-TickbS-Tickb",
+        "stamp_2611": "S-TickcS-Tickc",
+        "stamp_2621": "S-TickdS-Tickd",
+        "stamp_2631": "S-TickeS-Ticke",
+        "stamp_2641": "S-TickfS-Tickf",
+        "stamp_2651": "S-TickgS-Tickg",
+        "stamp_2661": "S-TickhS-Tickh",
+        "stamp_2671": "S-TickiS-Ticki",
+        "stamp_2681": "S-TickjS-Tickj",
+        "stamp_2691": "S-TickkS-Tickk",
+        "stamp_2701": "S-TicklS-Tickl",
+        "stamp_2711": "S-TickmS-Tickm",
+        "stamp_2721": "S-TicknS-Tickn",
+        "stamp_2731": "S-Tick_1_halfS-Tick_1_half",
+        "stamp_2741": "S-Tick_2_halfS-Tick_2_half",
+        "stamp_2751": "S-Tick_3_halfS-Tick_3_half",
+        "stamp_2761": "S-Tick_4_halfS-Tick_4_half",
+        "stamp_2771": "S-MAXS-MAX",
+        "stamp_2781": "S-big_PS-big_P",
+        "stamp_2791": "S-Tick_4S-Tick_4",
+        "stamp_2801": "S-GS-G",
+        "stamp_2811": "S-A1FTS-A1FT",
+        "stamp_2821": "S-CPVS-CPV",
+        "stamp_2831": "S-GINS-GIN",
+        "stamp_2841": "S-CTHS-CTH",
+        "stamp_2851": "S-GKIS-GKI",
+        "stamp_2861": "S-NTHS-NTH",
+        "stamp_2871": "S-DNFS-DNF",
+        "stamp_2881": "S-HEXS-HEX",
+        "stamp_2891": "S-DESS-DES",
+        "stamp_2901": "S-REFS-REF",
+        "stamp_2911": "S-GENS-GEN",
+        "stamp_2921": "S-A+S-A+",
+        "stamp_2931": "S-B+S-B+",
+        "stamp_2941": "S-C+S-C+",
+        "stamp_2951": "S-D+S-D+",
+        "stamp_2961": "S-A-S-A-",
+        "stamp_2971": "S-B-S-B-",
+        "stamp_2981": "S-C-S-C-",
+        "stamp_2991": "S-D-S-D-",
+        "stamp_3001": "S-AErS-AEr",
+        "stamp_3011": "S-DMS-DM",
+        "stamp_3021": "S-GPS-GP",
+        "stamp_3031": "S-ILblS-ILbl",
+        "stamp_3041": "S-NExaS-NExa",
+        "stamp_3051": "S-RExS-REx",
+        "stamp_3061": "S-TSmpS-TSmp",
+        "stamp_3071": "S-UAS-UA",
+        "stamp_3081": "S-PPS-PP",
+        "stamp_3091": "S-RPS-RP",
+        "stamp_3101": "S-PNS-PN",
+        "stamp_3111": "S-RNS-RN",
+        "stamp_3121": "S-JPS-JP",
+        "stamp_3131": "S-JNS-JN",
+        "stamp_3132": "S-FLIPS-FLIP",
+        "stamp_3133": "S-FMS-FM",
+        "stamp_3134": "S-XES-XE",
+        "stamp_3135": "S-Tick PerS-Tick Per",
+        "stamp_3136": "S-0+1S-0+1",
+        "stamp_3137": "S-1+0S-1+0",
+        "stamp_3138": "S-0+2S-0+2",
+        "stamp_3139": "S-2+0S-2+0",
+        "stamp_3140": "S-PUS-PU",
+        "stamp_3141": "S-*SYNS-*SYN",
+        "stamp_3142": "S-BaEvS-BaEv",
+        "stamp_3143": "S-AdEvS-AdEv",
+        "stamp_3144": "S-PEOCS-PEOC",
+        "stamp_3145": "S-CriAS-CriA",
+        "stamp_3146": "S-CriBS-CriB",
+        "stamp_3147": "S-CriCS-CriC",
+        "stamp_3148": "S-CriDS-CriD",
+        "stamp_3149": "S-CriES-CriE",
+        "stamp_3150": "S-CriFS-CriF",
+        "stamp_3151": "S-CriGS-CriG",
+        "stamp_3152": "S-CriHS-CriH",
+        "stamp_3153": "S-CriIS-CriI",
+        "stamp_3154": "S-CriJS-CriJ",
+        "stamp_3155": "S-CriKS-CriK",
+        "stamp_3156": "S-+RQS-+RQ",
+        "stamp_3157": "S--RQS--RQ",
+        "stamp_3158": "S-UnspS-Unsp",
+        "stamp_3159": "S-CTXS-CTX",
+        "stamp_3160": "S-+StrS-+Str",
+        "stamp_3161": "S-GSEvS-GSEv",
+        "stamp_3162": "S-NSEvS-NSEv",
+        "stamp_3163": "S-EUOSS-EUOS",
+        "stamp_3164": "S-Tick Quarter MarkS-Tick Quarter Mark",
+        "stamp_3165": "S-GKQS-GKQ",
+        "stamp_3166": "S-A1FS-A1F",
+        "stamp_3167": "S-Acc?S-Acc?",
+        "stamp_3168": "S-AO1S-AO1",
+        "stamp_3169": "S-AO2S-AO2",
+        "stamp_3170": "S-AO3S-AO3",
+        "stamp_3171": "S-BANS-BAN",
+        "stamp_3172": "S-B1FS-B1F",
+        "stamp_3173": "S-BEVS-BEV",
+        "stamp_3174": "S-DPS-DP",
+        "stamp_3175": "S-DTS-DT",
+        "stamp_3176": "S-E0S-E0",
+        "stamp_3177": "S-E1S-E1",
+        "stamp_3178": "S-E2S-E2",
+        "stamp_3179": "S-ELABS-ELAB",
+        "stamp_3180": "S-ENGS-ENG",
+        "stamp_3181": "S-FIWS-FIW",
+        "stamp_3182": "S-FWS-FW",
+        "stamp_3183": "S-GanS-Gan",
+        "stamp_3184": "S-GappS-Gapp",
+        "stamp_3185": "S-GevalS-Geval",
+        "stamp_3186": "S-INACS-INAC",
+        "stamp_3187": "S-JUSTS-JUST",
+        "stamp_3188": "S-LFS-LF",
+        "stamp_3192": "S-NCS-NC",
+        "stamp_3193": "S-NMSS-NMS",
+        "stamp_3194": "S-PARS-PAR",
+        "stamp_3195": "S-RanS-Ran",
+        "stamp_3196": "S-RappS-Rapp",
+        "stamp_3197": "S-REL?S-REL?",
+        "stamp_3198": "S-RevalS-Reval",
+        "stamp_3199": "S-UNCOS-UNCO",
+        "stamp_3200": "S-VAGUS-VAGU",
+        "stamp_3201": "S-WAO1S-WAO1",
+        "stamp_3202": "S-WAO2S-WAO2",
+        "stamp_3203": "S-WEAKS-WEAK",
+        "stamp_3204": "S-WENGS-WENG",
+        "stamp_3205": "S-WKUS-WKU",
+        "stamp_3206": "S-WLABS-WLAB",
+        "stamp_3207": "S-WNRS-WNR",
+        "stamp_3208": "S-WRS-WR",
+        "stamp_3209": "S-SUMCS-SUMC",
+        "stamp_3210": "S-WAYSS-WAYS",
+        "stamp_3211": "S-TFS-TF",
+        "stamp_3212": "S-WRPOS-WRPO",
+        "stamp_3213": "S-WRPRS-WRPR",
+        "stamp_3214": "S-WRDRS-WRDR",
+        "stamp_3215": "dM0",
+        "stamp_3216": "DM1",
+        "stamp_3217": "SC0",
+        "stamp_3218": "SC1",
+        "stamp_3219": "SC2",
+        "stamp_3220": "misschien Impliciete",
+        "stamp_3221": "CS0",
+        "stamp_3222": "Subtle point",
+        "stamp_3223": "Complex",
+        "stamp_3224": "reeks",
+        "stamp_3225": "redelijke Argument",
+        "stamp_3226": "goed argument",
+        "stamp_3227": "Diepte",
+        "stamp_3228": "Saldo",
+        "stamp_3229": "Mft",
+        "on-page-comment-tooltip": "Comentario Comentario"
+      },
+      "discard-message-or-exception-dialog": {
+        "body": "Het openen van een ander bericht wordt wijzigingen aan eventuele nieuwe berichten of uitzonderingen die opgeslagen zijn weggooien. Bent u zeker dat u uw niet-opgeslagen wijzigingen te verliezen?"
+      },
+      "message-list-panel": {
+        "create-new-message": "Crt Nuevo mensajeCrt Nuevo mensaje"
+      },
+      "message-panel": {
+        "header": "mensaje mensaje"
+      },
+      "bookmarks-panel": {
+        "page": "Seite Seite",
+        "add-new-bookmark": "Neues Lesezeichen hinzufügen Neues Lesezeichen hinzufügen",
+        "go-back": "Geh zurück Geh zurück",
+        "return-to-selected-page": "Zurück zur ausgewählten Seite"
+      },
+      "exception-list-panel": {
+        "raise-new-exception": "Heben Ausnahme",
+        "reject-rig": "Verwerp het antwoord",
+        "open-blocking-exception-tooltip": "You will not be able to submit the response until the exception has been resolved and closed",
+        "exception-blocker-resolved": "Sie können die Antwort erst dann einreichen, wenn Sie die Ausnahme geschlossen haben"
+      },
+      "reject-rig-confirmation-dialog": {
+        "body": "Als je dit antwoord weigert, wordt het terug in het zwembad gezet, zodat iemand anders kan markeren; U kunt het niet opnieuw downloaden. U moet dit alleen doen als u denkt dat u de kandidaat kent, of uw aanbestedende dienst heeft u geadviseerd over andere gevallen waarin u een reactie moet afwijzen. Weet je zeker dat je door wilt gaan?",
+        "header": "Reject afwijzen",
+        "cancel-button": "Annuleer",
+        "ok-button": "OK"
+      },
+      "raise-exception-panel": {
+        "exception-relates-to-label": "Diese Ausnahme bezieht sich auf:",
+        "selected-question": "Ausgewählte Frage ",
+        "entire-response": "Gesamte Antwort",
+        "exception-type-label": "Ich erhebe eine Ausnahme aus folgendem Grund:",
+        "minimise-icon-tooltip": "Minimizar Minimizar",
+        "maximise-icon-tooltip": "maximizar maximizar",
+        "close-icon-tooltip": "Cerca Cerca",
+        "submit-button": "einreichen einreichen",
+        "open-exception-exists-against-response": "There is already an open exception of this type against this response",
+        "open-exception-exists-against-question": "There is already an open exception of this type against this question",
+        "comment-placeholder": "Schreiben Sie hier Ihre Nachricht...",
+        "select-exception-type-placeholder": "Wählen Sie Ausnahmetyp",
+        "exception-type-tooltip": "Ausnahmetyp Ausnahmetyp",
+        "blocking-exception-description": " Die Anhebung dieser Ausnahme wird Sie daran hindern, diese Antwort einzureichen, und nur einmal, wenn die Ausnahme gelöst und von Ihnen geschlossen wurde, wird es möglich sein, die Antwort einzureichen.",
+        "non-blocking-exception-description": " Die Anhebung dieser Ausnahme wird Sie nicht davon abhalten, diese Antwort einzureichen.",
+        "incorrect-component-or-paper-additional-description": " Bitte beachten Sie, dass, wenn die Antwort verschoben wird, um die Komponente zu korrigieren, es nicht mehr in Ihrer Liste der Antworten zu markieren.",
+        "file-cannot-be-accessed-or-read-additional-description": " Bitte beachten Sie, dass, wenn diese Datei entfernt wird, um eine andere an ihrem Platz hochzuladen, ist es wahrscheinlich, dass Sie diese Antwort nicht erneut für die Markierung erhalten und jede Markierung würde leider verloren gehen.",
+        "new-exception-subtitle-has-unmanagedslao": "I am unable to mark this response due to the following reason:"
+      },
+      "discard-exception-dialog": {
+        "body": "Are you sure you want to discard this exception without submitting?",
+        "body-navigate-away": "Are you sure you want to navigate from this page as the exception is unsaved and will be discarded?",
+        "body-raise-new": "Are you sure you want to discard your existing unsubmitted exception?",
+        "body-open-another": "Het openen van een andere uitzondering zullen wijzigingen aan eventuele nieuwe berichten of uitzonderingen die opgeslagen zijn weggooien. Bent u zeker dat u uw niet-opgeslagen wijzigingen te verliezen?",
+        "header": "Discard exception",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "view-exception-panel": {
+        "header": "ID de excepción ID de excepción"
+      },
+      "close-exception-dialog": {
+        "body": "Are you sure you want to close this exception?",
+        "header": "Sluiten Uitzondering"
+      },
+      "exception-escalation-points": {
+        "4": "Diese Ausnahme wird zum RM Service Desk eskaliert.",
+        "3": "Diese Ausnahme wird zum Assessment Operations Officer für das Thema, das Sie markieren, eskaliert.",
+        "2": "Diese Ausnahme wird zu Ihrem Supervisor erhoben."
+      },
+      "leaving-response-warning-dialog": {
+        "header": "Reactie verlaten",
+        "body": "Controleer alstublieft het volgende voordat u dit antwoord achterlaat:",
+        "stay-in-response-button": "Blijf als antwoord",
+        "leave-response-button": "Laat reactie achter",
+        "ok-button": "OK"
+      },
+      "submit-response-warning-dialog": {
+        "header": "Stuur reactie",
+        "body": "Controleer alstublieft het volgende voor het indienen van dit antwoord:",
+        "stay-in-response-button": "Blijf als antwoord",
+        "submit-response-button": "Stuur reactie"
+      },
+      "leaving-or-submitting-response-warnings": {
+        "not-all-pages-annotated": "Niet alle pagina's zijn geannoteerd. U kunt het antwoord niet indienen totdat u minstens één annotatie op elke pagina plaatst of de knop 'Markeren als gezien' in de volledige reactieweergave kunt gebruiken om te bevestigen dat u de inhoud van elke pagina hebt bekeken.Niet alle pagina's zijn geannoteerd. U kunt het antwoord niet indienen totdat u minstens één annotatie op elke pagina plaatst of de knop 'Markeren als gezien' in de volledige reactieweergave kunt gebruiken om te bevestigen dat u de inhoud van elke pagina hebt bekeken.",
+        "not-all-pages-annotated-in-grace": "U kunt dit antwoord niet verlaten en uw wijzigingen opslaan totdat u minstenséén annotatie op elke pagina plaatst of de knop 'Markeren als gezien' in volledige reactieweergave kunt gebruiken om te bevestigen dat , e inhoud van elke pagina hebt bekekene inhoud van elke pagina hebt bekekene inhoud van elke pagina hebt bekekene inhoud van elke pagina hebt bekekene inhoud van elke pagina hebt bekekene inhoud van elke pagina hebt bekekene inhoud van elke pagina hebt bekekene inhoud van elke pagina hebt bekekene inhoud van elke pagina hebt bekeken.",
+        "eur-mark-change-reason-not-applied": "U kunt het antwoord niet indienen voordat u verklaart waarom u de punten heeft gewijzigd.U kunt het antwoord niet indienen voordat u verklaart waarom u de punten heeft gewijzigd",
+        "eur-mark-change-reason-not-applied-in-grace": "You cannot leave this response and save your changes until you explain why you have changed the marks.",
+        "message-will-be-discarded": "Het bericht dat u momenteel schrijft, wordt weggegoo.Het bericht dat u momenteel schrijft, wordt weggegoo. Het bericht dat u momenteel schrijft, wordt weggegoo. Het bericht dat u momenteel schrijft, wordt weggegoo",
+        "exception-will-be-discarded": "De uitzondering die u momenteel opgeeft, wordt weggego.",
+        "not-all-slaos-annotated": "Niet alle extra pagina's zijn geannoteerd. U kunt het antwoord niet indienen totdat u tenminste één annotatie op elke extra pagina plaatst.",
+        "not-all-slaos-annotated-in-grace": "U kunt dit antwoord niet verlaten en uw wijzigingen opslaan totdat u tenminste één annotatie op elke extra pagina plaatst.",
+        "all-questions-marked-nr": "Alle vraagstukken in dit antwoord zijn toegewezen aan een 'No Response' (NR) -teken, wat inhoudt dat de kandidaat geen van de vragen heeft geprobeerd.",
+        "questions-marked-nr": "'Geen antwoord '(NR) is toegewezen aan een of meer items die in het totale cijfer zijn opgenomen. Dit houdt in dat de kandidaat de rubriek niet heeft gevolgd.",
+        "questions-marked-nr-used-in-total": "Een 'No response' (NR) -teken is toegewezen aan een of meer verplichte vragenitems. Dit houdt in dat de kandidaat deze vragen niet heeft geprobeerd.",
+        "questions-marked-not-used-in-total": "Punten zijn toegewezen aan een of meer items die niet in het totale cijfer zijn opgenomen. Dit houdt in dat de kandidaat de rubriek niet heeft gevolgd.",
+        "supervisor-remark-decision-not-applied": "Sie können die Antwort nicht abgeben, bis Sie einen Satz von Markierungen auswählen, die als Endnote des Kandidaten verwendet werden sollen.",
+        "supervisor-remark-decision-not-applied-in-grace": "Sie können diese Antwort nicht verlassen und Ihre Änderungen speichern, bis Sie einen Satz von Markierungen auswählen, die als Endnote des Kandidaten verwendet werden sollen.",
+        "enhanced-off-page-comment-will-be-discarded": "Änderungen, die Sie an den ausgewählten Kommentar vorgenommen haben, werden verworfen.",
+        "not-all-files-viewed": "Niet alle bestanden die bij het huidige antwoord zijn geassocieerd, zijn bekeken. U kunt het antwoord niet indienen totdat u alle bestanden hebt bekeken.",
+        "file-downloaded-outside": "Please ensure that you have closed any files you have downloaded and opened outside of Assessor for this response."
+      },
+      "ecoursework-file-browser": {
+        "header": "bestanden",
+        "collapse-button-tooltip": "Collapse File List paneel",
+        "expand-button-tooltip": "Uitbreid bestandslijstpaneel",
+        "previous-button-tooltip": "voorgaand",
+        "next-button-tooltip": "volgende",
+        "show-more-metadata": "Zeig mehr Zeig mehr ...",
+        "show-less-metadata": "Zeige weniger Zeige weniger ..."
+      },
+      "media-player": {
+        "download-icon-tooltip": "Download-Datei Download-Datei",
+        "play-original-file": "speel origineel bestand speel origineel bestand",
+        "play-transcoded-file": "Speel getranscodeerd bestand Speel getranscodeerd bestand",
+        "file-to-play-icon-tooltip": "Selecteer de versie van het bestand dat u wilt afspelen Selecteer de versie van het bestand dat u wilt afspelen",
+        "download-transcoded-icon-tooltip": "Download de transcodeerde versie van dit bestand Download de transcodeerde versie van dit bestand",
+        "browser-not-supported-error": "Su navegador no puede reproducir el archivo de audio / vídeo. Asegúrese de que utiliza un dispositivo y un navegador compatibles Su navegador no puede reproducir el archivo de audio / vídeo. Asegúrese de que utiliza un dispositivo y un navegador compatibles",
+        "play-pause-button-tooltip": "jugar/pausa jugar/pausa",
+        "play-button-tooltip": "Jugar Jugar",
+        "pause-button-tooltip": "Pausa Pausa",
+        "playback-time-tooltip": "Tiempo de reproducción de medios Tiempo de reproducción de medios",
+        "unmute-button-tooltip": "Activar sonido Activar sonido",
+        "mute-button-tooltip": "mudo mudo",
+        "volume-slider-tooltip": "Nivel de volumen de medios Nivel de volumen de medios",
+        "mute-unmute-button-tooltip": "mudo/Reanudar mudo/Reanudar",
+        "full-screen-button-tooltip": "Full screen",
+        "exit-full-screen-button-tooltip": "Exit full screen",
+        "file-name": "Dateiname",
+        "thumbnail-view": "Thumbnail view",
+        "list-view": "List view"
+      },
+      "media-player-error-dialog": {
+        "header-audio": "Unable to play audio file",
+        "body-audio-network-error": "There was a problem with the connection when trying to load the audio file. Please try selecting the file again.",
+        "body-audio-generic-error": "There was a problem loading the audio file. Please try selecting the file again. If the issue persists, please try ",
+        "header-video": "Unable to play video file",
+        "body-video-network-error": "There was a problem with the connection when trying to load the video file. Please try selecting the file again.",
+        "body-video-generic-error": "There was a problem loading the video file. Please try selecting the file again. If the issue persists, please try ",
+        "error-details": "Error Code : {0} <br/> Error details : {1}",
+        "quick-link-play-transcoded": "transcoded version",
+        "quick-link-play-original": "original version",
+        "quick-link-download-file": "opening the file outside Assessor 3",
+        "quick-link-or": " or ",
+        "quick-link-raise-exception": "raise an exception",
+        "quick-link-play-alternate": "You can also try playing the ",
+        "quick-link-play-alternate-suffix": " of this file."
+      },
+      "off-page-comments-panel": {
+        "comment-text-placeholder": "Einen Kommentar hinzufügen Einen Kommentar hinzufügen",
+        "previous-comment-header": "Vorherige Kommentare Vorherige Kommentare"
+      },
+      "enhanced-off-page-comments-panel": {
+        "add-comment": "Einen Kommentar hinzufügen",
+        "item-column-header": "Item",
+        "file-column-header": "het dossier",
+        "comment-column-header": "Commentaar",
+        "delete-button": "Verwijder",
+        "cancel-button": "Annuleer",
+        "close-button": "Dichtbij",
+        "save-button": "sparen",
+        "question-item-dropdown-tooltip": "Zugehörige Frage: ",
+        "file-dropdown-tooltip": "Zugehörige Datei: "
+      },
+      "delete-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "Möchten Sie diesen Kommentar wirklich löschen?",
+        "header": "Kommentar löschen"
+      },
+      "discard-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "Sind Sie sicher, dass Sie die Änderungen, die Sie zu diesem Kommentar gemacht haben, verwerfen möchten?",
+        "header": "Änderungen verwerfen"
+      },
+      "discard-new-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "Bist du sicher, dass du diesen Kommentar verwerfen möchtest?",
+        "header": "Kommentar verwerfen"
+      },
+      "discard-enhanced-off-page-comment-other-set-confirmation-dialog": {
+        "header": "Verwijder commentaar",
+        "body": "Als u een andere reeks opmerkingen selecteert, wordt de reactie die u momenteel bewerkt, weggegooid. Weet je zeker dat je door wilt gaan?"
+      },
+      "ecoursework-unsupported-file-placeholder": {
+        "line-1": "Dit bestand kan niet bekeken worden binnen RM Assessor dit bestand kan niet bekeken worden binnen RM Assessor",
+        "line-2": "Het kan worden gedownload en geopend op uw computer.Het kan worden gedownload en geopend op uw computer."
+      },
+      "ebookmarking": {
+        "unzoned-images-placeholder": "Er is geen inhoud toegewezen aan dit vraagstuk.Er is geen inhoud toegewezen aan dit vraagstuk."
+      },
+      "zoning-warning-dialog": {
+        "ok-button": "OK",
+        "header": "Zonering in behandeling",
+        "body": "The zoning of this candidate's script is being reviewed following an exception raised against another response. Please be aware that the image zones displayed may be changed as a result of this exception. It is suggested that you select other responses to mark until this exception is resolved."
+      }
+    },
+    "full-response-view": {
+      "script-page": {
+        "suppressed-page-tooltip": "No tienes permiso para ver esta página ; no es parte de la respuesta del candidato y puede contener información que los identificaNo tienes permiso para ver esta página ; no es parte de la respuesta del candidato y puede contener información que los identifica",
+        "suppressed-page": "PÁGINA ELIMINADOPÁGINA ELIMINADO",
+        "additional-page-indicator": "extra pagina",
+        "mark-this-page-button": "Marque esta páginaMarque esta página",
+        "view-this-page-button": "Ver esta páginaVer esta página",
+        "flag-as-seen-button": "Flag como se veFlag como se ve",
+        "link-to-question-button": "Link to question",
+        "view-and-edit-links-button": "View & edit links"
+      },
+      "view-one-page": "1 página1 página",
+      "view-two-page": "2 página2 página",
+      "view-four-page": "4 página4 página",
+      "view-one-page-tooltip": "1 página ver1 página ver",
+      "view-two-page-tooltip": "2 página ver2 página ver",
+      "view-four-page-tooltip": "4 página ver4 página ver",
+      "only-show-unannotated-pages": " Sólo mostrar páginas unannotated  Sólo mostrar páginas unannotated ",
+      "show-all-pages-of-script": "Toon alle pagina's",
+      "show-all-pages-of-script-tooltip": "Toon alle pagina's van het script",
+      "only-show-unannotated-additional-pages-tooltip": "Toon alleen niet-geannoteerde extra pagina's",
+      "all-pages-annotated-text-full-response": "Todas las páginas de este script se han anotadoTodas las páginas de este script se han anotado",
+      "all-pages-annotated-text-no-pages-to-display-full-response": "este script se han anotadoeste script se han anotado",
+      "only-show-unannotated-additional-pages": "Nur unangemeldeten zusätzlichen Seiten anzeigen Nur Seiten anzeigen",
+      "all-additional-pages-annotated-text-full-response": "Alle weiteren Seiten dieser Antwort wurden kommentiert Alle weiteren Seiten dieser kommentiert",
+      "all-additional-pages-annotated-text-no-pages-to-display-full-response": "Es sind keine unangemeldeten zusätzlichen Seiten anzuzeigen Es sind keine anzuzeigen",
+      "page-linking-popup": {
+        "header": "Please choose question item(s) to link this page to",
+        "ok-button": "Cancel",
+        "cancel-button": "OK"
+      },
+      "unlink-annotations-exist-dialog": {
+        "header": "Annotated pages",
+        "body": "You may not unlink the following question item(s) because there are annotations related to them on this page. Please remove the annotations before unlinking."
+      },
+      "manage-slaos-dialog": {
+        "header": "Gérer des pages supplémentaires",
+        "body": "La réponse de ce candidat contient des pages supplémentaires qui ne font pas partie du livret de réponses principal. Veuillez lire attentivement ces pages. Une fois que vous avez soit lié chaque page à un ou plusieurs éléments de question, ou le marqué comme \"Vu\", vous serez en mesure de commencer à marquer la réponse.",
+        "ok-button": "OK"
+      },
+      "slaos-managed-dialog": {
+        "header": "Páginas adicionales gestionadas",
+        "body": "Todas las páginas adicionales se han vinculado a un elemento de pregunta o marcado como \"Visto \". Quieres empezar a marcar esta respuesta ahora?",
+        "yes-button": "Sí",
+        "no-button": "No"
+      },
+      "slao-link-removal-dialog": {
+        "header": "Confirmar la revisión de la página adicional",
+        "body": "Al eliminar todos los enlaces de esta página, está confirmando que esta página no contiene nada que cuente para la marca del candidato para esta respuesta. Si esto es correcto, seleccione \"OK\". De lo contrario, seleccione \"Cancelar\" y, a continuación, vincularlo a los elementos de la pregunta a los que se refiere.Al eliminar todos los enlaces de esta página, está confirmando que esta página no contiene nada que cuente para la marca del candidato para esta respuesta. Si esto es correcto, seleccione \"OK\". De lo contrario, seleccione \"Cancelar\" y, a continuación, vincularlo a los elementos de la pregunta a los que se refiere.Al eliminar todos los enlaces de esta página, está confirmando que esta página no contiene nada que cuente para la marca del candidato para esta respuesta. Si esto es correcto, seleccione \"OK\". De lo contrario, seleccione \"Cancelar\" y, a continuación, vincularlo a los elementos de la pregunta a los que se refiere.",
+        "ok-button": "OK",
+        "cancel-button": "Cancelar"
+      },
+      "unknown-content-link-removal-dialog": {
+        "header": "Confirmar revisión de contenido desconocido",
+        "body": "Al eliminar todos los enlaces de esta página, está confirmando que esta página no contiene nada que cuente para la marca del candidato para esta respuesta. Si esto es correcto, seleccione \"OK\". De lo contrario, seleccione \"Cancelar\" y, a continuación, vincularlo a los elementos de la pregunta a los que se refiere.Al eliminar todos los enlaces de esta página, está confirmando que esta página no contiene nada que cuente para la marca del candidato para esta respuesta. Si esto es correcto, seleccione \"OK\". De lo contrario, seleccione \"Cancelar\" y, a continuación, vincularlo a los elementos de la pregunta a los que se refiere.Al eliminar todos los enlaces de esta página, está confirmando que esta página no contiene nada que cuente para la marca del candidato para esta respuesta. Si esto es correcto, seleccione \"OK\". De lo contrario, seleccione \"Cancelar\" y, a continuación, vincularlo a los elementos de la pregunta a los que se refiere.",
+        "ok-button": "OK",
+        "cancel-button": "Cancelar"
+      },
+      "manage-slaos-remark-dialog": {
+        "header": "Bekijk extra pagina's",
+        "body": "Het antwoord van deze kandidaat bevat aanvullende pagina's die niet deel uitmaken van het hoofdantwoordboekje. De oorspronkelijke examinator heeft deze al beoordeeld en hen ofwel gekoppeld aan vraag-item (s) of gemarkeerd als \"Gezien \". Controleer alstublieft deze pagina's en koppelingen zorgvuldig en pas eventueel aanpassingen aan voordat u de originele markeringen begint te beoordelen en aan te passen.",
+        "ok-button": "OK"
+      },
+      "back-to-marking-button": "Calificación Calificación",
+      "back-to-marking-button-tooltip": "Volver a MarcadoVolver a Marcado",
+      "problems-button-while-managing-slaos-tooltip": "Problems with this response",
+      "flag-as-seen-dialog": {
+        "header": "Bevestig herziening van extra pagina",
+        "body": "Door selecteren van \"OK \" bevestigt u dat deze pagina niet iets dat zou meetellen voor het merk van de kandidaat voor deze reactie bevat. Als dit juist is, selecteert u \"OK \". Anders selecteert u \"Annuleren \" en te koppelen vervolgens naar de vraag Item (s) zij betrekking heeft.",
+        "ok-button": "OK",
+        "cancel-button": "Annuleer"
+      },
+      "ebookmarking-flag-as-seen-dialog": {
+        "header": "Bestätigung der Überprüfung nicht zugewiesener Inhalte bestätigen",
+        "body": "Wenn Sie \"OK\" auswählen, bestätigen Sie, dass der nicht zugewiesene Inhalt auf dieser Seite nichts enthält, was für die Antwort auf die Markierung des Kandidaten zählen würde. Wenn dies korrekt ist, wählen Sie OK . Ansonsten wählen Sie bitte Abbrechen und verknüpfen es dann mit dem  den betreffenden Fragenfeldern.",
+        "ok-button": "OK",
+        "cancel-button": "Annuleer"
+      },
+      "unknown-content-dialog": {
+        "header": "Verwalten unbekannter Inhalte Verwalten unbekannter Inhalte",
+        "body": "Die Antwort dieses Kandidaten enthält Seiten oder Teile von Seiten, die keinem Fragenelement zugewiesen wurden. Bitte lesen Sie diese Seiten sorgfältig durch, um zu überprüfen, ob sie sich auf Fragen beziehen, für die Sie Marken einreichen. Nachdem Sie jede Seite mit einem oder mehreren Fragen verknüpft oder als \"Gesehen\" gekennzeichnet haben, können Sie beginnen, die Antwort zu markieren. Die Antwort dieses Kandidaten enthält Seiten oder Teile von Seiten, die keinem Fragenelement zugewiesen wurden. Bitte lesen Sie diese Seiten sorgfältig durch, um zu überprüfen, ob sie sich auf Fragen beziehen, für die Sie Marken einreichen. Nachdem Sie jede Seite mit einem oder mehreren Fragen verknüpft oder als \"Gesehen\" gekennzeichnet haben, können Sie beginnen, die Antwort zu markieren.",
+        "ok-button": "OK"
+      },
+      "unknown-content-managed-dialog": {
+        "header": "Unbekannter Inhalt verwaltet Unbekannter Inhalt verwaltet",
+        "body": "Alle Seiten mit unbekanntem Inhalt wurden mit einem Fragenelement verknüpft oder als \"gesehen\" gekennzeichnet. Möchten Sie diese Antwort jetzt markieren? Alle Seiten mit unbekanntem Inhalt wurden mit einem Fragenelement verknüpft oder als \"gesehen\" gekennzeichnet. Möchten Sie diese Antwort jetzt markieren?",
+        "yes-button": "Ja Ja",
+        "no-button": "Nein Nein"
+      },
+      "unknown-content-dialog-in-remark": {
+        "header": "Verwalten unbekannter Inhalte Verwalten unbekannter Inhalte",
+        "body": "Die Antwort dieses Kandidaten enthält Seiten oder Teile von Seiten, die keinem Fragenelement zugewiesen wurden. Bitte lesen Sie diese Seiten sorgfältig durch, um zu überprüfen, ob sie sich auf Fragen beziehen, für die Sie Marken einreichen. Nachdem Sie jede Seite mit einem oder mehreren Fragen verknüpft oder als \"Gesehen\" gekennzeichnet haben, können Sie beginnen, die Antwort zu markieren. Die Antwort dieses Kandidaten enthält Seiten oder Teile von Seiten, die keinem Fragenelement zugewiesen wurden. Bitte lesen Sie diese Seiten sorgfältig durch, um zu überprüfen, ob sie sich auf Fragen beziehen, für die Sie Marken einreichen. Nachdem Sie jede Seite mit einem oder mehreren Fragen verknüpft oder als \"Gesehen\" gekennzeichnet haben, können Sie beginnen, die Antwort zu markieren.",
+        "ok-button": "OK"
+      }
+    }
+  },
+  "generic": {
+    "busy-indicator": {
+      "responseAllocation": "Responses being downloaded, please wait...Responses being downloaded, please wait...",
+      "submit": "respuestas descargado, puede de...respuestas descargado, puede de...",
+      "none": "Cargando...Cargando...",
+      "loadingModules": "Cargando...Cargando...",
+      "submitAll": "respuestas descargados, puede de...respuestas descargados, puede de...",
+      "saveEmail": "Guardando dirección de correo electrónico ...Guardando dirección de correo electrónico ...",
+      "loadingResponse": "Cargando...Cargando...",
+      "savingMarksAndAnnotations": "Ahorro de marcas y anotaciones. Por favor espera...Ahorro de marcas y anotaciones. Por favor espera...",
+      "savingMarksAndAnnotations-offline": "3 evaluador está tratando de guardar su trabajo , pero que están actualmente fuera de línea . Por favor revise su conexion a internet. Una vez establecida la conexión se guardará automáticamente su trabajo . Por favor, no cierre el navegador o perderá los cambios no guardados .3 evaluador está tratando de guardar su trabajo , pero que están actualmente fuera de línea . Por favor revise su conexion a internet. Una vez establecida la conexión se guardará automáticamente su trabajo . Por favor, no cierre el navegador o perderá los cambios no guardados .",
+      "submitInResponseScreen": "respuestas descargado, puede de...respuestas descargado, puede de...",
+      "loadResponseInMessage": "stas descargado, puede derespuest..",
+      "loadingHistoryDetails": "Cargando Cargando.."
+    },
+    "error-dialog": {
+      "header": "Error inesperadoError inesperado",
+      "view-more": "Ver más informaciónVer más información",
+      "ok-button": "Okay Okay",
+      "body": "This action could not be completed. Please try again, and contact your helpdesk if the issue persists.This action could not be completed. Please try again, and contact your helpdesk if the issue persists.",
+      "body-error-saving-user-options": "Lo sentimos , los cambios realizados en la configuración de usuario no podrían salvarse . Por favor, abra el menú de usuario y vuelva a intentarlo.Lo sentimos , los cambios realizados en la configuración de usuario no podrían salvarse . Por favor, abra el menú de usuario y vuelva a intentarlo.",
+      "body-network-error": "Error de red, No se puede conectar con el servidor.Error de red, No se puede conectar con el servidor.",
+      "body-response-removed": "For your information response ID {0} has been removed  for question group {1}."
+    },
+    "browser-warnings": {
+      "close-browser-warning": "Por favor, utilice el botón 'Salir' para salir del Tasador 3 y asegurarse de que su trabajo se guarda. Si cierra el navegador sin necesidad de salir de la sesión se perderá cualquier trabajo no guardado.Por favor, utilice el botón 'Salir' para salir del Tasador 3 y asegurarse de que su trabajo se guarda. Si cierra el navegador sin necesidad de salir de la sesión se perderá cualquier trabajo no guardado."
+    },
+    "offline-dialog": {
+      "header": "Working offline",
+      "body": "This action cannot be completed because RM Assessor{0} cannot communicate with the server. Please check your Internet connection and try again. To avoid losing work, please don't log out or close your browser until you are back online.",
+      "body-user-options-changed": "Assessor 3 cannot communicate with the server to save your preferences and log out. Please check your Internet connection and try again.",
+      "body-application-files-not-downloaded": "Deze actie kan niet worden voltooid omdat RM Assessor{0} niet kan communiceren met de server. Controleer alstublieft uw internetverbinding. Zodra u weer online bent, wordt u automatisch naar het gebied dat u probeerde toegang te krijgen. Om uw werk te verliezen, sluit uw browser niet af."
+    },
+    "approval-statuses": {
+      "None": "Ninguna Ninguna",
+      "NotApproved": "No aprobadoNo aprobado",
+      "PracticeCompleted": "Completado la prácticaCompletado la práctica",
+      "StandardisationCompleted": "Normalización CompletadoNormalización Completado",
+      "Approved": "AprobadoAprobado",
+      "ApprovedReview": "Revisión aprobadoRevisión aprobado",
+      "UnapprovedRestandardise": "Un Aprobado restándarizaciónUn Aprobado restándarización",
+      "UnapprovedRejected": "Un aprobó RechazadoUn aprobó Rechazado",
+      "Withdrawn": "retirado retirado",
+      "Suspended": "Revisión pendienteRevisión pendiente",
+      "ConditionallyApproved": "Aprobado condicionalmenteAprobado condicionalmente",
+      "status-changed-header": "Estado de aprobación cambióEstado de aprobación cambió",
+      "status-changed": "Su estado de aprobación en este grupo de preguntas ha cambiado y no se puede descargar o enviar respuestas hasta que su supervisor le proporciona retroalimentación . Todavía se puede revisar cualquier respuesta que ya han sido descargados en su lista de trabajo. Esto no impedirá que se pueda marcar otros grupos de preguntas donde se tiene una cuota.Su estado de aprobación en este grupo de preguntas ha cambiado y no se puede descargar o enviar respuestas hasta que su supervisor le proporciona retroalimentación . Todavía se puede revisar cualquier respuesta que ya han sido descargados en su lista de trabajo. Esto no impedirá que se pueda marcar otros grupos de preguntas donde se tiene una cuota.",
+      "status-changed-qualityfeedback": "Su estado de aprobación en este grupo de preguntas ha cambiado y no se puede descargar o enviar respuestas hasta que haya aceptado comentarios acerca de esta semilla, y su supervisor le ha proporcionado más comentarios acerca de su marcaje . Esto no impedirá que se pueda marcar otros grupos de preguntas donde se tiene una cuota.Su estado de aprobación en este grupo de preguntas ha cambiado y no se puede descargar o enviar respuestas hasta que haya aceptado comentarios acerca de esta semilla, y su supervisor le ha proporcionado más comentarios acerca de su marcaje . Esto no impedirá que se pueda marcar otros grupos de preguntas donde se tiene una cuota.",
+      "AwaitingApproval": "esperando aprobacion",
+      "Complete": "compleet"
+    },
+    "examiner-roles": {
+      "assistantExaminer": "Auxiliar examinadorAuxiliar examinador",
+      "teamLeader": "Capitan del equipoCapitan del equipo",
+      "principalExaminer": "examinador Principalexaminador Principal",
+      "administrator": "AdministradorAdministrador",
+      "generalMarker": "marcador generalmarcador general",
+      "viewer": "EspectadorEspectador",
+      "assistantPrincipalExaminer": "Examinateur principal adjointExaminateur principal adjoint",
+      "assistantExaminer_MFI_SSU": "Examinador asistente IMF SSUExaminador asistente IMF SSU",
+      "assistantExaminer_MFI": "Examinador asistente MFIExaminador asistente MFI",
+      "subjectMarker_MFI_Marking_Centre": "Asunto MFI marcador Marcado CentroAsunto MFI marcador Marcado Centro",
+      "subjectMarker_MFI_Home": "Asunto Inicio Marcador MFIAsunto Inicio Marcador MFI",
+      "serviceDelivery": "servicio de Entregaservicio de Entrega",
+      "superAdministrator": "Super administradorSuper administrador",
+      "seniorTeamLeader": "Líder del equipo de alto nivelLíder del equipo de alto nivel",
+      "principalModerator_Postal": "Moderador Principal PostalModerador Principal Postal",
+      "autoMarker": "marcador automáticomarcador automático",
+      "subjectMarker_MFI_H_SSU": "Asunto marcador MFI H SSUAsunto marcador MFI H SSU",
+      "autoApprovedSeniorTeamLeader": "Auto Aprobado Líder del equipo seniorAuto Aprobado Líder del equipo senior",
+      "autoMessaging": "automático de mensajeríaautomático de mensajería",
+      "adminRemarker": "administrador Remarkeradministrador Remarker",
+      "assistantExaminer_Visiting": "Auxiliar examinador visitanteAuxiliar examinador visitante"
+    },
+    "logout-dialog": {
+      "ask-every-time": "Salir de confirmaciónSalir de confirmación",
+      "body": "¿Seguro que quieres salir?¿Seguro que quieres salir?",
+      "header": "Salir de confirmaciónSalir de confirmación",
+      "no-button": "NoNo",
+      "yes-button": "SíSí"
+    },
+    "user-menu": {
+      "user-options": {
+        "logout-confirmation": "Salir de confirmaciónSalir de confirmación",
+        "logout-confirmation-tooltip": "Logout confirmation",
+        "assign-single-digit-marks-without-pressing-enter": "Toewijzen van een cijfer zonder dat u op Enter drukt",
+        "pause-media-when-offpage-comments-are-added": "Pause media when offpage comments are added",
+        "language": "idioma idioma",
+        "email-me-when-scripts-are-available-for-standardisation": "Email me when scripts are available for standardisation",
+        "enter-email-address-above": "(Enter email address above)",
+        "on-screen-hints": "Show on-screen hints Show on-screen hints"
+      },
+      "profile-section": {
+        "logout-button": "Cerrar sesiónCerrar sesión",
+        "edit-settings": "Editar ajustesEditar ajustes",
+        "user-name": "Nombre de usuarioNombre de usuario",
+        "email-validation-message": "Por favor, introduce una dirección de correo electrónico válidaPor favor, introduce una dirección de correo electrónico válida",
+        "email-address-placeholder": "Introducir la dirección de correo electrónicoIntroducir la dirección de correo electrónico",
+        "save-email-button": "Salvar Salvar",
+        "cancel-email-button": "Cancelar Cancelar"
+      },
+      "email-address-saved-dialog": {
+        "body": "La dirección de correo electrónico asociada con su cuenta de RM Evaluador se ha actualizado correctamente . Por favor asegúrese de que también actualiza su dirección de correo electrónico en sistemas asociados , si es necesario ( por ejemplo, si su cuerpo adjudicación se requiere para notificarles de los cambios de dirección de correo electrónico , o si aumentar las llamadas de soporte a través de rm.com ) .La dirección de correo electrónico asociada con su cuenta de RM Evaluador se ha actualizado correctamente . Por favor asegúrese de que también actualiza su dirección de correo electrónico en sistemas asociados , si es necesario ( por ejemplo, si su cuerpo adjudicación se requiere para notificarles de los cambios de dirección de correo electrónico , o si aumentar las llamadas de soporte a través de rm.com ) .",
+        "header": "actualizado correctamenteactualizado correctamente"
+      }
+    },
+    "marking-modes": {
+      "None": "NingunaNinguna",
+      "PreStandardisation": "Normalización PreNormalización Pre",
+      "Practice": "Práctica Práctica",
+      "Approval": "Normalización Normalización",
+      "ES_TeamApproval": "STM NormalizaciónSTM Normalización",
+      "Pre_ES_TeamStandardisation": "Normalización de Prensa EquipoNormalización de Prensa Equipo",
+      "StandardisationReview": "Revisión NormalizaciónRevisión Normalización",
+      "SeedingReview": "Revisión SiembraRevisión Siembra",
+      "LiveMarking": "Live live",
+      "Remarking": "comentando comentando",
+      "Adjudication": "Adjudicación Adjudicación",
+      "Sample": "Muestra Muestra",
+      "Seeding": "Siembra Siembra",
+      "MarkFromPaper": "Mark De PapelMark De Papel",
+      "Simulation": "Simulación Simulación",
+      "Marking": "Calificación Calificación",
+      "SecondStandardisation": "2 lugar Normalización2 lugar Normalización",
+      "RemarkPooled": "Opmerking PooledOpmerking Pooled",
+      "PooledResultsEnquiry": "Resultaten Aanvraag PooledResultaten Aanvraag Pooled",
+      "AtRiskPooled": "At Risk PooledAt Risk Pooled",
+      "EnquiryUponResultPooled": "Aanvraag Upon Resultaat PooledAanvraag Upon Resultaat Pooled",
+      "GradeReviewPooled": "Grade Beoordeling PooledGrade Beoordeling Pooled",
+      "PooledAdminRemark": "Gepoolde Admin Re-markGepoolde Admin Re-mark",
+      "PooledCaseReviewRemark": "Gepoolde Case Beoordeling Re-markGepoolde Case Beoordeling Re-mark",
+      "AdjudicationPooled": "Adjudication PooledAdjudication Pooled",
+      "RemarkPooled1": "Re-mark Pooled 1Re-mark Pooled 1",
+      "RemarkPooled2": "Re-mark Pooled 2Re-mark Pooled 2",
+      "RemarkPooled3": "Re-mark Pooled 3Re-mark Pooled 3",
+      "Priority Remark": "Priority Remark Priority Remark"
+    },
+    "navigation-bar": {
+      "inbox-tooltip": "Bandeja de entradaBandeja de entrada",
+      "inbox": "mensajes mensajes",
+      "user-menu-tooltip": "Perfil de usuario y configuracionesPerfil de usuario y configuraciones",
+      "breadcrumbs": {
+        "home": "Huis",
+        "team-management-for": "Gestión de equipos para Gestión de equipos para ",
+        "worklist-for": "Lista de trabajo para Lista de trabajo para ",
+        "team": "Equipo Equipo",
+        "worklist": "Lista de trabajo Lista de trabajo",
+        "team-management": "Gestión de equipos Gestión de equipos",
+        "inbox": "Bandeja de entrada",
+        "marking-check": "Marcado de cheques",
+        "reports": "Rapporten Rapporten",
+        "awarding": "Awarding Awarding",
+        "standardisation-setup-for": "Standardisierungseinstellung für ",
+        "select-responses": "Wählen Sie Antworten aus"
+      },
+      "menu": "Menú Menú",
+      "menu-tooltip": "Opciones de navegación Opciones de navegación",
+      "exception": "Exceptions"
+    },
+    "accuracy-indicators": {
+      "accurate": "Preciso Preciso",
+      "accurate-tooltip": "Sus marcas para esta respuesta coincidan exactamente con las marcas definitivasSus marcas para esta respuesta coincidan exactamente con las marcas definitivas",
+      "inaccurate": "Incorrecto Incorrecto",
+      "inaccurate-tooltip": "Sus marcas para esta respuesta no coincidan exactamente con las marcas definitivas , y están fuera de la tolerancia aceptableSus marcas para esta respuesta no coincidan exactamente con las marcas definitivas , y están fuera de la tolerancia aceptable",
+      "in-tolerance": "en la Toleranciaen la Tolerancia",
+      "in-tolerance-tooltip": "Sus marcas para esta respuesta no coincidan exactamente con las marcas definitivas , pero están dentro de la tolerancia aceptableSus marcas para esta respuesta no coincidan exactamente con las marcas definitivas , pero están dentro de la tolerancia aceptable",
+      "accurate-tooltip-team-management": "Die Markierungen für diese Antwort entsprechen genau den endgültigen Markierungen",
+      "inaccurate-tooltip-team-management": "Die Markierungen für diese Antwort entsprechen nicht genau den endgültigen Markierungen und liegen außerhalb der akzeptablen Toleranz",
+      "in-tolerance-tooltip-team-management": "Die Markierungen für diese Antwort entsprechen nicht genau den endgültigen Markierungen, sondern liegen innerhalb der akzeptablen Toleranz",
+      "original-mark-accurate-tooltip": "Ihre Markierungen für diese Antwort entsprechen genau den Originalmarken Ihre Markierungen für diese Antwort entsprechen genau den Originalmarken",
+      "original-mark-inaccurate-tooltip": "Ihre Markierungen für diese Antwort entsprechen nicht genau den Originalmarken und liegen außerhalb der akzeptablen Toleranz Ihre Markierungen für diese Antwort entsprechen nicht genau den Originalmarken und liegen außerhalb der akzeptablen Toleranz",
+      "original-mark-in-tolerance-tooltip": "Ihre Markierungen für diese Antwort entsprechen nicht genau den Originalmarken, sondern liegen innerhalb der akzeptablen Toleranz Ihre Markierungen für diese Antwort entsprechen nicht genau den Originalmarken, sondern liegen innerhalb der akzeptablen Toleranz",
+      "original-mark-accurate-tooltip-team-management": "Die Markierungen für diese Antwort entsprechen genau den Originalmarken",
+      "original-mark-inaccurate-tooltip-team-management": "Die Markierungen für diese Antwort stimmen nicht genau mit den Originalmarken überein und liegen außerhalb der zulässigen Toleranz Die Markierungen für diese Antwort stimmen nicht genau mit den Originalmarken überein und liegen außerhalb der zulässigen Toleranz",
+      "original-mark-in-tolerance-tooltip-team-management": "Die Markierungen für diese Antwort entsprechen nicht genau den Originalmarken, sondern liegen innerhalb der akzeptablen Toleranz Die Markierungen für diese Antwort entsprechen nicht genau den Originalmarken, sondern liegen innerhalb der akzeptablen Toleranz"
+    },
+    "remark-types": {
+      "long-names": {
+        "PooledResultsEnquiry": "Resultados Consulta agrupadoResultados Consulta agrupado",
+        "GradeReviewPooled": "Grade Review PooledGrade Review Pooled",
+        "AtRiskPooled": "Grado Comentario agrupadoGrado Comentario agrupado",
+        "EnquiryUponResultPooled": "Consulta Al resultado agrupadoConsulta Al resultado agrupado",
+        "RemarkPooled": "Canasta de Re-marcaCanasta de Re-marca",
+        "PooledAdminRemark": "Canasta de administración Re-MarkCanasta de administración Re-Mark",
+        "PooledCaseReviewRemark": "Canasta de revisión de casos Re-marcaCanasta de revisión de casos Re-marca",
+        "RemarkPooled1": "RP1 ObservaciónRP1 Observación",
+        "RemarkPooled2": "RP2 ObservaciónRP2 Observación",
+        "RemarkPooled3": "RP3 ObservaciónRP3 Observación",
+        "AdjudicationPooled": "Adjudicación Observación agrupadoAdjudicación Observación agrupado",
+        "ArbitrationRemark": "Observación ArbitrajeObservación Arbitraje",
+        "PriorityRemark": "Observación prioritariaObservación prioritaria",
+        "AtRisk": "En riesgoEn riesgo",
+        "EnquiryUponResult": "Consultas sobre los resultadosConsultas sobre los resultados",
+        "RemarkRIGExaminer": "General Re{0}marca de 3General Re{0}marca de 3",
+        "RemarkCandidateExaminer": "General Re{0}marca de 4General Re{0}marca de 4",
+        "GradeReviewDirected": "Grado Revisión DirigidaGrado Revisión Dirigida",
+        "PartialRemark": "Parcial Re{0}marcaParcial Re{0}marca",
+        "Remark": "Re{0}marcaRe{0}marca",
+        "ResultEnquiry": "Consulta resultadoConsulta resultado",
+        "ReviewRemark": "Comentario Re{0}marcaComentario Re{0}marca",
+        "SampleRemark": "Muestra Re{0}marcaMuestra Re{0}marca",
+        "SeedingRemark": "Siembra Re{0}marcaSiembra Re{0}marca",
+        "SupervisorRemark": "Supervisor Re{0}marcaSupervisor Re{0}marca",
+        "WithdrawnSeedRemark": "Retirado Semilla Re{0}markRetirado Semilla Re{0}mark",
+        "RemarkCandidateRIG": "G1 Re{0}marca",
+        "AdminRemark": "Admin re-mark"
+      },
+      "short-names": {
+        "AberrantMarker": "AMAM",
+        "ReallocateRIG": "RMRM",
+        "GradeReview": "GRAMOGRAMO",
+        "PriorityResultEnquiry": "PREPRE",
+        "ResultEnquiry": "RERE",
+        "SeedingRemark": "SRSR",
+        "RemarkCandidate": "RCRC",
+        "RemarkRIGExaminer": "RRERRE",
+        "RemarkCandidateExaminer": "RCERCE",
+        "PartialRemark": "PRMPRM",
+        "GradeReviewDirected": "GRDGRD",
+        "InsufficientSample": "ESES",
+        "PooledResultsEnquiry": "REPSREPS",
+        "SupervisorRemark": "SPRSPR",
+        "GradeReviewPooled": "GRPGRP",
+        "RemarkCandidateRIG": "G1G1",
+        "SampleRemark": "SAMSAM",
+        "AtRisk": "ARAR",
+        "AtRiskPooled": "ARPARP",
+        "EnquiryUponResult": "EUREUR",
+        "EnquiryUponResultPooled": "ERPERP",
+        "Remark": "RR",
+        "RemarkPooled": "RPRP",
+        "ReviewRemark": "RRRR",
+        "PooledAdminRemark": "ADRADR",
+        "PooledCaseReviewRemark": "CRRCRR",
+        "WithdrawnSeedRemark": "WSRWSR",
+        "RemarkPooled1": "RP1RP1",
+        "RemarkPooled2": "RP2RP2",
+        "RemarkPooled3": "RP3RP3",
+        "AdjudicationPooled": "ADJADJ",
+        "DeallocationRemark": "DLRDLR",
+        "DoubleMarking": "DMDM",
+        "ArbitrationRemark": "ARBARB",
+        "PriorityRemark": "PR1PR1"
+      }
+    },
+    "exception-statuses": {
+      "open": "Öffnen",
+      "resolved": "Aufgelöst",
+      "closed": "Abgeschlossen"
+    },
+    "exception-types": {
+      "1": {
+        "name": "Error de zonación Falta contenido Error de zonación Falta contenido",
+        "details": "La zona para esta pregunta contiene contenido de respuesta relacionado con otra pregunta dentro de este script. La zona para esta pregunta contiene contenido de respuesta relacionado con otra pregunta dentro de este script."
+      },
+      "2": {
+        "name": "Error de zonación Falta contenido Error de zonación Falta contenido",
+        "details": "La zona para esta pregunta contiene contenido de respuesta relacionado con otra pregunta dentro de este script. La zona para esta pregunta contiene contenido de respuesta relacionado dentro de este script."
+      },
+      "3": {
+        "name": "Error de zonación Falta contenido Error de zonación Falta contenido",
+        "details": "La zona para esta pregunta contiene contenido de respuesta relacionado con otra pregunta dentro de este script."
+      },
+      "4": {
+        "name": "Error de zonación Falta contenido 1",
+        "details": "La zona para esta pregunta contiene contenido de respuesta relacionado con otra pregunta dentro de este script. 1 La zona para esta pregunta contiene contenido de respuesta relacionado con otra pregunta dentro de este script."
+      },
+      "5": {
+        "name": "Error de zonación Falta contenido 2",
+        "details": "The candidate's response gives me concern about the candidate's well-being.  I would like to make the awarding body aware of this."
+      },
+      "6": {
+        "name": "Error de zonación Falta contenido 3",
+        "details": "I cannot mark this item because the image does not correspond to the question paper I am marking."
+      },
+      "7": {
+        "name": "Error de zonación Falta contenido 4",
+        "details": "I am unable to mark the candidate's response because the response is undecipherable.  A further rescan will not improve the situation because the problem is with the writing and not the image.  Examples include poor handwriting or overwriting the original response."
+      },
+      "8": {
+        "name": "Error de zonación Falta contenido 5",
+        "details": "Unable to mark because the mark scheme instructions do not cover this candidate's response."
+      },
+      "9": {
+        "name": "Error de zonación Falta contenido 6",
+        "details": "Unable to mark because I suspect that part of the response belongs to a different candidate or has been otherwise misclassified."
+      },
+      "10": {
+        "name": "Error de zonación Falta contenido Error de zonación Falta contenido",
+        "details": "This candidate response contains scripts for two or more candidates."
+      },
+      "11": {
+        "name": "Error de zonación Falta contenido 7",
+        "details": "This candidate response contains only the coversheet."
+      },
+      "12": {
+        "name": "Error de zonación Falta contenido Error de zonación Falta contenido",
+        "details": "I cannot mark this question paper because the candidate's response does not correspond to the component or paper I am marking."
+      },
+      "13": {
+        "name": "Error de zonación Falta contenido 8",
+        "details": "This script contains one or more objects that I believe to be non-script objects."
+      },
+      "14": {
+        "name": "Error de zonación Falta contenido Error de zonación Falta contenido",
+        "details": "I am unable to mark this response because one or more images cannot be accessed or read. (Re-conversion of file will cause all current marks to be lost)"
+      },
+      "15": {
+        "name": "Error de zonación Falta contenido Error de Error de zonación Falta contenido",
+        "details": "I have concerns about this candidate's response. I would like this to be investigated."
+      },
+      "16": {
+        "name": "Error de zonación Falta contenido 9",
+        "details": "I suspect malpractice in relation to this candidate's response. I would like this to be reviewed."
+      },
+      "17": {
+        "name": "Error de zonación Falta contenido 10",
+        "details": "I have a problem marking this response, which cannot be resolved with my Supervisor's help."
+      },
+      "18": {
+        "name": "Error de zonación Falta contenido (missing)",
+        "details": "La zona para esta pregunta no captura todas las respuestas de los candidatos relacionadas con la pregunta."
+      },
+      "19": {
+        "name": "Error de Zonificación Otro Contenido (other)",
+        "details": "La zona para esta pregunta contiene contenido de respuesta relacionado con otra pregunta dentro de este script."
+      },
+      "20": {
+        "name": "Mark Scheme Query",
+        "details": "Unable to zone because the mark scheme does not appear to match this candidate's responses."
+      },
+      "21": {
+        "name": "Supervisory Concerns other than Hours Spent",
+        "details": "This exception is to alert the IB to supervisory concerns including the omission of a supervisor comment, or concerning information contained within the comment. This can also be used to communicate any other supervisory concern to the IB, provided details are given."
+      },
+      "22": {
+        "name": "Violation of a Policy",
+        "details": "This exception is to alert the IB to the violation of a policy, such as the animal experimentation policy. Please provide specific details."
+      },
+      "23": {
+        "name": "Violation of Ethical or Subject-Specific Guidelines",
+        "details": "This exception is to alert the IB to the violation of ethical guidelines, or subject-specific guidelines as outlined in the associated subject. Please provide specific details."
+      },
+      "24": {
+        "name": "Incorrect file",
+        "details": "this type of exception should be raised if the response being marked contains a file that is not correctly associated with a particular Question Item. This exception will be escalated to the Awarding Body Administrators. It will only be possible to submit a response which has had this type of exception raised against it when the exception has been resolved and you have closed the exception."
+      },
+      "25": {
+        "name": "File access error",
+        "details": "This type of exception should be raised if the response being marked contains a file that does not open correctly. This exception will be escalated to the Awarding Body Administrators. It will only be possible to submit a response which has had this type of exception raised against it when the exception has been resolved and you have closed the exception."
+      },
+      "26": {
+        "name": "Incorrect Image",
+        "details": "This type of exception should be raised if the response being marked contains a file that is not correctly associated with a particular Question Item Group. This exception will be escalated to the Awarding Body Administrators. It will only be possible to submit a response which has had this type of exception raised against it when the exception has been resolved and you have closed the exception."
+      },
+      "27": {
+        "name": "Incomplete coursework",
+        "details": "Raised when an examiner believes that the candidate has submitted incomplete coursework."
+      },
+      "28": {
+        "name": "Work not following course requirements",
+        "details": "Raised when an examiner believes that the candidate has followed the wrong level or possibly last years (or next years) requirements"
+      },
+      "29": {
+        "name": "General Coursework Exception",
+        "details": "General coursework exception"
+      },
+      "30": {
+        "name": "Missing Letter for External Institute",
+        "details": "This exception is to alert the IB when the letter for external institute is missing"
+      },
+      "31": {
+        "name": "Issue accessing file",
+        "details": "I am experiencing problems accessing a file related to this response and require Awarding Body assistance to resolve this and to allow me to carry on marking."
+      },
+      "32": {
+        "name": "Missing and/or Incorrect File",
+        "details": "I believe one or more files related to this candidate response is incorrect, or are missing, preventing me from completing marking."
+      },
+      "33": {
+        "name": "Word count exceeded",
+        "details": "The candidate’s evidence has exceeded the stipulated word count  by more than 10%"
+      },
+      "34": {
+        "name": "Additional material - Missing",
+        "details": "The candidate has not submitted the required Resource, Research Evidence or Processed Information Sheet(s)."
+      },
+      "35": {
+        "name": "Additional material – Word/page count exceeded",
+        "details": "The candidate has exceeded the word/page count for Resource, Research Evidence or Processed information Sheet(s)."
+      },
+      "36": {
+        "name": "Additional material – Significant copying",
+        "details": "The candidate has copied extended pieces of text/narrative from the Resource Sheet, Research or Processed Information Sheet(s)."
+      },
+      "37": {
+        "name": "General Exception A",
+        "details": "Use as detailed in Marking Instructions"
+      },
+      "38": {
+        "name": "General Exception B",
+        "details": "Use as detailed in Marking Instructions"
+      }
+    },
+    "response": {
+      "exception-panel": {
+        "back-to-exceptions": "Volver a Excepciones Volver a Excepciones",
+        "escalate-button": "Escalar Escalar",
+        "resolve-button": "Resolver Resolver"
+      },
+      "view-exception-panel": {
+        "Escalate": "Escalar Escalar",
+        "Resolve": "Resolver Resolver",
+        "Close": "Cerca Cerca"
+      },
+      "escalate-exception-dialog": {
+        "header": "Excepción escalonada Excepción escalonada",
+        "body": "Agregue un comentario antes de escalar esta excepción. Agregue un comentario antes de escalar esta excepción."
+      },
+      "resolve-exception-dialog": {
+        "header": "Resolver excepción Resolver excepción",
+        "body": "Agregue un comentario antes de resolver esta excepción. Agregue un comentario antes de resolver esta excepción."
+      }
+    },
+    "navigation-menu": {
+      "close": "Cerca Cerca",
+      "home": "Casa Casa",
+      "recent": "Reciente Reciente",
+      "my-marking": "Mi marca Mi marca",
+      "reports": "Rapporten",
+      "team-management": "Gestión de equipos Gestión de equipos"
+    },
+    "time-periods": {
+      "hour-single": "hora hora",
+      "hours-plural": "Horas Horas",
+      "day-single": "día día",
+      "days-plural": "días días"
+    },
+    "toggle-button-states": {
+      "on": "ENEN",
+      "off": "APAGADOAPAGADO",
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "worklist": {
+      "information-text": "Información"
+    },
+    "response-datachange-error-dialog": {
+      "header": "Waarschuwing Waarschuwing",
+      "body": "Diese Aktion konnte aufgrund einer Änderung, die von einem Administrator an dieser Antwort vorgenommen wurde, nicht abgeschlossen werden. Die Anwendungsdaten werden jetzt aktualisiert. Versuchen Sie sich an- und abzumelden, wenn das Problem weiterhin besteht.Diese Aktion konnte aufgrund einer Änderung, die von einem Administrator an dieser Antwort vorgenommen wurde, nicht abgeschlossen werden. Die Anwendungsdaten werden jetzt aktualisiert. Versuchen Sie sich an- und abzumelden, wenn das Problem weiterhin besteht",
+      "ok-button": "OK OK"
+    }
+  },
+  "home": {
+    "qig-statuses": {
+      "Suspended": "Revisión pendiente Revisión pendiente",
+      "Practice": "Práctica Marcado Práctica Marcado",
+      "StandardisationMarking": "Normalización Marcado Normalización Marcado",
+      "AwaitingApproval": "esperando aprobacion esperando aprobacion",
+      "SecondStandardisationMarking": "Segundo Normalización Marcado Segundo Normalización Marcado",
+      "STMStandardisationMarking": "STM Normalización MarcadoSTM Normalización Marcado",
+      "LiveMarking": "vive Marcadovive Marcado",
+      "WaitingStandardisation": "En espera de NormalizaciónEn espera de Normalización",
+      "LiveComplete": "vive completavive completa",
+      "Simulation": "simulación Marcado simulación Marcado",
+      "QualityFeedback": "retroalimentación de calidad a la esperaretroalimentación de calidad a la espera",
+      "NoLiveTarget": "Sin Cuota Marcado VivoSin Cuota Marcado Vivo",
+      "LiveTargetOverAllocation": "Leef Target  Unlocked",
+      "AdminRemark": "Admin-Re-Markierung",
+      "Approved": "",
+      "AwaitingScripts": "Warten auf Skripte"
+    },
+    "qig-data": {
+      "responses-in-worklist-icon-tooltip": "Tiene respuestas abiertas asignado a usted que debe realizar el marcado .Tiene respuestas abiertas asignado a usted que debe realizar el marcado .",
+      "responses-available-icon-tooltip": "Hay respuestas no asignados disponibles en la piscina que se puede descargar y marca (sujeto a las restricciones de elegibilidad ) .Hay respuestas no asignados disponibles en la piscina que se puede descargar y marca (sujeto a las restricciones de elegibilidad ) .",
+      "responses-available-simulation-icon-tooltip": "Er zijn antwoorden beschikbaar voor simulatie markering",
+      "simulation-status-tooltip": "U werkt momenteel in de simulatie modus. Wanneer de standaardisatie wordt voltooid, worden alle scripts verwijderd en wordt de simulatiemodus beëindigd.",
+      "marking-progress-tooltip": "{0} Cerrado; {1} en Gracia; {2} Abierto {0} Cerrado; {1} en Gracia; {2} Abierto{0} Cerrado; {1} en Gracia; {2} Abierto {0} Cerrado; {1} en Gracia; {2} Abierto",
+      "open-responses-in-over-allocation": "abierto abierto",
+      "my-marking-button": "mijn Markering",
+      "remarks-available-indicator": "Re-merken",
+      "remarks-available-indicator-tooltip": "Es gibt nicht zugeordnete Bemerkungen Antworten im Pool, die Sie herunterladen und markieren können (vorbehaltlich einer Anspruchsvoraussetzungen)",
+      "team-management-button": "Teamleiding",
+      "team-management-button-stuck-examiners-tooltip": "There are stuck examiners requiring action",
+      "team-management-button-locked-examiners-tooltip": "You have locked examiners requiring action",
+      "open-re-mark-indicator-icon-tooltip": "Je hebt toegewezen reacties op de opmerking",
+      "standardisation-button": "Standaardisatie-instellingen",
+      "download-indicator-icon": "Scripts zijn gescand en zijn beschikbaar voor voorlopige markering",
+      "stack-indicator-icon": "U hebt scripts beschikbaar in uw werklijst zodat u kunt doorgaan met markeren en de standaardisatie kunt voltooien",
+      "simulation-marking-button": "Simulatie Markering"
+    },
+    "home-page": {
+      "no-qigs-available-to-mark-placeholder": "No hay grupos de preguntas disponibles para marcar. No hay grupos de preguntas disponibles para marcar"
+    }
+  },
+  "login": {
+    "login-page": {
+      "login-to": "Iniciar sesión enIniciar sesión en",
+      "marking-button-tooltip": "Accede a RM Tasador{0} Accede a RM Tasador{0}",
+      "marking-button": "CALIFICACIÓN CALIFICACIÓN",
+      "marking-or-fam": "OO",
+      "fam-button-tooltip": "Accede al modo de familiarización para practicar el uso de RM Tasador{0} Accede al modo de familiarización para practicar el uso de RM Tasador{0}",
+      "fam-button": "FAMILIARIZACIÓN FAMILIARIZACIÓN",
+      "forgot-password-tooltip": "Se te olvidó tu contraseñaSe te olvidó tu contraseña",
+      "forgot-password": "Se te olvidó tu contraseña?Se te olvidó tu contraseña?",
+      "username": "Nombre de usuarioNombre de usuario",
+      "password": "Clave Clave",
+      "username-password-validation-message": "Por favor, introduzca el nombre de usuario y contraseñaPor favor, introduzca el nombre de usuario y contraseña",
+      "username-validation-message": "por favor, ingrese un nombre de usuariopor favor, ingrese un nombre de usuario",
+      "password-validation-message": "Por favor, introduzca una contraseñaPor favor, introduzca una contraseña",
+      "cookies-disabled": "Por favor, activa las cookies en la configuración de su navegador antes de iniciar sesión.Por favor, activa las cookies en la configuración de su navegador antes de iniciar sesión.",
+      "copyright": " RM Resultados , Todos los derechos reservados RM Resultados , Todos los derechos reservados",
+      "welcome-message": "Bienvenido a RM Tasador{0} Bienvenido a RM Tasador{0}",
+      "welcome-detail": "altas apuestas correo marcado plataforma más ampliamente utilizado e innovador del mundo .altas apuestas correo marcado plataforma más ampliamente utilizado e innovador del mundo .",
+      "language-selector-tooltip": "Seleccione el idiomaSeleccione el idioma",
+      "language-selector-dropdown-tooltip": "idiomas idiomas",
+      "awarding-body-logo-tooltip": "Awarding body logo"
+    },
+    "logging-in": {
+      "fam-loading": "Configuratie omgeving instellen Configuratie omgeving instellen",
+      "please-wait": "Inicio de sesión , por favor espere ...Inicio de sesión , por favor espere ...",
+      "password-changed": "Ihr Passwort wurde erfolgreich geändert. Ihr Passwort wurde erfolgreich geändert.",
+      "password-changed-logging-in": "Melden Sie sich bei RM Assessor{0}... Melden Sie sich bei RM Assessor{0}..."
+    },
+    "auto-log-out": {
+      "automatically-logged-out-logged-in-different-browser": "Se ha cerrado la sesión ya que ha iniciado sesión de nuevo en una ventana de navegador diferente Se ha cerrado la sesión ya que ha iniciado sesión de nuevo en una ventana de navegador diferente"
+    },
+    "cookie-panel": {
+      "close-button": "Cerca Cerca",
+      "cookies-link": "Galletas Galletas",
+      "message-part-1": "RM Assessor{0} Nosotros utilizamos cookies para ayudarnos a hacer este trabajo mejor sitio web para usted . Los detalles completos de qué son las cookies y por qué los usamos se pueden encontrar mediante la lectura de nuestra Nosotros utilizamos cookies para ayudarnos a hacer este trabajo mejor sitio web para usted . Los detalles completos de qué son las cookies y por qué los usamos se pueden encontrar mediante la lectura de nuestra ",
+      "message-part-2": "  página. Tenga en cuenta que , al continuar usando este sitio usted acepta el uso de cookies .  página. Tenga en cuenta que , al continuar usando este sitio usted acepta el uso de cookies .",
+      "message-part-2-cookies-disabled": " página. Hemos detectado que las cookies están desactivadas en su navegador - esto impedirá que inicie sesión en favor ajuste su navegador para habilitar las cookies antes de intentar iniciar sesión en. página. Hemos detectado que las cookies están desactivadas en su navegador - esto impedirá que inicie sesión en favor ajuste su navegador para habilitar las cookies antes de intentar iniciar sesión en.",
+      "dont-show-again": "No volver a mostrar este mensaje otra vezNo volver a mostrar este mensaje otra vez",
+      "cookies-link-tooltip": "View information about the cookies RM Assessor{0} uses View information about the cookies RM Assessor{0} uses"
+    },
+    "cookie-detail-page": {
+      "table-header-name": "Nombre Nombre",
+      "table-header-purpose": "Propósito Propósito",
+      "language-cookie-purpose": "El almacenamiento de idioma seleccionado por el usuarioEl almacenamiento de idioma seleccionado por el usuario",
+      "cookie-page-cookie-purpose": "Determina si el usuario ha elegido ocultar permanentemente el panel de notificaciones de galletasDetermina si el usuario ha elegido ocultar permanentemente el panel de notificaciones de galletas",
+      "cookies-on-this-site-part-1": "Para que este sitio funcione correctamente el ordenador necesita para aceptar un número de cookies ; sin ellos algunas partes fundamentales de la página web no funcionará como se pretende . Para que este sitio funcione correctamente el ordenador necesita para aceptar un número de cookies ; sin ellos algunas partes fundamentales de la página web no funcionará como se pretende . ",
+      "cookies-on-this-site-part-2": "Las cookies utilizadas en este sitio incluyen :Las cookies utilizadas en este sitio incluyen :",
+      "cookies-on-this-site-header": "Las cookies en este sitioLas cookies en este sitio",
+      "table-header-type": "Tipo ( sesión o persistente )Tipo ( sesión o persistente )",
+      "cookie-type-persistent": "persistente persistente",
+      "what-are-cookies-part-1": "Las cookies son pequeños archivos de texto que se envían a continuación y almacenan en su ordenador cuando visita diferentes páginas web . No almacenamos información personal detallada en nuestras cookies, pero usamos la información recopilada de las cookies para ayudar a hacer su experiencia en el sitio mejor, por ejemplo, al hacer la navegación dentro del sitio más fácil o recordar sus preferencias. Tenga en cuenta que las cookies no pueden dañar su equipo o sus archivos .Las cookies son pequeños archivos de texto que se envían a continuación y almacenan en su ordenador cuando visita diferentes páginas web . No almacenamos información personal detallada en nuestras cookies, pero usamos la información recopilada de las cookies para ayudar a hacer su experiencia en el sitio mejor, por ejemplo, al hacer la navegación dentro del sitio más fácil o recordar sus preferencias. Tenga en cuenta que las cookies no pueden dañar su equipo o sus archivos .",
+      "what-are-cookies-part-2": "Las cookies son bien cookies de sesión Las cookies son bien cookies de sesión , que se almacenan sólo durante la duración de su visita al sitio y elimina cuando se cierra el navegador , o cookies persistentes , que se almacenan por un período de tiempo y se activa cuando que regrese al sitio. En general , las cookies de sesión se utilizan a menudo para la autenticación , y las cookies persistentes se utilizan a menudo para guardar sus preferencias .",
+      "what-are-cookies-header": "¿Qué son las cookies ?¿Qué son las cookies ?",
+      "ga-cookie-purpose": "Usado para Google analítica.Usado para Google analítica.",
+      "gat-cookie-purpose": "Usado para Google analítica.Usado para Google analítica.",
+      "auth-cookie-purpose": "Usado para autenticación.Usado para autenticación.",
+      "cookie-type-session": "sesión sesión",
+      "session-id-cookie-purpose": "Se utiliza para el manejo de múltiples usuarios en diferentes pestañas para un navegador Se utiliza para el manejo de múltiples usuarios en diferentes pestañas para un navegador"
+    },
+    "forgot-password-dialog": {
+      "body": "This will open a new browser window or tab. Do you want to continue?",
+      "header": "Se te olvidó tu contraseña Se te olvidó tu contraseña",
+      "yes-button": "Yes",
+      "no-button": "No"
+    }
+  },
+  "team-management": {
+    "multiqig-selecteditem-default-text": "Select another QIG",
+    "multiqig-name-header-text": "QIGs",
+    "multiqig-examiner-lockcount-header-text": "Examiners locked",
+    "multiqig-examiner-stuckcount-header-text": "Examiners stuck",
+    "multilock-examiner-header-text": "Lock other QIGs",
+    "multilock-examiner-help-text": "Examiner {0} is now locked to you in QIG {1}.",
+    "multilock-examiner-help-description": "This examiner is also stuck in the following QIG(s). If you would like to lock them in any other QIG please select below and click the lock button. If you do not want to lock the examiner in any other QIG(s) at this time, click cancel to close this message.",
+    "multilock-examiner-lockby-text": "{0} (Locked by you)",
+    "multilock-examiner-cancel-button-text": "Cancel",
+    "multilock-examiner-lock-button-text": "Lock",
+    "multilock-examiner-select-all-text": "Select all",
+    "multilock-examiner-lock-execution-ok-button-text": "OK",
+    "multilock-examiner-lock-execution-header-text": "Lock Status Changed",
+    "multilock-examiner-lock-execution-sucess-header-text": "You have successfully locked the examiner in the following QIGs:",
+    "multilock-examiner-lock-execution-failure-header-text": "It was not possible to lock the examiner in the following QIGs:",
+    "examiner-worklist": {
+      "response-data": {
+        "amd-tooltip": "Die Gesamtdifferenz zwischen den verliehenen Marken und den endgültigen Marken, die vom Senior-Prüfer-Team festgelegt wurden, berechnet sich über jede einzelne Frage",
+        "tmd-tooltip": "Der Unterschied zwischen der Gesamtsumme, die vergeben wurde, und die Gesamtsumme, die vom Senior Prüferteam gesetzt wurde",
+        "exceptions-icon-tooltip": "Diese Antwort hat eine oder mehrere verknüpfte Ausnahmen. Keiner von ihnen wird verhindern, dass die Antwort bei der Markierung abgeschlossen ist. Haga clic en este icono para ver las excepciones.",
+        "blocking-exceptions-icon-tooltip": "Diese Antwort hat eine oder mehrere verknüpfte Ausnahmen. Der Marker kann die Antwort erst dann abgeben, wenn diese Ausnahmen gelöst und geschlossen wurden. Haga clic en este icono para ver las excepciones.",
+        "zoning-exceptions-icon-tooltip": "De zonering van het script van deze kandidaat wordt beoordeeld na een uitzondering tegen een ander antwoord. Houd er rekening mee dat de weergegeven beeldzones als gevolg van deze uitzondering kunnen worden gewijzigd. De marker kan dit antwoord niet indienen voordat deze uitzondering is opgelost.",
+        "resolved-exceptions-icon-tooltip": "Diese Antwort hat {0} Ausnahmen, die aufgelöst werden und warten, um geschlossen zu werden. Keiner von ihnen wird verhindern, dass die Antwort bei der Markierung abgeschlossen ist. Haga clic en este icono para ver las excepciones.",
+        "resolved-and-blocking-exceptions-icon-tooltip": "Diese Antwort hat {0} Ausnahmen, die aufgelöst werden und warten, um geschlossen zu werden. Der Marker kann die Antwort erst einreichen, wenn er diese Ausnahmen beendet hat. Haga clic en este icono para ver las excepciones.",
+        "messages-icon-tooltip": "Diese Antwort hat eine oder mehrere verknüpfte Nachrichten.",
+        "unread-messages-icon-tooltip": "Diese Antwort hat eine oder mehrere ungelesene verknüpfte Nachrichten.",
+        "reviewed-by-me": "Yo Yo",
+        "auto-reviewed": "Revisado-automáticamente Revisado-automáticamente"
+      },
+      "change-status": {
+        "ok-button": "De acuerdo De acuerdo",
+        "change-status-button": "Cambiar Estado Cambiar Estado",
+        "not-approved": "No aprovado No aprovado",
+        "approve": "Aprobar Aprobar",
+        "suspend": "Suspender Suspender",
+        "send-second-standardisation": "Enviar 2ª Normalización Enviar 2ª Normalización",
+        "approve-pending-review": "Approve pending review"
+      },
+      "change-status-error-dialog": {
+        "header": "Cambiar el estado del examinador Cambiar el estado del examinador",
+        "body-already-changed": "El estado del examinador ya ha sido cambiado El estado del examinador ya ha sido cambiado.",
+        "body-not-allowed": "Tu función ha cambiado y ya no puedes realizar esta acción Tu función ha cambiado y ya no puedes realizar esta acción."
+      },
+      "column-headers": {
+        "sampled": "Muestreado Muestreado",
+        "reviewed-by": "Revisado por Revisado por",
+        "review-comment": "Reageer op commentaar"
+      },
+      "change-status-sep": {
+        "Approve": "Aprobar Aprobar",
+        "ProvideSecondStandardisation": "Enviar 2ª Normalización Enviar 2ª Normalización",
+        "Re_approve": "Re{0}aprobar Re{0}aprobar"
+      },
+      "hierarchy-changed-dialog": {
+        "body-priority-changed": "Ihre Position in der Hierarchie hat sich geändert und das ist nicht mehr vorhanden.",
+        "HierarchyChanged-title": "Cambios en la jerarquía del examinador Cambios en la jerarquía del examinador",
+        "HierarchyChanged-content": "Tu función ha cambiado y ya no puedes realizar esta acción. Tu función ha cambiado y ya no puedes realizar esta acción."
+      },
+      "lock-failure-dialog": {
+        "body": "Der Sperrstatus dieses Prüfer wurde geändert und Sie dürfen diese Aktion nicht mehr ausführen.",
+        "header-lock-removed": "Schloss entfernt",
+        "ExaminerAlreadyLocked-title": "Examinator al opgesloten. Examinator al opgesloten",
+        "ExaminerAlreadyunlocked-title": "Examinator al ontgrendeld. Examinator al ontgrendeld"
+      },
+      "filters": {
+        "filter-by": "Filteren op:",
+        "all-responses": "Alle reacties",
+        "seeds-only": "Samen nur",
+        "unreviewed-seeds-only": "Alleen niet-beoordeelde zaden"
+      },
+      "subordinate-withdrawn-dialog": {
+        "SubordinateExaminerWithdrawn-title": "Examinador retirado del marcado Examinador retirado del marcado",
+        "SubordinateExaminerWithdrawn-content": "Este examinador ha sido retirado de este grupo de preguntas y esto ya no es una acción disponible. Este examinador ha sido retirado de este grupo de preguntas y esto ya no es una acción disponible."
+      },
+      "withdrawn-dialog": {
+        "Withdrawn-title": "Retirado del marcado Retirado del marcado",
+        "Withdrawn-content": "Usted ha sido retirado de este grupo de preguntas. Esto no le impedirá acceder a otros grupos de preguntas en los que tenga una cuota. Usted ha sido retirado de este grupo de preguntas. Esto no le impedirá acceder a otros grupos de preguntas en los que tenga una cuota."
+      },
+      "suspended-dialog": {
+        "Suspended-title": "Estado de aprobación cambiado Estado de aprobación cambiado",
+        "Suspended-content": "Tu estado ha cambiado y ya no puedes realizar esta acción. Tu estado ha cambiado y ya no puedes realizar esta acción."
+      },
+      "subordinate-status-already-changed-dialog": {
+        "ExaminerStatusAlreadyChanged-title": "El estado ya ha cambiado El estado ya ha cambiado",
+        "ExaminerStatusAlreadyChanged-content": "El estado del examinador ya ha sido cambiado. El estado del examinador ya ha sido cambiado."
+      },
+      "lock-limit-reached-dialog": {
+        "LockLimitReached-title": "Gesloten limiet bereikt. Gesloten limiet bereikt",
+        "LockLimitReached-content": "U heeft al het maximale aantal toegelaten examiners afgesloten. Beheers alstublieft uw bestaande gesloten examinatoren voordat u een andere examinator sluit. U heeft al het maximale aantal toegelaten examiners afgesloten. Beheers alstublieft uw bestaande gesloten examinatoren voordat u een andere examinator sluit."
+      }
+    },
+    "response": {
+      "mark-scheme-panel": {
+        "set-as-reviewed-button": "Establecer como revisado Establecer como revisado",
+        "reviewed-button": "Revisado Revisado",
+        "set-as-reviewed-button-tooltip": "Establezca esta respuesta como revisada. Establezca esta respuesta como revisada.",
+        "reviewed-button-tooltip": "Se revisa esta respuesta. Se revisa esta respuesta.",
+        "supervisor-sampling-button": "Muestreo del supervisor Muestreo del supervisor"
+      },
+      "already-reviewed-dialog": {
+        "header": "Respuesta revisadaRespuesta revisada",
+        "body": "Esta respuesta ya ha sido revisada por otro examinador.Esta respuesta ya ha sido revisada por otro examinador."
+      },
+      "supervisor-remark-mark-later-confirmation-dialog": {
+        "body": "Re-mark-Anforderung erfolgreich erstellt. Die Antwort ist nun für die Markierung in Ihrem Supervisor Re-Mark Worklist zur Verfügung",
+        "header": "Re-mark anforderung erstellt"
+      },
+      "supervisor-remark-panel": {
+        "mark-now-button": "Jetzt markieren",
+        "mark-later-button": "Später markieren",
+        "header": "Heben Sie den Vorgesetzten an",
+        "supervisor-remark-already-raised": "Bitte beachten Sie, dass für diese Antwort bereits eine Vorgesetzte nachgewiesen wurde, entweder von Ihnen oder einem anderen leitenden Prüfer."
+      },
+      "wholeresponse-remark-confirmation-popup": {
+        "header": "Vollständige Antwort Bemerkung",
+        "content": "Die Antwort, die Sie zum erneuten Markieren angefordert haben, enthält mehrere Markengruppen. Die für diese Antwort erhobene erneute Markierung muss ebenfalls als ganze Antwort markiert werden. Sind Sie sicher, dass Sie diese Anforderung erneut ankreuzen möchten?",
+        "yes-button": "Ja",
+        "no-button": "Nein"
+      },
+      "left-toolbar": {
+        "supervisor-remark-button-tooltip": "Heben Sie den Vorgesetzten an",
+        "promote-to-seed-button-tooltip": "Bevorder reactie aan zaad"
+      },
+      "supervisor-sampling-comments": {
+        "0": "Ninguna Ninguna",
+        "1": "DE ACUERDO DE ACUERDO",
+        "2": "Comentarios dados Comentarios dados",
+        "3": "Acción requerida Acción requerida"
+      },
+      "sampling-error-dialog-already-sampled": {
+        "header": "Respuesta ya muestreada Respuesta ya muestreada",
+        "body": "Esta respuesta ha sido muestreada por otro supervisor. Seleccione Aceptar y vuelva a abrir la respuesta para ver el estado de muestreo actualizado."
+      },
+      "sampling-error-dialog-withdrawn": {
+        "header": "Retirado del marcado",
+        "body": "Usted ha sido retirado de este grupo de preguntas. Esto no le impedirá acceder a otros grupos de preguntas en los que tenga una cuota."
+      },
+      "sampling-error-dialog-subordinate-withdrawn": {
+        "header": "Examinador retirado del marcado",
+        "body": "Este examinador ha sido retirado de este grupo de preguntas y esto ya no es una acción disponible."
+      },
+      "sampling-error-dialog-hierarchy-changed": {
+        "header": "Cambios en la jerarquía del examinador",
+        "body": "Tu función ha cambiado y ya no puedes realizar esta acción."
+      },
+      "promote-panel": {
+        "header": "Bevorder reactie",
+        "promote-to-reuse-bucket-button-tooltip": "Bevorder reactie op hergebruik van emmer",
+        "promote-to-seed-button": "Zaaien",
+        "promote-to-reuse-bucket-button": "Om de emmer opnieuw te gebruiken"
+      },
+      "promote-to-reuse-bucket-dialog": {
+        "header": "Bevorder om de emmer te hergebruiken",
+        "body": "Weet u zeker dat u het geselecteerde antwoord wilt promoten om de emmer te hergebruiken?",
+        "yes-button": "Ja",
+        "no-button": "Nee"
+      },
+      "promote-to-reuse-bucket-not-latest-marks-dialog": {
+        "header": "Laatste reactie",
+        "body": "Het antwoord dat u hebt geselecteerd, is niet de laatste reeks punten die voor deze kandidaat zijn toegekend en kan daarom niet worden bevorderd naar de hergebruikte emmer",
+        "ok-button": "OK"
+      },
+      "create-exception-withdrawn-response-dialog": {
+        "header": "Uitzonderingsprobleem",
+        "body": "Het antwoord met betrekking tot deze uitzondering is vanwege kwaliteitscontroles uit uw werklijst verwijderd en daarom wordt deze uitzondering niet ingediend.",
+        "ok-button": "OK"
+      },
+      "promote-to-seed-dialog": {
+        "header": "Bevorder aan zaad",
+        "body-own-response": "Het bevorderen van deze reactie op een zaadje wordt het van je markering werklijst te verwijderen en het zal beschikbaar in normalisatie-instelling zijn.",
+        "body-stm-subordinate-response": "Als u dit antwoord op een zaad bevordert, wordt deze verwijderd uit de werklist van de huidige examinator en het zal beschikbaar zijn in de standaardisatie-instelling.",
+        "body-non-stm-subordinate-response": "Door deze reactie op een zaad te bevorderen blijft het in de werklist van de huidige examinator en zal deze ook beschikbaar zijn in de standaardisatie-instelling.",
+        "ok-button": "OK",
+        "cancel-button": "Annuleer",
+        "body-not-fully-marked": "Dit antwoord moet 100 zijn %% gemarkeerd voordat het kan worden gepromoveerd tot een zaadje.",
+        "body-remarks-exist": "Für diese Antwort gibt es folgende Re-Marks:",
+        "body-dynamic-sampling": "Door deze reactie op een zaad te bevorderen, blijft het in uw markeringswerklijst en het zal ook beschikbaar zijn in de standaardisatie-instelling."
+      },
+      "promote-to-seed-no-seeding-dialog": {
+        "header": "Reactie niet bevorderd",
+        "body": "Het antwoord kan niet worden gepromoveerd tot zaad, aangezien de onderzoekers geen zaad- of zaadfrequentie hebben toegekend en het standaardisatiezaaddoel is ingesteld op nul."
+      },
+      "promote-to-seed-examiner-withdrawn-dialog": {
+        "header": "Examiner withdrawn from marking",
+        "body": "This examiner has been withdrawn from this question group and this is no longer an available action"
+      },
+      "review-comments": {
+        "1": "Alles richtig",
+        "2": "Gut",
+        "3": "Akzeptabel: kein Feedback",
+        "4": "Akzeptabel: Feedback geben",
+        "5": "Anlass zur Sorge: Feedback geben",
+        "6": "Inakzeptabel: konsultieren Sie PE"
+      }
+    },
+    "left-panel": {
+      "my-team": "Mi equipo",
+      "help-examiners": "Helfen Sie anderen Prüfern",
+      "exceptions": "Ausnahmen",
+      "show-hide-panel-tooltip": "Teamübersicht anzeigen / ausblenden",
+      "sublink-Exceptions": "Excepción abierta Excepción abierta",
+      "sublink-multi-Exceptions": "Excepciones abiertas Excepciones abiertas",
+      "sublink-HelpExaminersLocked": "Encerrado a mí Encerrado a mí",
+      "sublink-Stuck": "Requiere acción Requiere acción"
+    },
+    "my-team": {
+      "column-headers": {
+        "examiner": "Prüfer",
+        "target-progress": "Ziel Fortschritt",
+        "lock-duration": "Lock duurLock duur",
+        "locked-by": "vergrendeld doorvergrendeld door",
+        "state": "Bundesland",
+        "responses-to-review": "Respuestas para revisar Respuestas para revisar",
+        "total-qigs-active": "Total de QIG activas Total de QIG activas",
+        "total-qigs-requiring-action": "Total de QIG Requerir acción Total de QIG Requerir acción"
+      },
+      "my-team-data": {
+        "locked-by-me": "MeMe"
+      },
+      "examiner-targets": {
+        "live": "Leben",
+        "practice": "Praxis",
+        "standardisation": "Standardisierung",
+        "stm-standardisation": "STM Standardisierung",
+        "second-standardisation": "2nd Standardisierung",
+        "examiner-target-live": "Bemerkung",
+        "examiner-target-simulation": "Simulation"
+      }
+    },
+    "exceptions": {
+      "exception-list-column-headers": {
+        "exception-id": "Id de excepción Id de excepción",
+        "exception-type": "Tipo de excepción Tipo de excepción",
+        "time-open": "Tiempo Abierto Tiempo Abierto"
+      }
+    },
+    "help-examiners": {
+      "help-examiners-data": {
+        "lock": "SlotSlot",
+        "unlock": "ontsluitenontsluiten",
+        "times-suspended-time-label": "Zeit"
+      },
+      "unlock-confirmation-dialog": {
+        "header": "unlock examinatorunlock examinator",
+        "body": "Weet u zeker dat u wilt {examinername} ontgrendelen?Weet u zeker dat u wilt {examinername} ontgrendelen?",
+        "yes-button": "Ja",
+        "no-button": "Nein"
+      },
+      "column-headers": {
+        "examiner": "Prüfer",
+        "role": "Rolle",
+        "state": "Bundesland",
+        "time-in-current-state": "Zeit im aktuellen Zustand",
+        "supervisor": "Supervisor",
+        "lock-duration": "Sperrdauer"
+      },
+      "examiner-states": {
+        "not-approved-1st-std": "Warte auf Genehmigung (1. Standardisierung)",
+        "not-approved-all-std": "Erwartung der Genehmigung (Alle Standardisierung)",
+        "suspended": "Ausstehende Bewertung"
+      },
+      "locks-in-qig-dialog": {
+        "header": "Examinador (es) que requiere retroalimentación Examinador (es) que requiere retroalimentación",
+        "body": "Sie haben derzeit die folgenden Sperren.",
+        "select-a-qig": "Seleccione un grupo de preguntas para administrar.Seleccione un grupo de preguntas para administrar.",
+        "locks-plural": "cabelloscabellos",
+        "lock-single": "sperren",
+        "body-logout": "Entweder wählen Sie eine Fragegruppe aus, um zu verwalten oder zu bestätigen, dass Sie sich unten abmelden möchten.",
+        "cancel-button": "Stornieren"
+      }
+    },
+    "multi-qig": {
+      "help-examiner-multi-qig-popup-header": "Confirm Navigation",
+      "help-examiner-multi-qig-popup-content": "There are currently no examiners requiring action for the selected QIG. Would you like to navigate to this QIG in the question paper."
+    }
+  },
+  "messaging": {
+    "compose-message": {
+      "please-select-qig-placeholder": "Por favor seleccione...Por favor seleccione...",
+      "new-message-header": "Nuevo mensaje Nuevo mensaje",
+      "send-button": "Enviar Enviar",
+      "send-button-tooltip": "Enviar Enviar",
+      "discard-message-dialog": {
+        "body-discard": "¿Está seguro de que desea descartar este mensaje sin enviar ?¿Está seguro de que desea descartar este mensaje sin enviar ?",
+        "body-navigated-away": "¿Está seguro de que desea navegar desde esta página, el mensaje no se ha guardado y se descartará?¿Está seguro de que desea navegar desde esta página, el mensaje no se ha guardado y se descartará?",
+        "body-start-new-message-while-composing": "¿Está seguro de que desea descartar su mensaje no enviado existente?¿Está seguro de que desea descartar su mensaje no enviado existente?",
+        "header": "descartar mensajedescartar mensaje",
+        "yes-button": "Sí Sí",
+        "no-button": "No No"
+      },
+      "to-button": "AA",
+      "subject": "Tema Tema",
+      "associated-response": "respuesta asociadarespuesta asociada",
+      "subject-placeholder": "Añade un temaAñade un tema",
+      "message-body-placeholder": "Escriba su mensaje aquí...Escriba su mensaje aquí...",
+      "priority": {
+        "standard": "EstándarEstándar",
+        "important": "ImportanteImportante",
+        "mandatory": "ObligatorioObligatorio",
+        "priority-tooltip": "Nachrichtenpriorität"
+      },
+      "minimise-icon-tooltip": "Minimizar Minimizar",
+      "maximise-icon-tooltip": "Maximizar Maximizar",
+      "close-icon-tooltip": "Cerca Cerca",
+      "select-qig-placeholder": "Seleccione un grupo de preguntasSeleccione un grupo de preguntas",
+      "reply-header": "Responder al mensajeResponder al mensaje",
+      "forward-header": "Reenviar mensajeReenviar mensaje",
+      "forward-prefix": "FW:FW:",
+      "reply-prefix": "RE:RE:",
+      "question-group": "grupo de preguntasgrupo de preguntas",
+      "recipient-selector": {
+        "entire-team": "Todo el equipo",
+        "ok-button": "De acuerdo",
+        "cancel-button": "Cancelar Cancelar"
+      },
+      "mandatory-message-warning-dialog": {
+        "body": "Este mensaje se ha cambiado a Prioridad estándar ya que los mensajes obligatorios no se pueden enviar cuando no se incluyen subordinados en la lista de destinatarios.Este mensaje se ha cambiado a Prioridad estándar ya que los mensajes obligatorios no se pueden enviar cuando no se incluyen subordinados en la lista de destinatarios.",
+        "header": "Se ha cambiado la prioridad del mensaje Se ha cambiado la prioridad del mensaje"
+      },
+      "question-group-tooltip": "Fragegruppe diese Nachricht bezieht sich auf",
+      "tiny-mce": {
+        "Cut": "Cortar Cortar",
+        "Div": "Capa Capa",
+        "Paste": "Pegar Pegar",
+        "Close": "Cerrar Cerrar",
+        "Pre": "Pre Pre",
+        "Blockquote": "Bloque de citaBloque de cita",
+        "Formats": "Formatos Formatos",
+        "Headers": "Encabezados Encabezados",
+        "Blocks": "Bloques Bloques",
+        "Undo": "Deshacer Deshacer",
+        "Strike-through": "Tachado Tachado",
+        "Superscript": "SuperíndiceSuperíndice",
+        "Subscript": "Subíndice Subíndice",
+        "Redo": "RehacerRehacer",
+        "Paragraph": "Párrafo Párrafo",
+        "Ok": "OkOk",
+        "Bold": "Negrita Negrita",
+        "Code": "Código Código",
+        "Italic": "Itálica Itálica",
+        "Underline": "Subrayado Subrayado",
+        "Cancel": "Cancelar Cancelar",
+        "Justify": "Justificar Justificar",
+        "Inline": "en líneaen línea",
+        "Copy": "Copiar Copiar",
+        "Square": "Cuadrado Cuadrado",
+        "Default": "Por defectoPor defecto",
+        "Circle": "Círculo Círculo",
+        "Disc": "Disco Disco",
+        "Name": "Nombre Nombre",
+        "Anchor": "Ancla Ancla",
+        "Emoticons": "Emoticonos Emoticonos",
+        "Robots": "Robots Robots",
+        "Title": "Título Título",
+        "Keywords": "Palabras clavePalabras clave",
+        "Encoding": "CodificaciónCodificación",
+        "Description": "DescripciónDescripción",
+        "Author": "Autor Autor",
+        "Full-screen": "Pantalla completaPantalla completa",
+        "General": "General General",
+        "Advanced": "Avanzado Avanzado",
+        "Source": "Enlace Enlace",
+        "Border": "Borde Borde",
+        "Style": "EstiloEstilo",
+        "Dimensions": "Dimensiones Dimensiones",
+        "URL": "URL URL",
+        "Anchors": "Anclas Anclas",
+        "None": "Ninguno Ninguno",
+        "Target": "Destino Destino",
+        "Poster": "Miniatura Miniatura",
+        "Embed": "Incrustado Incrustado",
+        "Preview": "Previsualizar Previsualizar",
+        "Print": "Imprimir Imprimir",
+        "Save": "Guardar Guardar",
+        "Replace": "Reemplazar Reemplazar",
+        "Next": "Siguiente Siguiente",
+        "Find": "Buscar Buscar",
+        "Prev": "Anterior Anterior",
+        "Spell-check": "Corrector ortográficoCorrector ortográfico",
+        "Finish": "Finalizar Finalizar",
+        "Ignore": "Ignorar Ignorar",
+        "Rows": "Filas Filas",
+        "Height": "Alto Alto",
+        "Alignment": "Alineación Alineación",
+        "Row": "Fila Fila",
+        "Body": "Cuerpo Cuerpo",
+        "Caption": "Subtítulo Subtítulo",
+        "Footer": "Pie de páginaPie de página",
+        "Scope": "Ámbito Ámbito",
+        "Column": "Columna Columna",
+        "Cell": "Celda Celda",
+        "Header": "Cabecera Cabecera",
+        "Right": "Derecha Derecha",
+        "Cols": "Columnas Columnas",
+        "Width": "Ancho Ancho",
+        "Left": "Izquierda Izquierda",
+        "Centre": "Centrado Centrado",
+        "Templates": "Plantillas Plantillas",
+        "Insert": "Insertar Insertar",
+        "File": "Archivo Archivo",
+        "Edit": "Editar Editar",
+        "Tools": "Herramientas Herramientas",
+        "View": "Ver Ver",
+        "Table": "TablaT abla",
+        "Format": "Formato Formato"
+      },
+      "new-message-templates": {
+        "reply": "<p><span style=\"font-family:{0}; font-size: {1};\"><br><br><br>Datum: {2} <br> Von: {3}<br>{4}</span></p>",
+        "forward": "<p><span style=\"font-family:{0}; font-size: {1};\"><br><br><br>Datum: {2} <br> Von: {3}<br>{4}</span></p>",
+        "new": "<p><span style=\"font-family:{0}; font-size: {1};\">&#65279;</span></p>"
+      }
+    },
+    "message-lists": {
+      "top-panel": {
+        "inbox-tab": "Bandeja de entradaBandeja de entrada",
+        "sent-tab": "Expedido Expedido",
+        "deleted-tab": "suprimido suprimido",
+        "new-message-button": "Nuevo mensajeNuevo mensaje"
+      },
+      "message-detail": {
+        "date-today": "Hoy Hoy",
+        "inbox": "De:De:",
+        "sent": "te:te:",
+        "associated-response-id": "ID de respuesta:ID de respuesta:",
+        "high-important-banner": "Este mensaje fue enviado con alta importanciaEste mensaje fue enviado con alta importancia",
+        "high-mandatory-banner": "Este es un mensaje obligatoriaEste es un mensaje obligatoria",
+        "reply-button": "respuestarespuesta",
+        "forward-button": "adelante adelante",
+        "delete-button": "Borrar Borrar",
+        "more-recipients": "MásMás",
+        "system-message": "Systemnachricht"
+      },
+      "delete-message-dialog": {
+        "body": "Weet je zeker dat je dit bericht wilt verwijderen?",
+        "header": "Verwijder bericht",
+        "yes-button": "SíSí",
+        "no-button": "NoNo"
+      },
+      "search-by-sender": {
+        "search-by-sender-placeholder": "Suche nach Absender",
+        "search-result-for": "Suchergebnis für",
+        "search-by-sender-tooltip": "Geben Sie hier einen Namen ein, um nach einer von einer bestimmten Person gesendeten Nachrichten zu suchen",
+        "cancel-search-tooltip": "Suche abbrechen"
+      },
+      "message-summaries": {
+        "qig-group-tooltip": "Meldungen für diese Fragegruppe anzeigen / ausblenden"
+      },
+      "quality-feedback-pending-dialog": {
+        "body": "Ga naar je gesloten werklijst en accepteer terugkoppeling van de kwaliteit van de ingediende zaden voor het bekijken van deze reactie.Ga naar je gesloten werklijst en accepteer terugkoppeling van de kwaliteit van de ingediende zaden voor het bekijken van deze reactie."
+      }
+    },
+    "mandatory-message-dialog": {
+      "header": "Sehen Sie obligatorische Meldung",
+      "body": "Sie haben eine oder mehrere obligatorische Mitteilungen erhalten. Bitte klicken Sie auf OK um die Nachricht anzuzeigen (s)."
+    },
+    "system-messages": {
+      "1": {
+        "subject": "Auto Approval",
+        "content": "Following successful standardisation, you have been auto approved for QIG {0} and can start live marking. You may receive additional feedback from your reviewer at a later date."
+      },
+      "2": {
+        "subject": "Subordinate Auto Approved",
+        "content": "Following successful standardisation on QIG {0}, I have been auto approved."
+      },
+      "3": {
+        "subject": "RefreshMarkingTeam",
+        "content": "Marker Auto Approved for QIG {0}."
+      },
+      "4": {
+        "subject": "Conditional Auto Approval",
+        "content": "Following successful standardisation, you have been conditionally auto approved for QIG {0}. You may now start live marking upto the conditional approval limit set by your reviewer. You will be fully approved at a later date by your reviewer."
+      },
+      "5": {
+        "subject": "Subordinate Conditionally Approved",
+        "content": "Following successful standardisation, I have been conditionally approved for QIG {0}. I can mark live scripts upto the conditional approval limit but require you to fully approve me."
+      },
+      "6": {
+        "subject": "RefreshMarkingTeam",
+        "content": "Marker Conditionally Approved for QIG {0}."
+      },
+      "7": {
+        "subject": "Auto Suspension",
+        "content": "You have been suspended from marking QIG {0} due to submitting inaccurate responses. You may receive additional feedback from your reviewer at a later date."
+      },
+      "8": {
+        "subject": "Subordinate Auto Suspended",
+        "content": "I have been suspended from marking due to submitting inaccurate responses on QIG {0}."
+      },
+      "10": {
+        "subject": "Please check my marking",
+        "content": "I have given you access to view my Live marking worklist for {0}.Please review my marking and if you agree I have marked my responses correctly please indicate you have checked my work. If you have any comments or concerns about my marking please discuss this with me."
+      },
+      "11": {
+        "subject": "Marks Checked",
+        "content": "I have checked your marks for Session Name to be filled."
+      },
+      "12": {
+        "subject": "Review Re-mark Completed",
+        "content": "I have completed all the Review Re-marks requested."
+      },
+      "13": {
+        "subject": "Refresh Marking Targets",
+        "content": "Your marking target(s) for {0} have been updated. The following targets are affected: {1}."
+      },
+      "14": {
+        "subject": "Grace period updated",
+        "content": "Please note that the grace period of {0} has been changed to {2} hours. This means that any scripts submitted before the time of this message will stay pending after submission for {1} hours; any submitted after the time of this message will close {2} hours after submission."
+      },
+      "16": {
+        "subject": "Zoning Exception Raised",
+        "content": "The Zoning of a candidate response ID {0} in your closed worklist is being reviewed following an exception raised by another marker. Please be aware that the image zones displayed may be changed as a result of this exception. You will be notified when this has been resolved at which point you should review your submitted response and check that the marks you had awarded are still appropriate. Should you find this not to be the case then please contact your Awarding Body Admin team as soon as possible."
+      },
+      "17": {
+        "subject": "Zoning Exception Resolved",
+        "content": "The Zoning of a candidate response ID {0} in your closed worklist has been resolved following an exception raised by another marker. This may have changed the zones for the response items you have marked.  Please review your submitted response and check that the marks you had awarded are still appropriate. Should you find this not to be the case then please contact your Awarding Body Admin team as soon as possible."
+      },
+      "18": {
+        "subject": "Subordinate Status Update",
+        "content": "I have updated the approval status of {0} from {1} to {2}"
+      },
+      "19": {
+        "subject": "Notification of Change for Display ID {0}",
+        "content-removed": "For your information, Display ID {0} has been removed from your worklist due to quality checks.",
+        "content-replaced": "For your information, Display ID {0} has been put back in your worklist following quality checks, thanks for your time.",
+        "content-permanently-removed": "For your information, Display ID {0} has been permanently removed from your worklist following quality checks, sorry for any inconvenience caused."
+      },
+      "20": {
+        "subject": "Locked Examiner Withdrawn",
+        "content": "I have been withdrawn from marking on QIG {0}, and therefore no longer need action taken from the Approval Management worklist."
+      },
+      "21": {
+        "subject": "RIG Removed",
+        "content": "For your information, Display ID {0} has been removed from your worklist for QIG {1}"
+      },
+      "22": {
+        "subject": "Notification of Change to Marking Instructions document",
+        "content": "A new version of the Marking Instructions for {0} has been made available. Please ensure you download and use this version instead of the previous one."
+      },
+      "23": {
+        "subject": "Response removed from worklist for {0}",
+        "content": "Please be Informed that one or more responses have been de-allocated from your worklist for the component-{0}"
+      },
+      "24": {
+        "subject": "RIG {0} is de-allocated",
+        "content": "The RIG {0} has been de-allocated from your worklist due to quality checks."
+      },
+      "25": {
+        "subject": "Notification of Change to Marking Instructions document",
+        "content": "A new Marking Instructions file for {0} has been made available. Please ensure you view this in your Marking Instructions worklist."
+      },
+      "26": {
+        "subject": "Notification for re-mark removal",
+        "content": "This is to inform you that Display ID {0} has been removed from your re-mark work list for question item {1}."
+      },
+      "27": {
+        "subject": "Notification of response moved from worklist",
+        "content": "The Response - {0} in your {1} worklist with open exception(s) of '{2}' has been taken by your team leader {3} and moved to the {1} worklist of {3} for further marking. You can no longer access this response in your {1} worklist for viewing or marking."
+      }
+    }
+  },
+  "awarding": {
+    "generic": {
+      "awarding": "Awarding Awarding",
+      "awarding-text": "Awarding Awarding",
+      "ok-text": "OkOk",
+      "cancel-text": "CancelCancel"
+    },
+    "left-panel": {
+      "show-hide-tooltip": "Show/hideShow/hide"
+    }
+  },
+  "standardisation-setup": {
+    "right-container": {
+      "select-response-worklist": "Selecteer antwoorden",
+      "provisional-worklist": "Voorlopige merken",
+      "unclassified-worklist": "Niet-geclassificeerde merken",
+      "classified-worklist": "Geclassificeerde merken",
+      "select-response-bluebanner-message": "Klik op een willekeurig centrum om de beschikbare antwoorden voor dat centrum te bekijken. Klik voor het geselecteerde centrum op een reactie om het te openen, blader door scripts en kies wat u wilt markeren als voorlopige definitives.",
+      "provisional-bluebanner-message": "Deze markeringen zijn voorlopig en alleen zichtbaar voor u op dit moment. U moet het markeren voltooien en een reactie delen om het zichtbaar te maken voor de rest van het standaardisatieteam.",
+      "empty-responses-provisional-bluebanner-message": "U hebt geen voorlopige antwoorden op weergave. Als u antwoorden wilt selecteren om voorlopig te markeren, selecteert u het menu-item \"Selecteer antwoorden\".",
+      "classified-bluebanner-message": "U kunt doorgaan met het bewerken van markeringen en annotaties voor deze antwoorden totdat u op de laatste complete instellingsknop hebt geklikt. Om een ​​antwoord opnieuw in te delen, selecteert u het en sleept u het omhoog of omlaag in de tabel. U kunt ook de volgorde instellen waarin oefen- en standaardiseringsantwoorden worden toegewezen aan examinatoren door ze op en neer in de lijst te plaatsen. Zaden worden altijd in een willekeurige volgorde toegewezen.",
+      "unclassified-bluebanner-message-for-esteam": "Diese Markierungen können von allen im Standardisierungsteam angezeigt werden. Eine Antwort kann erst klassifiziert werden, wenn sie geöffnet wurde und die Markierungen endgültig sind. Sobald diese Antworten endgültig markiert und klassifiziert sind, werden sie in die Liste \"Klassifiziert\" verschoben und verschwinden möglicherweise, wenn Sie keine Berechtigung zum Anzeigen des Typs der Antwort haben, die sie klassifiziert haben.",
+      "empty-responses-unclassified-bluebanner-message": "Sie haben keine gemeinsamen vorläufigen Antworten zur Anzeige.",
+      "empty-responses-classified-bluebanner-message": "Es gibt keine klassifizierten Antworten zur Anzeige",
+      "unclassified-bluebanner-message": "Deze merken kunnen door iedereen in het standaardisatieteam worden bekeken. Een antwoord kan niet worden geclassificeerd totdat het is geopend en de merken definitief zijn gemaakt.",
+      "current-session-tab-header": "Huidige sessie",
+      "previous-session-tab-header": "Vorige sessie",
+      "scripts-for-centre": "Scripts voor centrum",
+      "available-status": "VerfügbarVerfügbar",
+      "not-available-status": "Nicht verfügbarverfügbar",
+      "select-response-previouse-session-empty-message": "Er zijn geen reacties uit eerdere sessies beschikbaar.",
+      "search-by-questionitems-placeholder": "Search for question items",
+      "cancel-search-tooltip": "Cancel search"
+    },
+    "select-response": {
+      "select-to-mark-button": "Wählen Sie, um zu markieren",
+      "select-to-mark-blue-banner": "Wenn Sie eine Antwort gefunden haben, die Sie als mögliche definitive Markierung markieren möchten, klicken Sie auf diese Schaltfläche.",
+      "select-to-mark-popup-header": "Wählen Sie die Antwort für die vorläufige Markierung aus",
+      "select-to-mark-popup-content-line1": "Diese Antwort wird zu Ihrer Markierungsliste hinzugefügt, um markiert zu werden.",
+      "select-to-mark-popup-content-line2": "Skript-ID: 1{0} Mitte: {1} Kandidat: {2}",
+      "select-to-mark-popup-content-line3": "Möchten Sie jetzt mit der Markierung beginnen Möchten Sie jetzt mit der Markierung beginnen?",
+      "select-to-mark-popup-button1": "Stornieren",
+      "select-to-mark-popup-button2": "Markiere später",
+      "select-to-mark-popup-button3": "Markiere jetzt"
+    },
+    "left-panel": {
+      "select-response-worklist": "Selecteer antwoorden",
+      "provisional-worklist": "Voorlopige",
+      "unclassified-worklist": "Niet-geclassificeerde",
+      "classified-worklist": "Geclassificeerde",
+      "show-hide-tooltip": "Toon/verberg standaardisatieoverzicht"
+    },
+    "view-switcher": {
+      "mark-by-question-view": "Zeigen Sie die Markierungen nach Frage an",
+      "total-mark-view": "Gesamtzeichen anzeigen"
+    },
+    "standardisation-setup-worklist": {
+      "total-mark-view-column-headers": {
+        "script-id": "Scriptt ID",
+        "candidate": "Kandidaat",
+        "status": "staat",
+        "centre": "centrum",
+        "scripts": "Scripttss",
+        "available-scripts": "Scripttss beschikbaar",
+        "first-scanned": "Eerst gescand",
+        "sort-by-tooltip": "Sortierung umschalten nach",
+        "response-id": "Antwort-ID",
+        "centre-no": "Center",
+        "candidate-no": "Kandidat",
+        "marks": "Marken",
+        "last-marker": "Letzter Marker",
+        "note": "Hinweis",
+        "tag": "Etikett",
+        "last-updated": "Geändertes Datum",
+        "question-items": "Elementos de pregunta"
+      },
+      "classification-type": {
+        "Practice": "Práctica Práctica",
+        "Approval": "Normalización Normalización",
+        "ES_TeamApproval": "2 lugar Normalización2 lugar Normalización",
+        "Seeding": "Semilla Semilla"
+      },
+      "response-data": {
+        "script-id-tooltip": "Scriptt - 1{0}"
+      },
+      "declassify-popup": {
+        "header": "Confirm de-classification",
+        "response-id": "Response ID:",
+        "total-mark": " Total mark:",
+        "body": "Declassifying this response will move it from the classified list back to the unclassified list. All definitive marking will be retained.",
+        "confirmation-text": " Are you sure you want to continue?",
+        "yes-button": "Yes",
+        "no-button": "No"
+      }
+    },
+    "standardisation-setup-additional-page-popup": {
+      "header": "Enthält zusätzliche SeitenEnthält zusätzliche Seiten",
+      "content": "Die Antwort dieses Kandidaten enthält zusätzliche Seiten, die nicht Teil der Hauptantwortbroschüre sindDie Antwort dieses Kandidaten enthält zusätzliche Seiten, die nicht Teil der Hauptantwortbroschüre sind",
+      "ok-button": "Ok"
+    },
+    "standardisation-script-unavailable-popup": {
+        "header": "Vorläufige Antwort",
+        "content": "Response 1{0} konnte nicht in Ihren vorläufigen Arbeitsvorrat verschoben werden, da dieser bereits für die vorläufige Kennzeichnung ausgewählt wurde",
+        "ok-button": "OK"
+    },
+    "previous-session": {
+      "reusable-response": {
+        "original-session": "Oorspronkelijke sessie Oorspronkelijke sessie",
+        "original-classification": "Oorspronkelijke classificatie Oorspronkelijke classificatie",
+        "original-mark": "Mark",
+        "original-marks-updated": "Originele merken geactualiseerd",
+        "hide-response": "Reactie verbergen",
+        "total-times-reused": "Totale tijd opnieuw gebruikt",
+        "last-used": "Laatst gebruikt",
+        "times-reused-in-this-session": "Tijden opnieuw gebruikt in deze sessie",
+        "update-pending": "Update in behandeling"
+      },
+      "reuse-button": {
+        "enable": "Re-Use",
+        "disable": "Re-Gebruikt"
+      }
+    }
+  },
+  "support-login": {
+    "support-login-page": {
+      "page-title": "Aanmeldingsomgeving voor ondersteuning",
+      "content": "Als beheerder kunt u ervoor kiezen om u aan te melden bij de live-omgeving (voor hercodering of toekenning van beheerdersrechten) of om u aan te melden als ondersteuningsomgeving voor een ondersteuningsvraag.",
+      "radio-button-text-live": "Log in als live in de live-omgeving",
+      "radio-button-text-support": "Log in op de ondersteuningsomgeving als een geselecteerde examinator",
+      "login-button-text": "Log in"
+    }
+  }
+}

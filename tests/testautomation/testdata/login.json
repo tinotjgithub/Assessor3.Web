@@ -1,0 +1,152 @@
+﻿{
+
+  "IB": {
+
+    "URL": "https://esm53assessor3devib.assessor.rm.com/#/",
+    "validusername": "A3IB_tpareksh2",
+    "validpassword": "Computer1",
+    "validusernameUser1": "A3IB_tpareksh2s",
+    "validpasswordUser1": "39sss88",
+    "invalidUsername": "p3ccasuperadmi1155",
+    "invalidPassword": "COmputer12",
+    "usernameCharacters": "$##$@%$%$&^",
+    "passwordCharacters": "#$#$@^&*(",
+    "invalidMessage": "#$#$@^&*(",
+    "invalidMessageUserName": "#$#$@^&*(",
+    "invalidMessagePassword": "#$#$@^&*(",
+    "customerLogoText": "AQA",
+    "errorMessage": "The username or password that you've entered is incorrect. Please try again.",
+    "errorMessageNoData": "Please enter your username and password",
+    "errorMessageUserName": "Please enter a username",
+    "errorMessagePassword": "Please enter a password",
+    "languages": "English,Deutsch,Español,Français,العربية",
+    "english": "English",
+    "deutsch": "Deutsch",
+    "spanish": "Spanish",
+    "french": "French",
+    "arabic": "arabic",
+    "logOutMessage": "Are you sure you want to logout?",
+    "awaitingnosimusername": "A3IB_nseena8",
+    "awaitingnosimpassword": "Computer1",
+    "suspendedmarkusername": "A3IB_kbincy6",
+    "suspendedmarkpassword": "Computer1",
+    "awaitngsimulationnolivemarkstatususername": "A3IB_nseena8",
+    "awaitngsimulationnolivemarkstatuspassword": "Computer1",
+    "notsimuawaitngapprovedusername": "A3IB_sjaisy12",
+    "notsimuawaitngapprovedpassword": "Computer1",
+    "standistioncompletemarkusername": "A3IB_pbijoy11",
+    "standistioncompletemarkpassword": "Computer1",
+    "insimulationliveusername": "A3IB_nseena8",
+    "insimulationlivepassword": "Computer1",
+    "livepoolusername": "A3IB_bgeorge9",
+    "livepoolpassword": "Computer1",
+    "directusername": "A3IB_aancy10",
+    "directpassword": "Computer1",
+    "livesubmitedusername": "A3IB_sjaisy12",
+    "livesubmitedpassword": "Computer1",
+    "notificationusername": "A3IB_ataaron108",
+    "notificationpwd": "Computer1",
+    "userNameField": "User name",
+    "logOutText": "Logout",
+    "editSetEnglishLan": "Edit settings",
+    "logOutMeddageAsk": "Ask every time",
+    "login": {
+      "liveworklisttest": {
+        "exception": {
+          "username": "A3IB_ataaron108",
+          "password": "Computer1"
+        },
+        "submit": {
+          "annotated": {
+            "username": "A3IB_atgraham86",
+            "password": "Computer1"
+          },
+          "responsesubmission": {
+            "username": "A3IB_atjoselive135",
+            "password": "Computer1"
+          },
+          "seedsubmission": {
+            "username": "A3IB_atjosphine137",
+            "password": "Computer1"
+          },
+          "suspended": {
+            "username": "A3IB_atjohnsus130",
+            "password": "Computer1"
+          },
+          "notapproved": {
+            "username": "A3IB_atjohnawai132",
+            "password": "Computer1"
+          },       
+          "withdrawnusername": "A3IB_atjohnprac131",
+          "withdrawnpassword": "Computer1"
+          
+        }
+      }
+
+    }
+  },
+   "AQA": {
+
+    "URL": "https://esm53assessor3devib.assessor.rm.com",
+    "worklistliveusername1": "A3AQ_maasher21",
+    "worklistlivepassword1": "COmputer12",
+    "worklistliveusername2": "A3AQ_zruth16",
+    "worklistlivepassword2": "COmputer12",
+    "worklistliveusername3": "A3AQ_selijah23",
+    "worklistlivepassword3": "COmputer12",
+     "worklistliveusername4": "fake",
+    "worklistlivepassword4": "COmputer12",
+     "worklistliveusername5": "A3AQ_aizabellep26",
+    "worklistlivepassword5": "COmputer12",
+     "worklistliveusername6": "A3AQ_pnathaniel22",
+    "worklistlivepassword6": "COmputer12",
+    "validusername": "A3IB_tpareksh2",
+    "validpassword": "Computer1",
+    "validusernameUser1": "A3IB_tpareksh2s",
+    "validpasswordUser1": "39sss88",
+    "invalidUsername": "p3ccasuperadmi1155",
+    "invalidPassword": "COmputer12",
+    "usernameCharacters": "$##$@%$%$&^",
+    "passwordCharacters": "#$#$@^&*(",
+    "invalidMessage": "#$#$@^&*(",
+    "invalidMessageUserName": "#$#$@^&*(",
+    "invalidMessagePassword": "#$#$@^&*(",
+    "customerLogoText": "AQA",
+    "errorMessage": "The username or password that you've entered is incorrect. Please try again.",
+    "errorMessageNoData": "Please enter your username and password",
+    "errorMessageUserName": "Please enter a username",
+    "errorMessagePassword": "Please enter a password",
+    "languages": "English,Deutsch,Español,Français",
+    "english": "English",
+    "deutsch": "Deutsch",
+    "spanish": "Spanish",
+    "french": "French",
+    "arabic": "arabic",
+    "logOutMessage": "Are you sure you want to logout?",
+    "awaitingnosimusername": "A3IB_rrakesh4",
+    "awaitingnosimpassword": "Computer1",
+    "suspendedmarkusername": "A3IB_kbincy6",
+    "suspendedmarkpassword": "Computer1",
+    "awaitngsimulationnolivemarkstatususername": "A3IB_nseena8 ",
+    "awaitngsimulationnolivemarkstatuspassword": "Computer1",
+    "notsimuawaitngapprovedusername": "A3IB_sjaisy12",
+    "notsimuawaitngapprovedpassword": "Computer1",
+    "standistioncompletemarkusername": "A3IB_pbijoy11",
+    "standistioncompletemarkpassword": "Computer1",
+    "insimulationliveusername": "A3IB_nseena8 ",
+    "insimulationlivepassword": "Computer1",
+    "livepoolusername": "A3IB_bgeorge9",
+    "livepoolpassword": "Computer1",
+    "directusername": "A3IB_aancy10",
+    "directpassword": "Computer1",
+    "livesubmitedusername": "A3IB_sjaisy12",
+    "livesubmitedpassword":"Computer1",
+    "notificationusername": "A3AQ_djfreitag3",
+    "notificationpwd": "COmputer12",
+    "userNameField": "User name",
+    "logOutText": "Logout",
+    "editSetEnglishLan": "Edit settings",
+    "logOutMeddageAsk":  "Ask every time"
+
+  }
+}

@@ -1,0 +1,397 @@
+﻿{
+  "open": {
+    "livemenucount": "",
+    "opencount": "",
+    "responses": "6827856,68677,6739394,6293525,628818",
+    "notcompletedrid": "628818",
+    "notcompletedpercentage": "60%",
+    "completedrid": "6293525",
+    "completedbutton": "Submit",
+    "alloctext": "Allocated:",
+    "approvedmarker": "A3AQ_selijah23",
+    "markerpassword": "COmputer12",
+    "approvedliveqig": "ATAQA UNSTRUCTUR 1 Whole Paper",
+    "nonapprovedmarker": "A3AQ_aizabelle17",
+    "nonapprovedliveqig": "222AQA UNSTRUCTUR Whole Paper",
+    "approvedwithoutliveqig": "2213AQA UNSTRUCTUR Whole",
+    "suspendedmarker": "A3AQ_pgeogery70",
+    "suspendedmarkerqig": "ATAQA UNSTRUCTUR 1 Whole Paper",
+    "res1": "68677",
+    "res2": "6827856",
+    "res3": "6293525",
+    "res4": "6739394",
+    "newresponsebutton": "//button[@id='getNewResponseButton']"
+    
+  },
+
+  "message": {
+    "username": "A3IB_ataaron108",
+    "password": "Computer1",
+    "tooltipUnread": {
+      "title": "This response has one or more unread linked messages. Click this icon to view the messages.",
+      "indicator": "//div[@id='2_LinkedMessage_4_messgeIndicator']/div/a"
+    },
+     "tooltipNoUnread": {
+      "title": "This response has one or more linked messages. Click this icon to view the messages.",
+      "indicator": "//div[@id='0_LinkedMessage_4_messgeIndicator']/div/a"
+    },
+    "nomessage": {
+      "indicator": "//div[@id='4_LinkedMessage_4_messgeIndicator']/div[@class='col-inner']"
+    },
+    "sent": {
+      "indicator": "//div[@id='0_LinkedMessage_4_messgeIndicator']",
+      "countindicator": "//span[@id='0_LinkedMessage_4_messageNotification']"
+    },
+    "unread": {
+      "indicator": "//div[@id='2_LinkedMessage_4_messgeIndicator']",
+      "countindicator": "//span[@id='2_LinkedMessage_4_messageNotification']",
+      "count": "1"
+    },
+    "received": {
+      "indicator": "//div[@id='1_LinkedMessage_4_messgeIndicator']",
+      "countindicator": "//span[@id='1_LinkedMessage_4_messageNotification']"
+    },
+    "deleted": {
+      "indicator": "//div[@id='3_LinkedMessage_4_messgeIndicator']",
+      "countindicator": "//span[@id='3_LinkedMessage_4_messageNotification']"
+    },
+    "notification": {
+      "indicator": "//a[@id='notification']",
+      "countindicator": "//a[@id='notification']/span[2]",
+      "count": "5"
+    }
+  },
+
+  "SLAO": {
+    "allpagesoffslaooff": {
+      "username": "A3IB_gatmichael76",
+      "password": "Computer1",
+      "response1": {
+        "response": "6651637",
+        "slaoindicator": "//a[@id='slaoAnnotation_0_AllocatedDate_3']"
+      },
+      "response2": {
+        "response": "6257882",
+        "slaoindicator": "//a[@id='slaoAnnotation_2_AllocatedDate_3']"
+      },
+      "response3": {
+        "response": "6257882",
+        "slaoindicator": "//a[@id='slaoAnnotation_1_AllocatedDate_3']"
+      },
+      "response4": {
+        "response": "6367985",
+        "slaoindicator": "//a[@id='slaoAnnotation_4_AllocatedDate_3']",
+        "markingprogressindicator": "//div[@id='4_MarkingProgress_0_markingProgress']/div/span",
+        "markingpercentage": "100%",
+        "submitbutton": "//button[@id='submitSingleResponse_4_MarkingProgress_0']"
+      }
+    },
+
+    "allpagesonslaooff": {
+      "username": "A3IB_atgraham86",
+      "password": "Computer1",
+      "response1": {
+        "response": "672603",
+        "slaoindicator": "//a[@id='slaoAnnotation_0_AllocatedDate_3']"
+      },
+      "response2": {
+        "response": "560963",
+        "allpagesindicator": "//a[@id='allPagesAnnotated_4_AllocatedDate_3']",
+        "markingprogressindicator": "//div[@id='4_MarkingProgress_0_markingProgress']/div/span",
+        "markingpercentage": "100%"
+      },
+      "response3": {
+        "response": "650770",
+        "slaoindicator": "//a[@id='slaoAnnotation_5_AllocatedDate_3']"
+      },
+      "response4": {
+        "response": "266085",
+        "slaoindicator": "//a[@id='slaoAnnotation_1_AllocatedDate_3']"
+      },
+      "response5": {
+        "response": "616160",
+        "slaoindicator": "//a[@id='slaoAnnotation_7_AllocatedDate_3']"
+      },
+      "response6": {
+        "response": "688505",
+        "slaoindicator": "//a[@id='slaoAnnotation_11_AllocatedDate_3']",
+        "allpageindicator": "//a[@id='allPagesAnnotated_11_AllocatedDate_3']"     
+        
+      },
+      "response7": {
+        "response": "6179350",
+        "slaoindicator": "//a[@id='slaoAnnotation_8_AllocatedDate_3']"
+      },
+      "response8": {
+        "response": "6375473",
+        "slaoindicator": "//a[@id='slaoAnnotation_9_AllocatedDate_3']",
+        "allpageindicator": "//a[@id='allPagesAnnotated_9_AllocatedDate_3']"
+      },
+      "response9": {
+        "response": "626319",
+        "slaoindicator": "//a[@id='slaoAnnotation_3_AllocatedDate_3']"
+      },
+      "response10": {
+        "response": "670955",
+        "slaoindicator": "//a[@id='slaoAnnotation_2_AllocatedDate_3']",
+        "submitbutton": "//button[@id='submitSingleResponse_2_MarkingProgress_0']"
+      }
+       
+    },
+    "allpagesoffslaoon": {
+      "username": "A3IB_athannah96",
+      "password": "Computer1",
+      "response1": {
+        "response": "19087",
+        "slaoindicator": "//a[@id='slaoAnnotation_12_AllocatedDate_3']"
+      },
+      "response2": {
+        "response": "6470607",
+        "slaoindicator": "//a[@id='slaoAnnotation_11_AllocatedDate_3']"
+      },
+      "response3": {
+        "response": "750218",
+        "slaoindicator": "//a[@id='slaoAnnotation_10_AllocatedDate_3']"
+      },
+      "response4": {
+        "response": "411609",
+        "slaoindicator": "//a[@id='slaoAnnotation_4_AllocatedDate_3']",
+        "markingprogressindicator": "//div[@id='4_MarkingProgress_0_markingProgress']/div/span",
+        "markingpercentage": "100%",
+        "slaocrossindicatortitleindicator": "//a[@id='slaoAnnotation_4_AllocatedDate_3']",
+        "slaocrossindicatortitle": "Response has additional answer pages that must be annotated before marks can be submitted"
+      },
+      "response5": {
+        "response": "445436",
+        "slaoindicator": "//a[@id='slaoAnnotation_13_AllocatedDate_3']"
+      },
+      "response6": {
+        "response": "471207",
+        "slaoindicator": "//a[@id='slaoAnnotation_3_AllocatedDate_3']"
+      }
+      
+    },
+    "allpagesonslaoon": {
+      "username": "A3IB_atnathan106",
+      "password": "Computer1",
+      "response1": {
+        "response": "694237",
+        "slaoindicator": "//a[@id='slaoAnnotation_6_AllocatedDate_3']"
+      },
+      "response2": {
+        "response": "614834",
+        "slaoindicator": "//a[@id='allPagesAnnotated_4_AllocatedDate_3']",
+        "markingprogressindicator": "//div[@id='4_MarkingProgress_0_markingProgress']/div/span",
+        "markingpercentage": "100%"
+      },
+      "response3": {
+        "response": "680979",
+        "slaoindicator": "//a[@id='slaoAnnotation_7_AllocatedDate_3']"
+      },
+      "response4": {
+        "response": "438465",
+        "slaoindicator": "//a[@id='slaoAnnotation_0_AllocatedDate_3']"
+      },
+      "response5": {
+        "response": "482137",
+        "slaoindicator": "//a[@id='slaoAnnotation_10_AllocatedDate_3']"
+      },
+      "response6": {
+        "response": "762323",
+        "slaoindicator": "//a[@id='slaoAnnotation_9_AllocatedDate_3']",
+        "allpageindicator": "//a[@id='allPagesAnnotated_9_AllocatedDate_3']"
+      },
+      "response7": {
+        "response": "918377",
+        "slaoindicator": "//a[@id='slaoAnnotation_5_AllocatedDate_3']"
+      },
+      "response8": {
+        "response": "139946",
+        "slaoindicator": "//a[@id='slaoAnnotation_3_AllocatedDate_3']",
+        "allpageindicator": "//a[@id='allPagesAnnotated_3_AllocatedDate_3']",
+        "markingprogressindicator": "//div[@id='3_MarkingProgress_0_markingProgress']/div/span",
+        "markingpercentage": "100%",
+        "slaoindicatortitle": "Response has additional answer pages",
+        "notallpagesannotatedtitle": "Not all pages annotated"
+      },
+      "response9": {
+        "response": "855997",
+        "slaoindicator": "//a[@id='slaoAnnotation_1_AllocatedDate_3']"
+      },
+      "response10": {
+        "response": "564589",
+        "slaoindicator": "//a[@id='slaoAnnotation_2_AllocatedDate_3']"
+      }
+      
+
+    }
+    
+  },
+  "exception": {
+    "selectedqig": "mat3SP1MATTZ1XXXX",
+    "selectedmarkingtype": "mark",
+    "title": {
+      "has_exceptions_text": "This response has one or more linked exceptions. None of these will prevent the response being submitted when marking is complete. Click this icon to view the exceptions.",
+      "has_exceptions_blocking_submission": "This response has one or more linked exceptions. You will not be able to submit the response until these exceptions have been resolved and closed. Click this icon to view the exceptions.",
+      "has_exceptions_few_resolved": "This response has {0} exceptions that are resolved and waiting for you to review and close. None of these will prevent the response being submitted when marking is complete. Click this icon to view the exceptions.",
+      "has_exceptions_blocking_submission_few_resolved": "This response has {0} exceptions that are resolved and waiting for you to review and close. You will not be able to submit the response until you have closed these exceptions. Click this icon to view the exceptions."
+    },
+    "resonselist": {
+      "noexception": {
+        "markingprogress": "0",
+        "responseid": "6921240",
+        "hasblockingexception": false,
+        "resolvedexceptioncount": 0,
+        "totalexceptioncount": 0,
+        "index": 0
+      },
+      "nonblockingopen": {
+        "markingprogress": "100",
+        "responseid": "6522451",
+        "hasblockingexception": false,
+        "resolvedexceptioncount": 0,
+        "totalexceptioncount": 1,
+        "index": 1
+      },
+      "blockedopen": {
+        "markingprogress": "100",
+        "responseid": "6992927",
+        "hasblockingexception": true,
+        "resolvedexceptioncount": 0,
+        "totalexceptioncount": 1,
+        "index": 2
+      },
+      "nonblockingresolved": {
+        "markingprogress": "0",
+        "responseid": "65446",
+        "hasblockingexception": false,
+        "resolvedexceptioncount": 1,
+        "totalexceptioncount": 1,
+        "index": 3
+      },
+      "blockingresolved": {
+        "markingprogress": "0",
+        "responseid": "6229880",
+        "hasblockingexception": true,
+        "resolvedexceptioncount": 1,
+        "totalexceptioncount": 1,
+        "index": 4
+      },
+      "closedexception": {
+        "markingprogress": "0",
+        "responseid": "6735155",
+        "hasblockingexception": false,
+        "resolvedexceptioncount": 0,
+        "totalexceptioncount": 1,
+        "index": 5
+      },
+      "opennonandblocking": {
+        "markingprogress": "0",
+        "responseid": "6198161",
+        "hasblockingexception": true,
+        "resolvedexceptioncount": 0,
+        "totalexceptioncount": 2,
+        "index": 7
+      },
+      "nonblockingresolvedandopen": {
+        "markingprogress": "0",
+        "responseid": "6306369",
+        "hasblockingexception": false,
+        "resolvedexceptioncount": 1,
+        "totalexceptioncount": 2,
+        "index": 8
+      },
+      "opennonblockingresolvedblocking": {
+        "markingprogress": "0",
+        "responseid": "6142585",
+        "hasblockingexception": true,
+        "resolvedexceptioncount": 1,
+        "totalexceptioncount": 2,
+        "index": 9
+      },
+      "nonblockingopenandblockingclosed": {
+        "markingprogress": "0",
+        "responseid": "6855096",
+        "hasblockingexception": false,
+        "resolvedexceptioncount": 0,
+        "totalexceptioncount": 2,
+        "index": 10
+      },
+      "resolvednonblockingandopenblocking": {
+        "markingprogress": "0",
+        "responseid": "6850471",
+        "hasblockingexception": true,
+        "resolvedexceptioncount": 2,
+        "totalexceptioncount": 2,
+        "index": 11
+      },
+      "openandresolvedblocking": {
+        "markingprogress": "0",
+        "responseid": "6262021",
+        "hasblockingexception": true,
+        "resolvedexceptioncount": 1,
+        "totalexceptioncount": 2,
+        "index": 12
+      },
+      "openBlockingandclosedOthers": {
+        "markingprogress": "0",
+        "responseid": "6820885",
+        "hasblockingexception": true,
+        "resolvedexceptioncount": 0,
+        "totalexceptioncount": 2,
+        "index": 13
+      },
+      "resolvedblockingnonblocking": {
+        "markingprogress": "0",
+        "responseid": "6327086",
+        "hasblockingexception": true,
+        "resolvedexceptioncount": 2,
+        "totalexceptioncount": 2,
+        "index": 14
+      }
+    }
+  },
+
+  "responsesubmission": {
+    "submit": {
+      "popuptitle": "Submit Response",
+      "popupcontent": "Are you sure you want to submit this response?",
+      "busyindicatortext": "Submitting response, please wait...",
+      "messageforsuspendedmarker": "You cannot submit response because you are suspended from marking this question group.",
+      "messageforwithdrawnmarker": "You cannot submit response because you have been withdrawn from the marking team for this question group.",
+      "messagefornotapprovedmarker": "You cannot submit response because you are not approved for marking this question group.",
+      "annotated": {
+        "qigname": "mat1SP1MATTZ1XXXX",
+        "response": "6670955"
+      },
+      "blockingexception": {
+        "response": "6428911"
+      },
+      "nonblockingexception": {
+        "response": "6131039"
+      },
+      "seed": {
+        "response": "6222809"
+      },
+      "grace": {
+        "qigname": "ATPhysics(InGarce)"
+      },
+      "closed": {
+        "qigname": "ATPhysics(Closed)"
+      }
+       
+    },
+    "submitall": {
+      "popuptitle": "Submit Responses",
+      "popupcontent": "Are you sure you want to submit all fully marked responses?",
+      "busyindicatortext": "Submitting responses, please wait...",
+      "messageforsuspendedmarker": "You cannot submit responses because you are suspended from marking this question group.",
+      "messageforwithdrawnmarker": "You cannot submit responses because you have been withdrawn from the marking team for this question group.",
+      "messagefornotapprovedmarker": "You cannot submit responses because you are not approved for marking this question group."
+    }
+    
+  }
+
+  
+
+}

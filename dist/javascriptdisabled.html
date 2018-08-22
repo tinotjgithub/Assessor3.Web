@@ -1,0 +1,43 @@
+<!doctype html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <link rel="stylesheet" href="build/generated/app.css" />
+        <title>Javascript is not enabled</title>
+    </head>
+<body onload="javascript:Redirect()">
+    <script type="text/javascript">
+         <!--
+        // Redirect to the home page if script is enabled.
+        function Redirect() {
+            var path = window.location.pathname;
+            var page = path.split("/").pop();
+            window.location = window.location.href.replace(page,'');
+         }
+         //-->
+    </script>
+    <div class="container">
+        <div class="page-wrapper">
+            <div class="notify-wrapper js-disabled-error">
+                <header class="fixed">
+                    <div class="wrapper clearfix">
+                        <a href="#" class="sprite-icon assessor-logo"></a>
+                    </div>
+                    <div class="blue-strip">
+                    </div>
+                </header>
+                <div class="content-wrapper vertical-middle">
+                    <div class="notify-content middle-content">
+                        <span class="notify-prime-image notify-js-disabled sprite-icon"></span>
+                        <h3 class="notify-title bolder">JavaScript is not enabled</h3>
+                        <p class="notify-description">
+                            RM Assessor<sup>3</sup> requires that Javascript is enabled in your browser.<br>
+                            Please check your browser settings and enable Javascript, then reload this page.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

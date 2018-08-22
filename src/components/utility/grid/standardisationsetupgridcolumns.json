@@ -1,0 +1,485 @@
+{
+    "definitions": {
+        "Marks": {
+            "$id": "13",
+            "GridColumn": "MarksColumn",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.marks",
+            "ComparerName": "markComparer",
+            "Sortable": "true",
+            "CssClass": "col-mark-obt"
+        },
+        "LastMarker": {
+            "$id": "14",
+            "GridColumn": "LastMarkerColumn",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.last-marker",
+            "ComparerName": "stdLastMarkerComparer",
+            "Sortable": "true",
+            "CssClass": "col-last-marker"
+        },
+        "Note": {
+            "$id": "15",
+            "GridColumn": "NoteColumn",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.note",
+            "ComparerName": "stdNoteComparer",
+            "Sortable": "true",
+            "CssClass": "col-note"
+        },
+        "TagIndicator": {
+            "$id": "16",
+            "GridColumn": "TagIndicator",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.tag",
+            "CssClass": "col-tag",
+            "ComparerName": "tagComparer",
+            "Sortable": "true",
+            "ComponentProps": {
+                "selectedTagId": "selectedTagId",
+                "tagList": "tagList",
+                "markGroupId": "markGroupId"
+            }
+        },
+        "LastUpdated": {
+            "$id": "17",
+            "GridColumn": "LastUpdatedColumn",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.last-updated",
+            "ComparerName": "updatedDateComparer",
+            "Sortable": "true",
+            "CssClass": "col-modified",
+            "ComponentProps": {
+                "updatedDate": "updatedDate"
+            }
+        },
+        "ResponseId": {
+            "$id": "18",
+            "GridColumn": "ResponseIdColumn",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.response-id",
+            "ComparerName": "responseIdComparer",
+            "Sortable": "true",
+            "CssClass": "col-response header-col"
+        },
+        "LinkedMessageIndicator": {
+            "$id": "19",
+            "GridColumn": "LinkedMessageIndicator",
+            "ColumnHeader": "",
+            "CssClass": "col-message",
+            "ComponentProps": {
+                "hasMessages": "hasMessages",
+                "unreadMessagesCount": "unreadMessagesCount",
+                "displayId": "displayId",
+                "isTeamManagementMode": "isTeamManagementMode"
+            }
+        },
+        "RIGOrder": {
+            "$id": "20",
+            "GridColumn": "RigOrderColumn",
+            "ColumnHeader": "",
+            "Sortable": "false"
+        },
+        "Centre": {
+            "$id": "31",
+            "GridColumn": "Centre",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.centre",
+            "CssClass": "col-centre header-col",
+            "ComparerName": "centreComparer",
+            "Sortable": "true"
+        },
+        "Scripts": {
+            "$id": "32",
+            "GridColumn": "Scripts",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.scripts",
+            "CssClass": "col-scripts",
+            "ComparerName": "stdScriptComparer",
+            "Sortable": "true"
+        },
+        "Available": {
+            "$id": "33",
+            "GridColumn": "ScriptsAvailable",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.available-scripts",
+            "CssClass": "col-scripts-available",
+            "ComparerName": "stdScriptAvailableComparer",
+            "Sortable": "true"
+        },
+        "FirstScanned": {
+            "$id": "34",
+            "GridColumn": "FirstScanned",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.first-scanned",
+            "CssClass": "col-first-scanned",
+            "ComparerName": "stdFirstScannedComparer",
+            "Sortable": "true"
+        },
+        "ScriptId": {
+            "$id": "35",
+            "GridColumn": "ScriptId",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.script-id",
+            "ComparerName": "stdScriptIdComparer",
+            "Sortable": "true",
+            "CssClass": "col-script-id header-col",
+            "ComponentProps": {
+                "ScriptId": "candidateScriptId"
+            }
+        },
+        "Candidate": {
+            "$id": "36",
+            "GridColumn": "CentreCandidateNum",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.candidate",
+            "ComparerName": "candidateComparer",
+            "Sortable": "true",
+            "CssClass": "col-candidate",
+            "ComponentProps": {
+                "Candidate": "CentreCandidateNum"
+            }
+        },
+        "Status": {
+            "$id": "37",
+            "GridColumn": "Status",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.status",
+            "ComparerName": "stdStatusComparer",
+            "Sortable": "true",
+            "CssClass": "col-available-status",
+            "ComponentProps": {
+                "Status": "Status"
+            }
+        },
+        "SLAOIndicator": {
+            "$id": "38",
+            "GridColumn": "SLAOIndicator",
+            "ColumnHeader": "",
+            "CssClass": "col-slao",
+            "ComponentProps": {
+                "hasAdditionalObjects": "hasAdditionalObjects",
+                "hasAllPagesAnnotated": "hasAllPagesAnnotated",
+                "markingProgress": "markingProgress"
+            }
+        },
+        "MarkingProgress": {
+            "$id": "39",
+            "GridColumn": "Status",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.status",
+            "ComparerName": "progressComparer",
+            "Sortable": "true",
+            "CssClass": "col-status",
+            "ComponentProps": {
+                "markingProgress": "markingProgress",
+                "esmarkGroupId": "esmarkGroupId"
+            }
+        },
+        "ModifiedDate": {
+            "$id": "40",
+            "GridColumn": "Status",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.status",
+            "ComparerName": "updatedDateComparer",
+            "Sortable": "true",
+            "CssClass": "col-status",
+            "ComponentProps": {
+                "Status": "Status"
+            }
+        },
+        "AllPageAnnotedIndicator": {
+            "$id": "41",
+            "GridColumn": "AllPageAnnotedIndicator",
+            "CssClass": "col-slao",
+            "ColumnHeader": "",
+            "ComponentProps": {
+                "hasAllPagesAnnotated": "hasAllPagesAnnotated",
+                "markingProgress": "markingProgress"
+            }
+        },
+        "AllFilesNotViewedIndicator": {
+            "$id": "42",
+            "GridColumn": "AllFilesNotViewedIndicator",
+            "CssClass": "col-slao",
+            "ColumnHeader": "",
+            "ComponentProps": {
+                "allFilesViewed": "allFilesViewed",
+                "markingProgress": "markingProgress",
+                "isECourseworkComponent": "isECourseworkComponent"
+            }
+        },
+        "DeClassify": {
+            "$id": "44",
+            "GridColumn": "DeClassifyColumn",
+            "ColumnHeader": "",
+            "CssClass": "last-cell col-declassify"
+        },
+        "QuestionItems": {
+            "$id": "43",
+            "GridColumn": "QuestionItems",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.question-items",
+            "CssClass": "col-question-item",
+            "ComponentProps": {
+                "QuestionItems": "QuestionItems"
+            }
+        },
+        "OrginalSession": {
+            "$id": "45",
+            "GridColumn": "OrginalSession",
+            "ColumnHeader": "standardisation-setup.previous-session.reusable-response.original-session",
+            "ComparerName": "stdOrginalSessionComparer",
+            "Sortable": "true",
+            "CssClass": "col-org-session",
+            "ComponentProps": {
+                "Status": "OrginalSession"
+            }
+        },
+
+        "OrginalClassification": {
+            "$id": "46",
+            "GridColumn": "OrginalClassification",
+            "ColumnHeader": "standardisation-setup.previous-session.reusable-response.original-classification",
+            "ComparerName": "stdOrginalClassificationComparer",
+            "Sortable": "true",
+            "CssClass": "col-org-classification"
+        },
+
+        "Mark": {
+            "$id": "47",
+            "GridColumn": "Mark",
+            "ColumnHeader": "standardisation-setup.previous-session.reusable-response.original-mark",
+            "ComparerName": "marksComparer",
+            "Sortable": "true",
+            "CssClass": "col-mark-obt"
+        },
+
+        "OrginalMarksUpdated": {
+            "$id": "48",
+            "GridColumn": "OrginalMarksUpdated",
+            "ColumnHeader": "standardisation-setup.previous-session.reusable-response.original-marks-updated",
+            "ComparerName": "orginalMarksUpdatedComparer",
+            "Sortable": "true",
+            "CssClass": "col-updated-mark"
+        },
+
+        "HideResponse": {
+            "$id": "49",
+            "GridColumn": "HideResponse",
+            "ColumnHeader": "standardisation-setup.previous-session.reusable-response.hide-response",
+            "Sortable": "false",
+            "CssClass": "col-hide-response"
+        },
+
+        "TotalTimeReused": {
+            "$id": "50",
+            "GridColumn": "Totaltimereused",
+            "ColumnHeader": "standardisation-setup.previous-session.reusable-response.total-times-reused",
+            "ComparerName": "totalTimesReusedComparer",
+            "Sortable": "true",
+            "CssClass": "col-time-reused text-center"
+        },
+
+        "LastUsed": {
+            "$id": "51",
+            "GridColumn": "LastUsed",
+            "ColumnHeader": "standardisation-setup.previous-session.reusable-response.last-used",
+            "ComparerName": "lastUsedComparer",
+            "Sortable": "true",
+            "CssClass": "col-last-used"
+        },
+
+        "TimesReusedInThisSession": {
+            "$id": "52",
+            "GridColumn": "TimesReusedInThisSession",
+            "ColumnHeader": "standardisation-setup.previous-session.reusable-response.times-reused-in-this-session",
+            "ComparerName": "totalTimesReusedSessionComparer",
+            "Sortable": "true",
+            "CssClass": "col-time-reused-in-session text-center"
+        },
+        "UpdatePending": {
+            "$id": "53",
+            "GridColumn": "UpdatePending",
+            "ColumnHeader": "standardisation-setup.previous-session.reusable-response.update-pending",
+            "ComparerName": "updatePendingComparer",
+            "Sortable": "true",
+            "CssClass": "col-update-pending"
+        },
+        "IsReused": {
+            "$id": "54",
+            "GridColumn": "Status",
+            "Sortable": "false",
+            "CssClass": "col-re-use"
+        },
+        "IsReusedInThisQIG": {
+            "$id": "55",
+            "GridColumn": "IsReusedInThisQIG",
+            "ColumnHeader": "standardisation-setup.previous-session.reusable-response.re-used-inthis-qig",
+            "ComparerName": "stdIsReusedInQigComparer",
+            "Sortable": "true",
+            "CssClass": "col-re-use"
+        },
+        "ReuseCentre": {
+            "$id": "56",
+            "GridColumn": "Centre",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.centre",
+            "CssClass": "col-centre header-col",
+            "ComparerName": "stdCentreComparer",
+            "Sortable": "true"
+        },
+        "ReuseCandidate": {
+            "$id": "57",
+            "GridColumn": "CentreCandidateNum",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.candidate",
+            "ComparerName": "stdCandidateComparer",
+            "Sortable": "true",
+            "CssClass": "col-candidate",
+            "ComponentProps": {
+                "Candidate": "CentreCandidateNum"
+            }
+        },
+        "unclassifiedMarkingProgress": {
+            "$id": "58",
+            "GridColumn": "Status",
+            "ColumnHeader": "standardisation-setup.standardisation-setup-worklist.total-mark-view-column-headers.status",
+            "ComparerName": "unclassifiedprogressComparer",
+            "Sortable": "true",
+            "CssClass": "col-status",
+            "ComponentProps": {
+                "markingProgress": "markingProgress",
+                "esmarkGroupId": "esmarkGroupId"
+            }
+        }
+    },
+    "IsSharedProvisional": {
+        "$id": "59",
+        "GridColumn": "IsSharedProvisional",
+        "CssClass": "col-share header-col",
+        "ColumnHeader": ""
+    },
+    "standardisationsetup": {
+        "SelectResponse": {
+            "Centre": {
+                "GridColumns": [
+                    { "$ref": "31" },
+                    { "$ref": "32" },
+                    { "$ref": "33" },
+                    { "$ref": "34" }
+                ]
+            },
+            "Script": {
+                "GridColumns": [
+                    { "$ref": "36" },
+                    { "$ref": "37" },
+                    { "$ref": "38" },
+                    { "$ref": "43" }
+                ]
+            },
+            "FrozenRows": {
+                "GridColumns": [
+                    { "$ref": "35" }
+                ]
+            }
+        },
+        "PreviousSession": {
+            "ReusableResponse": {
+                "GridColumns": [
+                    { "$ref": "56" },
+                    { "$ref": "57" },
+                    { "$ref": "47" },
+                    { "$ref": "48" },
+                    { "$ref": "49" },
+                    { "$ref": "50" },
+                    { "$ref": "52" },
+                    { "$ref": "51" },
+                    { "$ref": "55" },
+                    { "$ref": "53" }
+                ]
+            },
+            "frozenRows": {
+                "GridColumns": [
+                    { "$ref": "35" },
+                    { "$ref": "54" },
+                    { "$ref": "45" },
+                    { "$ref": "46" }
+                ]
+            }
+        },
+
+        "ProvisionalResponse": {
+            "totalmarksview": {
+                "GridColumns": [
+                    { "$ref": "35" },
+                    { "$ref": "39" },
+                    { "$ref": "31" },
+                    { "$ref": "36" },
+                    { "$ref": "13" },
+                    { "$ref": "15" },
+                    { "$ref": "38" },
+                    { "$ref": "41" },
+                    { "$ref": "42" },
+                    { "$ref": "19" },
+                    { "$ref": "16" },
+                    { "$ref": "17" }
+                ]
+            },
+            "marksbyquestionview": {
+                "GridColumns": [
+                    { "$ref": "13" },
+                    { "$ref": "39" },
+                    { "$ref": "15" }
+                ]
+            },
+            "frozenRows": {
+                "GridColumns": [
+                    { "$ref": "59" },
+                    { "$ref": "18" }
+                ]
+            }
+        },
+        "UnClassifiedResponse": {
+            "totalmarksview": {
+                "GridColumns": [
+                    { "$ref": "35" },
+                    { "$ref": "31" },
+                    { "$ref": "58" },
+                    { "$ref": "36" },
+                    { "$ref": "13" },
+                    { "$ref": "14" },
+                    { "$ref": "15" },
+                    { "$ref": "38" },
+                    { "$ref": "41" },
+                    { "$ref": "19" },
+                    { "$ref": "16" },
+                    { "$ref": "17" }
+                ]
+            },
+            "marksbyquestionview": {
+                "GridColumns": [
+                    { "$ref": "13" },
+                    { "$ref": "58" },
+                    { "$ref": "15" }
+                ]
+            },
+            "frozenRows": {
+                "GridColumns": [
+                    { "$ref": "18" }
+                ]
+            }
+        },
+        "ClassifiedResponse": {
+            "totalmarksview": {
+                "GridColumns": [
+                    { "$ref": "35" },
+                    { "$ref": "31" },
+                    { "$ref": "36" },
+                    { "$ref": "13" },
+                    { "$ref": "14" },
+                    { "$ref": "15" },
+                    { "$ref": "19" },
+                    { "$ref": "16" },
+                    { "$ref": "17" },
+                    { "$ref": "44" }
+                ]
+            },
+            "marksbyquestionview": {
+                "GridColumns": [
+                    { "$ref": "13" },
+                    { "$ref": "14" },
+                    { "$ref": "15" }
+                ]
+            },
+            "frozenRows": {
+                "GridColumns": [
+                    { "$ref": "20" },
+                    { "$ref": "18" }
+                ]
+            }
+        }
+    }
+}

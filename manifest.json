@@ -1,0 +1,35 @@
+﻿{
+  "name": "IB RM Assessor 3",
+  "short_name": "IB RM Assessor 3",
+  "start_url": "https://esm53assessor3devib.assessor.rm.com/",
+  "display": "standalone",
+  "orientation": "any",
+  "icons": [{
+        "src": "./content/images/icons/logo-Assessor-72x72.png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "./content/images/icons/logo-Assessor-76x76.png",
+        "sizes": "76x76"
+      },
+      {
+        "src": "./content/images/icons/logo-Assessor-114x114.png",
+        "sizes": "114x114"
+      },
+      {
+        "src": "./content/images/icons/logo-Assessor-144x144.png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "./content/images/icons/logo-Assessor-152x152.png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "./content/images/icons/logo-Assessor-180x180.png",
+        "sizes": "180x180"
+      },
+      {
+        "src": "./content/images/icons/logo-Assessor-192x192png",
+        "sizes": "192x192"
+      }]
+}

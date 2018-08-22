@@ -1,0 +1,284 @@
+{
+  "definitions": {
+    "ExaminerColumnMyTeam": {
+      "$id": "1",
+      "GridColumn": "Examiner",
+      "ColumnHeader": "team-management.my-team.column-headers.examiner",
+      "CssClass": "col-examiner header-col",
+      "ComparerName": "examinerDataComparer",
+      "Sortable": "true",
+      "SortOption": "Up",
+      "ComponentProps": {
+        "examinerId": "examinerId",
+        "examinerRoleId": "examinerRoleId",
+        "examinerName": "examinerName",
+        "hasSub": "hasSub",
+        "isCoordinationCompleted": "isCoordinationCompleted",
+        "isExpanded": "isExpanded"
+      }
+    },
+    "StateColumnMyTeam": {
+      "$id": "2",
+      "GridColumn": "State",
+      "ColumnHeader": "team-management.my-team.column-headers.state",
+      "CssClass": "col-state",
+      "ComparerName": "",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "TargetProgressColumnMyTeam": {
+      "$id": "3",
+      "GridColumn": "TargetProgress",
+      "ColumnHeader": "team-management.my-team.column-headers.target-progress",
+      "CssClass": "col-target-prog",
+      "ComparerName": "TargetProgressComparer",
+      "Sortable": "true",
+      "SortOption": "Both",
+      "ComponentProps": {
+        "examinerProgress": "examinerProgress",
+        "examinerTarget": "examinerTarget",
+        "markingTargetName": "markingTargetName"
+      }
+    },
+    "LockedDurationColumnMyTeam": {
+      "$id": "4",
+      "GridColumn": "LockedDuration",
+      "ColumnHeader": "team-management.my-team.column-headers.lock-duration",
+      "CssClass": "col-lock-dur",
+      "ComparerName": "",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "LockedByColumnMyTeam": {
+      "$id": "5",
+      "GridColumn": "LockedBy",
+      "ColumnHeader": "team-management.my-team.column-headers.locked-by",
+      "CssClass": "col-locked-by",
+      "ComparerName": "",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "ExceptionIdColumnExceptions": {
+      "$id": "6",
+      "GridColumn": "ExceptionId",
+      "ColumnHeader": "team-management.exceptions.exception-list-column-headers.exception-id",
+      "CssClass": "col-exception-id header-col",
+      "ComparerName": "ExceptionIdComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "ExaminerColumnExceptions": {
+      "$id": "7",
+      "GridColumn": "Examiner",
+      "ColumnHeader": "team-management.my-team.column-headers.examiner",
+      "CssClass": "col-examiner",
+      "ComparerName": "ExaminerComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "ExceptionTypeColumnExceptions": {
+      "$id": "8",
+      "GridColumn": "ExceptionType",
+      "ColumnHeader": "team-management.exceptions.exception-list-column-headers.exception-type",
+      "CssClass": "col-exception-type",
+      "ComparerName": "ExceptionTypeComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "TimeOpenColumnExceptions": {
+      "$id": "9",
+      "GridColumn": "TimeOpen",
+      "ColumnHeader": "team-management.exceptions.exception-list-column-headers.time-open",
+      "CssClass": "col-time-open",
+      "ComparerName": "ExceptionTypeComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "ResponsesToReview": {
+      "$id": "10",
+      "GridColumn": "ResponsesToReview",
+      "ColumnHeader": "team-management.my-team.column-headers.responses-to-review",
+      "CssClass": "col-resp-to-review",
+      "ComparerName": "ResposesToReviewComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "ExaminerColumnHelpExaminer": {
+      "$id": "11",
+      "GridColumn": "Examiner",
+      "ColumnHeader": "team-management.help-examiners.column-headers.examiner",
+      "CssClass": "col-examiner header-col",
+      "ComparerName": "examinerComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+        "examinerId": "examinerId",
+        "examinerRoleId": "examinerRoleId",
+        "examinerName": "examinerName",
+        "isCoordinationCompleted": "isCoordinationCompleted"
+      }
+    },
+    "LockColumnHelpExaminer": {
+      "$id": "12",
+      "GridColumn": "SEPAction",
+      "ColumnHeader": "",
+      "CssClass": "col-lock-button",
+      "ComparerName": "lockComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "RoleColumnHelpExaminer": {
+      "$id": "13",
+      "GridColumn": "Role",
+      "ColumnHeader": "team-management.help-examiners.column-headers.role",
+      "CssClass": "col-role",
+      "ComparerName": "roleComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "StateColumnHelpExaminer": {
+      "$id": "14",
+      "GridColumn": "State",
+      "ColumnHeader": "team-management.help-examiners.column-headers.state",
+      "CssClass": "col-state",
+      "ComparerName": "stateComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "TimeInCurrentStateColumnHelpExaminer": {
+      "$id": "15",
+      "GridColumn": "TimeInCurrentState",
+      "ColumnHeader": "team-management.help-examiners.column-headers.time-in-current-state",
+      "CssClass": "col-time-in-current-state",
+      "ComparerName": "timeInCurrentStateComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "SupervisorColumnHelpExaminer": {
+      "$id": "16",
+      "GridColumn": "Supervisor",
+      "ColumnHeader": "team-management.help-examiners.column-headers.supervisor",
+      "CssClass": "col-supervisor",
+      "ComparerName": "supervisorComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "LockedDurationColumnHelpExaminer": {
+      "$id": "17",
+      "GridColumn": "LockedDuration",
+      "ColumnHeader": "team-management.help-examiners.column-headers.lock-duration",
+      "CssClass": "col-lock-dur",
+      "ComparerName": "",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "LockedByColumnHelpExaminer": {
+      "$id": "18",
+      "GridColumn": "LockedBy",
+      "ColumnHeader": "team-management.my-team.column-headers.locked-by",
+      "CssClass": "col-locked-by",
+      "ComparerName": "",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    },
+    "TotalQIGsActiveColumnHelpExaminer": {
+      "$id": "19",
+      "GridColumn": "TotalQigsActive",
+      "ColumnHeader": "team-management.my-team.column-headers.total-qigs-active",
+      "CssClass": "col-tot-activ",
+      "ComparerName": "TotalQigActiveComparer",
+      "Sortable": "true",
+      "SortOption": "Both",
+      "ComponentProps": {
+      }
+    },
+    "TotalQIGsRequiringColumnHelpExaminer": {
+      "$id": "20",
+      "GridColumn": "TotalQigsRequiring",
+      "ColumnHeader": "team-management.my-team.column-headers.total-qigs-requiring-action",
+      "CssClass": "col-tot-req",
+      "ComparerName": "TotalQigRequiringComparer",
+      "Sortable": "true",
+      "SortOption": "Both",
+      "ComponentProps": {
+      }
+    },
+    "TimesSuspended": {
+      "$id": "21",
+      "GridColumn": "TimesSuspended",
+      "ColumnHeader": "team-management.my-team.column-headers.times-suspended",
+      "CssClass": "col-time-suspended text-center",
+      "ComparerName": "",
+      "Sortable": "false",
+      "ComponentProps": {
+      }
+    }
+    },
+    "teammanagement": {
+      "myteam": {
+        "detailview": {
+          "GridColumns": [
+            { "$ref": "2" },
+            {"$ref": "21"},
+            { "$ref": "3" },
+            { "$ref": "10"},
+            { "$ref": "4" },
+            { "$ref": "5" }
+          ]
+        },
+        "frozenRows": {
+          "GridColumns": [
+            { "$ref": "1" }
+          ]
+        }
+      },
+      "exceptions": {
+        "detailview": {
+          "GridColumns": [
+            { "$ref": "7" },
+            { "$ref": "8" },
+            { "$ref": "9" }
+          ]
+        },
+        "frozenRows": {
+          "GridColumns": [
+            { "$ref": "6" }
+          ]
+        }
+      },
+      "helpexaminers": {
+        "detailview": {
+          "GridColumns": [
+            { "$ref": "12" },
+            { "$ref": "13" },
+            { "$ref": "14" },
+            { "$ref": "15" },
+            { "$ref": "16" },
+            { "$ref": "17" },
+            { "$ref": "19" },
+            { "$ref": "20" },
+            { "$ref": "18"}
+          ]
+        },
+        "frozenRows": {
+          "GridColumns": [
+            { "$ref": "11" }
+          ]
+        }
+      }
+    }
+  }

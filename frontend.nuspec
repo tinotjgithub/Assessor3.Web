@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>RM_Assessor_Assessor3_FrontEnd_R4_1</id>
+    <title>Nuget Package for the R4_1</title>
+    <version>$version$</version>
+    <authors>RM Education</authors>
+    <owners>RM Education</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides package for allowing Octopus to deploy Hello World.</description>
+    <copyright>Copyright RM 2014</copyright>
+  </metadata>
+  <files>
+  <file src="build\**" target="build" />
+  <file src="dist\**" target="" />
+  <file src="index.html" target="" />
+  <file src="*.ps1" target="" />  
+  <file src="web.config" target="" />
+  <file src="manifest.json" target="" />
+  <file src="AppInsight*.json" target="" />
+  </files>
+</package>

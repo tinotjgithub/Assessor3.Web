@@ -1,0 +1,85 @@
+.inline-icon(){
+	display:inline-block;
+}
+.stretch-horizontal{
+	width:100%;
+}
+.stretch-vertical{
+	height:100%;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+	
+.vendorize(@property, @value){
+	-webkit-@{property}: @value;
+	-moz-@{property}: @value;
+	-ms-@{property}: @value;
+	-o-@{property}: @value;
+	@{property}: @value;
+}
+.flex-display(){
+  display: -webkit-box;
+  display: -moz-box;
+  
+  display: -webkit-flex;
+  display: flex;
+  display: -ms-flexbox;
+}
+.box-display(){
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-box;
+	display:-o-box;
+	display:box;	
+}
+.calc-fn(@pro;@calculation){
+	@{pro}:-moz-calc(~"@{calculation}");
+	@{pro}:-webkit-calc(~"@{calculation}");
+	@{pro}:calc(~"@{calculation}");
+}
+.callout-tail(@direction,@size,@color){
+	& when(@direction="up"){
+		border-width:@size;
+		border-style:solid;
+		border-color:@color;
+		border-left-color:transparent;
+		border-right-color:transparent;
+		border-top-width:0;
+	}
+	& when(@direction="down"){
+		border-width:@size;
+		border-style:solid;
+		border-color:@color;
+		border-left-color:transparent;
+		border-right-color:transparent;
+		border-bottom-width:0;
+	}
+	& when(@direction="left"){
+		border-width:@size;
+		border-style:solid;
+		border-color:@color;
+		border-top-color:transparent;
+		border-bottom-color:transparent;
+		border-left-width:0;
+	}
+	& when(@direction="right"){
+		border-width:@size;
+		border-style:solid;
+		border-color:@color;
+		border-top-color:transparent;
+		border-bottom-color:transparent;
+		border-right-width:0;
+	}
+}
+.black-overlay(){
+	background-color:rgba(0,0,0,0.5);	
+}

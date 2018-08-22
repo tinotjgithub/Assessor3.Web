@@ -1,0 +1,209 @@
+/* LESS Document */
+
+@circle-color: @yellowGreen;
+@transition-length: 1s;
+
+.create-progress(@circle-size,@border,@bg,@inset-bg,@border-color1:@circle-color,@border-color2:@pink,@border-color3:@indigo){
+	
+	.qig-tab &{
+		display:inline-block;	
+	}
+	.inset{
+		background-color:@inset-bg;
+		border-radius: 50%;
+		height:   @circle-size+-@border*2;
+		left:50%;			
+		position:absolute;
+		top:50%;		
+		width: @circle-size+-@border*2;
+		z-index:10;			
+		.vendorize(transform,translate(-50%,-50%));
+	}
+	.inset-text{
+		left:50%;
+		position:absolute;
+		text-align:center;
+		.calc-fn(top,"50% - 2px");
+		.vendorize(transform,translate(-50%,-50%));
+		width:100%;
+		z-index:21;			
+	}
+	
+	/*Classes using for svg implementation*/
+	.progress-style{
+		stroke-width: 6;
+		stroke: @yellowGreen;
+		fill: none;
+	 } 
+	
+	.track-style{
+		stroke-width: 6;
+		stroke: @bg;
+		fill: @pure-white;
+	}
+	
+	.target-track-style{
+	  stroke-width: @border;
+	  stroke: @bg;
+	  fill: @inset-bg;
+	 }
+	
+	
+	.target-progress-style{
+	  stroke-width: @border;
+	  stroke: @border-color1;
+	  fill: none;
+	  } 
+	
+	.target-progress-style1{
+	  stroke-width: @border;
+	  stroke: @border-color2;
+	  fill: none;
+	  } 
+	
+	.target-progress-style2{
+	  stroke-width: @border;
+	  stroke: @border-color3;
+	  fill: none;
+	  }
+	  
+	  .target-circle-point {
+          stroke-width: 2;
+          stroke: @border-color1;
+          fill: @inset-bg;
+      }
+
+      .target-svg {
+          overflow:visible;
+      }
+	/*Classes using for svg implementation*/
+	
+	
+	.radial-progress {	
+		background-color: @circle-background;
+		border-radius: 50%;
+		height: @circle-size;
+		position:absolute;
+		width:  @circle-size;
+		z-index:2;
+		.circle {			
+			.mask, .fill {
+				border-radius: 50%;
+				height:   @circle-size;
+				position: absolute;
+				width:    @circle-size;
+								
+				-webkit-backface-visibility: hidden;				
+			}
+			.mask {
+				clip: rect(0px, @circle-size, @circle-size, @circle-size/2);
+				.fill {
+					background-color: @border-color1;
+					clip: rect(0px, @circle-size/2, @circle-size, 0px);					
+				}
+			}			
+		}
+		
+		&.progress2{
+			left:0;
+			position:absolute;	
+			top:0;
+			z-index:1;
+			.mask{
+				.fill{
+					background-color: @border-color2;
+					z-index:1;
+				}
+			}
+		}
+		
+		&.progress3{
+			left:0;
+			position:absolute;	
+			top:0;
+			z-index:1;
+			.mask{
+				.fill{
+					background-color: @border-color3;
+					z-index:1;
+				}
+			}
+		}
+		
+		.open &.animated{
+			.mask, .fill{
+				.inline-rotate();
+			}
+		}
+		&.progress-circle{
+			z-index:11;
+		}
+		.circle-point-holder{
+			height:@circle-size;
+			position:relative;
+			
+			width:@circle-size;
+			
+			.circle-point{
+				background-color:@inset-bg;
+				border:2px solid @border-color1;
+				border-radius:50%;
+				position:absolute;	
+				height:12px;				
+				top:-3px;
+				width:12px;	
+				.calc-fn(left,"50% - 6px");
+			}
+		}
+		
+		 .open &.animated .circle-point-holder{			
+			.inline-rotate();
+		}		
+	}
+}
+
+.radial-progress-holder{
+	@circle-background: @box-grey;
+	@inset-color:@pure-white;
+	@circle-size:73px;	
+	position:relative;
+    .open &.animated .path{
+        /*.loader-svg-animation();*/
+        .vendorize(animation-fill-mode,forwards);
+    }
+     .open &.animated .point-circle-svg{
+         .vendorize(transform-origin;52px 52px);
+        .inline-rotate();
+        .vendorize(animation-fill-mode,forwards);
+    }
+	.create-progress(@circle-size,5px,@circle-background,@inset-color);	
+}
+
+.left-menu .radial-progress-holder{
+	display:inline-block;
+	height:26px;	
+	/*margin-left: -34px;*/
+	left:11px;
+	top:0;
+	opacity:0;
+	position:absolute;
+    top: -5px;
+	vertical-align:top;
+	width:27px;
+	@circle-background:@dark-cerulean;
+	@inset-color:@midnight-blue-90;
+	@circle-size:104px;
+	
+	.vendorize(transform,scale(0.26,0.26));	
+	.vendorize(transition;width @transition-length,height @transition-length,transform @transition-length,opacity @transition-length);
+	.create-progress(104px,6px,@circle-background,@inset-color,@teal-light,@pink-light,@indigo);
+	
+	
+}
+.left-menu .open .radial-progress-holder &{
+	height:104px;
+	opacity:1;	
+	width:104px;	
+	.vendorize(transform,scale(1,1));
+	
+}

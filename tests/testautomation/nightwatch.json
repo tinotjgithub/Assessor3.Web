@@ -1,0 +1,85 @@
+{
+  "src_folders": [ "tests/testautomation/testsuite" ],
+  "output_folder": "tests/testautomation/reports",
+  "custom_commands_path" : "",
+  "custom_assertions_path" : "",
+  "page_objects_path": "",
+  "globals_path": "",
+
+  "selenium": {
+    "start_process": true,
+    "server_path": "node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-2.48.2.jar",
+    "log_path": "",
+    "host": "127.0.0.1",
+    "port": 4444,
+    "cli_args" : {
+      "webdriver.chrome.driver" : "chromedriver.exe",
+      "webdriver.ie.driver": "IEDriverServer.exe",
+      "webdriver.ie.driver.silent":true 
+    }
+
+  },
+
+  "test_settings": {
+    "default": {
+      "launch_url": "http://localhost:8080",
+      "selenium_port": 4444,
+      "selenium_host": "localhost",
+      "silent": true,
+      "screenshots": {
+        "enabled": false,
+        "on_failure": false,
+        "on_error": false,
+        "path": "tests/testautomation/screenshots"
+      },
+
+      "desiredCapabilities": {
+        "browserName": "firefox",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      },
+      "globals": {
+        "customer": "IB"
+      }
+    },
+    "ie": {
+      "launch_url": "http://localhost",
+      "selenium_port": 4444,
+      "selenium_host": "localhost",
+      "silent": true,
+      "screenshots": {
+        "enabled": true
+
+      },
+      "desiredCapabilities": {
+        "browserName": "internet explorer",
+        "elementScrollBehavior": 1,
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    },
+    "chrome" : {
+	"launch_url" : "http://localhost",
+      "selenium_host" : "localhost",
+      "selenium_port" : 4444,
+      "silent" : true,
+      "disable_colors": false,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+	  "chromeOptions": {
+	  "args":["disable-web-security", "ignore-certificate-errors"]
+	}
+      }
+    }
+
+  },
+  "devDependencies": {
+    "selenium-server-standalone-jar": "2.48.2"
+  }
+  }

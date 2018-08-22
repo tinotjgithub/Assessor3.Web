@@ -1,0 +1,2346 @@
+{
+  "marking": {
+    "worklist": {
+      "response-allocation-error-dialog": {
+        "ok-button": "OK",
+        "response-allocation-error-header-withdrawnMarker": "Problème de qualité de la notation",
+        "response-allocation-error-header": "Impossible d’obtenir de nouvelles réponses",
+        "response-allocation-error-withdrawnMarker": "Un problème de qualité de la notation a été identifié dans ce QIG. Cela ne vous empêchera pas de noter les autres QIG que vous êtes autorisé(e) à corriger.",
+        "response-allocation-error-maximumConcurrentResponseLimitReached": "Vous avez atteint votre limite de notation simultanée.",
+        "response-allocation-error-noResponseAvailable": "Il n’y a actuellement aucune réponse disponible pour le téléchargement. Veuillez réessayer plus tard.",
+        "response-allocation-error-concurrentLimitNotMet": "{0} réponse(s) a/ont été téléchargée(s). Vous ne pouvez pas télécharger d’autres réponses, car il n’y a plus de réponses disponibles.",
+        "response-allocation-error-markingLimitReached": "Seulement {0} réponse(s) a/ont été téléchargée(s), car vous avez atteint votre objectif de notation.",
+        "response-allocation-error-maximumAllocatedResponseLimitReached": "Aucune réponse n’a été téléchargée, car vous avez atteint votre objectif de notation.",
+        "response-allocation-error-sessionClosed": "Vous ne pouvez pas télécharger de réponses à noter car la session a été fermée."
+      },
+      "atypical-allocation-dialog": {
+        "header": "Réponse atypique trouvée",
+        "mark-now": "Corriger maintenant",
+        "move-to-worklist": "Transférer vers la liste de travail",
+        "cancel": "Annuler"
+      },
+      "approval-status-changed-dialog": {
+        "header": "Statut d’autorisation modifié",
+        "body": "Votre statut d’autorisation pour ce groupe de questions a changé, et vous ne pouvez plus télécharger ou envoyer de réponses tant que vous n’avez pas reçu de commentaires de la part de votre chef d’équipe. Vous pouvez cependant revoir les réponses que vous avez déjà téléchargées dans votre liste de travail. Cela ne vous empêchera pas de noter les autres QIG que vous êtes autorisé(e) à corriger.",
+        "body-quality-feedback": "Votre statut d’autorisation pour ce QIG a changé, et vous ne pouvez plus télécharger ou envoyer de réponses tant que vous n’avez pas accepté les commentaires sur cette réponse de contrôle et que vous n’avez pas reçu de commentaires supplémentaires sur votre notation de la part de votre chef d’équipe. Cela ne vous empêchera pas de noter les autres QIG que vous êtes autorisé(e) à corriger.",
+        "body-relatedQIG": "Toutes les réponses n’ont pas été envoyées, car vous n’avez pas encore reçu l’autorisation de procéder à la notation. (Do Not Translate)",
+        "body-withdrawn": "Vous ne pouvez pas envoyer de réponses, car vous avez été retiré(e) de l’équipe de notation chargée de la notation de ce QIG."
+      },
+      "view-switcher": {
+        "tile-view": "Affichage en mode mosaïque",
+        "list-view": "Affichage en mode liste"
+      },
+      "left-panel": {
+        "send-message": "Envoyer un message",
+        "my-supervisor": "Mon chef d’équipe",
+        "supervisor-online": "En ligne",
+        "supervisor-offline": "Hors ligne",
+        "supervisor-offline-less-than-1-hour": "Hors ligne depuis moins d’une heure",
+        "supervisor-offline-hour": "Hors ligne depuis {0} heure",
+        "supervisor-offline-hours": "Hors ligne depuis {0} heures",
+        "supervisor-offline-day": "Hors ligne depuis {0} jour",
+        "supervisor-offline-days": "Hors ligne depuis {0} jours",
+        "submitted-count-label": "Envoyée(s)",
+        "days-until-target": "jour(s) restant(s)",
+        "target-date-label": "Échéance : ",
+        "target-completed-date-label": "Terminé :",
+        "target-completed": "Terminé",
+        "over-allocation-tooltip": "Objectif de notation en conditions réelles débloqué",
+        "show-hide-panel-tooltip": "Afficher/masquer les informations à l’intention de l'examinateur",
+        "marking-instructions": "Instructions pour la notation",
+        "request-marking-check-button": "Request marking check"
+      },
+      "tile-view-labels": {
+        "amd": "Différence absolue :",
+        "tmd": "Différence totale :",
+        "allocated": "Attribuée le",
+        "submitted": "Envoyée le",
+        "last-updated": "Dernière mise à jour",
+        "to-end-of-grace-period": " jusqu’à la fin de la période de grâce"
+      },
+      "response-data": {
+        "amd-tooltip": "Différence totale entre les notes que vous avez attribuées et les notes définitives déterminées par l’équipe des examinateurs superviseurs, calculée pour tous les éléments de question",
+        "tmd-tooltip": "Différence entre la note totale générale que vous avez attribuée et la note totale générale déterminée par l’équipe des examinateurs superviseurs",
+        "seed-indicator": "Réponse de contrôle",
+        "marking-not-started": "Notation non commencée",
+        "submit-button": "Envoyer",
+        "additional-objects-icon-tooltip": "La réponse contient des pages supplémentaires",
+        "additional-objects-not-annotated-icon-tooltip": "La réponse contient des pages supplémentaires qui doivent être annotées avant de pouvoir envoyer les notes",
+        "exceptions-icon-tooltip": "Une ou plusieurs exceptions sont associées à cette réponse. Cela n’empêchera pas d’envoyer la réponse une fois la notation terminée. Cliquez sur l’icône pour afficher les exceptions.",
+        "blocking-exceptions-icon-tooltip": "Une ou plusieurs exceptions sont associées à cette réponse. Vous ne pourrez pas envoyer la réponse tant que ces exceptions n’auront pas été résolues et fermées. Cliquez sur cette icône pour afficher les exceptions.",
+        "resolved-exceptions-icon-tooltip": "{0} exception(s) résolue(s) sont associées à cette réponse. Vous devez les revoir et les fermer. Cela n’empêchera pas d’envoyer la réponse une fois la notation terminée. Cliquez sur cette icône pour afficher les exceptions.",
+        "resolved-and-blocking-exceptions-icon-tooltip": "{0} exception(s) résolue(s) sont associées à cette réponse. Vous devez les revoir et les fermer. Vous ne pourrez pas envoyer la réponse tant que vous n’aurez pas fermé ces exceptions. Cliquez sur cette icône pour afficher les exceptions.",
+        "not-all-pages-annotated-icon-tooltip": "Toutes les pages n’ont pas été annotées",
+        "response-id-tooltip": "Réponse - {0}",
+        "hours-to-end-of-grace": "{0} heures",
+        "hour-to-end-of-grace": "{0} heure",
+        "messages-icon-tooltip": "Un ou plusieurs messages sont associés à cette réponse. Cliquez sur cette icône pour afficher les messages.",
+        "unread-messages-icon-tooltip": "Un ou plusieurs nouveaux messages sont associés à cette réponse. Cliquez sur cette icône pour afficher les messages.",
+        "practice-response-title": "Entraînement",
+        "standardisation-response-title": "Validation",
+        "second-standardisation-response-title": "Deuxième validation",
+        "stm-standardisation-response-title": "STM Standardisation DO NOT TRANSLATE",
+        "mark-change-reason-not-specified-icon-tooltip": "Justification requise pour les changements apportés à la note",
+        "supervisor-remark-decision-not-specified-icon-tooltip": "Cette réponse ne peut être envoyée tant que la note finale du candidat n’a pas été sélectionnée et la raison la justifiant saisie",
+        "promoted-seed-indicator": "Réponse désignée comme réponse de contrôle",
+        "definitive-indicator": "Définitive",
+        "not-all-files-viewed-icon-tooltip": "Tous les fichiers de cette réponse n’ont pas été consultés.",
+        "zoning-exceptions-icon-tooltip": "Le découpage des zones de la réponse de ce candidat est actuellement révisé à la suite d’une exception signalée pour une autre réponse. Veuillez noter que les zones d’image qui s’affichent peuvent changer en raison de cette exception. Vous ne pourrez pas envoyer cette réponse tant que l’exception n’aura pas été résolue.",
+        "wholeresponse-indicator": "Réponse entière"
+      },
+      "auto-approved-dialog": {
+        "ok-button": "OK",
+        "header": "Félicitations !",
+        "summary-standardisation": "Vous avez terminé la notation de réponses de validation.",
+        "summary-stm-standardisation": "Vous avez terminé la deuxième notation de réponses de validation.",
+        "summary-second-standardisation": "Vous avez terminé la deuxième notation de copies de validation.",
+        "body-standardisation": "Vous avez obtenu automatiquement l’autorisation de commencer la notation en conditions réelles. Vous pouvez consulter les réponses de validation et d’entraînement envoyées à tout moment en sélectionnant la liste de travail pertinente.",
+        "body-excess-standardisation-responses-removed": "Vous avez obtenu automatiquement l’autorisation de commencer la notation en conditions réelles. Vous avez terminé la notation de réponses de validation, et les réponses de validation encore ouvertes dans votre liste de travail ont été supprimées. Vous pouvez consulter les réponses de validation envoyées à tout moment en sélectionnant la liste de travail pertinente.",
+        "body-stm-standardisation": "Vous avez obtenu automatiquement l’autorisation de commencer la notation en conditions réelles. Vous pouvez consulter les réponses de validation et d’entraînement envoyées à tout moment en cliquant sur le type de réponse voulu, sur le côté de l’écran de la liste de travail.",
+        "body-excess-second-standardisation-responses-removed": "Vous avez obtenu automatiquement l’autorisation de commencer la notation en conditions réelles. Vous avez terminé la deuxième notation de réponses de validation, et les réponses de validation encore ouvertes dans votre liste de travail ont été supprimées. Vous pouvez consulter les réponses de deuxième validation envoyées à tout moment en sélectionnant la liste de travail pertinente.",
+        "body-excess-stm-standardisation-responses-removed": "Vous avez obtenu automatiquement l’autorisation de commencer la notation en conditions réelles. Vous avez terminé la deuxième notation de réponses de validation, et les réponses de validation encore ouvertes dans votre liste de travail ont été supprimées. Vous pouvez consulter les réponses de deuxième validation envoyées à tout moment en sélectionnant la liste de travail pertinente."
+      },
+      "action-buttons": {
+        "submit-button": "Envoyer les réponses",
+        "allocate-button-target-reached-indicator": "Objectif atteint",
+        "allocate-button": "Nouvelles réponses",
+        "allocate-button-concurrent-limit-reached-indicator": "Limite de réponses ouvertes atteinte",
+        "allocate-button-not-approved-tooltip": "Vous ne pouvez pas télécharger d’autres réponses tant que vous n’avez pas reçu de commentaires sur votre notation de la part de votre chef d’équipe.",
+        "allocate-button-suspended-indicator": "En attente de révision",
+        "submit-button-not-approved-tooltip": "Vous ne pouvez pas envoyer d’autres réponses tant que vous n’avez pas reçu de commentaires sur votre notation de la part de votre chef d’équipe.",
+        "submit-button-suspended-indicator": "En attente de révision",
+        "allocate-single-response": "Une seule réponse",
+        "allocate-to-concurrent-limit": "Jusqu’à la limite de réponses ouvertes",
+        "allocate-button-remarks": "Obtenir une nouvelle réponse",
+        "allocate-button-tooltip": "Sélectionner le nombre de réponses à télécharger",
+        "allocate-whole-response": "Réponse entière"
+      },
+      "no-responses-available-helper": {
+        "header": "Aucun élément n’est disponible pour le téléchargement",
+        "body": "Il n’y a actuellement aucune réponse à noter disponible pour le téléchargement. Veuillez vérifier de nouveau plus tard."
+      },
+      "marking-target-complete-helper": {
+        "header": "Objectif de notation terminé",
+        "body": "Vous avez terminé votre objectif de notation pour ce QIG, et vous ne pouvez pas télécharger d’autres réponses. Vous pouvez continuer à noter toutes les réponses de recorrection et autres QIG en attente pour lesquels vous avez un quota."
+      },
+      "empty-worklist-helper": {
+        "header": "Aucune réponse téléchargée",
+        "body-line-1": "Votre liste de travail est vide. Vous devez télécharger des réponses avant de pouvoir commencer la notation. ",
+        "body-line-2": "Cliquez sur le bouton « Nouvelles réponses » pour télécharger des réponses dans la limite des {0} réponses ouvertes qui est impartie.",
+        "body-line-3": "  "
+      },
+      "open-for-marking-tab": "Ouverte(s) pour la notation",
+      "submitted-editable-tab": "Envoyée(s) - modifiable(s)",
+      "submitted-closed-tab": "Envoyée(s) - fermée(s)",
+      "worklist-headers": {
+        "live": "Notation en conditions réelles",
+        "practice": "Notation de réponses d’entraînement",
+        "standardisation": "Notation de réponses de validation",
+        "secondstandardisation": "Deuxième notation de réponses de validation",
+        "stm-standardisation": "STM Standardisation marking DO NOT TRANSLATE",
+        "atypical": "Notation de réponses atypiques",
+        "simulation": "Simulation de notation de réponses"
+      },
+      "submit-response-dialog": {
+        "body": "Êtes-vous sûr(e) de vouloir envoyer cette réponse ?",
+        "header": "Envoyer la réponse",
+        "body-simulation": "Êtes-vous sûr(e) de vouloir envoyer cette réponse ? Les points attribués à cette réponse ne seront pas enregistrés et ne seront plus visibles après l’envoi."
+      },
+      "submit-all-responses-dialog": {
+        "body": "Êtes-vous sûr(e) de vouloir envoyer toutes les réponses corrigées ?",
+        "header": "Envoyer les réponses",
+        "body-simulation": "Êtes-vous sûr(e) de vouloir envoyer toutes les réponses corrigées ? Les points attribués à cette réponse ne seront pas enregistrés et ne seront plus visibles après l’envoi."
+      },
+      "response-submission-error-dialog": {
+        "body-single-response-not-submitted": "Cette réponse n’a pas pu être envoyée. Veuillez passer en revue votre liste de travail et réessayer.",
+        "body-some-responses-not-submitted": "Certaines réponses n’ont pas pu être envoyées. Veuillez passer en revue votre liste de travail et réessayer.",
+        "body-single-response-already-submitted": "Cette réponse n’a pas pu être envoyée car elle a déjà été envoyée précédemment.",
+        "body-some-responses-already-submitted": "Une ou plusieurs réponses n’ont pas pu être envoyées car elles ont déjà été envoyées précédemment.",
+        "header": "Impossible d’envoyer les réponses"
+      },
+      "not-approved-helper": {
+        "body-line-1": "Votre notation de réponses de validation a été envoyée à votre chef d’équipe pour être révisée.",
+        "body-line-2": "Vous ne pourrez pas continuer à noter ce groupe d’éléments de question tant que vous n’aurez pas reçu de commentaires. Les commentaires pour ce qui est des réponses de première validation notées en dehors de la marge de tolérance seront envoyés par votre chef d’équipe. Les commentaires pour ce qui est des réponses de deuxième validation notées en dehors de la marge de tolérance seront envoyés par le centre mondial de l’IB à Cardiff sous 24 heures, si vous êtes autorisé(e) à continuer la notation. Cela ne vous empêchera pas de noter les autres groupes d’éléments de question qui font partie de votre objectif et que vous êtes autorisé(e) à corriger.",
+        "header": "En attente de révision"
+      },
+      "quality-feedback-dialog": {
+        "body": "Vous avez envoyé une ou plusieurs réponses de contrôle notées dans la marge de tolérance. Si vous souhaitez revoir votre notation par rapport aux notes définitives, vous pouvez consulter la liste de travail Envoyée(s) - fermée(s).",
+        "header": "Commentaires sur la qualité de la notation"
+      },
+      "atypical": {
+        "centre-search-label": "Établissement",
+        "candidate-search-label": "Candidat",
+        "search-button": "Rechercher",
+        "search-button-tooltip": "Rechercher une réponse atypique à noter",
+        "centre-search-tooltip": "Veuillez saisir un numéro d’établissement à rechercher",
+        "candidate-search-tooltip": "Veuillez saisir un numéro de candidat à rechercher"
+      },
+      "atypical-search-error-dialog": {
+        "atypical-search-error-suspended": "Vous ne pouvez pas obtenir de nouvelles réponses tant que vous n’avez pas reçu de commentaires sur votre notation de la part de votre chef d’équipe.",
+        "atypical-search-error-0": "Aucun des candidats de cette épreuve ne correspond aux données saisies. Veuillez vérifier le numéro de l’établissement et celui du candidat puis réessayer.",
+        "atypical-search-error-10": "Aucun des candidats de cette épreuve ne correspond aux données saisies. Veuillez vérifier le numéro de l’établissement et celui du candidat puis réessayer.",
+        "atypical-search-error-4": "Aucun des candidats de cette épreuve ne correspond aux données saisies. Veuillez vérifier le numéro de l’établissement et celui du candidat puis réessayer.",
+        "atypical-search-error-5": "La réponse associée à ce candidat n’est pas atypique. Veuillez vérifier le numéro de l’établissement et celui du candidat puis réessayer.",
+        "atypical-search-error-6": "Vous n’êtes pas autorisé(e) à noter les épreuves provenant de cet établissement. Veuillez vérifier le numéro de l’établissement et réessayer.",
+        "atypical-search-error-7": "Cette réponse a déjà été supprimée de votre liste de travail par l’organisme décernant des titres. Elle ne peut pas vous être attribuée à nouveau.",
+        "atypical-search-error-2": "Cette réponse est déjà dans votre liste de travail.",
+        "atypical-search-error-3": "Cette réponse est déjà dans votre liste de travail.",
+        "atypical-search-error-8": "Cette réponse a déjà été attribuée à un autre examinateur.",
+        "atypical-search-error-9": "Vous avez déjà exclu cette réponse. Elle ne peut pas vous être attribuée à nouveau.",
+        "atypical-search-error-1": "La réponse pour l’établissement {0} et le candidat {1} appartient à {2}. Veuillez confirmer si vous souhaitez la noter maintenant, la déplacer dans votre liste de travail pour la noter plus tard ou annuler et ne pas la télécharger.",
+        "atypical-search-error-disabled": "Vous n’êtes pas autorisé(e) à noter tous les QIG qui composent cette épreuve, et ne pouvez donc plus effectuer cette action."
+      },
+      "marking-check-status": {
+        "Checked": "Checked",
+        "CheckRequested": "Check requested",
+        "Unchecked": "Unchecked",
+        "NotApproved": "Non autorisé(e)",
+        "Suspended": "En attente de révision"
+      },
+      "request-marking-check-error-dialog": {
+        "header-approval-status-changed": "Statut d’autorisation modifié",
+        "body-approval-status-changed": "Votre statut a changé, et vous n’êtes plus autorisé(e) à effectuer cette action.",
+        "header-withdrawn": "Notation retirée",
+        "body-withdrawn": "La notation de ce QIG vous a été retirée. Cela ne vous empêchera pas de noter les autres QIG que vous êtes autorisé(e) à corriger.",
+        "header-hierarchy-changed": "La hiérarchie de l’équipe d’examinateurs a été modifiée.",
+        "body-hierarchy-changed": "Votre rôle a changé, et vous n’êtes plus autorisé(e) à effectuer cette action.",
+        "header-no-examiners-available": "Marking check request",
+        "body-no-examiners-available": "A marking check cannot be requested because there is no one in the marking hierarchy with the correct permissions to perform a check.",
+        "header-session-closed": "Session fermée",
+        "body-session-closed": "Cette action ne peut pas être exécutée, car le QIG est désormais fermé pour la notation. Veuillez choisir un autre QIG."
+      },
+      "request-marking-check-menu": {
+        "header": "Please select the examiner(s) who you want to check your marks."
+      },
+      "perform-marking-check": {
+        "perform-marking-check-body-1": "You have been asked to check the marks of one or more examiners. Select ",
+        "perform-marking-check-link": "here",
+        "perform-marking-check-body-2": " to view and perform a marking check.",
+        "set-marking-as-checked-button": "Set marking as checked",
+        "worklist-of-examiner": "de",
+        "show-hide-left-panel-tooltip": "Afficher/masquer les examinateurs"
+      },
+      "perform-marking-check-confirmation-dialog": {
+        "body": "Are you sure that you want to set the marking of {0} as checked? You will no longer be able to access their worklist.",
+        "header": "Marking check completed"
+      },
+      "list-view-column-headers": {
+        "sort-by-tooltip": "Activer le tri des éléments par",
+        "exceptions": "Exceptions",
+        "messages": "Messages",
+        "last-updated": "Dernière mise à jour",
+        "allocated": "Attribuée le",
+        "total-mark": "Notes",
+        "time-to-end-of-grace-period": "Temps restant jusqu’à la fin de la période de grâce",
+        "progress": "Progression",
+        "submitted": "Envoyée le",
+        "centre-number": "Établissement",
+        "centre-candidate-number": "Candidat",
+        "original-marker": "Examinateur initial",
+        "response-id": "Numéro d’identification de la réponse",
+        "accuracy": "Justesse de la notation",
+        "amd": "Différence absolue",
+        "tmd": "Différence totale",
+        "original-mark-accuracy": "Précision des notes initiales",
+        "original-mark": "Notes initiales",
+        "final-mark-selected": "Final mark selected",
+        "tag": "Indicateur"
+      },
+      "quality-feedback-helper": {
+        "quality-feedback-outstanding": "Vous avez envoyé une réponse de contrôle notée en dehors de la marge de tolérance. Veuillez ouvrir la réponse pour consulter les commentaires et cliquer sur le bouton « Accepter les commentaires » pour accepter les commentaires sur la qualité de la notation. Une fois cette opération terminée, vous pourrez reprendre votre session de notation.",
+        "quality-feedback-outstanding-and-suspended": "Vous avez envoyé une réponse de contrôle notée en dehors de la marge de tolérance. Veuillez ouvrir la réponse pour consulter les commentaires et cliquer sur le bouton « Accepter les commentaires » pour accepter les commentaires sur la qualité de la notation. Une fois cette opération terminée, vous ne pourrez pas télécharger ou envoyer d’autres réponses tant que vous n’aurez pas reçu de commentaires sur votre notation de la part de votre chef d’équipe."
+      },
+      "supervisor-remark-decision": {
+        "original-marks-chosen": "Notation initiale",
+        "remark-chosen": "Recorrection"
+      },
+      "worklist-type": {
+        "live": "En conditions réelles",
+        "atypical": "Atypique(s)",
+        "atypical-header-text": "Notation de réponses atypiques",
+        "supervisorRemark": "Recorrection du superviseur",
+        "practice": "Entraînement",
+        "approval": "Normalisation",
+        "esTeamApproval": "ES Team Approval"
+      },
+      "simulation-helper": {
+        "body-line-1": "Votre liste de travail est vide. Vous devez télécharger des réponses avant de pouvoir commencer la notation. Contrairement à la notation en conditions réelles, les notes saisies dans le mode Simulation ne seront pas envoyées. Une fois la période de notation en mode Simulation terminée, votre notation sera automatiquement supprimée et vous ne pourrez plus la consulter.",
+        "body-line-2": "Le bouton Obtenir une nouvelle réponse vous permettra de télécharger une réponse de simulation à corriger dans votre liste de travail."
+      },
+      "submitted-editable-worklist-helper": "Vous pouvez modifier les notes des réponses de cette liste pendant toute la durée du délai de grâce. Toute modification sera automatiquement enregistrée. Lorsque le délai de grâce d’une réponse se termine, celle-ci est automatiquement déplacée dans la liste fermée et les notes sont envoyées à l’IB.",
+      "tag-tooltips": {
+        "no-tag": "Pas d’indicateur",
+        "red": "Indicateur rouge",
+        "blue": "Indicateur bleu",
+        "yellow": "Indicateur jaune",
+        "green": "Indicateur vert",
+        "violet": "Indicateur violet",
+        "pink": "Indicateur rose",
+        "orange": "Indicateur orange",
+        "lightgreen": "Indicateur vert clair",
+        "purple": "Indicateur magenta",
+        "add-tag": "Ajouter un indicateur"
+      },
+      "exited-simulation-dialog": {
+        "header": "Processus de normalisation terminé",
+        "subheader-multiple-qigs": "Le processus de normalisation est désormais terminé pour le ou les QIG suivants :",
+        "subheader-single-qig": "Le processus de normalisation est désormais terminé pour le QIG suivant :",
+        "body-multiple-qigs": "Vous pouvez désormais commencer la notation. Le mode Simulation ne sera plus disponible pour le ou les QIG ci-dessus.",
+        "body-single-qig": "Vous pouvez désormais commencer la notation. Le mode Simulation ne sera plus disponible pour le QIG ci-dessus."
+      },
+      "autozoned-warning-dialog": {
+        "header": "Découpage automatique en zones",
+        "body": "Les réponses dans ce QIG ont été découpées en zones automatiquement. Veuillez signaler une exception si vous remarquez du contenu appartenant à une question qui n’est pas associée à ce QIG et qui ne peut donc pas être notée.",
+        "ok-button": "OK"
+      }
+    },
+    "response": {
+      "saving-marks-error-dialog": {
+        "header-error-saving-marks": "Erreur lors de l’enregistrement des notes et des annotations",
+        "body-error-saving-marks-single-response": "Les notes et les annotations que vous avez attribuées à cette réponse n’ont pas pu être enregistrées. Veuillez la revoir et attribuer de nouveau les notes et les annotations manquantes.",
+        "body-error-saving-marks-multiple-responses": "Les notes et les annotations que vous avez attribuées aux réponses suivantes n’ont pas pu être enregistrées. Veuillez les revoir et attribuer les notes et les annotations manquantes.",
+        "body-cannot-leave-response-partially-marked-in-grace": "Tous les éléments de question doivent être notés, car vous avez envoyé cette réponse. Veuillez vous assurer d’avoir saisi une note pour chaque élément de question.",
+        "header-grace-period-expired": "Délai de grâce expiré",
+        "body-must-annotate-all-pages-in-grace": "Comme vous avez déjà envoyé cette réponse, vous ne pouvez pas quitter cette page avant d’avoir ajouté au moins une annotation sur chaque page de la réponse ou d’avoir cliqué sur le bouton « Marquer comme vu », disponible dans le mode d’affichage de la réponse entière, afin de confirmer que vous avez consulté le contenu de chaque page.",
+        "header-must-annotate-all-pages-in-grace": "Certaines pages n’ont pas d’annotations.",
+        "body-grace-period-expired-changes-not-saved": "Les changements que vous avez apportés aux notes et aux annotations de la réponse {0} n’ont pas été enregistrés, car le délai de grâce a expiré. Cette réponse a été placée dans votre liste de travail Envoyée(s) - fermée(s).",
+        "body-response-removed-from-worklist": "La réponse {0} a été supprimée de votre liste de travail et les modifications ne peuvent pas être enregistrées.",
+        "header-response-removed-from-worklist": "Réponse supprimée"
+      },
+      "complete-button-dialog": {
+        "yes-button": "Oui",
+        "no-button": "Non",
+        "body": "Cela aura pour effet d’attribuer la valeur AR à tous les éléments de question qui n’ont pas été notés. Souhaitez-vous continuer ?"
+      },
+      "script-images": {
+        "script-image-tooltip": "Image de la réponse",
+        "view-whole-page": "Afficher la page entière"
+      },
+      "previous-marks": {
+        "first-marking-short": "1re notation",
+        "first-marking-long": "Première notation",
+        "definitive-marking-long": "Notes définitives",
+        "definitive-marking-short": "DEF",
+        "display-marks-header": "Afficher les notes",
+        "display-annotations-header": "Annotations",
+        "current-marks": "Notes actuelles",
+        "previous-marks-checkbox-tooltip-show": "Afficher les notes précédentes",
+        "previous-marks-checkbox-tooltip-hide": "Masquer les notes précédentes",
+        "definitive-marks-checkbox-tooltip-show": "Afficher les notes définitives",
+        "definitive-marks-checkbox-tooltip-hide": "Masquer les notes définitives",
+        "previous-annotations-switch-tooltip-hide": "Masquer les annotations précédentes",
+        "previous-annotations-switch-tooltip-show": "Afficher les annotations précédentes",
+        "definitive-annotations-switch-tooltip-hide": "Masquer les annotations définitives",
+        "definitive-annotations-switch-tooltip-show": "Afficher les annotations définitives",
+        "comments": "Commentaires",
+        "current-comments-radio-button-tooltip": "Afficher les commentaires actuels",
+        "previous-comments-radio-button-tooltip": "Afficher les commentaires précédents",
+        "definitive-comments-radio-button-tooltip": "Afficher les commentaires définitifs",
+        "people-icon": "Sélectionner les notes et les annotations à afficher"
+      },
+      "navigation-bar": {
+        "previous-response-button-tooltip": "Réponse précédente",
+        "next-response-button-tooltip": "Suivant",
+        "response-id-label": "Réponse",
+        "response-position-in-worklist": "{0} sur {1} dans la liste de travail",
+        "worklist-breadcrumb": "Liste de travail",
+        "atypical-response-id-label": "Réponse atypique",
+        "atypical-remark-response-id-label": "atypique",
+        "simulation-response-id-label": "Réponse de simulation"
+      },
+      "page-number-indicator": {
+        "image-number-label": "Image",
+        "image-number-of-label": "de",
+        "page-number-label": "Page",
+        "image-number-label-booklet-view": "Images",
+        "page-number-label-booklet-view": "Pages",
+        "script-label": "réponse"
+      },
+      "save-indicator": {
+        "saving-marks": "Enregistrement des notes en cours..."
+      },
+      "comments-side-view": {
+        "hide-comments": "Masquer les commentaires",
+        "hide-comments-tooltip": "Afficher les commentaires sur la réponse"
+      },
+      "on-page-comment-box": {
+        "side-view-icon-tooltip": "Afficher les commentaires sur le côté de la réponse",
+        "comment-placeholder-text": "Saisir des commentaires",
+        "delete-icon-tooltip": "Supprimer le commentaire"
+      },
+      "left-toolbar": {
+        "full-response-view-button-tooltip": "Afficher la réponse entière",
+        "messages-button-tooltip-new-message": "Nouveau message",
+        "messages-button-tooltip-linked-messages": "Messages associés",
+        "zoom-rotate-button-tooltip": "Effectuer un zoom / une rotation",
+        "problems-button-tooltip": "Des problèmes sont associés à cette réponse",
+        "bookmarks-button-tooltip": "Signet"
+      },
+      "annotations-toolbar": {
+        "expand-button-tooltip": "Agrandir le panneau d'outils",
+        "collapse-button-tooltip": "Réduire le panneau d'outils",
+        "plus-button-tooltip": "Ajouter un outil"
+      },
+      "zoom-rotate-panel": {
+        "rotate-clockwise-tooltip": "Faire pivoter l’image vers la droite",
+        "rotate-anticlockwise-tooltip": "Faire pivoter l’image vers la gauche",
+        "zoom-fit-height-tooltip": "Ajuster la hauteur",
+        "zoom-fit-width-tooltip": "Ajuster la largeur",
+        "zoom-fit-height": "Ajuster la hauteur",
+        "zoom-fit-width": "Ajuster la largeur",
+        "zoom-out-tooltip": "Réduire",
+        "zoom-in-tooltip": "Agrandir",
+        "zoom-level-tooltip": "Niveau de zoom actuel",
+        "zoom": "Zoom",
+        "rotate": "Rotation"
+      },
+      "mark-scheme-panel": {
+        "previous-question-button-tooltip": "Question précédente",
+        "next-question-button-tooltip": "Question suivante",
+        "reset-mark-button": "Réinitialiser",
+        "reset-mark-button-tooltip": "Réinitialiser la note et les annotations pour cet élément de question",
+        "total-marks": "Note totale",
+        "no-response-button": "Aucune réponse",
+        "next-mark-button-tooltip": "Suivante",
+        "previous-mark-button-tooltip": "Précédente",
+        "no-response": "AR",
+        "optionality-tooltip": "Cette réponse contient des questions optionnelles. Les notes attribuées seront barrées pour tous les éléments de question qui ne seront pas inclus dans la note totale conformément au barème de notation.",
+        "accept-quality-feedback-button": "Accepter les commentaires",
+        "complete-button": "Terminer",
+        "complete-button-tooltip-when-enabled": "Attribuer la valeur AR à tous les éléments de question qui n’ont pas été notés",
+        "complete-button-tooltip-when-disabled": "Vous pouvez utiliser ce bouton uniquement si vous avez attribué une note ou une valeur AR à suffisamment de questions pour remplir les exigences minimales d’option pour cette réponse.  Si le candidat n’a pas répondu à suffisamment de questions, veuillez attribuer la valeur AR à une ou plusieurs questions avant de cliquer sur « Terminer ».  ",
+        "mark-by": "Corriger par",
+        "mark-by-candidate": "Candidat",
+        "mark-by-question": "Question",
+        "annotations-switch-tooltip-hide": "Cliquer pour masquer les annotations actuelles",
+        "annotations-switch-tooltip-show": "Cliquer pour afficher les annotations actuelles",
+        "annotations-switch-label": "Annotations",
+        "comments-switch-tooltip-hide": "Masquer le panneau de commentaires",
+        "comments-switch-tooltip-show": "Afficher le panneau de commentaires",
+        "comments-switch-label": "Commentaires",
+        "unzoned-indicator-tooltip": "Aucun contenu n’a été associé à cet élément de question.",
+        "link-indicator-tooltip": "Une ou plusieurs pages ont été reliées à cet élément de question."
+      },
+      "invalid-mark-dialog": {
+        "header": "Note non valide",
+        "body-numeric": "Veuillez saisir une note entre {0} et {1}",
+        "ok-button": "OK",
+        "body-non-numeric": "Veuillez saisir une note valide"
+      },
+      "reset-mark-dialog": {
+        "header": "Réinitialiser les notes et les annotations",
+        "body-when-mark-deleted": "Vous avez réinitialisé les notes attribuées initialement. Voulez-vous aussi supprimer les annotations ?",
+        "body-when-reset-button-clicked": "Cela réinitialisera la note et supprimera toutes les annotations associées à cet élément de question. Êtes-vous sûr(e) de vouloir continuer ?"
+      },
+      "mba-max-mark-exceeded-dialog": {
+        "header": "Note maximale dépassée",
+        "body": "L’ajout de cette annotation entraînerait le dépassement de la note maximale de {0} pour cet élément de question. L’annotation n’a pas été appliquée."
+      },
+      "annotation-context-menu": {
+        "remove-annotation": "Supprimer l’annotation",
+        "change-colour": "Changer la couleur",
+        "black": "Noir",
+        "red": "Rouge",
+        "green": "Vert",
+        "blue": "Bleu",
+        "yellow": "Jaune",
+        "pink": "Rose",
+        "remove-bookmark": "Supprimer le signet",
+        "remove-ruler": "Supprimer la règle",
+        "remove-protractor": "Supprimer le rapporteur",
+        "add-multiline": "Ajouter",
+        "remove-multiline": "Supprimer",
+        "change-colour-multiline": "Changer la couleur",
+        "point-multiline": "Point",
+        "line-multiline": "Ligne",
+        "all-multiline": "Tout",
+        "share-multiline": "Partager",
+        "click-multiline-share": "Cliquer pour partager le calque multilignes",
+        "click-multiline-unshare": "Cliquer pour annuler le partage du calque multilignes",
+        "multiline-style": "Style de ligne",
+        "multiline-style-straight": "Droite",
+        "multiline-style-curved": "Courbe",
+        "multiline-style-hidden": "Masquée",
+        "remove-multiline-shared": "Supprimer le calque multilignes"
+      },
+      "end-of-list-dialog": {
+        "header": "Revenir à la liste de travail",
+        "body": "Vous avez atteint la dernière réponse contenue dans votre liste de travail. Voulez-vous revenir à votre liste de travail ?",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      },
+      "delete-comment-dialog": {
+        "header": "Confirmer la suppression",
+        "body": "Êtes-vous sûr(e) de vouloir supprimer ce commentaire ?",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      },
+      "annotation-toolbar-helper": {
+        "header": "Personnaliser la barre d’outils",
+        "body-before-adding-stamp": "Faites glisser et déposez dans cette barre d’outils les annotations et les outils que vous utilisez souvent.",
+        "body-after-adding-stamp": "Après avoir ajouté des annotations et des outils dans votre barre d’outils personnalisée, cliquez sur ce bouton pour réduire la liste d’outils et commencer la notation. Vous pouvez de nouveau agrandir la barre d’outils en cliquant sur ce bouton.",
+        "body-before-adding-stamp-with-overlays": "Faites glisser et déposez dans cette barre d’outils les annotations que vous utilisez souvent. Veuillez noter que vous ne pouvez pas faire glisser les outils à superposer (règle, rapporteur et calque multilignes) dans votre barre d’outils personnalisée.",
+        "header_customise": "Personnalisez votre barre d’outils"
+      },
+      "accept-quality-feedback-dialog": {
+        "header": "Accepter les commentaires sur la qualité de la notation",
+        "body": "Veuillez confirmer que vous avez consulté et accepté les commentaires sur la qualité de la notation pour cette réponse.",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      },
+      "stamps": {
+        "stamp_11": "Tick",
+        "stamp_21": "Incorrect",
+        "stamp_31": "Bénéfice du doute",
+        "stamp_41": "Bon raisonnement",
+        "stamp_51": "ISW",
+        "stamp_61": "Méthode (attribuer 0 point) ",
+        "stamp_71": "Méthode (attribuer 1 point)",
+        "stamp_81": "Méthode (attribuer 2 points)",
+        "stamp_91": "Précision (attribuer 0 point)",
+        "stamp_101": "Précision (attribuer 1 point)",
+        "stamp_111": "Précision (attribuer 2 point)",
+        "stamp_121": "W0",
+        "stamp_131": "W1",
+        "stamp_141": "W2",
+        "stamp_151": "Surligner",
+        "stamp_161": "Lien",
+        "stamp_171": "Commentaire sur la page",
+        "stamp_181": "Off Page Comment",
+        "stamp_182": "Enhanced Off Page Comment",
+        "stamp_191": "Pas de bénéfice du doute",
+        "stamp_201": "Trop vague",
+        "stamp_211": "Organisation en paragraphes",
+        "stamp_221": "E",
+        "stamp_231": "/",
+        "stamp_241": "Répercussion de l'erreur",
+        "stamp_251": "Cas spécial",
+        "stamp_261": "Omission",
+        "stamp_271": "RÉP",
+        "stamp_281": "Manque de clarté",
+        "stamp_291": "I",
+        "stamp_301": "Registre",
+        "stamp_311": "Niveau 1",
+        "stamp_321": "Niveau 2",
+        "stamp_331": "Niveau 3",
+        "stamp_341": "Niveau 4",
+        "stamp_351": "C",
+        "stamp_361": "Construction de phrase ",
+        "stamp_371": "A",
+        "stamp_381": "L1---",
+        "stamp_391": "L1--",
+        "stamp_401": "L1-",
+        "stamp_411": "L2--",
+        "stamp_421": "L2-",
+        "stamp_431": "L3-",
+        "stamp_441": "L5",
+        "stamp_451": "Raisonnement (attribuer 1 point)",
+        "stamp_461": "R2",
+        "stamp_471": "R3",
+        "stamp_481": "Contradiction ",
+        "stamp_491": "Erreur de puissance 10 ",
+        "stamp_501": "Pas de réponse à la question",
+        "stamp_511": "Erreur d'arrondi",
+        "stamp_521": "Pas satisfaisan",
+        "stamp_531": "SF",
+        "stamp_541": "{",
+        "stamp_551": "} ",
+        "stamp_561": "Lien pertinent",
+        "stamp_571": "B1",
+        "stamp_581": "B2",
+        "stamp_591": "RM1",
+        "stamp_601": "KU",
+        "stamp_611": "Connaissances",
+        "stamp_621": "CONT",
+        "stamp_631": "REL",
+        "stamp_641": "Long récit",
+        "stamp_651": "BIO",
+        "stamp_661": "Exemple",
+        "stamp_671": "ILL",
+        "stamp_681": "Q",
+        "stamp_691": "Expression",
+        "stamp_701": "SLASH",
+        "stamp_711": "Grammaire",
+        "stamp_721": "OFR",
+        "stamp_731": "Vague",
+        "stamp_741": "Développement ",
+        "stamp_751": "RES",
+        "stamp_761": "SUS",
+        "stamp_771": "Pertinent",
+        "stamp_781": "PLC",
+        "stamp_791": "Manque de pertinence",
+        "stamp_801": "|",
+        "stamp_811": "VU",
+        "stamp_821": "Compréhension",
+        "stamp_831": "J",
+        "stamp_841": "T-",
+        "stamp_851": "T",
+        "stamp_861": "T+",
+        "stamp_881": "P-",
+        "stamp_891": "F",
+        "stamp_901": "F-",
+        "stamp_911": "Pre",
+        "stamp_921": "Te",
+        "stamp_931": "Opinion",
+        "stamp_941": "V",
+        "stamp_951": "JU",
+        "stamp_961": "Langue",
+        "stamp_971": "HA",
+        "stamp_981": "INVL",
+        "stamp_991": "FA",
+        "stamp_1001": "Ruler",
+        "stamp_1002": "QWC+",
+        "stamp_1011": "Protractor",
+        "stamp_1012": "Tick Plus",
+        "stamp_1021": "Overlay",
+        "stamp_1022": "XCS",
+        "stamp_1031": "Tick Question",
+        "stamp_1041": "Déplacer la ligne du graphique vers le haut",
+        "stamp_1051": "Déplacer la ligne du graphique vers le bas",
+        "stamp_1061": "-1",
+        "stamp_1071": "Omission",
+        "stamp_1081": "Partie valide",
+        "stamp_1091": "Bonne réponse",
+        "stamp_1101": "Langue",
+        "stamp_1111": "Manque de pertinence",
+        "stamp_1121": "Insuffisant ",
+        "stamp_1131": "Langue correcte",
+        "stamp_1141": "Langue incorrecte",
+        "stamp_1151": "LM",
+        "stamp_1161": "NOM",
+        "stamp_1171": "-",
+        "stamp_1181": "POS",
+        "stamp_1191": "Attribuer 1 point ",
+        "stamp_1201": "Attribuer 2 point ",
+        "stamp_1211": "Attribuer 3 point ",
+        "stamp_1221": "Attribuer 4 point ",
+        "stamp_1231": "Attribuer 5 point ",
+        "stamp_1241": "Attribuer 6 point ",
+        "stamp_1251": "Attribuer 7 point ",
+        "stamp_1261": "Attribuer 8 point ",
+        "stamp_1271": "Attribuer 9 point ",
+        "stamp_1281": "Attribuer 10 point ",
+        "stamp_1291": "Attribuer 11 point ",
+        "stamp_1301": "Attribuer 12 point ",
+        "stamp_1311": "XSP",
+        "stamp_1321": "XP",
+        "stamp_1331": "XSS",
+        "stamp_1341": "XV",
+        "stamp_1351": "Ellipse",
+        "stamp_1361": "Souligner",
+        "stamp_1371": "Souligner d'une ligne ondulée",
+        "stamp_1381": "Ligne ondulée verticale",
+        "stamp_1391": "Word Order",
+        "stamp_1401": "[",
+        "stamp_1411": "]",
+        "stamp_1421": "Attribuer 1",
+        "stamp_1431": "Attribuer 2",
+        "stamp_1441": "3",
+        "stamp_1451": "4",
+        "stamp_1461": "5",
+        "stamp_1471": "Tick Half Mark",
+        "stamp_1481": "Déplacer la ligne du graphique vers la gauche ",
+        "stamp_1491": "Déplacer la ligne du graphique vers la droite",
+        "stamp_1501": "Aucune définition ",
+        "stamp_1511": "Formulation maladroite",
+        "stamp_1521": "Tentative d'évaluation",
+        "stamp_1531": "Évaluation efficace",
+        "stamp_1541": "Aucune utilisation du texte",
+        "stamp_1551": "Figure mal dessinée ",
+        "stamp_1561": "Attribuer 4 points",
+        "stamp_1571": "Attribuer 3 points",
+        "stamp_1581": "Attribuer 3 points",
+        "stamp_1591": "Attribuer 2 points",
+        "stamp_1601": "Attribuer 0 points",
+        "stamp_1611": "Aucun raisonnement indiqué (attribuer 0 point)",
+        "stamp_1621": "Aucun raisonnement indiqué (attribuer 1 point)",
+        "stamp_1631": "Aucun raisonnement indiqué (attribuer 2 point)",
+        "stamp_1641": "Aucun raisonnement indiqué (attribuer 3 point)",
+        "stamp_1651": "Aucun raisonnement indiqué (attribuer 4 point)",
+        "stamp_1661": "APP",
+        "stamp_1671": "AN",
+        "stamp_1681": "BP",
+        "stamp_1691": "OF",
+        "stamp_1701": "OFR_BIG",
+        "stamp_1711": "PAG",
+        "stamp_1721": "Répétition",
+        "stamp_1731": "Vu",
+        "stamp_1741": "ZERO",
+        "stamp_1751": "Attribuer 1 point",
+        "stamp_1761": "Attribuer 2 point",
+        "stamp_1771": "TICK_HALF",
+        "stamp_1781": "A3",
+        "stamp_1791": "B0",
+        "stamp_1801": "Évaluation",
+        "stamp_1811": "FTX",
+        "stamp_1821": "Mauvaise interprétation",
+        "stamp_1831": "TError",
+        "stamp_1841": "Not Relevant",
+        "stamp_1851": "Attribuer 3 points ",
+        "stamp_1861": "Attribuer 5 points ",
+        "stamp_1871": "Réponse donnée",
+        "stamp_1881": "Raisonnement (attribuer 0 point)",
+        "stamp_1891": "Aucun raisonnement indiqué (attribuer 5 points) ",
+        "stamp_1901": "Aucun raisonnement indiqué (attribuer 6 points) ",
+        "stamp_1911": "Description",
+        "stamp_1921": "Pénalité de précision",
+        "stamp_1931": "Raisonnement à l'envers",
+        "stamp_1941": "Raisonnement en radians ",
+        "stamp_1951": "Raisonnement en degrés",
+        "stamp_1961": "Vecteurs faux",
+        "stamp_1971": "Méthode alternative valide ",
+        "stamp_1981": "Aucun raisonnement indiqué (attribuer 0 point)",
+        "stamp_1991": "Aucun raisonnement indiqué (attribuer 1 point)",
+        "stamp_2001": "Aucun raisonnement indiqué (attribuer 2 point)",
+        "stamp_2011": "Aucun raisonnement indiqué (attribuer 3 point)",
+        "stamp_2021": "Aucun raisonnement indiqué (attribuer 4 point)",
+        "stamp_2031": "Aucun raisonnement indiqué (attribuer 5 point)",
+        "stamp_2041": "Aucun raisonnement indiqué (attribuer 6 point)",
+        "stamp_2051": "Pénalité pour imprécision dans une question financière ",
+        "stamp_2061": "Pénalité d'unité",
+        "stamp_2071": "Calculatrice à écran graphique (attribuer 0 point)",
+        "stamp_2081": "Calculatrice à écran graphique (attribuer 1 point)",
+        "stamp_2091": "Calculatrice à écran graphique (attribuer 2 point)",
+        "stamp_2101": "Calculatrice à écran graphique (attribuer 3 point)",
+        "stamp_2111": "Figure bien dessinée",
+        "stamp_2121": "Répond à la question",
+        "stamp_2131": "Bonnes connaissances",
+        "stamp_2141": "Bonne analyse",
+        "stamp_2151": "Bonne définition ",
+        "stamp_2161": "Bon exemple",
+        "stamp_2171": "Bonne explication ",
+        "stamp_2181": "Bonne utilisation du texte ",
+        "stamp_2191": "Utilisation incorrecte",
+        "stamp_2201": "Niveau 0",
+        "stamp_2211": "Manque de profondeur ",
+        "stamp_2221": "Manque de logique dans la structure",
+        "stamp_2231": "La théorie est expliquée de manière claire ",
+        "stamp_2241": "La théorie n'est pas expliquée de manière claire ",
+        "stamp_2251": "Réponse non équilibrée",
+        "stamp_2261": "Hors sujet",
+        "stamp_2271": "Bien argumenté",
+        "stamp_2281": "Argument faible",
+        "stamp_2291": "Raisonnement ou discussion limité(e)",
+        "stamp_2301": "Très limité",
+        "stamp_2311": "Quelques bons points ",
+        "stamp_2321": "Solution alternative",
+        "stamp_2331": "Aucun raisonnement indiqué",
+        "stamp_2341": "Réponse acceptable",
+        "stamp_2351": "Répète la question",
+        "stamp_2361": "Significant digit error ",
+        "stamp_2371": "Aucune explication donnée ",
+        "stamp_2381": "Pénalité d'unité",
+        "stamp_2391": "Aucun raisonnement",
+        "stamp_2401": "Qualité-clarté",
+        "stamp_2411": "Qualité-structure",
+        "stamp_2421": "Identique à ",
+        "stamp_2431": "Mots à cet effet",
+        "stamp_2441": "Avantage/pour",
+        "stamp_2451": "Inconvénient/contre",
+        "stamp_2461": "Différence",
+        "stamp_2471": "Similarité ",
+        "stamp_2481": "Correct",
+        "stamp_2491": "Pénalité de précision attribuée",
+        "stamp_2501": "UPD",
+        "stamp_2511": "FPD",
+        "stamp_2521": "-1SD",
+        "stamp_2531": "Change",
+        "stamp_2541": "Synthesis",
+        "stamp_2551": "Descriptive",
+        "stamp_2561": "Excellent",
+        "stamp_2571": "Assertion",
+        "stamp_2581": "Bien",
+        "stamp_2591": "Attribuer 1 point",
+        "stamp_2601": "Attribuer 1 point",
+        "stamp_2611": "Attribuer 1 point",
+        "stamp_2621": "Attribuer 1 point",
+        "stamp_2631": "Attribuer 1 point",
+        "stamp_2641": "Attribuer 1 point",
+        "stamp_2651": "Attribuer 1 point",
+        "stamp_2661": "Attribuer 1 point",
+        "stamp_2671": "Attribuer 1 point",
+        "stamp_2681": "Attribuer 1 point",
+        "stamp_2691": "Attribuer 1 point",
+        "stamp_2701": "Attribuer 1 point",
+        "stamp_2711": "Attribuer 1 point",
+        "stamp_2721": "Attribuer 1 point",
+        "stamp_2731": "Tick_1_half",
+        "stamp_2741": "Tick_2_half",
+        "stamp_2751": "Tick_3_half",
+        "stamp_2761": "Tick_4_half",
+        "stamp_2771": "MAX",
+        "stamp_2781": "big_P",
+        "stamp_2791": "Attribuer 4 points",
+        "stamp_2801": "G",
+        "stamp_2811": "Précision- (attribuer 1 point pour FT)",
+        "stamp_2821": "Opinion personnelle claire",
+        "stamp_2831": "Bonne perception",
+        "stamp_2841": "Problématique claire",
+        "stamp_2851": "Bonne problématique de la connaissance",
+        "stamp_2861": "Pas de problématique",
+        "stamp_2871": "Manque de logique ",
+        "stamp_2881": "Exemple hypothétique ",
+        "stamp_2891": "Descriptive",
+        "stamp_2901": "Référence nécessaire ",
+        "stamp_2911": "Généralisation ",
+        "stamp_2921": "A+",
+        "stamp_2931": "B+",
+        "stamp_2941": "C+",
+        "stamp_2951": "D+",
+        "stamp_2961": "A-",
+        "stamp_2971": "B-",
+        "stamp_2981": "C-",
+        "stamp_2991": "D-",
+        "stamp_3001": "Erreur de calcul",
+        "stamp_3011": "Note discrétionnaire",
+        "stamp_3021": "Bien",
+        "stamp_3031": "Marquage incorrect",
+        "stamp_3041": "Aucun exemple",
+        "stamp_3051": "Explication raisonnable",
+        "stamp_3061": "Trop simple pour FT",
+        "stamp_3071": "Réponse incomplète",
+        "stamp_3081": "PP",
+        "stamp_3091": "RP",
+        "stamp_3101": "PN",
+        "stamp_3111": "RN",
+        "stamp_3121": "JP",
+        "stamp_3131": "JN",
+        "stamp_3132": "Reverse points",
+        "stamp_3133": "FM",
+        "stamp_3134": "Easing",
+        "stamp_3135": "Perspectives différentes",
+        "stamp_3136": "0+1",
+        "stamp_3137": "1+0",
+        "stamp_3138": "0+2",
+        "stamp_3139": "2+0",
+        "stamp_3140": "Point inachevé",
+        "stamp_3141": "Synthèse",
+        "stamp_3142": "Évaluation simple",
+        "stamp_3143": "Évaluation avancée",
+        "stamp_3144": "Expérience personnelle du cours",
+        "stamp_3145": "Critère A",
+        "stamp_3146": "Critère B",
+        "stamp_3147": "Critère C",
+        "stamp_3148": "Critère D",
+        "stamp_3149": "Critère E",
+        "stamp_3150": "Critère F",
+        "stamp_3151": "Critère G",
+        "stamp_3152": "Critère H",
+        "stamp_3153": "Critère I",
+        "stamp_3154": "Critère J",
+        "stamp_3155": "Critère K",
+        "stamp_3156": "Question de recherche bien ciblée",
+        "stamp_3157": "Question de recherche mal ciblée",
+        "stamp_3158": "Affirmation sans fondement",
+        "stamp_3159": "Bon contexte historique",
+        "stamp_3160": "Bonne structure",
+        "stamp_3161": "Bonne évaluation des ressources",
+        "stamp_3162": "Aucune évaluation des ressources",
+        "stamp_3163": "Excellente utilisation des ressources",
+        "stamp_3164": "Tick Quarter Mark",
+        "stamp_3165": "GKQ",
+        "stamp_3166": "A1F",
+        "stamp_3167": "Acc?",
+        "stamp_3168": "AO1",
+        "stamp_3169": "AO2",
+        "stamp_3170": "AO3",
+        "stamp_3171": "BAN",
+        "stamp_3172": "B1F",
+        "stamp_3173": "BEV",
+        "stamp_3174": "DP",
+        "stamp_3175": "DT",
+        "stamp_3176": "E0",
+        "stamp_3177": "E1",
+        "stamp_3178": "E2",
+        "stamp_3179": "ELAB",
+        "stamp_3180": "ENG",
+        "stamp_3181": "FIW",
+        "stamp_3182": "FW",
+        "stamp_3183": "Gan",
+        "stamp_3184": "Gapp",
+        "stamp_3185": "Geval",
+        "stamp_3186": "INAC",
+        "stamp_3187": "JUST",
+        "stamp_3188": "LF",
+        "stamp_3192": "NC",
+        "stamp_3193": "NMS",
+        "stamp_3194": "PAR",
+        "stamp_3195": "Ran",
+        "stamp_3196": "Rapp",
+        "stamp_3197": "REL?",
+        "stamp_3198": "Reval",
+        "stamp_3199": "UNCO",
+        "stamp_3200": "VAGU",
+        "stamp_3201": "WAO1",
+        "stamp_3202": "WAO2",
+        "stamp_3203": "WEAK",
+        "stamp_3204": "WENG",
+        "stamp_3205": "WKU",
+        "stamp_3206": "WLAB",
+        "stamp_3207": "WNR",
+        "stamp_3208": "WR",
+        "stamp_3209": "SUMC",
+        "stamp_3210": "WAYS",
+        "stamp_3211": "TF",
+        "stamp_3212": "WRPO",
+        "stamp_3213": "WRPR",
+        "stamp_3214": "WRDR",
+        "stamp_3215": "dM0",
+        "stamp_3216": "dM1",
+        "stamp_3217": "SC0",
+        "stamp_3218": "SC1",
+        "stamp_3219": "SC2",
+        "stamp_3220": "Perhaps Implied",
+        "stamp_3221": "CS0",
+        "stamp_3222": "Subtle point",
+        "stamp_3223": "Complex",
+        "stamp_3224": "Range",
+        "stamp_3225": "Reasonable Argument",
+        "stamp_3226": "Good argument",
+        "stamp_3227": "Depth",
+        "stamp_3228": "Balance",
+        "stamp_3229": "Mft",
+        "on-page-comment-tooltip": "Commentaire"
+      },
+      "discard-message-or-exception-dialog": {
+        "body": "Si vous ouvrez un nouveau message, les modifications apportées au message actuel seront annulées. Êtes-vous sûr(e) de vouloir continuer ? Toutes les modifications qui n’ont pas été enregistrées seront perdues."
+      },
+      "message-list-panel": {
+        "create-new-message": "Créer un nouveau message"
+      },
+      "message-panel": {
+        "header": "Message"
+      },
+      "raise-exception-panel": {
+        "selected-question": "Question sélectionnée ",
+        "entire-response": "Intégralité de la réponse",
+        "exception-relates-to-label": "Cette exception concerne :",
+        "exception-type-label": "Je signale une exception pour la raison suivante :",
+        "minimise-icon-tooltip": "Réduire",
+        "maximise-icon-tooltip": "Agrandir",
+        "close-icon-tooltip": "Fermer",
+        "submit-button": "Envoyer",
+        "open-exception-exists-against-response": "Une exception de ce type a déjà été signalée pour cette réponse.",
+        "open-exception-exists-against-question": "Une exception de ce type a déjà été signalée pour cette question.",
+        "comment-placeholder": "Écrivez votre message ici...",
+        "select-exception-type-placeholder": "Sélectionnez un type d’exception.",
+        "exception-type-tooltip": "Type d’exception",
+        "blocking-exception-description": " Signaler cette exception vous empêchera d’envoyer cette réponse. Vous ne pourrez envoyer la réponse qu’après avoir résolu et fermé l’exception.",
+        "non-blocking-exception-description": " Signaler cette exception ne vous empêchera pas d’envoyer cette réponse.",
+        "incorrect-component-or-paper-additional-description": " Veuillez noter que si la réponse est déplacée vers la composante appropriée, elle n’apparaîtra plus dans votre liste de réponses à corriger.",
+        "file-cannot-be-accessed-or-read-additional-description": " Veuillez noter que si ce fichier est supprimé et remplacé par un autre fichier, il se peut que vous ne receviez pas la même réponse à noter de nouveau et la correction effectuée sera malheureusement effacée.",
+        "new-exception-subtitle-has-unmanagedslao": "Je ne suis pas en mesure de noter cette réponse pour la raison suivante :"
+      },
+      "exception-list-panel": {
+        "raise-new-exception": "Signaler une nouvelle exception",
+        "open-blocking-exception-tooltip": "Vous ne pourrez pas envoyer la réponse tant que l’exception n’aura pas été résolue et fermée.",
+        "reject-rig": "Exclure la réponse",
+        "exception-blocker-resolved": "Vous ne pourrez pas envoyer la réponse tant que vous n’aurez pas fermé l’exception."
+      },
+      "discard-exception-dialog": {
+        "body": "Êtes-vous sûr(e) de vouloir supprimer cette exception sans l’envoyer ?",
+        "body-navigate-away": "Êtes-vous sûr(e) de vouloir quitter cette page ? L’exception n’est pas enregistrée et sera supprimée...",
+        "body-raise-new": "Êtes-vous sûr(e) de vouloir supprimer votre exception, qui n’a pas été envoyée ?",
+        "body-open-another": "Signaler une nouvelle exception annulera les changements apportés à l’exception existante. Êtes-vous sûr(e) de vouloir perdre les changements qui n’ont pas été enregistrés ?",
+        "header": "Supprimer l’exception",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      },
+      "view-exception-panel": {
+        "header": "Numéro de l’exception"
+      },
+      "close-exception-dialog": {
+        "body": "Êtes-vous sûr(e) de vouloir fermer cette exception ?",
+        "header": "Fermer l’exception"
+      },
+      "exception-escalation-points": {
+        "4": "Cette exception sera signalée au service d’assistance de RM.",
+        "3": "Cette exception sera signalée à l’agent à l’évaluation responsable de la matière que vous notez.",
+        "2": "Cette exception sera signalée à votre superviseur."
+      },
+      "reject-rig-confirmation-dialog": {
+        "body": "Exclure la réponse aura pour effet de la replacer dans le groupe de réponses à noter afin qu’elle soit corrigée par un autre examinateur ; vous ne pourrez pas la télécharger de nouveau. Vous ne devez faire cela que si vous pensez connaître le candidat, ou si votre organisme décernant des titres vous a informé(e) d’autres cas pour lesquels vous devez exclure une réponse. Êtes-vous sûr(e) de vouloir continuer ?",
+        "header": "Exclure la réponse",
+        "cancel-button": "Annuler",
+        "ok-button": "OK"
+      },
+      "eur-marks-change-popout": {
+        "body": "Veuillez expliquer les raisons pour lesquelles vous avez changé les notes pour cette réponse.",
+        "header": "Raisons pour lesquelles les notes ont été changées"
+      },
+      "supervisor-remark-decision": {
+        "none": "NAucune : je déciderai plus tard",
+        "nonjudgementalerror": "Re-marks: Non-judgemental error",
+        "judgementaloutsidetolerance": "Re-marks: Judgement outside tolerance",
+        "originalmarks": "Notes initiales : notes initiales assignées en tant que notes finales",
+        "popout-body": "Veuillez sélectionner les notes que vous souhaitez assigner en tant que notes finales ainsi qu’une raison le justifiant",
+        "original-mark-accuracy": "Précision des notes initiales",
+        "total-mark-difference": "Différence totale entre les notes",
+        "absolute-mark-difference": "Différence absolue entre les notes",
+        "popout-header": "Résumé de la recorrection",
+        "no-decision-tooltip": "Re-mark decision not selected",
+        "decision-tooltip": "Afficher/modifier la décision sur la recorrection"
+      },
+      "leaving-response-warning-dialog": {
+        "header": "Fermer la réponse",
+        "body": "Veuillez vérifier les points suivants avant d’envoyer cette réponse :",
+        "stay-in-response-button": "Garder la réponse ouverte",
+        "leave-response-button": "Fermer la réponse",
+        "ok-button": "OK"
+      },
+      "submit-response-warning-dialog": {
+        "header": "Envoyer la réponse",
+        "body": "Veillez vérifier les points suivants avant d’envoyer cette réponse :",
+        "stay-in-response-button": "Garder la réponse ouverte",
+        "submit-response-button": "Envoyer la réponse"
+      },
+      "leaving-or-submitting-response-warnings": {
+        "not-all-pages-annotated": "Certaines pages n’ont pas d’annotations. Vous ne pourrez pas envoyer cette réponse avant d’avoir ajouté au moins une annotation sur chaque page ou d’avoir utilisé le bouton Marquer comme vu, disponible dans le mode d’affichage de la réponse entière, afin de confirmer que vous avez consulté le contenu de chaque page.",
+        "not-all-pages-annotated-in-grace": "Vous ne pouvez pas fermer cette réponse et enregistrer vos modifications avant d’avoir ajouté au moins une annotation sur chaque page de la réponse ou d’avoir cliqué sur le bouton Marquer comme vu, disponible dans le mode d’affichage de la réponse entière, afin de confirmer que vous avez consulté le contenu de chaque page.",
+        "eur-mark-change-reason-not-applied": "Vous ne pourrez pas envoyer la réponse tant que vous n’aurez pas expliqué les raisons pour lesquelles vous avez changé les notes.",
+        "eur-mark-change-reason-not-applied-in-grace": "Vous ne pouvez pas fermer cette réponse et enregistrer vos modifications tant que vous n’avez pas expliqué les raisons pour lesquelles vous avez changé les notes.",
+        "message-will-be-discarded": "Le message que vous êtes en train d’écrire sera supprimé.",
+        "exception-will-be-discarded": "L’exception que vous êtes en train de signaler sera supprimée.",
+        "not-all-slaos-annotated": "Certaines pages supplémentaires n’ont pas d’annotations. Vous ne pourrez pas envoyer cette réponse avant d’avoir ajouté au moins une annotation sur chaque page supplémentaire.",
+        "not-all-slaos-annotated-in-grace": "Vous ne pouvez pas fermer cette réponse et enregistrer vos modifications avant d’avoir ajouté au moins une annotation sur chaque page supplémentaire.",
+        "all-questions-marked-nr": "La valeur « AR » (aucune réponse) a été attribuée à l’ensemble des éléments de questions de cette réponse, ce qui signifie que le candidat n’a traité aucune des questions.",
+        "supervisor-remark-decision-not-applied": "Vous ne pourrez pas envoyer cette réponse avant d’avoir sélectionné un ensemble de notes à utiliser pour définir la note finale du candidat.",
+        "supervisor-remark-decision-not-applied-in-grace": "Vous ne pouvez pas fermer cette réponse et enregistrer vos modifications avant d’avoir sélectionné un ensemble de notes à utiliser pour définir la note finale du candidat.",
+        "questions-marked-nr": "'La valeur « AR » (aucune réponse) a été attribuée comme note à un ou plusieurs éléments inclus dans la note totale. Cela signifie que le candidat n’a pas suivi la consigne.",
+        "questions-marked-nr-used-in-total": "La valeur « AR » (aucune réponse) a été attribuée comme note à un ou plusieurs éléments de question obligatoires. Cela signifie que le candidat n’a pas tenté de répondre à ces questions.",
+        "questions-marked-not-used-in-total": "Des notes ont été attribuées à un ou plusieurs éléments qui ne sont pas inclus dans la note totale. Cela signifie que le candidat n’a pas suivi la consigne.",
+        "enhanced-off-page-comment-will-be-discarded": "Les changements que vous avez effectués dans le commentaire sélectionné seront supprimés.",
+        "not-all-files-viewed": "Tous les fichiers associés à la réponse actuelle n’ont pas été consultés. Vous ne pourrez pas envoyer la réponse tant que vous n’aurez pas consulté tous les fichiers.",
+        "file-downloaded-outside": "Veuillez fermer tous les fichiers que vous avez téléchargés et ouverts en dehors de RM Assessor pour cette réponse."
+      },
+      "overlays": {
+        "ruler-tooltip": "Règle",
+        "protractor-tooltip": "Rapporteur",
+        "multiline-overlay-tooltip": "Calque multilignes"
+      },
+      "bookmarks-panel": {
+        "page": "Page",
+        "add-new-bookmark": "Ajouter un nouveau signet",
+        "go-back": "Retour",
+        "return-to-selected-page": "Revenir à la page sélectionnée"
+      },
+      "ecoursework-file-browser": {
+        "header": "Fichiers",
+        "collapse-button-tooltip": "Réduire le panneau d’affichage de la liste des fichiers",
+        "expand-button-tooltip": "Agrandir le panneau d’affichage de la liste des fichiers",
+        "previous-button-tooltip": "Réponse précédente",
+        "next-button-tooltip": "Réponse suivante",
+        "show-more-metadata": "Afficher plus",
+        "show-less-metadata": "Afficher moins"
+      },
+      "media-player": {
+        "download-icon-tooltip": "Télécharger le fichier",
+        "play-original-file": "Lire le fichier original",
+        "play-transcoded-file": "Lire le fichier converti",
+        "file-to-play-icon-tooltip": "Sélectionner la version du fichier à lire",
+        "download-transcoded-icon-tooltip": "Télécharger la version convertie de ce fichier",
+        "browser-not-supported-error": "Votre navigateur ne peut pas lire le fichier audio ou vidéo. Veuillez vous assurer que votre appareil et votre navigateur sont bien pris en charge.",
+        "play-pause-button-tooltip": "Lecture/Pause",
+        "play-button-tooltip": "Lecture",
+        "pause-button-tooltip": "Pause",
+        "playback-time-tooltip": "Temps de lecture du média",
+        "unmute-button-tooltip": "Activer le son",
+        "mute-button-tooltip": "Désactiver le son",
+        "volume-slider-tooltip": "Niveau de volume du média",
+        "mute-unmute-button-tooltip": "Désactiver/Activer le son",
+        "full-screen-button-tooltip": "Plein écran",
+        "exit-full-screen-button-tooltip": "Quitter le mode plein écran",
+        "file-name": "Nom du fichier",
+        "thumbnail-view": "Affichage en mode miniature",
+        "list-view": "Affichage en mode liste"
+      },
+      "media-player-error-dialog": {
+        "header-audio": "Impossible de lire le fichier audio",
+        "body-audio-network-error": "Une erreur de connexion est survenue lors du chargement du fichier audio. Veuillez réessayer de sélectionner le fichier.",
+        "body-audio-generic-error": "Une erreur est survenue lors du chargement du fichier audio. Veuillez réessayer de sélectionner le fichier. Si le problème persiste, veuillez essayer ",
+        "header-video": "Impossible de lire le fichier vidéo",
+        "body-video-network-error": "Une erreur de connexion est survenue lors du chargement du fichier vidéo. Veuillez réessayer de sélectionner le fichier.",
+        "body-video-generic-error": "Une erreur est survenue lors du chargement du fichier vidéo. Veuillez réessayer de sélectionner le fichier. Si le problème persiste, veuillez essayer ",
+        "error-details": "Error Code : {0} <br/> Error details : {1}",
+        "quick-link-play-transcoded": "version convertie",
+        "quick-link-play-original": "version originale",
+        "quick-link-download-file": "d’ouvrir le fichier en dehors de RM Assessor 3",
+        "quick-link-or": " ou ",
+        "quick-link-raise-exception": "de signaler une exception",
+        "quick-link-play-alternate": "Vous pouvez également essayer de lire la",
+        "quick-link-play-alternate-suffix": " de ce fichier."
+      },
+      "off-page-comments-panel": {
+        "comment-text-placeholder": "Ajouter un commentaire ici",
+        "previous-comment-header": "Commentaires précédents"
+      },
+      "enhanced-off-page-comments-panel": {
+        "add-comment": "Ajouter un commentaire",
+        "comment-text-placeholder": "Ajouter un commentaire ici",
+        "item-column-header": "Élément",
+        "file-column-header": "Fichier",
+        "comment-column-header": "Commentaire",
+        "delete-button": "Supprimer",
+        "cancel-button": "Annuler",
+        "close-button": "Fermer",
+        "save-button": "Enregistrer",
+        "question-item-dropdown-tooltip": "Élément de question associé : ",
+        "file-dropdown-tooltip": "Fichier associé : "
+      },
+      "delete-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "Êtes-vous sûr(e) de vouloir supprimer ce commentaire ?",
+        "header": "Supprimer le commentaire"
+      },
+      "discard-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "Êtes-vous sûr(e) de vouloir supprimer les changements que vous avez apportés à ce commentaire ?",
+        "header": "Supprimer les changements"
+      },
+      "discard-new-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "Êtes-vous sûr(e) de vouloir supprimer ce commentaire ?",
+        "header": "Supprimer le commentaire"
+      },
+      "discard-enhanced-off-page-comment-other-set-confirmation-dialog": {
+        "header": "Supprimer le commentaire",
+        "body": "Si vous sélectionnez un ensemble de commentaires différent, le commentaire que vous modifiez actuellement sera supprimé. Êtes-vous sûr(e) de vouloir continuer ?"
+      },
+      "ecoursework-unsupported-file-placeholder": {
+        "line-1": "Ce fichier ne peut pas s’afficher dans RM Assessor",
+        "line-2": "Vous pouvez le télécharger et l’ouvrir sur votre ordinateur."
+      },
+      "share-confirmation-popup": {
+        "content": "Êtes-vous sûr(e) de vouloir annuler le partage de ce calque multilignes avec tous les examinateurs ?",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      },
+      "ebookmarking": {
+        "unzoned-images-placeholder": "Aucun contenu n’a été associé à cet élément de question."
+      },
+      "zoning-warning-dialog": {
+        "ok-button": "OK",
+        "header": "Découpage des zones en cours de révision",
+        "body": "Le découpage des zones de la réponse de ce candidat est actuellement révisé à la suite d’une exception signalée pour une autre réponse. Veuillez noter que les zones d’image qui s’affichent peuvent changer en raison de cette exception. Veuillez sélectionner d’autres réponses à corriger en attendant que l’exception soit résolue."
+      }
+    },
+    "full-response-view": {
+      "script-page": {
+        "suppressed-page-tooltip": "Il n’est pas possible d’afficher cette page, car elle n’a pas de rapport avec la réponse du candidat et peut contenir des informations permettant de l’identifier",
+        "suppressed-page": "PAGE SUPPRIMÉE",
+        "mark-this-page-button": "Noter cette page",
+        "view-this-page-button": "Afficher cette page",
+        "flag-as-seen-button": "Marquer comme vu",
+        "additional-page-indicator": "Page supplémentaire",
+        "link-to-question-button": "Relier à la question",
+        "view-and-edit-links-button": "Afficher et modifier les liens"
+      },
+      "view-one-page": "1 page",
+      "view-two-page": "2 pages",
+      "view-four-page": "4 pages",
+      "view-one-page-tooltip": "Affichage : 1 page",
+      "view-two-page-tooltip": "Affichage : 2 pages",
+      "view-four-page-tooltip": "Affichage : 4 pages",
+      "only-show-unannotated-pages": "Afficher les pages sans annotations uniquement",
+      "all-pages-annotated-text-full-response": "Toutes les pages de cette réponse ont été annotées",
+      "all-pages-annotated-text-no-pages-to-display-full-response": "Il n’y a aucune page sans annotation à afficher",
+      "show-all-pages-of-script": "Afficher toutes les pages",
+      "page-linking-popup": {
+        "header": "Veuillez choisir le ou les éléments de question auxquels vous souhaitez relier cette page",
+        "ok-button": "Annuler",
+        "cancel-button": "OK"
+      },
+      "unlink-annotations-exist-dialog": {
+        "header": "Pages annotées",
+        "body": "Vous ne pouvez pas supprimer les liens vers le ou les éléments de question suivants, car cette page contient des annotations les concernant. Veuillez supprimer les annotations avant de supprimer les liens."
+      },
+      "manage-slaos-dialog": {
+        "header": "Gestion des pages supplémentaires",
+        "body": "La réponse de ce candidat contient des pages supplémentaires qui ne font pas partie du livret de réponses principal. Veuillez examiner soigneusement ces pages. Une fois que vous aurez relié chaque page à un ou plusieurs éléments de question ou que vous les aurez marquées comme vues, vous pourrez commencer à noter la réponse.",
+        "ok-button": "OK"
+      },
+      "slaos-managed-dialog": {
+        "header": "Gestion des pages supplémentaires terminée",
+        "body": "Toutes les pages supplémentaires ont été reliées à un élément de question ou marquées comme vues. Souhaitez-vous commencer à noter cette réponse maintenant ?",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      },
+      "slao-link-removal-dialog": {
+        "header": "Confirmation de l’examen de la page supplémentaire",
+        "body": "En supprimant tous les liens de cette page, vous confirmez qu’elle ne contient rien qui pourrait être pris en compte pour l’attribution d’une note au candidat pour cette réponse. Si cela est exact, veuillez cliquer sur OK. Dans le cas contraire, veuillez cliquer sur Annuler, puis relier cette page à l’élément ou aux éléments de question la concernant.",
+        "ok-button": "OK",
+        "cancel-button": "Annuler"
+      },
+      "manage-slaos-remark-dialog": {
+        "header": "Examen des pages supplémentaires",
+        "body": "La réponse de ce candidat contient des pages supplémentaires qui ne font pas partie du livret de réponses principal. L’examinateur initial les a déjà examinées et les a reliées à un ou plusieurs éléments de question ou les a marquées comme vues. Veuillez examiner soigneusement ces pages et liens et effectuer des ajustements, le cas échéant, avant de commencer à réviser et ajuster les notes initiales.",
+        "ok-button": "OK"
+      },
+      "show-all-pages-of-script-tooltip": "Afficher toutes les pages de la réponse",
+      "back-to-marking-button": "Notation",
+      "back-to-marking-button-tooltip": "Revenir à la notation",
+      "problems-button-while-managing-slaos-tooltip": "Des problèmes sont associés à cette réponse",
+      "flag-as-seen-dialog": {
+        "header": "Confirmation de l’examen de la page supplémentaire",
+        "body": "En cliquant sur \"OK\", vous confirmez que cette page ne contient rien qui pourrait être pris en compte pour l’attribution d’une note au candidat pour cette réponse. Si cela est exact, veuillez cliquer sur \"OK\". Dans le cas contraire, veuillez cliquer sur \"Annuler\", puis relier cette page à l’élément ou aux éléments de question la concernant.",
+        "ok-button": "OK",
+        "cancel-button": "Annuler"
+      },
+      "only-show-unannotated-additional-pages-tooltip": "Afficher les pages supplémentaires sans annotations uniquement",
+      "only-show-unannotated-additional-pages": "Afficher les pages supplémentaires sans annotations uniquement",
+      "all-additional-pages-annotated-text-full-response": "Toutes les pages supplémentaires de cette réponse ont été annotées",
+      "all-additional-pages-annotated-text-no-pages-to-display-full-response": "Il n’y a aucune page supplémentaire sans annotation à afficher",
+      "unknown-content-link-removal-dialog": {
+        "header": "Confirmation de l’examen du contenu indéterminé",
+        "body": "En supprimant tous les liens de cette page, vous confirmez qu’elle ne contient rien qui pourrait être pris en compte pour l’attribution d’une note au candidat pour cette réponse. Si cela est exact, veuillez cliquer sur OK. Dans le cas contraire, veuillez cliquer sur Annuler, puis relier cette page à l’élément ou aux éléments de question la concernant.",
+        "ok-button": "OK",
+        "cancel-button": "Annuler"
+      },
+      "ebookmarking-flag-as-seen-dialog": {
+        "header": "Confirmation de l’examen de contenu non associé",
+        "body": "En cliquant sur OK, vous confirmez que cette page ne contient pas de contenu non associé qui pourrait être pris en compte pour l’attribution d’une note au candidat pour cette réponse. Si cela est exact, veuillez cliquer sur OK. Dans le cas contraire, veuillez cliquer sur Annuler, puis relier cette page à l’élément ou aux éléments de question la concernant.",
+        "ok-button": "OK",
+        "cancel-button": "Annuler"
+      },
+      "unknown-content-dialog": {
+        "header": "Gestion du contenu indéterminé",
+        "body": "La réponse de ce candidat contient des pages ou des parties de pages qui n’ont pas été reliées à un élément de question. Veuillez examiner soigneusement ces pages pour confirmer si elles s’appliquent ou non aux questions pour lesquelles vous envoyez des notes. Une fois que vous aurez relié chaque page à un ou plusieurs éléments de question ou que vous les aurez marquées comme vues, vous pourrez commencer à noter la réponse.",
+        "ok-button": "OK"
+      },
+      "unknown-content-managed-dialog": {
+        "header": "Gestion du contenu indéterminé terminée",
+        "body": "Toutes les pages comportant du contenu indéterminé ont été reliées à un élément de question ou marquées comme vues. Souhaitez-vous commencer à noter cette réponse maintenant ?",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      },
+      "unknown-content-dialog-in-remark": {
+        "header": "Examen du contenu indéterminé",
+        "body": "La réponse de ce candidat contient des pages ou des parties de pages qui n’ont pas été reliées à un élément de question. L’examinateur initial les a déjà examinées et les a reliées à un ou plusieurs éléments de question ou les a marquées comme vues. Veuillez examiner soigneusement ces pages et liens et effectuer des ajustements, le cas échéant, avant de commencer à réviser les notes initiales.",
+        "ok-button": "OK"
+      }
+    }
+  },
+  "generic": {
+    "busy-indicator": {
+      "responseAllocation": "Téléchargement des réponses en cours, veuillez patienter...",
+      "submit": "Envoi de la réponse en cours, veuillez patienter...",
+      "submitAll": "Envoi des réponses en cours, veuillez patienter...",
+      "none": "Chargement en cours...",
+      "saveEmail": "Enregistrement de l’adresse électronique en cours...",
+      "loadingResponse": "Chargement en cours...",
+      "savingMarksAndAnnotations": "Enregistrement des notes et des annotations en cours, veuillez patienter...",
+      "savingMarksAndAnnotations-offline": "RM Assessor essaie d’enregistrer votre travail, mais vous n’êtes pas connecté(e). Veuillez vérifier votre connexion à Internet. Une fois la connexion établie, votre travail sera automatiquement enregistré. Veuillez ne pas fermer votre navigateur, ou toutes les modifications qui n’ont pas été enregistrées seront perdues.",
+      "loadingModules": "Chargement en cours...",
+      "submitInResponseScreen": "Envoi de la réponse en cours, veuillez patienter...",
+      "loadResponseInMessage": "Chargement des informations sur la réponse en cours...",
+      "loadingHistoryDetails": "Chargement en cours..."
+    },
+    "error-dialog": {
+      "header": "Une erreur s'est produite.",
+      "view-more": "Obtenir plus d’informations",
+      "ok-button": "OK",
+      "body": "Cette action n’a pas pu être exécutée. Veuillez réessayer et contacter emarking@ibo.org si le problème persiste.",
+      "body-error-saving-user-options": "Il n’a pas été possible d’enregistrer les changements que vous avez apportés aux paramètres utilisateur. Veuillez ouvrir le menu utilisateur et réessayer.",
+      "body-network-error": "Erreur réseau. Impossible de se connecter au serveur.",
+      "body-response-removed": "À titre d’information, la réponse correspondant au numéro d’identification {0} a été supprimée pour le QIG {1}."
+    },
+    "browser-warnings": {
+      "close-browser-warning": "Veuillez cliquer sur le bouton « Déconnexion » pour vous déconnecter de RM Assessor et vous assurer que votre travail a été enregistré. Si vous fermez votre navigateur sans vous déconnecter, tout le travail qui n’a pas été enregistré sera perdu."
+    },
+    "offline-dialog": {
+      "header": "Travailler hors ligne",
+      "body": "Cette action ne peut pas être exécutée, car RM Assessor 3 ne peut pas communiquer avec le serveur. Veuillez vérifier votre connexion à Internet et réessayer. Pour ne pas perdre votre travail, ne vous déconnectez pas et ne fermez pas votre navigateur avant le rétablissement de la connexion à Internet.",
+      "body-user-options-changed": "RM Assessor ne peut pas communiquer avec le serveur pour enregistrer vos préférences et vous déconnecter. Veuillez vérifier votre connexion à Internet et réessayer.",
+      "body-application-files-not-downloaded": "Cette action ne peut pas être exécutée, car RM Assessor 3 ne peut pas communiquer avec le serveur. Veuillez vérifier votre connexion à Internet. Une fois la connexion à Internet rétablie, vous serez automatiquement redirigé(e) vers la page à laquelle vous tentiez d’accéder. Pour ne pas perdre votre travail, ne fermez pas votre navigateur."
+    },
+    "approval-statuses": {
+      "NotApproved": "Non autorisé(e)",
+      "Approved": "Autorisé(e)",
+      "ApprovedReview": "Révision autorisée",
+      "ConditionallyApproved": "Conditionally Approved  DO NOT TRANSLATE",
+      "AwaitingApproval": "En attente d’autorisation",
+      "Complete": "Notation terminée",
+      "None": "Aucun",
+      "PracticeCompleted": "Entraînement terminé",
+      "StandardisationCompleted": "Validation terminée",
+      "UnapprovedRestandardise": "Un Approved Restandardise",
+      "UnapprovedRejected": "Un Approved Rejected",
+      "Withdrawn": "Notation retirée",
+      "Suspended": "En attente de révision",
+      "status-changed-header": "Statut d’autorisation modifié",
+      "status-changed": "Votre statut d’autorisation pour ce groupe de questions a changé, et vous ne pouvez plus télécharger ou envoyer de réponses tant que vous n’avez pas reçu de commentaires de la part de votre chef d’équipe. Vous pouvez cependant revoir les réponses que vous avez déjà téléchargées dans votre liste de travail. Cela ne vous empêchera pas de noter les autres QIG que vous êtes autorisé(e) à corriger.",
+      "status-changed-qualityfeedback": "Votre statut d’autorisation pour ce groupe de questions a changé, et vous ne pouvez plus télécharger ou envoyer de réponses tant que vous n’avez pas accepté les commentaires sur cette réponse de contrôle et que vous n’avez pas reçu de commentaires supplémentaires sur votre notation de la part de votre chef d’équipe. Cela ne vous empêchera pas de noter les autres QIG que vous êtes autorisé(e) à corriger."
+    },
+    "examiner-roles": {
+      "assistantExaminer": "Examinateur assistant",
+      "teamLeader": "Chef d’équipe",
+      "principalExaminer": "Examinateur principal",
+      "administrator": "Administrateur",
+      "generalMarker": "General Marker",
+      "viewer": "Viewer DO NOT TRANSLATE",
+      "assistantPrincipalExaminer": "Assistant Principal Examiner DO NOT TRANSLATE",
+      "assistantExaminer_MFI_SSU": "Assistant Examiner MFI SSU DO NOT TRANSLATE",
+      "assistantExaminer_MFI": "Assistant Examiner MFI DO NOT TRANSLATE",
+      "subjectMarker_MFI_Marking_Centre": "SubjectMarker MFI Marking Centre DO NOT TRANSLATE",
+      "subjectMarker_MFI_Home": "Subject Marker MFI Home DO NOT TRANSLATE",
+      "serviceDelivery": "Service Delivery DO NOT TRANSLATE",
+      "superAdministrator": "Super administrateur",
+      "seniorTeamLeader": "Chef d’équipe superviseur ",
+      "principalModerator_Postal": "Principal Moderator Postal DO NOT TRANSLATE",
+      "autoMarker": "AutoMarker",
+      "subjectMarker_MFI_H_SSU": "Subject Marker MFI H SSU DO NOT TRANSLATE",
+      "autoApprovedSeniorTeamLeader": "Auto Approved Senior Team Leader DO NOT TRANSLATE",
+      "autoMessaging": "Messagerie automatique",
+      "adminRemarker": "Administrateur (recorrection)",
+      "assistantExaminer_Visiting": "Assistant Examiner Visiting DO NOT TRANSLATE"
+    },
+    "logout-dialog": {
+      "body": "Êtes-vous sûr(e) de vouloir vous déconnecter ?",
+      "header": "Confirmation de déconnexion",
+      "yes-button": "Oui",
+      "no-button": "Non",
+      "ask-every-time": "Demander à chaque fois"
+    },
+    "user-menu": {
+      "profile-section": {
+        "logout-button": "Déconnexion",
+        "edit-settings": "Modifier les paramètres",
+        "user-name": "Nom d’utilisateur ",
+        "email-validation-message": "Veuillez saisir une adresse électronique valide.",
+        "email-address-placeholder": "Saisir l’adresse électronique",
+        "save-email-button": "Enregistrer",
+        "cancel-email-button": "Annuler"
+      },
+      "user-options": {
+        "logout-confirmation": "Confirmation de déconnexion",
+        "logout-confirmation-tooltip": "Confirmation de déconnexion",
+        "language": "Langue",
+        "assign-single-digit-marks-without-pressing-enter": "Assigner des notes à un chiffre sans appuyer sur Entrée",
+        "pause-media-when-offpage-comments-are-added": "Suspendre la lecture du média lorsque des commentaires hors page sont ajoutés."
+      },
+      "email-address-saved-dialog": {
+        "body": "L’adresse électronique associée à votre compte sur RM Assessor a été correctement mise à jour. Veuillez vous assurer de mettre également à jour votre adresse électronique dans les systèmes associés, le cas échéant (par exemple, si l’organisme décernant les titres exige que vous le préveniez lorsque vous changez d’adresse électronique, ou si vous joignez le service d’aide par l’intermédiaire du site http://www.rm.com).",
+        "header": "La mise à jour a été correctement effectuée"
+      }
+    },
+    "marking-modes": {
+      "Practice": "Entraînement",
+      "Approval": "Validation",
+      "ES_TeamApproval": "Deuxième validation",
+      "LiveMarking": "En conditions réelles",
+      "Adjudication": "Adjudication DO NOT TRANSLATE",
+      "Simulation": "Simulation",
+      "Marking": "Notation",
+      "SecondStandardisation": "Deuxième validation",
+      "RemarkPooled": "Remark Pooled",
+      "PooledResultsEnquiry": "Results Enquiry Pooled",
+      "AtRiskPooled": "Réponse à risque regroupée",
+      "EnquiryUponResultPooled": "Enquiry Upon Results Review",
+      "GradeReviewPooled": "Grade Review Pooled",
+      "PooledAdminRemark": "Recorrection par un administrateur regroupée",
+      "PooledCaseReviewRemark": "Pooled Case Review Re-mark",
+      "AdjudicationPooled": "Adjudication Pooled",
+      "RemarkPooled1": "Re-mark Pooled 1",
+      "RemarkPooled2": "Re-mark Pooled 2",
+      "RemarkPooled3": "Re-mark Pooled 3",
+      "None": "Aucun",
+      "PreStandardisation": "PreStandardisation",
+      "Pre_ES_TeamStandardisation": "Pre ES TeamStandardisation",
+      "StandardisationReview": "Révision de la normalisation",
+      "SeedingReview": "Révision de réponses de contrôle",
+      "Remarking": "Recorrection",
+      "Sample": "Échantillon",
+      "Seeding": "Seeding",
+      "MarkFromPaper": "Mark From Paper",
+      "Priority Remark": "Recorrection prioritaire"
+    },
+    "navigation-bar": {
+      "inbox-tooltip": "Boîte de réception",
+      "inbox": "Boîte de réception",
+      "user-menu-tooltip": "Profil et paramètres utilisateur",
+      "offline-tooltip": "Travaille hors ligne ; hors ligne depuis ",
+      "offline-tooltip-minutes-ago": " minute(s)",
+      "breadcrumbs": {
+        "home": "Page d’accueil",
+        "team-management-for": "Gestion de l’équipe pour ",
+        "worklist-for": "Liste de travail de ",
+        "team": "Équipe",
+        "worklist": "Liste de travail",
+        "inbox": "Boîte de réception",
+        "team-management": "Gestion de l’équipe",
+        "marking-check": "Vérification de la notation",
+        "reports": "Rapports"
+      },
+      "menu": "Menu",
+      "menu-tooltip": "Options de navigation",
+      "exception": "Exceptions"
+    },
+    "accuracy-indicators": {
+      "accurate": "Correcte",
+      "accurate-tooltip": "Vos notes pour cette réponse correspondent aux notes définitives.",
+      "inaccurate": "Incorrecte",
+      "inaccurate-tooltip": "Vos notes pour cette réponse ne correspondent pas aux notes définitives et sont en dehors de la marge de tolérance acceptable",
+      "in-tolerance": "Dans la marge de tolérance",
+      "in-tolerance-tooltip": "Vos notes pour cette réponse ne correspondent pas aux notes définitives, mais sont dans la marge de tolérance acceptable",
+      "accurate-tooltip-team-management": "Les notes pour cette réponse correspondent exactement aux notes définitives",
+      "inaccurate-tooltip-team-management": "Les notes pour cette réponse ne correspondent pas exactement aux notes définitives et sont en dehors de la marge de tolérance acceptable",
+      "in-tolerance-tooltip-team-management": "Les notes pour cette réponse ne correspondent pas exactement aux notes définitives, mais sont dans la marge de tolérance acceptable",
+      "original-mark-accurate-tooltip": "Vos notes pour cette réponse correspondent exactement aux notes initiales",
+      "original-mark-inaccurate-tooltip": "Vos notes pour cette réponse ne correspondent pas exactement aux notes initiales et sont en dehors de la marge de tolérance acceptable",
+      "original-mark-in-tolerance-tooltip": "Vos notes pour cette réponse ne correspondent pas exactement aux notes initiales, mais sont dans la marge de tolérance acceptable",
+      "original-mark-accurate-tooltip-team-management": "Les notes pour cette réponse correspondent exactement aux notes initiales",
+      "original-mark-inaccurate-tooltip-team-management": "Les notes pour cette réponse ne correspondent pas exactement aux notes initiales et sont en dehors de la marge de tolérance acceptable",
+      "original-mark-in-tolerance-tooltip-team-management": "Les notes pour cette réponse ne correspondent pas exactement aux notes initiales, mais sont dans la marge de tolérance acceptable"
+    },
+    "remark-types": {
+      "long-names": {
+        "PooledResultsEnquiry": "Results Enquiry Pooled DO NOT TRANSLATE",
+        "GradeReviewPooled": "Grade Review Pooled DO NOT TRANSLATE",
+        "AtRiskPooled": "At-Risk Pooled",
+        "EnquiryUponResultPooled": "Enquiry Upon Results Review",
+        "RemarkPooled": "Pooled Re-mark DO NOT TRANSLATE",
+        "PooledAdminRemark": "Recorrection par un administrateur regroupée",
+        "PooledCaseReviewRemark": "Pooled Case Review Re-mark DO NOT TRANSLATE",
+        "RemarkPooled1": "RP1 Remark DO NOT TRANSLATE",
+        "RemarkPooled2": "RP2 Remark DO NOT TRANSLATE",
+        "RemarkPooled3": "RP3 Remark DO NOT TRANSLATE",
+        "AdjudicationPooled": "Adjudication Pooled Remark DO NOT TRANSLATE",
+        "ArbitrationRemark": "Arbitration Remark DO NOT TRANSLATE",
+        "PriorityRemark": "Priority Remark DO NOT TRANSLATE",
+        "AtRisk": "À risque",
+        "EnquiryUponResult": "Réclamations concernant les résultats",
+        "RemarkRIGExaminer": "General Re{0}mark 3 DO NOT TRANSLATE",
+        "RemarkCandidateExaminer": "General Re{0}mark 4 DO NOT TRANSLATE",
+        "GradeReviewDirected": "Grade Review Directed DO NOT TRANSLATE",
+        "PartialRemark": "Partial Re{0}mark DO NOT TRANSLATE",
+        "Remark": "Recorrection",
+        "ResultEnquiry": "Result Enquiry",
+        "ReviewRemark": "Review Re{0}mark",
+        "SampleRemark": "Sample Re{0}mark DO NOT TRANSLATE",
+        "SeedingRemark": "Seeding Re{0}mark DO NOT TRANSLATE",
+        "SupervisorRemark": "Recorrection du superviseur",
+        "WithdrawnSeedRemark": "Withdrawn Seed Re{0}mark",
+        "RemarkCandidateRIG": "G1 Re{0}mark",
+        "AdminRemark": "Recorrection par un administrateur"
+      },
+      "short-names": {
+        "AberrantMarker": "AM",
+        "ReallocateRIG": "RM",
+        "GradeReview": "GR DO NOT TRANSLATE",
+        "PriorityResultEnquiry": "PRE",
+        "ResultEnquiry": "RE DO NOT TRANSLATE",
+        "SeedingRemark": "SR",
+        "RemarkCandidate": "RC",
+        "RemarkRIGExaminer": "RRE",
+        "RemarkCandidateExaminer": "RCE",
+        "PartialRemark": "PRM DO NOT TRANSLATE",
+        "GradeReviewDirected": "GRD DO NOT TRANSLATE",
+        "InsufficientSample": "IS DO NOT TRANSLATE",
+        "PooledResultsEnquiry": "REP DO NOT TRANSLATE",
+        "SupervisorRemark": "SPR",
+        "GradeReviewPooled": "GRP DO NOT TRANSLATE",
+        "RemarkCandidateRIG": "G1",
+        "SampleRemark": "SAM",
+        "AtRisk": "AR",
+        "AtRiskPooled": "ARP",
+        "EnquiryUponResult": "EUR",
+        "EnquiryUponResultPooled": "ERP DO NOT TRANSLATE",
+        "Remark": "R",
+        "RemarkPooled": "RP DO NOT TRANSLATE",
+        "ReviewRemark": "RR DO NOT TRANSLATE",
+        "PooledAdminRemark": "ADR",
+        "PooledCaseReviewRemark": "CRR DO NOT TRANSLATE",
+        "WithdrawnSeedRemark": "WSR",
+        "RemarkPooled1": "RP1 DO NOT TRANSLATE",
+        "RemarkPooled2": "RP2 DO NOT TRANSLATE",
+        "RemarkPooled3": "RP3 DO NOT TRANSLATE",
+        "AdjudicationPooled": "ADJ DO NOT TRANSLATE",
+        "DeallocationRemark": "DLR",
+        "DoubleMarking": "DM DO NOT TRANSLATE",
+        "ArbitrationRemark": "ARB DO NOT TRANSLATE",
+        "PriorityRemark": "PR1 DO NOT TRANSLATE"
+      }
+    },
+    "exception-statuses": {
+      "open": "Ouverte",
+      "resolved": "Résolue",
+      "closed": "Fermée"
+    },
+    "exception-types": {
+      "1": {
+        "name": "Demande d’envoi d’une image en couleur",
+        "details": "Je ne peux pas noter la réponse du candidat, car l’image est floue.  Je souhaite recevoir une version couleur de cette image, car je pense que cela facilitera sa lecture.  Je n’ai pas besoin que l’intégralité de la réponse soit à nouveau numérisée.  Par exemple, il peut s’agir d’annotations effectuées avec une couleur claire ou d’une réponse graphique difficile à lire.  Veuillez noter que l’envoi d’une image en couleur peut prendre jusqu’à 24 heures et que son chargement et sa notation peuvent prendre plus de temps à cause de l’augmentation du traitement de l’image requis."
+      },
+      "2": {
+        "name": "Demande de renumérisation d’une image",
+        "details": "À signaler pour : les épreuves d’examen du Programme du diplôme uniquement. Transmise à : RM. À signaler lorsque : l’image est illisible ou de mauvaise qualité, l’image n’est pas alignée correctement, la page a été pliée pendant la numérisation. Étape suivante : une fois que RM a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "3": {
+        "name": "Suspicion de mauvaise conduite",
+        "details": "À signaler pour : quelque composante que ce soit. Transmise à :  l’IB. À signaler lorsque : un cas de plagiat ou un autre cas de mauvaise conduite est suspecté. Étape suivante : notez et envoyez la réponse en suivant la procédure habituelle, sans effectuer d’ajustement en raison de la suspicion de mauvaise conduite."
+      },
+      "4": {
+        "name": "Contenu injurieux",
+        "details": "À signaler pour : quelque composante que ce soit. Transmise à : l’IB. À signaler lorsque : la réponse du candidat est considérée comme étant injurieuse, indécente ou inappropriée. Étape suivante : notez et envoyez la réponse en suivant la procédure habituelle, sans effectuer d’ajustement en raison du contenu inapproprié."
+      },
+      "5": {
+        "name": "Matériel donnant lieu à des inquiétudes",
+        "details": "À signaler pour : quelque composante que ce soit. Transmise à : l’IB. À signaler lorsque : la réponse cause des inquiétudes quant au bien-être du candidat. Étape suivante : notez et envoyez la réponse en suivant la procédure habituelle, sans effectuer d’ajustement en raison des inquiétudes."
+      },
+      "6": {
+        "name": "Épreuve d’examen incorrecte",
+        "details": "Je ne peux pas noter cet élément, car l’image ne correspond pas à l’épreuve d’examen que je suis en train de corriger."
+      },
+      "7": {
+        "name": "Illisible",
+        "details": "Je ne peux pas noter la réponse du candidat, car la réponse est illisible.  Une nouvelle numérisation n’améliorera pas la situation, car le problème n’est pas lié à l’image, mais à l’écriture.  Par exemple, il peut s’agir d’une écriture de mauvaise qualité ou de nombreuses ratures sur la copie originale."
+      },
+      "8": {
+        "name": "Réponse hors sujet",
+        "details": "À signaler pour : quelque composante que ce soit.  Transmise à : votre chef d’équipe. À signaler lorsque : le barème de notation ou les critères ne s’appliquent pas à la réponse du candidat. Étape suivante : une fois que votre chef d’équipe a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "9": {
+        "name": "Erreur de classement",
+        "details": "Il est impossible de noter cette réponse, car je suspecte qu’une partie de la réponse appartient à un autre candidat et/ou a été classée de manière erronée."
+      },
+      "10": {
+        "name": "Exception en raison de la présence de réponses accolées",
+        "details": "À signaler pour : les épreuves d’examen du Programme du diplôme. Transmise à : RM. À signaler lorsque : la réponse contient les travaux de deux candidats ou plus. Étape suivante : arrêtez de noter la réponse. Une fois que RM a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "11": {
+        "name": "Réponses contenant uniquement la page de couverture",
+        "details": "À signaler pour : les épreuves d’examen du Programme du diplôme. Transmise à : RM. À signaler lorsque : seule la page de couverture est présente. Étape suivante : arrêtez de noter la réponse. Une fois que RM a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "12": {
+        "name": "Composante ou épreuve incorrecte",
+        "details": "À signaler pour : les épreuves d’examen du Programme du diplôme. Transmise à : RM. À signaler lorsque : la réponse ne correspond pas à la composante, à l’épreuve d’examen ou au QIG que vous être en train de noter. Étape suivante : arrêtez de noter la réponse. RM vous avisera lorsque la réponse aura été supprimée de votre liste de travail."
+      },
+      "13": {
+        "name": "Objet ne faisant pas partie de la réponse à l'examen",
+        "details": "À signaler pour : les épreuves d’examen du Programme du diplôme. Transmise à : l’IB. À signaler lorsque : des éléments non pertinents sont numérisés avec la réponse d’un candidat, par exemple une feuille de présence ou un plan de répartition des places. Étape suivante : notez et envoyez la réponse en suivant la procédure habituelle, sans effectuer d’ajustement en raison de la présence des autres éléments."
+      },
+      "14": {
+        "name": "Impossible d’ouvrir ou de lire l’image",
+        "details": "À signaler pour : les travaux remis par voie électronique qui ont été chargés par l’établissement scolaire et les épreuves d’examen sur ordinateur du PEI. Transmise à : l’IB. À signaler lorsque : il n’est pas possible de voir tout ou partie de la réponse. Étape suivante : arrêtez de noter la réponse. Une fois que l’IB a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "15": {
+        "name": "Inquiétudes quant au bien-être du candidat",
+        "details": "La réponse de ce candidat me cause des inquiétudes. Je souhaite que cela soit examiné."
+      },
+      "16": {
+        "name": "Inquiétudes concernant un cas de fraude",
+        "details": "Je soupçonne un cas de fraude associé à la réponse de ce candidat. Je souhaite que cela soit examiné."
+      },
+      "17": {
+        "name": "PA Referral",
+        "details": "J’ai des difficultés à noter cette réponse, et l’aide de mon chef d’équipe ne me permet pas de résoudre le problème."
+      },
+      "18": {
+        "name": "Contenu manquant dû à une erreur de découpage",
+        "details": "À signaler pour : les épreuves d’examen du Programme du diplôme uniquement. Transmise à : À signaler lorsque : une partie de la réponse du candidat ne peut être vue / le candidat a continué sa réponse en dehors de la zone de réponse. Étape suivante : arrêtez de noter la réponse. Une fois que RM a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "19": {
+        "name": "Contenu autre dû à une erreur de découpage",
+        "details": "La zone de cette question présente du contenu relié à une autre question de cette copie."
+      },
+      "20": {
+        "name": "Question concernant le barème de notation",
+        "details": "Unable to zone because the mark scheme does not appear to match this candidate's responses."
+      },
+      "21": {
+        "name": "Préoccupations liées à la supervision autres que le nombre d’heures consacrées",
+        "details": "À signaler pour : les mémoires du Programme du diplôme. Transmise à : l’IB. À signaler lorsque : il n’y a pas de commentaires, ou les informations contenues dans le commentaire suscitent des préoccupations. Des précisions doivent être fournies. Étape suivante : notez et envoyez la réponse en suivant la procédure habituelle, sans effectuer d’ajustement en raison des préoccupations."
+      },
+      "22": {
+        "name": "Violation d’une politique",
+        "details": "À signaler pour : les travaux remis par voie électronique qui ont été chargés par l’établissement scolaire. Transmise à : l’IB. À signaler lorsque : une politique de l’IB a été enfreinte, par exemple dans le cas d’une infraction à la politique relative à l’expérimentation animale. Étape suivante : notez et envoyez la réponse en suivant la procédure habituelle, sans effectuer d’ajustement en raison des inquiétudes."
+      },
+      "23": {
+        "name": "Violation des directives éthiques ou spécifiques aux matières",
+        "details": "À signaler pour : les travaux remis par voie électronique qui ont été chargés par l’établissement scolaire. Transmise à : l’IB. À signaler lorsque : des directives éthiques ou spécifiques à la matière ont été enfreintes. Étape suivante : notez et envoyez la réponse en suivant la procédure habituelle, sans effectuer d’ajustement en raison des préoccupations."
+      },
+      "24": {
+        "name": "Fichier incorrect",
+        "details": "À signaler pour : les travaux remis par voie électronique qui ont été chargés par l’établissement scolaire. Transmise à : l’IB. À signaler lorsque : l’établissement scolaire a chargé un fichier sans rapport avec la composante. Étape suivante : arrêtez de noter la réponse. Une fois que l’IB a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "25": {
+        "name": "Erreur d’accès au fichier",
+        "details": "À signaler pour : les travaux remis par voie électronique qui ont été chargés par l’établissement scolaire. Transmise à : l’IB. À signaler lorsque : la réponse que vous notez contient un fichier qu’il n’est pas possible d’ouvrir. Étape suivante : arrêtez de noter la réponse. Une fois que l’IB a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "26": {
+        "name": "Image incorrecte",
+        "details": "À signaler pour : les examens sur ordinateur du PEI. Transmise à : l’IB. À signaler lorsque : la réponse n’est pas correctement associée à un QIG en particulier. Étape suivante : Une fois que l’IB a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "27": {
+        "name": "Travaux réalisés dans le cadre du cours incomplets",
+        "details": "À signaler pour : les travaux remis par voie électronique qui ont été chargés par l’établissement scolaire. Transmise à : l’IB. À signaler lorsque : il semble qu’il manque des pages dans la réponse chargée. Étape suivante : arrêtez de noter la réponse. Une fois que l’IB a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "28": {
+        "name": "Le travail ne répond pas aux exigences du cours",
+        "details": "À signaler pour : les travaux remis par voie électronique qui ont été chargés par l’établissement scolaire. Transmise à : l’IB. À signaler lorsque : le candidat a réalisé un travail qui correspond aux exigences d’un autre niveau, au cours de l’année dernière ou de l’année prochaine, ou lorsque le travail ne satisfait pas aux critères du cours. Étape suivante : arrêtez de noter la réponse. Une fois que l’IB a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "29": {
+        "name": "Exception générale relative aux travaux réalisés dans le cadre du cours",
+        "details": "À signaler pour : les travaux remis par voie électronique qui ont été chargés par l’établissement scolaire. Transmise à : l’IB. À signaler lorsque :tout autre problème se produit concernant les travaux réalisés dans le cadre du cours. Étape suivante : arrêtez de noter la réponse. Une fois que l’IB a répondu, l’exception doit être fermée avant de pouvoir envoyer la réponse."
+      },
+      "30": {
+        "name": "Lettre manquante pour l’institut externe",
+        "details": "À signaler pour : les mémoires du Programme du diplôme. Transmise à : l’IB. À signaler lorsque : les recherches ont été effectuées dans une institution autre que l’établissement scolaire et ne sont pas accompagnées d’une lettre. Étape suivante : notez et envoyez la réponse en suivant la procédure habituelle, sans effectuer d’ajustement en raison de la lettre manquante.    "
+      },
+      "31": {
+        "name": "Problème d’accès au fichier",
+        "details": "J’éprouve des difficultés pour accéder à un fichier associé à cette réponse, et j’ai besoin de l’aide de l’organisme décernant les titres pour résoudre ce problème et me permettre de continuer la notation."
+      },
+      "32": {
+        "name": "Fichier incorrect et/ou manquant",
+        "details": "Je pense qu’un ou plusieurs fichiers associés à la réponse de ce candidat sont incorrects ou manquants, ce qui m’empêche d’en effectuer la notation."
+      },
+      "33": {
+        "name": "Nombre de mots dépassé",
+        "details": "Les preuves fournies par le candidat dépassent le nombre de mots imposé de plus de 10 %"
+      },
+      "34": {
+        "name": "Documents supplémentaires non fournis",
+        "details": "The candidate has not submitted the required Resource, Research Evidence or Processed Information Sheet(s)."
+      },
+      "35": {
+        "name": "Documents supplémentaires – Nombre maximum de mots ou de pages dépassé",
+        "details": "The candidate has exceeded the word/page count for Resource, Research Evidence or Processed information Sheet(s)."
+      },
+      "36": {
+        "name": "Documents supplémentaires – Recopiage important",
+        "details": "The candidate has copied extended pieces of text/narrative from the Resource Sheet, Research or Processed Information Sheet(s)."
+      },
+      "37": {
+        "name": "Exception générale A",
+        "details": "Use as detailed in Marking Instructions"
+      },
+      "38": {
+        "name": "Exception générale B",
+        "details": "Use as detailed in Marking Instructions"
+      }
+    },
+    "response": {
+      "exception-panel": {
+        "back-to-exceptions": "Revenir aux exceptions",
+        "escalate-button": "Transmettre à un échelon supérieur",
+        "resolve-button": "Résoudre"
+      },
+      "view-exception-panel": {
+        "Close": "Fermer",
+        "Escalate": "Transmettre à un échelon supérieur",
+        "Resolve": "Résoudre"
+      },
+      "escalate-exception-dialog": {
+        "header": "Transmission de l’exception à un échelon supérieur",
+        "body": "Veuillez ajouter un commentaire avant de transmettre cette exception à un échelon supérieur."
+      },
+      "resolve-exception-dialog": {
+        "header": "Résolution de l’exception",
+        "body": "Veuillez ajouter un commentaire avant de résoudre cette exception."
+      }
+    },
+    "navigation-menu": {
+      "close": "Fermer",
+      "home": "Page d’accueil",
+      "recent": "Consulté récemment",
+      "my-marking": "Correction",
+      "reports": "Rapports",
+      "team-management": "Gestion de l’équipe"
+    },
+    "time-periods": {
+      "hour-single": "heure",
+      "hours-plural": "heures",
+      "day-single": "jour",
+      "days-plural": "jours"
+    },
+    "toggle-button-states": {
+      "on": "OUI",
+      "off": "NON"
+    },
+    "worklist": {
+      "information-text": "Informations"
+    },
+    "response-datachange-error-dialog": {
+      "header": "Attention",
+      "body": "L’action n’a pas pu être effectuée en raison d’un changement apporté à cette réponse par un administrateur. Les données de l’application vont être actualisées. Essayez de vous déconnecter puis de vous connecter à nouveau si le problème persiste.",
+      "ok-button": "OK"
+    }
+  },
+  "home": {
+    "qig-statuses": {
+      "Suspended": "En attente de révision",
+      "Practice": "Notation de réponses d’entraînement",
+      "StandardisationMarking": "Notation de réponses de validation",
+      "AwaitingApproval": "En attente d’autorisation",
+      "SecondStandardisationMarking": "Deuxième notation de réponses de validation",
+      "STMStandardisationMarking": "STM Standardisation Marking DO NOT TRANSLATE",
+      "LiveMarking": "Notation en conditions réelles",
+      "WaitingStandardisation": "En attente de validation",
+      "LiveComplete": "Notation en conditions réelles terminée",
+      "Simulation": "Simulation de notation de copies",
+      "QualityFeedback": "En attente de commentaires sur la qualité de la notation",
+      "NoLiveTarget": "Pas d’objectif de notation en conditions réelles",
+      "LiveTargetOverAllocation": "Objectif de notation en conditions réelles débloqué",
+      "AdminRemark": "Recorrection par un administrateur"
+    },
+    "qig-data": {
+      "responses-in-worklist-icon-tooltip": "Certaines réponses sont ouvertes, et vous devez finir de les noter",
+      "responses-available-icon-tooltip": "Il y a des réponses disponibles pour le téléchargement. ",
+      "marking-progress-tooltip": "{0} envoyée(s) - fermée(s), {1} envoyée(s) - modifiable(s), {2} ouverte(s) pour la notation",
+      "open-responses-in-over-allocation": "ouverte(s)",
+      "my-marking-button": "Correction",
+      "remarks-available-indicator": "Recorrections",
+      "remarks-available-indicator-tooltip": "Des réponses dont la recorrection n’a pas encore été attribuée sont disponibles dans le groupe de réponses à noter ; vous pouvez les télécharger et les corriger (sous réserve de toute restriction d’attribution)",
+      "team-management-button": "Gestion de l’équipe",
+      "responses-available-simulation-icon-tooltip": "Il y a des réponses disponibles pour la notation en mode Simulation.",
+      "simulation-status-tooltip": "Vous travaillez actuellement en mode Simulation. Lorsque la notation en conditions réelles commencera, toutes les réponses seront supprimées et le mode Simulation ne sera plus disponible.",
+      "team-management-button-stuck-examiners-tooltip": "Des examinateurs requièrent de l’aide.",
+      "team-management-button-locked-examiners-tooltip": "Des examinateurs bloqués requièrent une action de votre part.",
+      "open-re-mark-indicator-icon-tooltip": "Des réponses à recorriger vous ont été attribuées"
+    },
+    "home-page": {
+      "no-qigs-available-to-mark-placeholder": "Aucun QIG à noter n’est disponible"
+    }
+  },
+  "login": {
+    "login-page": {
+      "login-to": "Se connecter à",
+      "marking-button-tooltip": "Se connecter à RM Assessor 3",
+      "marking-button": "NOTATION",
+      "marking-or-fam": "OU",
+      "fam-button-tooltip": "Se connecter en mode Familiarisation pour s’entraîner à utiliser RM Assessor 3",
+      "fam-button": "FAMILIARISATION",
+      "forgot-password-tooltip": "Mot de passe oublié ?",
+      "forgot-password": "Mot de passe oublié ?",
+      "username": "Nom d’utilisateur",
+      "password": "Mot de passe",
+      "username-password-validation-message": "Veuillez saisir votre nom d’utilisateur et votre mot de passe",
+      "username-validation-message": "Veuillez saisir un nom d’utilisateur",
+      "password-validation-message": "Veuillez saisir un mot de passe",
+      "cookies-disabled": "Veuillez autoriser les cookies dans les paramètres de votre navigateur avant de vous connecter.",
+      "caps-lock-on-warning": "Le verrouillage des majuscules est activé",
+      "copyright": " RM Results, tous droits réservés.",
+      "welcome-message": "Bienvenue sur RM Assessor 3",
+      "welcome-detail": "La plateforme de notation en ligne la plus innovante et la plus utilisée dans le monde",
+      "language-selector-tooltip": "Sélectionner la langue",
+      "language-selector-dropdown-tooltip": "Langues",
+      "awarding-body-logo-tooltip": "Awarding body logo"
+    },
+    "logging-in": {
+      "please-wait": "Connexion en cours, veuillez patienter...",
+      "incorrect-password": "Le nom d’utilisateur ou le mot de passe que vous avez saisi est erroné. Veuillez réessayer.",
+      "connection-lost": "RM Assessor ne peut pas se connecter au serveur. Veuillez vérifier votre connexion à Internet et réessayer.",
+      "login-failed": "La connexion a échoué, veuillez réessayer",
+      "fam-loading": "Configuration de l’environnement de familiarisation",
+      "password-changed": "Votre mot de passe a été correctement mis à jour.",
+      "password-changed-logging-in": "Connexion à RM Assessor 3 en cours..."
+    },
+    "auto-log-out": {
+      "automatically-logged-out-timeout": "Vous avez été déconnecté(e) en raison d’une inactivité prolongée",
+      "automatically-logged-out-logged-in-different-browser": "Vous avez été déconnecté(e) car vous vous êtes reconnecté(e) dans une nouvelle fenêtre de votre navigateur."
+    },
+    "cookie-panel": {
+      "close-button": "Fermer",
+      "cookies-link": "cookies",
+      "message-part-1": "RM Assessor{0} utilise des cookies pour vous offrir une plateforme de notation efficace et fiable. Vous trouverez toutes les informations nécessaires sur les cookies et leur utilisation sur notre page consacrée aux ",
+      "message-part-2": ". Veuillez noter qu’en continuant à utiliser ce site, vous consentez à l’utilisation de cookies.",
+      "message-part-2-cookies-disabled": " . Nous avons détecté que les cookies ont été désactivés sur votre navigateur, ce qui vous empêchera de vous connecter. Veuillez modifier les paramètres de votre navigateur pour accepter les cookies avant d’essayer de vous connecter.",
+      "dont-show-again": "Ne plus afficher ce message",
+      "cookies-link-tooltip": "Afficher les informations sur les cookies utilisés par RM Assessor 3"
+    },
+    "cookie-detail-page": {
+      "table-header-name": "Nom",
+      "table-header-purpose": "Objectif",
+      "language-cookie-purpose": "Mémoriser la langue sélectionnée par l’utilisateur",
+      "cookie-page-cookie-purpose": "Détermine si l’utilisateur a choisi de masquer de manière permanente la notification sur les cookies",
+      "cookies-on-this-site-part-1": "Afin que ce site fonctionne correctement, votre ordinateur doit accepter un certain nombre de cookies sans lesquels des parties essentielles du site Web ne fonctionneront pas convenablement. ",
+      "cookies-on-this-site-part-2": "Le tableau suivant détaille les cookies utilisés sur ce site.",
+      "cookies-on-this-site-header": "Cookies sur ce site",
+      "table-header-type": "Type (session ou persistant)",
+      "cookie-type-persistent": "persistant",
+      "what-are-cookies-part-1": "Un cookie est un petit fichier texte envoyé et stocké sur votre ordinateur lorsque vous vous rendez sur différentes pages Web. Nous n’enregistrons pas de données personnelles précises dans nos cookies, mais nous utilisons les informations recueillies grâce aux cookies pour améliorer votre utilisation du site (par exemple, en facilitant la navigation au sein du site ou en enregistrant vos préférences). Veuillez noter que les cookies ne peuvent nuire ni à votre ordinateur ni à vos fichiers.",
+      "what-are-cookies-part-2": "Les cookies peuvent être des « cookies de session » ou des « cookies persistants ». Les « cookies de session » ne sont stockés sur votre ordinateur que le temps de votre visite sur le site et sont ensuite effacés quand vous fermez votre navigateur. Les « cookies persistants » sont quant à eux stockés pour un certain temps et sont réactivés à chaque fois que vous revenez sur le site. De manière générale, les cookies de session sont utilisés pour l’identification et les cookies persistants sont utilisés pour enregistrer vos préférences.",
+      "what-are-cookies-header": "Qu’est-ce qu’un cookie ?",
+      "ga-cookie-purpose": "Utilisé pour Google Analytics",
+      "gat-cookie-purpose": "Utilisé pour Google Analytics",
+      "auth-cookie-purpose": "Utilisé pour l’identification",
+      "cookie-type-session": "session",
+      "session-id-cookie-purpose": "Utilisé pour empêcher les connexions multiples à partir d’une autre fenêtre d’un même navigateur."
+    },
+    "forgot-password-dialog": {
+      "body": "Une nouvelle fenêtre ou un nouvel onglet s’ouvrira dans le navigateur. Souhaitez-vous continuer ?",
+      "header": "Mot de passe oublié",
+      "yes-button": "Oui",
+      "no-button": "Non"
+    }
+  },
+  "team-management": {
+    "examiner-worklist": {
+      "response-data": {
+        "amd-tooltip": "Différence totale entre les notes attribuées et les notes définitives déterminées par l’équipe des examinateurs superviseurs, calculée pour tous les éléments de question",
+        "tmd-tooltip": "Différence entre la note totale générale attribuée et la note totale générale déterminée par l’équipe des examinateurs superviseurs",
+        "exceptions-icon-tooltip": "Une ou plusieurs exceptions sont associées à cette réponse. Cela n’empêchera pas d’envoyer la réponse une fois la notation terminée. Cliquez sur cette icône pour afficher les exceptions.",
+        "blocking-exceptions-icon-tooltip": "Une ou plusieurs exceptions sont associées à cette réponse. Le correcteur ne pourra pas envoyer la réponse tant que ces exceptions n’auront pas été résolues et fermées. Cliquez sur cette icône pour afficher les exceptions.",
+        "resolved-exceptions-icon-tooltip": "{0} exception(s) résolue(s) sont associées à cette réponse et attendent d’être fermées. Cela n’empêchera pas d’envoyer la réponse une fois la notation terminée. Cliquez sur cette icône pour afficher les exceptions.",
+        "resolved-and-blocking-exceptions-icon-tooltip": "{0} exception(s) résolue(s) sont associées à cette réponse et attendent d’être fermées. Le correcteur ne pourra pas envoyer la réponse tant qu’il n’aura pas fermé ces exceptions. Cliquez sur cette icône pour afficher les exceptions.",
+        "messages-icon-tooltip": "Un ou plusieurs messages sont associés à cette réponse.",
+        "unread-messages-icon-tooltip": "Un ou plusieurs nouveaux messages sont associés à cette réponse.",
+        "reviewed-by-me": "Moi",
+        "auto-reviewed": "Auto-reviewed",
+        "mark-change-reason-not-specified-icon-tooltip": "Aucune raison expliquant pourquoi les notes ont été changées n’a été saisie.",
+        "zoning-exceptions-icon-tooltip": "Le découpage des zones de la réponse de ce candidat est actuellement révisé à la suite d’une exception signalée pour une autre réponse. Veuillez noter que les zones d’image qui s’affichent peuvent changer en raison de cette exception. L’examinateur ne pourra pas envoyer cette réponse tant que l’exception n’aura pas été résolue."
+      },
+      "change-status": {
+        "ok-button": "OK",
+        "change-status-button": "Modifier le statut",
+        "not-approved": "Non autorisé(e)",
+        "approve": "Autoriser",
+        "suspend": "Stopper",
+        "send-second-standardisation": "Envoyer les réponses pour la deuxième validation",
+        "approve-pending-review": "Approve pending review"
+      },
+      "change-status-error-dialog": {
+        "header": "Modifier le statut de l’examinateur",
+        "body-already-changed": "Le statut de l’examinateur a déjà été modifié.",
+        "body-not-allowed": "Votre rôle a changé, et vous n’êtes plus autorisé(e) à effectuer cette action."
+      },
+      "column-headers": {
+        "sampled": "Sampled",
+        "reviewed-by": "Reviewed by",
+        "review-comment": "Réviser le commentaire"
+      },
+      "change-status-sep": {
+        "Approve": "Autoriser",
+        "ProvideSecondStandardisation": "Envoyer les réponses pour la deuxième validation",
+        "Re_approve": "Autoriser à nouveau"
+      },
+      "hierarchy-changed-dialog": {
+        "body-priority-changed": "Votre position au sein de la hiérarchie de l’équipe a changé et cette action n’est plus disponible.",
+        "HierarchyChanged-title": "La hiérarchie de l’équipe d’examinateurs a été modifiée.",
+        "HierarchyChanged-content": "Votre rôle a changé, et vous n’êtes plus autorisé(e) à effectuer cette action."
+      },
+      "lock-failure-dialog": {
+        "body": "Le statut de blocage de cet examinateur a changé et vous n’êtes plus autorisé(e) à effectuer cette action.",
+        "header-lock-removed": "Blocage supprimé",
+        "ExaminerAlreadyLocked-title": "Examinateur déjà bloqué",
+        "ExaminerAlreadyunlocked-title": "Examinateur déjà débloqué"
+      },
+      "filters": {
+        "filter-by": "Filtrer par :",
+        "all-responses": "Toutes les réponses",
+        "seeds-only": "Réponses de contrôle uniquement",
+        "unreviewed-seeds-only": "Réponses de contrôle non révisées uniquement"
+      },
+      "subordinate-withdrawn-dialog": {
+        "SubordinateExaminerWithdrawn-title": "Notation retirée à l’examinateur",
+        "SubordinateExaminerWithdrawn-content": "La notation de ce groupe de questions a été retirée à cet examinateur et cette action n’est plus disponible."
+      },
+      "withdrawn-dialog": {
+        "Withdrawn-content": "La notation de ce QIG vous a été retirée. Cela ne vous empêchera pas de noter les autres QIG que vous êtes autorisé(e) à corriger."
+      },
+      "suspended-dialog": {
+        "Suspended-title": "Statut d’autorisation modifié",
+        "Suspended-content": "Votre statut a changé, et vous n’êtes plus autorisé(e) à effectuer cette action."
+      },
+      "subordinate-status-already-changed-dialog": {
+        "ExaminerStatusAlreadyChanged-title": "Statut d’autorisation déjà modifié",
+        "ExaminerStatusAlreadyChanged-content": "Le statut de l’examinateur a déjà été modifié."
+      },
+      "lock-limit-reached-dialog": {
+        "LockLimitReached-title": "Nombre maximum d’examinateurs bloqués atteint",
+        "LockLimitReached-content": "Vous avez déjà bloqué le nombre maximum d’examinateurs autorisé. Veuillez gérer la liste de vos examinateurs actuellement bloqués avant de bloquer un autre examinateur."
+      }
+    },
+    "full-response-view": {
+      "back-to-response-button": "Réponse",
+      "back-to-response-button-tooltip": "Revenir à la réponse"
+    },
+    "response": {
+      "mark-scheme-panel": {
+        "set-as-reviewed-button": "Set as reviewed",
+        "reviewed-button": "Reviewed",
+        "set-as-reviewed-button-tooltip": "Set this response as reviewed.",
+        "reviewed-button-tooltip": "This response is reviewed.",
+        "supervisor-sampling-button": "Supervisor sampling"
+      },
+      "already-reviewed-dialog": {
+        "header": "RRéponse révisée",
+        "body": "Cette réponse est déjà révisée par un autre examinateur."
+      },
+      "supervisor-remark-mark-later-confirmation-dialog": {
+        "body": "Demande de recorrection créée avec succès. La réponse est désormais disponible dans votre liste de travail « Recorrection par un superviseur » pour être corrigée.",
+        "header": "Demande de recorrection créée"
+      },
+      "supervisor-remark-panel": {
+        "mark-now-button": "Corriger maintenant",
+        "mark-later-button": "Corriger plus tard",
+        "header": "Signaler la nécessité d’une recorrection par un superviseur",
+        "supervisor-remark-already-raised": "Veuillez noter que la nécessité d’une recorrection par un superviseur a déjà été signalée pour cette réponse, soit par vous-même soit par un autre examinateur superviseur."
+      },
+      "left-toolbar": {
+        "supervisor-remark-button-tooltip": "Signaler la nécessité d’une recorrection par un superviseur",
+        "promote-to-seed-button-tooltip": "Désigner la réponse comme une réponse de contrôle"
+      },
+      "supervisor-sampling-comments": {
+        "0": "Aucun",
+        "1": "OK",
+        "2": "FCommentaires fournis",
+        "3": "Action requise"
+      },
+      "sampling-error-dialog-already-sampled": {
+        "header": "Response already sampled",
+        "body": "This response has been sampled by another supervisor. Please select OK and then re-open the response to view the updated sampling status."
+      },
+      "sampling-error-dialog-withdrawn": {
+        "header": "Notation retirée",
+        "body": "La notation de ce QIG vous a été retirée. Cela ne vous empêchera pas de noter les autres QIG que vous êtes autorisé(e) à corriger."
+      },
+      "sampling-error-dialog-subordinate-withdrawn": {
+        "header": "Notation retirée à l’examinateur",
+        "body": "La notation de ce QIG a été retirée à cet examinateur et cette action n’est plus disponible."
+      },
+      "sampling-error-dialog-hierarchy-changed": {
+        "header": "La hiérarchie de l’équipe d’examinateurs a été modifiée.",
+        "body": "Votre rôle a changé, et vous n’êtes plus autorisé(e) à effectuer cette action."
+      },
+      "promote-to-seed-dialog": {
+        "header": "Désigner comme réponse de contrôle",
+        "body-own-response": "Désigner la réponse comme une réponse de contrôle aura pour effet de la retirer de votre liste de travail et de la rendre disponible pour le processus de normalisation.",
+        "body-stm-subordinate-response": "Désigner la réponse comme une réponse de contrôle aura pour effet de la retirer de la liste de travail de l’examinateur actuel et de la rendre disponible pour le processus de normalisation.",
+        "body-non-stm-subordinate-response": "En désignant cette réponse comme une réponse de contrôle, elle sera maintenue dans la liste de travail de l’examinateur actuel et sera aussi disponible pour le processus de normalisation.",
+        "ok-button": "OK",
+        "cancel-button": "Annuler",
+        "body-not-fully-marked": "Cette réponse doit être notée à 100 % avant de pouvoir être désignée comme une réponse de contrôle.",
+        "body-remarks-exist": "Cette réponse a fait l’objet des recorrections suivantes :",
+        "body-remarks-exist-confirmation": "Désigner la réponse comme une réponse de contrôle aura pour effet de la retirer de votre liste de travail et de la rendre disponible pour le processus de normalisation.",
+        "body-dynamic-sampling": "En désignant cette réponse comme une réponse de contrôle, elle sera maintenue dans votre liste de travail et sera aussi disponible pour le processus de normalisation."
+      },
+      "promote-to-seed-no-seeding-dialog": {
+        "header": "Réponse non désignée comme une réponse de contrôle",
+        "body": "La réponse sélectionnée ne peut pas être désignée comme réponse de contrôle, car aucun taux ou aucune fréquence de contrôle aléatoire n’ont été définis pour les examinateurs et l’objectif concernant les réponses de contrôle est fixé à zéro."
+      },
+      "promote-to-seed-examiner-withdrawn-dialog": {
+        "header": "Notation retirée à l’examinateur",
+        "body": "La notation de ce groupe de questions a été retirée à cet examinateur et cette action n’est plus disponible."
+      },
+      "promote-panel": {
+        "header": "Désigner la réponse",
+        "promote-to-reuse-bucket-button-tooltip": "Copier la réponse dans la liste des réponses réutilisables",
+        "promote-to-seed-button": "Réponse de contrôle",
+        "promote-to-reuse-bucket-button": "Réponse réutilisable"
+      },
+      "promote-to-reuse-bucket-dialog": {
+        "header": "Désigner comme réponse réutilisable",
+        "body": "Êtes-vous sûr(e) de vouloir copier la réponse sélectionnée dans la liste des réponses réutilisables ?",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      },
+      "promote-to-reuse-bucket-not-latest-marks-dialog": {
+        "header": "Dernière réponse",
+        "body": "La réponse que vous avez sélectionnée ne correspond pas à l’ensemble des notes les plus récentes pour ce candidat et ne peut donc pas être copiée dans la liste des réponses réutilisables.",
+        "ok-button": "OK"
+      },
+      "create-exception-withdrawn-response-dialog": {
+        "header": "Problème d’exception",
+        "body": "La réponse associée à cette exception a été supprimée de votre liste de travail pour des raisons de contrôle de la qualité, et l’exception ne sera donc pas envoyée.  En cliquant sur OK, la réponse ouverte sera aussi fermée et n’apparaîtra plus dans votre liste de travail.",
+        "ok-button": "OK"
+      },
+      "withdrawn-response-dialog": {
+        "header": "Action non effectuée",
+        "body": "L’action n’a pas pu être effectuée en raison d’un changement apporté à cette réponse par un administrateur. Veuillez réessayer, ou vous déconnecter puis vous connecter à nouveau si le problème persiste.",
+        "ok-button": "OK"
+      },
+      "review-comments": {
+        "1": "All correct",
+        "2": "Good",
+        "3": "Acceptable : pas de retour d’information",
+        "4": "Acceptable : retour d’information",
+        "5": "Donnant lieu à des inquiétudes : retour d’information",
+        "6": "Non acceptable : consulter l’examinateur principal"
+      },
+      "wholeresponse-remark-confirmation-popup": {
+        "header": "Recorrection de la réponse entière",
+        "content": "Vous avez demandé à recorriger une réponse qui comporte plusieurs groupes de notes. La recorrection demandée pour cette réponse devra aussi inclure une recorrection de la réponse entière. Êtes-vous sûr(e) de vouloir continuer à demander cette recorrection ?",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      }
+    },
+    "left-panel": {
+      "my-team": "Mon équipe",
+      "help-examiners": "Aide aux examinateurs",
+      "exceptions": "Exceptions",
+      "show-hide-panel-tooltip": "Afficher/masquer les informations générales sur l’équipe",
+      "sublink-Exceptions": "exception non résolue",
+      "sublink-multi-Exceptions": "exceptions non résolues",
+      "sublink-HelpExaminersLocked": "bloqué(s) pour moi",
+      "sublink-Stuck": "requérant une action"
+    },
+    "my-team": {
+      "column-headers": {
+        "examiner": "Examinateur",
+        "target-progress": "Progression vers l’objectif",
+        "lock-duration": "Durée du blocage",
+        "locked-by": "Bloqué par",
+        "state": "Statut",
+        "responses-to-review": "Réponses à réviser",
+        "total-qigs-active": "Total des QIG actifs",
+        "total-qigs-requiring-action": "Nombre total de QIG dans lesquels une action est requise"
+      },
+      "my-team-data": {
+        "locked-by-me": "Moi"
+      },
+      "examiner-targets": {
+        "live": "Notation en conditions réelles",
+        "practice": "Entraînement",
+        "standardisation": "Validation",
+        "stm-standardisation": "STM Standardisation",
+        "second-standardisation": "Deuxième validation",
+        "examiner-target-live": "Recorrection",
+        "examiner-target-simulation": "Simulation"
+      }
+    },
+    "exceptions": {
+      "exception-list-column-headers": {
+        "exception-id": "Numéro de l’exception",
+        "exception-type": "Type d’exception",
+        "time-open": "Ouverte depuis"
+      }
+    },
+    "help-examiners": {
+      "help-examiners-data": {
+        "lock": "Bloquer",
+        "unlock": "Débloquer",
+        "times-suspended-time-label": "fois"
+      },
+      "unlock-confirmation-dialog": {
+        "header": "Débloquer l’examinateur",
+        "body": "Êtes-vous sûr(e) de vouloir débloquer {examinername} ?",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      },
+      "column-headers": {
+        "examiner": "Examinateur",
+        "role": "Rôle",
+        "state": "Statut",
+        "time-in-current-state": "Temps écoulé depuis l’entrée en vigueur du statut actuel",
+        "supervisor": "Chef d’équipe",
+        "lock-duration": "Durée du blocage"
+      },
+      "examiner-states": {
+        "not-approved-1st-std": "En attente d’autorisation (1re normalisation) ",
+        "not-approved-all-std": "En attente d’autorisation (1re et 2e normalisations)",
+        "suspended": "En attente de révision"
+      },
+      "locks-in-qig-dialog": {
+        "header": "Examinateur(s) attendant un retour d’information",
+        "body": "Le ou les examinateurs suivants sont actuellement bloqués.",
+        "select-a-qig": "Veuillez sélectionner un QIG à gérer.",
+        "locks-plural": "examinateurs bloqués",
+        "lock-single": "examinateur bloqué",
+        "body-logout": "Veuillez sélectionner un QIG à gérer ou confirmer ci-après que vous voulez vous déconnecter.",
+        "cancel-button": "Annuler"
+      }
+    },
+    "multiqig-selecteditem-default-text": "Sélectionner un autre QIG",
+    "multiqig-name-header-text": "QIG",
+    "multiqig-examiner-lockcount-header-text": "Examinateurs bloqués",
+    "multiqig-examiner-stuckcount-header-text": "Examinateurs requérant de l’aide",
+    "multi-qig": {
+      "help-examiner-multi-qig-popup-header": "Confirmation de l’accès",
+      "help-examiner-multi-qig-popup-content": "Aucun examinateur ne requiert d’action de votre part à l’heure actuelle pour le QIG sélectionné. Souhaitez-vous accéder à ce QIG dans l’épreuve d’examen ?"
+    },
+    "multilock-examiner-header-text": "Bloquer d’autres QIG",
+    "multilock-examiner-help-text": "L’examinateur {0} est maintenant bloqué pour vous dans le QIG {1}.",
+    "multilock-examiner-help-description": "Cet examinateur a aussi besoin d’aide dans le ou les QIG suivants. Si vous voulez le bloquer dans d’autres QIG, veuillez effectuer votre choix ci-dessous et cliquer sur le bouton Bloquer. Si vous ne voulez pas bloquer l’examinateur dans d’autres QIG pour le moment, cliquez sur Annuler pour fermer ce message.",
+    "multilock-examiner-lockby-text": "{0} (bloqué par vous)",
+    "multilock-examiner-cancel-button-text": "Annuler",
+    "multilock-examiner-lock-button-text": "Bloquer",
+    "multilock-examiner-select-all-text": "Sélectionner tout",
+    "multilock-examiner-lock-execution-ok-button-text": "OK",
+    "multilock-examiner-lock-execution-header-text": "Statut de blocage modifié",
+    "multilock-examiner-lock-execution-sucess-header-text": "Vous avez correctement bloqué l’examinateur dans les QIG suivants :",
+    "multilock-examiner-lock-execution-failure-header-text": "Il n’a pas été possible de bloquer l’examinateur dans les QIG suivants :"
+  },
+  "messaging": {
+    "compose-message": {
+      "please-select-qig-placeholder": "Veuillez sélectionner...",
+      "new-message-header": "Nouveau message",
+      "send-button": "Envoyer",
+      "send-button-tooltip": "Envoyer",
+      "discard-message-dialog": {
+        "body-discard": "Êtes-vous sûr(e) de vouloir supprimer ce message sans l’envoyer ?",
+        "body-navigated-away": "Êtes-vous sûr(e) de vouloir quitter cette page ? Le message n’est pas enregistré et sera supprimé...",
+        "body-start-new-message-while-composing": "Êtes-vous sûr(e) de vouloir supprimer votre message, qui n’a pas été envoyé ?",
+        "header": "Suppression du message",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      },
+      "to-button": "À ",
+      "subject": "Objet ",
+      "associated-response": "Réponse associée ",
+      "subject-placeholder": "Ajouter un objet",
+      "message-body-placeholder": "Écrivez votre message ici...",
+      "priority": {
+        "standard": "Normal",
+        "important": "Important",
+        "priority-tooltip": "Priorité du message",
+        "mandatory": "Obligatoire"
+      },
+      "minimise-icon-tooltip": "Réduire",
+      "maximise-icon-tooltip": "Agrandir",
+      "close-icon-tooltip": "Fermer",
+      "select-qig-placeholder": "Sélectionner un QIG",
+      "reply-header": "Répondre au message",
+      "forward-header": "Transférer le message",
+      "forward-prefix": "TR :",
+      "reply-prefix": "RE :",
+      "question-group": "Groupe de questions",
+      "recipient-selector": {
+        "entire-team": "Toute l’équipe",
+        "ok-button": "OK",
+        "cancel-button": "Annuler"
+      },
+      "mandatory-message-warning-dialog": {
+        "body": "La priorité de ce message a été modifiée et est à présent définie comme normale, car il n’est pas possible d’envoyer des messages à caractère obligatoire quand aucun membre de l’équipe n’est inclus dans la liste des destinataires.",
+        "header": "La priorité du message a été modifiée"
+      },
+      "question-group-tooltip": "QIG auquel ce message se rapporte",
+      "tiny-mce": {
+        "Cut": "Couper",
+        "Div": "Div",
+        "Paste": "Coller",
+        "Close": "Fermer",
+        "Pre": "Pre",
+        "Blockquote": "Citation",
+        "Formats": "Mises en page",
+        "Headers": "En-têtes",
+        "Blocks": "Rubriques",
+        "Undo": "Annuler",
+        "Strike-through": "Barrer",
+        "Superscript": "Exposant",
+        "Subscript": "Indice",
+        "Redo": "Rétablir",
+        "Paragraph": "Paragraphe",
+        "Ok": "Ok",
+        "Bold": "Gras",
+        "Code": "Code",
+        "Italic": "Italique",
+        "Underline": "Souligner",
+        "Cancel": "Annuler",
+        "Justify": "Justifier",
+        "Inline": "Inline",
+        "Copy": "Copier",
+        "Square": "Carré",
+        "Default": "Défaut",
+        "Circle": "Cercle",
+        "Disc": "Disque",
+        "Name": "Nom",
+        "Anchor": "Ancre",
+        "Emoticons": "Émoticônes",
+        "Robots": "Robots",
+        "Title": "Titre",
+        "Keywords": "Mots-clés",
+        "Encoding": "Encodage",
+        "Description": "Description",
+        "Author": "Auteur",
+        "Full-screen": "Plein écran",
+        "General": "General",
+        "Advanced": "Avancé",
+        "Source": "Source",
+        "Border": "Délimiter",
+        "Style": "Style",
+        "Dimensions": "Dimensions",
+        "URL": "URL",
+        "Anchors": "Ancres",
+        "None": "Aucun",
+        "Target": "Objectif",
+        "Poster": "Affiche",
+        "Embed": "Incorporer",
+        "Preview": "Aperçu",
+        "Print": "Imprimer",
+        "Save": "Enregistrer",
+        "Replace": "Remplacer",
+        "Next": "Next",
+        "Find": "Chercher",
+        "Prev": "Préc.",
+        "Spell-check": "Correcteur orthographique",
+        "Finish": "Terminer",
+        "Ignore": "Ignorer",
+        "Rows": "Lignes",
+        "Height": "Hauteur",
+        "Alignment": "Alignement",
+        "Row": "Ligne",
+        "Body": "Corps",
+        "Caption": "Légende",
+        "Footer": "Pied de page",
+        "Scope": "Étendue",
+        "Column": "Colonne",
+        "Cell": "Cellule",
+        "Header": "En-tête",
+        "Right": "Droite",
+        "Cols": "Cols",
+        "Width": "Largeur",
+        "Left": "Gauche",
+        "Centre": "Centrer",
+        "Templates": "Modèles",
+        "Insert": "Insérer",
+        "File": "Fichier",
+        "Edit": "Modifier",
+        "Tools": "Outils",
+        "View": "Afficher",
+        "Table": "Tableau",
+        "Format": "Mise en page"
+      },
+      "new-message-templates": {
+        "reply": "<p><span style=\"font-family:{0}; font-size:{1};\">&#65279;</span></p><p><span style=\"font-family:{0}; font-size: {1};\"><br><br>Date : {2} <br> De : {3}<br>{4}</span></p>",
+        "forward": "<p><span style=\"font-family:{0}; font-size:{1};\">&#65279;</span></p><p><span style=\"font-family:{0}; font-size: {1};\"><br><br>Date : {2} <br> De : {3}<br>{4}</span></p>",
+        "new": "<p><span style=\"font-family:{0}; font-size: {1};\">&#65279;</span></p>"
+      }
+    },
+    "message-lists": {
+      "top-panel": {
+        "inbox-tab": "Boîte de réception",
+        "sent-tab": "Envoyés",
+        "deleted-tab": "Supprimés",
+        "new-message-button": "Nouveau message"
+      },
+      "message-detail": {
+        "date-today": "Aujourd’hui",
+        "inbox": "Expéditeur :",
+        "sent": "Destinataire :",
+        "associated-response-id": "Numéro d’identification de la réponse :",
+        "high-mandatory-banner": "Message à lire obligatoirement",
+        "reply-button": "Répondre",
+        "forward-button": "Transférer",
+        "delete-button": "Supprimer",
+        "more-recipients": "autre(s)",
+        "system-message": "Message système",
+        "high-important-banner": "Message très important"
+      },
+      "delete-message-dialog": {
+        "body": "Êtes-vous sûr(e) de vouloir supprimer ce message ?",
+        "header": "Suppression du message",
+        "yes-button": "Oui",
+        "no-button": "Non"
+      },
+      "search-by-sender": {
+        "search-by-sender-placeholder": "Rechercher par expéditeur",
+        "search-result-for": "Résultats de la recherche pour",
+        "search-by-sender-tooltip": "Saisir un nom ici pour rechercher les messages envoyés par une personne en particulier",
+        "cancel-search-tooltip": "Annuler la recherche"
+      },
+      "message-summaries": {
+        "qig-group-tooltip": "Afficher/masquer les messages pour ce QIG"
+      },
+      "quality-feedback-pending-dialog": {
+        "body": "Veuillez vous rendre dans votre liste de travail fermée et accepter les commentaires sur la qualité de la notation pour les réponses de contrôle envoyées avant d’afficher la réponse."
+      }
+    },
+    "mandatory-message-dialog": {
+      "header": "Afficher le message à lire obligatoirement",
+      "body": "Vous avez reçu un ou plusieurs messages à lire obligatoirement. Veuillez cliquer sur OK pour afficher le ou les messages."
+    },
+    "system-messages": {
+      "1": {
+        "subject": "Autorisation automatique",
+        "content": "Vous avez terminé avec succès la validation, vous êtes désormais automatiquement autorisé(e) à noter les QIG {0}, et pouvez commencer à noter en conditions réelles. Il se peut que vous receviez ultérieurement d’autres commentaires de la part de votre chef d’équipe."
+      },
+      "2": {
+        "subject": "Membre de l’équipe autorisé automatiquement",
+        "content": "J’ai terminé avec succès la validation pour le QIG {0} et obtenu automatiquement l’autorisation de commencer la notation."
+      },
+      "3": {
+        "subject": "RefreshMarkingTeam",
+        "content": "Examinateur autorisé automatiquement pour le QIG {0}."
+      },
+      "4": {
+        "subject": "Autorisation automatique conditionnelle",
+        "content": "Following successful qualification, you have been conditionally auto approved for QIG {0}.DO NOT TRANSLATE You may now start live marking upto the conditional approval limit set by your reviewer.DO NOT TRANSLATE You will be fully approved at a later date by your reviewer. DO NOT TRANSLATE"
+      },
+      "5": {
+        "subject": "Team Member Conditionally Approved DO NOT TRANSLATE",
+        "content": "Following successful qualification, I have been conditionally approved for QIG {0}.DO NOT TRANSLATE I can mark live scripts upto the conditional approval limit but require you to fully approve me.DO NOT TRANSLATE"
+      },
+      "6": {
+        "subject": "RefreshMarkingTeam",
+        "content": "Marker Conditionally Approved for QIG {0}.DO NOT TRANSLATE"
+      },
+      "7": {
+        "subject": "En attente de révision",
+        "content": "Votre statut a été changé. Il est désormais « En attente de révision » car vous avez envoyé des réponses notées de manière incorrecte pour le QIG {0}. Il se peut que vous receviez ultérieurement d’autres commentaires de la part de votre réviseur."
+      },
+      "8": {
+        "subject": "Membre de l’équipe suspendu automatiquement",
+        "content": "J’ai été suspendu(e) et n’ai plus le droit de noter, car j’ai envoyé des réponses notées de manière incorrecte pour le QIG {0}."
+      },
+      "10": {
+        "subject": "Please check my marking DO NOT TRANSLATE",
+        "content": "I have given you access to view my Live marking worklist for {0}.Please review my marking and if you agree I have marked my responses correctly please indicate you have checked my work. DO NOT TRANSLATE If you have any comments or concerns about my marking please discuss this with me. DO NOT TRANSLATE"
+      },
+      "11": {
+        "subject": "Marks CheckedDO NOT TRANSLATE",
+        "content": "I have checked your marks for Session Name to be filled. DO NOT TRANSLATE"
+      },
+      "12": {
+        "subject": "Review Re-mark Completed DO NOT TRANSLATE",
+        "content": "I have completed all the Review Re-marks requested.DO NOT TRANSLATE"
+      },
+      "13": {
+        "subject": "Actualiser les objectifs de notation",
+        "content": "Votre ou vos objectifs de notation pour {0} ont été actualisés. Les objectifs suivants ont été modifiés : {1}."
+      },
+      "14": {
+        "subject": "Délai de grâce mis à jour",
+        "content": "Veuillez noter que le délai de grâce de {0} a été changé. Il est maintenant de {2} heures. Par conséquent, toutes les réponses envoyées avant la diffusion du présent message resteront en attente après leur envoi pendant {1} heures, et toutes celles envoyées après la diffusion du présent message seront fermées {2} heures après leur envoi."
+      },
+      "16": {
+        "subject": "Exception signalée concernant le découpage de zones",
+        "content": "Le découpage des zones de la réponse d’un candidat se trouvant dans votre liste de travail « fermée(s) » (numéro d’identification {0}) est actuellement révisé à la suite du signalement d’une exception par un autre examinateur. Veuillez noter que les zones d’image qui s’affichent peuvent changer en raison de cette exception. Lorsque cette exception sera résolue, vous en serez informé(e). Vous devrez alors revoir la réponse que vous avez envoyée et vérifier que les notes que vous avez attribuées sont toujours appropriées. Si vous pensez que ce n’est pas le cas, veuillez contacter l’IB aussitôt que possible."
+      },
+      "17": {
+        "subject": "Exception concernant le découpage de zones résolue",
+        "content": "Le découpage des zones de la réponse d’un candidat se trouvant dans votre liste de travail « fermée(s) » (numéro d’identification {0}) a été résolu à la suite du signalement d’une exception par un autre examinateur. Il se peut que cela ait entraîné un changement des zones pour les éléments de réponse que vous avez notés.  Veuillez revoir la réponse que vous avez envoyée et vérifier que les notes que vous avez attribuées sont toujours appropriées. Si vous pensez que ce n’est pas le cas, veuillez contacter l’IB aussitôt que possible."
+      },
+      "18": {
+        "subject": "Mise à jour du statut d’un membre de l’équipe",
+        "content": "J’ai mis à jour le statut d’autorisation de {0}, qui est passé de {1} à {2}."
+      },
+      "19": {
+        "subject": "Notification de changement du numéro d’identification {0}.",
+        "content-removed": "À titre d’information, le numéro d’identification {0} a été supprimé de votre liste de travail à la suite du contrôle de la qualité.",
+        "content-replaced": "À titre d’information, le numéro d’identification {0} a été réintégré dans votre liste de travail à la suite du contrôle de la qualité. Nous vous remercions pour votre temps.",
+        "content-permanently-removed": "À titre d’information, le numéro d’identification {0} a été supprimé de votre liste de travail de manière définitive à la suite du contrôle de la qualité. Veuillez nous excuser pour les désagréments occasionnés. "
+      },
+      "20": {
+        "subject": "Examinateur bloqué : notation retirée",
+        "content": "La notation du QIG {0} m’a été retirée, je n’ai donc plus d’action en attente dans la liste de travail « Gestion des autorisations »."
+      },
+      "21": {
+        "subject": "Groupe d'éléments de réponse supprimé",
+        "content": "À titre d’information, le numéro d’identification {0} a été supprimé de votre liste de travail pour le QIG {1}."
+      },
+      "22": {
+        "subject": "Notification of Change to Marking Instructions document",
+        "content": "A new version of the Marking Instructions for {0} has been made available. DO NOT TRANSLATE Please ensure you download and use this version instead of the previous one. DO NOT TRANSLATE"
+      },
+      "23": {
+        "subject": "Réponse supprimée de la liste de travail {0}",
+        "content": "Nous vous informons qu’une ou plusieurs réponses ont été retirées de votre liste de travail pour la composante {0}."
+      },
+      "24": {
+        "subject": "Le groupe d’éléments de réponse {0} vous a été retiré",
+        "content": "Le groupe d’éléments de réponse {0} a été retiré de votre liste de travail pour des raisons de contrôle de la qualité."
+      },
+      "25": {
+        "subject": "Notification of Change to Marking Instructions document DO NOT TRANSLATE",
+        "content": "A new Marking Instructions file for {0} has been made available.DO NOT TRANSLATE Please ensure you view this in your Marking Instructions worklist. DO NOT TRANSLATE"
+      },
+      "26": {
+        "subject": "Notification de suppression d'une recorrection",
+        "content": "Nous vous informons que le numéro d’identification {0} a été supprimé de votre liste de travail de recorrection pour le QIG {1}."
+      },
+      "27": {
+        "subject": "Notification de réponse supprimée de la liste de travail",
+        "content": "La réponse - {0} dans votre liste de travail {1} qui a une ou plusieurs exceptions non résolues pour ’{2}’ a été prise en charge par votre chef d’équipe {3} et déplacée vers la liste de travail {1} de {3} pour une autre notation. Vous ne pouvez plus accéder à cette réponse dans votre liste de travail {1} pour la consulter ou la noter."
+      }
+    }
+  }
+}

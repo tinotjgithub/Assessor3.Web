@@ -1,0 +1,101 @@
+{
+  "definitions": {
+    "Total mark": {
+      "$id": "1",
+      "GridColumn": "Total mark",
+      "CssClass": "col-tot-marks header-col",
+      "ColumnHeader": "Total mark",
+      "ComparerName": "totalmarkComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+        "hasSub": "hasSub",
+        "isExpanded": "isExpanded"
+      }
+    },
+    "Grade": {
+      "$id": "2",
+      "GridColumn": "Grade",
+      "CssClass": "col-tot-marks header-col",
+      "ColumnHeader": "Grade",
+      "ComparerName": "gradeComparer",
+      "Sortable": "false",
+      "ComponentProps": {
+        "hasSub": "hasSub",
+        "isExpanded": "isExpanded"
+      }
+    },
+    "Centre": {
+      "$id": "3",
+      "GridColumn": "Centre",
+      "CssClass": "col-centre",
+      "ColumnHeader": "Centre",
+      "ComparerName": "centreComparer",
+      "Sortable": "false"
+    },
+    "Candidate No": {
+      "$id": "4",
+      "GridColumn": "Candidate No",
+      "CssClass": "col-cand-no",
+      "ColumnHeader": "Candidate No",
+      "ComparerName": "candidateNoComparer",
+      "Sortable": "false"
+    },
+    "My judgement": {
+      "$id": "5",
+      "GridColumn": "My judgement",
+      "CssClass": "col-judgement",
+      "ColumnHeader": "My judgement",
+      "ComparerName": "myjudgementComparer",
+      "Sortable": "false"
+    },
+    "Total judgement": {
+      "$id": "6",
+      "GridColumn": "Total judgements",
+      "CssClass": "col-tot-judgment",
+      "ColumnHeader": "Total judgements",
+      "ComparerName": "totaljudgementComparer",
+      "Sortable": "false"
+    }
+  },
+  "awardingcandidatedetails": {
+    "gradeview": {
+      "detailsview": {
+        "GridColumns": [
+          {
+            "$ref": "3"
+          },
+          {
+            "$ref": "4"
+          },
+          {
+            "$ref": "5"
+          },
+          {
+            "$ref": "6"
+          }
+        ]
+      },
+      "frozenrowsgrade": {
+        "GridColumns": [
+          {
+            "$ref": "2"
+          },
+          {
+            "$ref": "1"
+          }
+        ]
+      },
+      "frozenrowstotalmark": {
+        "GridColumns": [
+          {
+            "$ref": "1"
+          },
+          {
+            "$ref": "2"
+          }
+        ]
+      }
+
+    }
+  }
+}

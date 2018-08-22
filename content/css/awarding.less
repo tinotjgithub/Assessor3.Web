@@ -1,0 +1,127 @@
+/*Awarding css */
+@awarding-left-panel-width: 420px;
+@awarding-left-panel-width-tab : 280px;
+.awarding-wrapper{
+	.grid-holder{
+		&:extend(.team-wrapper .grid-holder);
+	}
+	.column-left {
+		padding-top: 0;
+		width: @awarding-left-panel-width;
+		&:extend(.team-wrapper .column-left);
+		.column-left-inner{
+			width: calc(@awarding-left-panel-width - 18px);
+		}
+		@media(max-width:768px){
+			width: @awarding-left-panel-width-tab;
+			.column-left-inner{
+				width: calc(@awarding-left-panel-width-tab - 18px);
+			}
+		}
+	}
+	.column-right{
+		padding-left: @awarding-left-panel-width;
+		@media(max-width:768px){
+			padding-left: @awarding-left-panel-width-tab;
+		}
+		&:extend(.worklist-wrapper .column-right);
+	}
+	&.hide-left{
+		.column-left{
+			left: -@awarding-left-panel-width;
+			@media(max-width:768px){
+				left: -@awarding-left-panel-width-tab;
+			}
+		}
+		.column-right{
+			padding-left: 0;
+		}
+	}
+	
+	//Left menu css start
+	.left-menu-holder{
+		.left-menu{
+			.search-box-wrap{
+				margin-bottom: 10px;
+				&:after{
+					left: 0;
+					right: 0;
+					top: 57px;
+					&:extend(.column-left .marking-instruction-holder:after);
+				}
+			}
+			&:before{
+				content: none;
+			}
+			.panel,
+			.panel.open{
+				padding-left: 20px;
+			}
+			.left-menu-link{
+				padding-left: 0;
+				width: calc(@awarding-left-panel-width - 18px);
+				@media(max-width:768px){
+					width: calc(@awarding-left-panel-width-tab - 18px);
+				}
+			}
+		}
+	}
+	.has-sub{
+		&:extend(.team-wrapper .has-sub all);
+	}
+
+	//Tree view table
+	.table-wrap-l{
+		tr{
+			td:first-child .cell-data{
+				font-weight: bold;
+				a{
+					text-decoration: none;
+				}
+			}
+			&.l1 td:first-child {
+				.cell-data{
+					padding-left: 20px;
+					a{
+						color: @grey;
+					}
+				}
+			}
+		}
+	}
+	.table-content-wrap{
+		tr{
+			&:nth-child(even){
+				background-color: #f7f7f7;
+			}
+		}
+	}
+	.table-wrap-t,
+	.table-body-wrap{
+		th,td{
+			text-align: center;
+		}
+	}
+	.classify-items-row{
+		td{
+			border-bottom: 0;
+		}
+		height: 40px;
+	}
+
+	//Flex css
+	.filter-dropdown{
+		display: flex;
+		.vendorize(flex-flow,row nowrap);    
+		.vendorize(align-items,center);    
+		.vendorize(justify-content,flex-start);    
+		.right{
+			margin-left: auto;
+		}
+		.menu-label{
+			color: @grey; 
+			display: inline-block;
+			min-width: 50px;
+		}
+	}
+}

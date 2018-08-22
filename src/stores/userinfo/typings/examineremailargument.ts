@@ -1,0 +1,3 @@
+﻿interface ExaminerEmailArgument {
+    emailAddress: string;
+}

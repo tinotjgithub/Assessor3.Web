@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+    "parameters": {
+        "release": {
+            "value": "#{VARRelease}"
+        },
+        "env": {
+            "value": "#{VAREnvironment}"
+        },
+        "appInsightName": {
+            "value": "#{appInsightName}"
+        },
+        "website": {
+            "value": "#{VARIISWebsiteName}"
+        },
+        "resourceSuffix": {
+            "value": "#{resourceSuffix}"
+        },
+        "tagInsight": {
+            "value": "#{tagInsight}"
+        },
+        "webTestFrequency": {
+            "value": "#{webTestFrequency}"
+        },
+        "alertemails": {
+            "value": "#{alertemails}"
+        },
+        "failthreshold": {
+            "value": "#{failthreshold}"
+        }
+    }
+}

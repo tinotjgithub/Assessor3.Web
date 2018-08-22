@@ -1,0 +1,31 @@
+/* LESS Document */
+/*Bubble*/
+	.bubble{		
+		height:0;
+		opacity:0;
+		overflow:hidden;
+		position:absolute;
+		width:0;
+				
+		.vendorize(transition,opacity @comp-anim-duration);
+		
+		.callout&{
+			&:before,&:after{				
+				content:"";
+				display:inline-block;
+				position:absolute;
+			}			
+		}
+		
+		.bubble-on~&,
+		.show&{
+				display:block;
+				height:auto;
+				overflow:visible;
+				opacity:1;
+				width:auto;
+			}
+	}
+	
+/*Bubble*/
+

@@ -1,0 +1,204 @@
+﻿{
+  "userinformation": {
+    "testAwaitingUserName": "A3IB_nseena8",
+    "testAwaitingPassword": "Computer1",
+     "teststandUserName": "A3IB_kbincy6",
+    "teststandPassword": "Computer1",
+    "testSTMUserName": "A3IB_aancy10",
+    "testSTMPassword": "Computer1"
+
+
+  },
+  "qigName": {
+    "awaitingQigName": "ATMathSP2TZ0XXXX",
+    "wlstatus": "LiveMarking",
+    "simulationQigName": "ATPhySP2TZ0XXXX",
+    "practiceQigName": "AT1bioSP1ENGTZ1XXXX",
+    "standQigName": "ATeconoSP2ENGTZ0XXXX",
+    "secndstandQigName": "ATeconoSP2ENGTZ0XXXX",
+    "qualityfbQigName": "physics - QFB",
+    "suspendedQigName": "AT1bioSP1ENGTZ1XXXX",
+    "lvCompleteQigName": "physics - QFB",
+    "STMQigName": "physics-SP2ENGTZ1XXXX",
+    "lvPoolQigName": "ATeconoSP2ENGTZ0XXXX",
+    "lvOpenQigName": "physics - QFB",
+    "lvNoIndQigName": "ATremarkCntTZ0XXXX",
+    "lvCompleteQigName": "physics - QFB",
+    "lvResAllocationErrorQigName": "AT1bioSP1ENGTZ1XXXX",
+    "lvReachedMaimumLtQigName": "physics - QFB",
+    "lvAtypicalQigName": "physics - QFB",
+    "lvWLMeetTargetQigName": "AT1bioSP1ENGTZ1XXXX",
+    "ImageZoneQigName":"ATPhysics(ResImg)"
+
+
+
+
+
+
+  },
+  "qigStatus": {
+    "awaitingstatus": "Awaiting Standardisation",
+    "simulationstatus": "Simulation Marking",
+    "practicestatus": "Practice Marking",
+    "standstatus": "Standardisation Marking",
+    "secndstandstatus": "Second Standardisation Marking",
+    "qualityfbstatus": "Quality Feedback",
+    "suspendedstatus": "Suspended",
+    "lvCompletestatus": "Live Complete",
+    "STMstatus": "STM Standardisation Marking",
+    "lvPoolstatus": "Live Marking",
+    "lvOpenstatus": "Live Marking",
+    "lvNoIndstatus": "Live Marking",
+    "lvCompletestatus": "Live Complete"
+
+  },
+  "qigColor": {
+    "awaitingstatus": "progress-title error",
+    "simulationstatus": "progress-title ",
+    "practicestatus": "progress-title ",
+    "standstatus": "progress-title ",
+    "secndstandstatus": "progress-title ",
+    "qualityfbstatus": "progress-title warning",
+    "suspendedstatus": "progress-title error",
+    "lvCompletestatus": "progress-title ",
+    "STMstatus": "progress-title ",
+    "lvPoolstatus": "progress-title ",
+    "lvOpenstatus": "progress-title ",
+    "lvNoIndstatus": "progress-title ",
+    "lvCompletestatus": "progress-title "
+
+  },
+
+  "qigTarget": {
+    "awaitingText": "success",
+    "awaitingValue": "success",
+    "simulationText": "success",
+    "simulationValue": "success",
+    "practiceText": "success",
+     "practiceValue": "success",
+    "standText": "success",
+    "standValue": "success",
+     "secndstandText": "success",
+    "secndstandValue": "success",
+     "qualityfbText": "Submitted",
+    "qualityfbValue": "3/20",
+    "suspendedText": "Submitted",
+    "suspendedValue": "0/1",
+     "lvCompleteText": "Submitted",
+    "lvCompleteValue": "2/2",
+     "STMText": "success",
+    "STMValue": "success",
+     "lvPoolText": "Submitted",
+    "lvPoolValue": "0/20",
+     "lvOpenText": "Submitted",
+    "lvOpenValue": "9/20",
+    "lvNoIndText": "Submitted",
+    "lvNoIndValue": "0/20",
+     "lvCompleteText": "Submitted",
+    "lvCompleteValue": "2/2"
+
+  },
+
+  "qigTargetDate": {
+    "awaitingtargetDateText": "success",
+    "awaitingtargetDate": "success",
+     "simulationtargetDateText": "success",
+    "simulationtargetDate": "success",
+    "practicetargetDateText": "Target:",
+    "practicetargetDate": "09/05/2013",
+     "standtargetDateText": "Target:",
+    "standtargetDate": "10/05/2013",
+     "secndstandtargetDateText": "Target:",
+    "secndstandtargetDate": "10/05/2013",
+     "qualityfbtargetDateText": "Target:",
+    "qualityfbtargetDate": "11/05/2013",
+     "suspendedtargetDateText": "Target:",
+    "suspendedtargetDate": "09/05/2013",
+     "lvCompletetargetDateText": "Target:",
+    "lvCompletetargetDate": "14/03/2016",
+     "STMtargetDateText": "Target:",
+    "STMtargetDate": "25/01/2015",
+     "lvPooltargetDateText": "Target:",
+    "lvPooltargetDate": "11/05/2013",
+      "lvOpentargetDateText": "Target:",
+    "lvOpentargetDate": "04/02/2016",
+     "lvNoIndtargetDateText": "Target:",
+    "lvNoIndtargetDate": "11/05/2013"
+
+
+  },
+  "qigProgress": {
+    "awaitingstatus": "success",
+    "simulationstatus": "success",
+    "practicestatus": "success",
+    "standstatus": "success",
+    "secndstandstatus": "success",
+    "qualityfbclosed": "width: 15%;",
+    "qualityfbpending": "width: 15%;",
+    "qualityfbopen": "width: 15%;",
+     "tooltipquality":"3 submitted - closed, 0 submitted - editable, 0 open for marking",
+     "suspendedclosed": "width: 0%;",
+    "suspendedpending": "width: 0%;",
+    "suspendedopen": "width: 0%;",
+     "tooltipsuspended":"0 submitted - closed, 0 submitted - editable, 0 open for marking",
+    "lvCompleteclosed":"width: 100%;",
+     "lvCompletepending": "width: 100%;",
+    "lvCompleteopen": "width: 100%;",
+      "tooltilvComplete":"2 submitted - closed, 0 submitted - editable, 0 open for marking",
+     "STMstatus":"success",
+
+     "lvPoolclosed":"width: 0%;",
+     "lvPoolpending": "width: 0%;",
+    "lvPoolopen": "width: 0%;",
+     "tooltiplvPool":"0 submitted - closed, 0 submitted - editable, 0 open for marking",
+
+     "lvOpenclosed":"width: 45%;",
+     "lvOpenpending": "width: 45%;",
+    "lvOpenopen": "width: 55%;",
+     "tooltiplvOpen":"9 submitted - closed, 0 submitted - editable, 2 open for marking",
+
+     "lvNoIndclosed":"width: 0%;",
+     "lvNoIndpending": "width: 0%;",
+    "lvNoIndopen": "width: 0%;",
+    "tooltiplvNoInd":"0 submitted - closed, 0 submitted - editable, 0 open for marking"
+
+
+
+  },
+   "qigIndicator": {
+    "awaitingOPen": "success",
+    "awaitingPool": "success",
+    "simulationOPen": "success",
+    "simulationPool": "success",
+     "practiceOPen": "success",
+    "practicePool": "success",
+     "standOPen": "success",
+    "standPool": "success",
+     "secndstandOPen": "success",
+    "secndstandPool": "success",
+     "qualityfbOPen": "success",
+    "qualityfbPool": "success",
+     "suspendedOPen": "success",
+    "suspendedPool": "success",
+     "lvCompleteOPen": "success",
+    "lvCompletePool": "success",
+    "STMOPen": "success",
+    "STMPool": "success",
+     "lvPoolOPen": "success",
+    "lvPoolPool": "success",
+     "lvOpenOPen": "success",
+    "lvOpenPool": "success",
+    "lvNoIndOPen": "success",
+    "lvNoIndPool": "success",
+     "lvCompleteOPen": "success",
+    "lvCompletePool": "success",
+     "tooltiplvPool":"There are unallocated responses available in the pool that you could download and mark (subject to any eligibility restrictions).",
+      "tooltiplvOpen":"You have open responses allocated to you that you must complete marking."
+
+
+
+
+  }
+
+
+}

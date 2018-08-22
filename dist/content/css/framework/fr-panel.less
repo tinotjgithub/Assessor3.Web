@@ -1,0 +1,22 @@
+/* LESS Document */
+.panel{
+	&>.panel-content{
+		display:none;
+		height:0;
+		max-height:0;
+		overflow:hidden;		
+		.open&{
+			display:block;
+			height:auto;
+			max-height:100%;
+			.expandVertical(@comp-anim-duration,150px);
+			.vendorize(animation-fill-mode,forwards);
+		}
+		.close&{
+			display:block;
+			height:auto;
+			.collapseVertical(@comp-anim-duration);
+			.vendorize(animation-fill-mode,forwards);	
+		}
+	}
+}

@@ -1,0 +1,29 @@
+/* LESS Document */
+.tab-holder{
+	.horizontal&{
+		.tab-nav{
+			li{
+				float:left;	
+				position:relative;
+				z-index:1;
+				a{
+					display:block;	
+				}
+				&.active{
+					z-index:3;	
+				}
+			}
+		}
+		.tab-content-holder{
+			margin-top:-1px;
+			position:relative;
+			/*z-index:2;*/
+			.tab-content{
+				display:none;
+				&.active{
+					display:block;	
+				}
+			}
+		}
+	}
+}

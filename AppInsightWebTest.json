@@ -1,0 +1,200 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+    "parameters": {
+        "release": {
+            "type": "string",
+            "maxLength": 3,
+            "metadata": {
+                "description": "The release version. Example M16 or S17."
+            }
+        },
+        "env": {
+            "type": "string",
+            "metadata": {
+                "description": "Environment Type Dev, QA, UAT."
+            }
+        },
+        "appInsightName": {
+            "defaultValue": "RM Assessor",
+            "type": "string",
+            "metadata": {
+                "description": "Name of App Insight."
+            }
+        },
+        "locations": {
+            "type": "array",
+            "metadata": {
+                "description": "WebTest Location. Example [{\"Id\": \"us-il-ch1-azr\"}, {\"Id\": \"apac-sg-sin-azr\"}]"
+            },
+            "defaultValue": [
+                {
+                    "Id": "us-il-ch1-azr"
+                },
+                {
+                    "Id": "apac-sg-sin-azr"
+                },
+                {
+                    "Id": "emea-nl-ams-azr"
+                },
+                {
+                    "Id": "apac-hk-hkn-azr"
+                },
+                {
+                    "Id": "emea-au-syd-edge"
+                }
+            ]
+        },
+        "website": {
+            "type": "string",
+            "metadata": {
+                "description": "Website Name"
+            }
+        },
+        "resourceSuffix": {
+            "type": "string",
+            "metadata": {
+                "description": "Resource suffix. Example appinsight"
+            }
+        },
+        "testGateways": {
+            "type": "array",
+            "metadata": {
+                "description": "WebTest Location. Example [{\"Id\": \"us-il-ch1-azr\"}, {\"Id\": \"apac-sg-sin-azr\"}]"
+            },
+            "defaultValue": [
+                {
+                    "TestName": "Assessor3.Web.Login",
+                    "Name": "LoginPingTest",
+                    "Description": "Login Ping Test",
+                    "Guid": "3353f80a-46b2-4321-b6c6-5e06658d42c1",
+                    "Path": "index.html"
+                }
+            ]
+        },
+        "tagInsight": {
+            "type": "string",
+            "metadata": {
+                "description": "tag the appInsight resource"
+            }
+        },
+        "webTestFrequency": {
+            "type": "string",
+            "metadata": {
+                "description": "Frequency at which Web Test polls tha Gateway"
+            }
+        },
+        "alertemails": {
+            "type": "string",
+            "metadata": {
+                "description": "Mail Address that needs to be configured for aler mails"
+            },
+            "defaultValue": []
+        },
+        "alertemailsdefault": {
+            "type": "array",
+            "metadata": {
+                "description": "Mail Address that needs to be configured for aler mails"
+            },
+            "defaultValue": []
+        },
+        "failthreshold": {
+            "type": "string",
+            "metadata": {
+                "description": "Threshold Count for alerts"
+            }
+        }
+    },
+    "variables": {
+        "RGName": "[concat('rm-azr-asr','-',toLower(parameters('release')),'-',toLower(parameters('env')),'-',toLower(parameters('resourceSuffix')))]",
+        "Enabled": true,
+        "Frequency": "[int(parameters('webTestFrequency'))]",
+        "Timeout": 120,
+        "Kind": "ping",
+        "failedLocationCount": "[int(parameters('failthreshold'))]",
+        "emails": "[if(equals(parameters('alertemails'),''), parameters('alertemailsdefault'), split(parameters('alertemails'),','))]"
+    },
+        "resources": [
+            {
+                "type": "microsoft.insights/components",
+                "kind": "web",
+                "name": "[parameters('appInsightName')]",
+                "apiVersion": "2014-04-01",
+                "location": "[resourceGroup().location]",
+                "tags": {
+                    "project": "[parameters('tagInsight')]"
+                },
+                "properties": {
+                    "ApplicationId": "[parameters('appInsightName')]"
+                }
+            },
+            {
+                "type": "microsoft.insights/alertrules",
+                "name": "[parameters('testGateways')[copyIndex()].Name]",
+                "apiVersion": "2014-04-01",
+                "location": "[resourceGroup().location]",
+                "copy": {
+                    "name": "createAlert",
+                    "count": "[length(parameters('testGateways'))]"
+                },
+                "tags": {
+                    "[concat('hidden-link:/subscriptions/',subscription().subscriptionId,'/resourcegroups/',variables('RGName'),'/providers/microsoft.insights/components/',parameters('appInsightName'))]": "Resource",
+                    "[concat('hidden-link:/subscriptions/',subscription().subscriptionId,'/resourcegroups/',variables('RGName'),'/providers/microsoft.insights/webtests/',parameters('testGateways')[copyIndex()].Name)]": "Resource"
+                },
+                "properties": {
+                    "name": "[parameters('testGateways')[copyIndex()].Name]",
+                    "description": "[parameters('testGateways')[copyIndex()].Description]",
+                    "isEnabled": true,
+                    "condition": {
+                        "odata.type": "Microsoft.Azure.Management.Insights.Models.LocationThresholdRuleCondition",
+                        "dataSource": {
+                            "odata.type": "Microsoft.Azure.Management.Insights.Models.RuleMetricDataSource",
+                            "resourceUri": "[resourceId('microsoft.insights/webtests', parameters('testGateways')[copyIndex()].Name)]",
+                            "metricName": "GSMT_AvRaW"
+                        },
+                        "windowSize": "PT5M",
+                        "failedLocationCount": "[variables('failedLocationCount')]"
+                    },
+                    "action": {
+                        "odata.type": "Microsoft.Azure.Management.Insights.Models.RuleEmailAction",
+                        "customEmails": "[variables('emails')]"
+                    }
+                },
+                "dependsOn": [ "[resourceId('microsoft.insights/webtests', parameters('testGateways')[copyIndex()].Name)]" ]
+            },
+            {
+                "type": "microsoft.insights/webtests",
+                "name": "[parameters('testGateways')[copyIndex()].Name]",
+                "apiVersion": "2014-04-01",
+                "location": "[resourceGroup().location]",
+                "copy": {
+                    "name": "createTest",
+                    "count": "[length(parameters('testGateways'))]"
+                },
+                "tags": {
+                    "[concat('hidden-link:/subscriptions/',subscription().subscriptionId,'/resourcegroups/',variables('RGName'),'/providers/microsoft.insights/components/',parameters('appInsightName'))]": "Resource"
+                },
+                "properties": {
+                    "SyntheticMonitorId": "[parameters('testGateways')[copyIndex()].Name]",
+                    "Name": "[parameters('testGateways')[copyIndex()].Name]",
+                    "Description": "[parameters('testGateways')[copyIndex()].Description]",
+                    "Enabled": "[variables('Enabled')]",
+                    "Frequency": "[variables('Frequency')]",
+                    "Timeout": "[variables('Timeout')]",
+                    "Kind": "[variables('Kind')]",
+                    "Locations": "[parameters('Locations')]",
+                    "RetryEnabled": true,
+                    "Configuration": {
+                        "WebTest": "[concat('<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<WebTest Name=\"',parameters('testGateways')[copyIndex()].TestName,'\" Id=\"',parameters('testGateways')[copyIndex()].Guid,'\" Owner=\"\" Priority=\"0\" Enabled=\"True\" CssProjectStructure=\"\" CssIteration=\"\" Timeout=\"0\" WorkItemIds=\"\" xmlns=\"http://microsoft.com/schemas/VisualStudio/TeamTest/2010\" Description=\"\" CredentialUserName=\"\" CredentialPassword=\"\" PreAuthenticate=\"True\" Proxy=\"default\" StopOnError=\"False\" RecordedResultFile=\"\" ResultsLocale=\"\">\r\n  <Items>\r\n    <Request Method=\"GET\" Guid=\"bc93c714-ba78-4822-8c56-ef6ae95ab580\" Version=\"1.1\" Url=\"https://',parameters('website'),'/',parameters('testGateways')[copyIndex()].Path,'\" ThinkTime=\"0\" Timeout=\"60\" ParseDependentRequests=\"True\" FollowRedirects=\"True\" RecordResult=\"True\" Cache=\"False\" ResponseTimeGoal=\"0\" Encoding=\"utf-8\" ExpectedHttpStatusCode=\"0\" ExpectedResponseUrl=\"\" ReportingName=\"\" IgnoreHttpStatusCode=\"False\">\r\n      <Headers>\r\n        <Header Name=\"Upgrade-Insecure-Requests\" Value=\"1\" />\r\n      </Headers>\r\n    </Request>\r\n  </Items>\r\n</WebTest>')]"
+                    }
+                },
+                "dependsOn": [ "[concat('microsoft.insights/components/', parameters('appInsightName'))]" ]
+            }
+        ],
+        "outputs": {
+            "AppInsightInstrumentationKey": {
+                "value": "[reference(resourceId('Microsoft.Insights/components', parameters('appInsightName')), '2014-04-01').InstrumentationKey]",
+                "type": "string"
+            }
+        }
+    }

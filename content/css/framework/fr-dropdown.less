@@ -1,0 +1,96 @@
+/*dropdown start*/
+@overlay-anim-duration:1s;
+
+.dropdown-open{
+	max-height:100vh;
+	overflow:hidden;	
+}
+.dropdown-wrap{
+	position:relative;	
+	vertical-align:middle;
+	white-space:nowrap;
+	&>.menu-button{
+		display:block;
+		position:relative;		
+	}
+	.overlay{
+		display:none;
+		left:0;
+		top:0;	
+		
+		.stretch-horizontal();
+		.stretch-vertical();
+		.fixed();
+		.black-overlay();
+		.open&{
+			display:block;
+			.fade-in(@overlay-anim-duration);		
+		}
+		.close&{
+			display:block;		
+			.fade-out(@comp-anim-duration);
+			.vendorize(animation-fill-mode,forwards);
+		}
+	}
+	
+	&>.menu{		
+		display:none;
+		line-height:normal;
+		max-height:100vh;
+		min-width:100%;	
+		overflow:auto;
+		padding:0;
+		position:absolute;
+		top:100%;
+		white-space:normal;
+		z-index:99;
+		-webkit-transform:translateZ(0); /*to fix re draw issue in safari*/
+		.up&{
+			top:auto;
+			bottom:100%;	
+		}
+		.no-close&{
+			display:block;	
+		}
+		
+		.align-right&{
+			right:0;
+		}
+		.align-center&{
+			left:50%;
+			.vendorize(transform,translateX(-50%));	
+		}
+		&>li{
+			border-style:solid;	
+			border-top-width:1px;
+			&>a{
+				display:block;							
+			}
+		}
+		
+		.open&{
+			display:block;
+			.dropdown-anim-down(@comp-anim-duration);
+			.vendorize(animation-fill-mode,forwards);
+		}
+		.close&{
+			display:block;
+			/*padding: 0;*/
+			margin: 0;
+			/*max-height: 0;
+			*/
+			.dropdown-anim-up(@comp-anim-duration);
+			.vendorize(animation-fill-mode,forwards);
+			.no-close&{
+				.no-animation();
+			}
+			/*.IE &, .iPad &{
+				height: 0;
+				width: 0;
+			}*/
+		}	
+	}
+	/*.IE &.close, .iPad &.close{
+		overflow: hidden;
+	}*/
+}

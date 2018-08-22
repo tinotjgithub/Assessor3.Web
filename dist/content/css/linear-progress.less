@@ -1,0 +1,29 @@
+/* LESS Document */
+.linear-progress-holder{
+	height:7px;
+	position:relative;
+	.progress-track{
+		background-color:fade(@pure-black,6%);
+	}
+	.progress,.progress-track{
+		border-radius:4px;
+		height:100%;	
+		position:absolute;
+	}
+	.progress{
+		.open &{
+			.inline-width-animation(1s);
+			.vendorize(animation-fill-mode,forward);
+		}
+		&.progress1{
+			z-index:1;
+		}
+		&.progress2{
+			z-index:2;
+		}
+		&.progress3{
+			z-index:3;
+		}	
+	}
+}
+

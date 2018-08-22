@@ -1,0 +1,48 @@
+{
+  "definitions": {
+    "ItemColumn": {
+      "$id": "1",
+      "GridColumn": "Item",
+      "ColumnHeader": "marking.response.enhanced-off-page-comments-panel.item-column-header",
+      "CssClass": "",
+      "ComparerName": "ItemComparer",
+      "Sortable": "true",
+      "SortOption": "Both"
+    },
+    "FileColumn": {
+      "$id": "2",
+      "GridColumn": "File",
+      "ColumnHeader": "marking.response.enhanced-off-page-comments-panel.file-column-header",
+      "CssClass": "",
+      "ComparerName": "FileComparer",
+      "Sortable": "true",
+      "SortOption": "Both"
+    },
+    "CommentColumn": {
+      "$id": "3",
+      "GridColumn": "Comment",
+      "ColumnHeader": "marking.response.enhanced-off-page-comments-panel.comment-column-header",
+      "CssClass": "",
+      "ComparerName": "CommentComparer",
+      "Sortable": "true",
+      "SortOption": "Both"
+    }
+  },
+
+  "enhancedOffPageComments": {
+    "image": {
+      "GridColumns": [
+        {"$ref": "1"},
+        {"$ref": "3"}
+      ]
+    },
+    "digital": {
+      "GridColumns": [
+        {"$ref": "1"},
+        {"$ref": "2"},
+        {"$ref": "3"}
+      ]
+    }
+  }
+
+}

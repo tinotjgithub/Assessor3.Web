@@ -1,0 +1,1533 @@
+{
+  "erroraction": {
+    "name": "Save Client Error Log to Server",
+    "message": "Error log: user name : {name} Login status: {success}"
+  },
+  "localeaction": {
+    "name": "Language Changed",
+    "message": "Language Changed to {locale}"
+  },
+  "loginaction": {
+    "name": "User log in",
+    "message": "Logged in user name : {name} Login status: {success}"
+  },
+  "useroptiongetaction": {
+    "name": "Retrieving all user options from server",
+    "message": "Retrieving user options from server after login"
+  },
+  "useroptionsaveaction": {
+    "name": "saving user options to server",
+    "message": "Saving user option {useroption} to server"
+  },
+  "configurablecharacteristicsaction": {
+    "name": "Get the Exam Body Configurable Characteristic based on the Examiner ID",
+    "message": "Exam Body Configurable Characteristic call status: {success}"
+  },
+  "qigselectordatafetchaction": {
+    "name": "Get QIG Selector data from Server",
+    "message": "QIG selector data fetch: {success}"
+  },
+  "qigselectoraction": {
+    "name": "Save QIG Selector error to Server",
+    "message": "QIG : {selectedQIG} selected"
+  },
+  "updatemarkasnrforunmarkeditemaction": {
+    "name": "Update mark as NR for umarked MarkScheme",
+    "message": "Update mark as NR for umarked MarkScheme"
+  },
+  "userinfoaction": {
+    "name": "User info loading failed.",
+    "message": "Error log:status: {success}"
+  },
+  "backgroundpulseaction": {
+    "name": "Background pulse action",
+    "message": "Current background pulse status: {success}"
+  },
+  "worklisttypeaction": {
+    "name": "worklist type changed",
+    "message": "user has selected worklist of worklist type:{worklisttype}"
+  },
+  "markerinformationaction": {
+    "name": "Load profile information for logged in examiner..",
+    "message": "Marker information call status: {success}"
+  },
+  "worklistdatafetchaction": {
+    "name": "Worklist Marker Progress Data.",
+    "message": "Examiner progress data. Status: {success}"
+  },
+  "markqigaction": {
+    "name": "Open QIG",
+    "message": "open the QIG - on click Mark button"
+  },
+  "imagezoneaction": {
+    "name": "Image Zones List",
+    "message": "loading image zones of the current qig"
+  },
+  "responseopenaction": {
+    "name": "Open response",
+    "message": "Open response: Status: {success}"
+  },
+  "logoutaction": {
+    "name": "Logout",
+    "message": "Logout status: {success}"
+  },
+  "responseallocateaction": {
+    "name": "Allocation of Responses",
+    "message": "Allocate response: Status: {success}"
+  },
+  "markschemestructuregetaction": {
+    "name": "Mark Scheme Structure",
+    "message": "loading Mark Scheme Structure of the current qig"
+  },
+  "responsecloseaction": {
+    "name": "Close response",
+    "message": "Close response: Status: {success}"
+  },
+  "responsemodechangeaction": {
+    "name": "Response mode changed",
+    "message": "Response mode changed: Status: {success}"
+  },
+  "busyindicatoraction": {
+    "name": "Busy indicator",
+    "message": "Show busy indicator"
+  },
+  "submitresponsestartedaction": {
+    "name": "Response submit Started",
+    "message": "On clicking submit or Submit all button to initiate submit with mark group id:{markGroupId}"
+  },
+  "submitresponsecompletedaction": {
+    "name": "Response submission completed",
+    "message": "Submit response completed : Status: {success} and error code: {errorCode}"
+  },
+  "scriptaction": {
+    "name": "Retrieve the script image",
+    "message": "retrieve script image: Status: {success}"
+  },
+  "candidatescriptmetadataretrievalaction": {
+    "name": "Retrieve the script image metadata",
+    "message": "retrieve script image metadata: Status: {success}"
+  },
+  "worklistinitialisationaction": {
+    "name": "Initialising worklist after selecting qig",
+    "message": "initialising worklist has been stated"
+  },
+  "stampaction": {
+    "name": "Retrieve the stamps defined for a mark scheme groupId",
+    "message": "Retrieve stamps: Status: {success}"
+  },
+  "autoapprovalmessageaction": {
+    "name": "Update the auto approval message status to read",
+    "message": "update the auto approval message status to read: Status: {success}"
+  },
+  "retrievemarksaction": {
+    "name": "Retrieve the marks associated against a response for a examiner role.",
+    "message": "Retrieve marks: Status: {success}"
+  },
+  "userinfosaveaction": {
+    "name": "User infromation save",
+    "message": "User information save Status:{success}"
+  },
+  "responseviewmodechangedaction": {
+    "name": "response view mode changed action",
+    "message": "response view mode changed from response screen: Status: {success}"
+  },
+  "stamppanelaction": {
+    "name": "annotation panel action",
+    "message": "annotation panel mode changed: Status: {success}"
+  },
+  "resetmarkinfoloadstatusaction": {
+    "name": "reset mark info load status action",
+    "message": "Resetting the mark load info statuses in  marking store and markscheme stores"
+  },
+  "marksandannotationsresetaction": {
+    "name": "reset marks and annotations cache action",
+    "message": "Resetting the marks and annotations cache from marking store: {success} "
+  },
+  "scrollpositionchangedaction": {
+    "name": "scroll position changed action",
+    "message": "Updating current scroll position in response store: {success} "
+  },
+  "scrolldataresetaction": {
+    "name": "scroll data reset action",
+    "message": "Resetting current scroll position related data from response store: {success} "
+  },
+  "fracsdatasetaction": {
+    "name": "fracs data set action",
+    "message": "Setting the fracs data in response store: {success} "
+  },
+  "findvisibleimageidaction": {
+    "name": "find visible image action",
+    "message": "Finding the active image container Id: {success} "
+  },
+  "updatecurrentquestionitemaction": {
+    "name": "question item selected",
+    "message": "current selected question item changed: Status: {success}"
+  },
+  "navigationaction": {
+    "name": "Navigation",
+    "message": "Navigate to url: {url}"
+  },
+  "stampselectaction": {
+    "name": "stamp selected action",
+    "message": "{0} from annotation panel"
+  },
+  "updatefavoritestampcollectionaction": {
+    "name": "Add/Remove stamp from favorite",
+    "message": "Stamp: {stampId} has been added to or removed from favorite"
+  },
+  "savemarkaction": {
+    "name": "Save mark corresponding to a particular mark scheme",
+    "message": "Saving Mark: {mark} for the markschemeId: {markSchemeId}. The operation is {markingOperation}. Is dirty : {isDirty}. Candidate script Id: {candidateScriptId}. Marking progress: {markingProgress}. Total Mark: {totalMark}. Total amrked mark schemes: {totalMarkedMarkSchemes}. Is All NR: {isAllNR}"
+  },
+  "saveandnavigateaction": {
+    "name": "Save mark when navigating away from the response",
+    "message": "Trigger save mark for the selected mark scheme when navigating away from the response. whether the navigation is from response to different view: {navigatingTo}, Navigation From : {navigatingFrom}"
+  },
+  "stampdragaction": {
+    "name": "stamp drag action",
+    "message": "{0} from annotation panel"
+  },
+  "updatemousepositionaction": {
+    "name": "mouse pointer position update action",
+    "message": "Updates the position of the mouse pointer."
+  },
+  "updatemarkaction": {
+    "name": "Notify that the current markscheme has updated.",
+    "message": "Mark updated with value : {mark} Status: {success}"
+  },
+  "updatemarkingprogressaction": {
+    "name": "Update marking progress in store.",
+    "message": "Marking progress updated with value : {markingProgress}, Status: {success}"
+  },
+  "removeannotationaction": {
+    "name": "Remove annotation marking action",
+    "message": "Remove annotation with client token: {0} has been removed from marking screen."
+  },
+  "drawannotationaction": {
+    "name": "Draw annotation action",
+    "message": "Drawing annotation."
+  },
+  "updatepanelwidthaction": {
+    "name": "Update new panel width action",
+    "message": "Updating new panel width."
+  },
+  "toggleuserinfoaction": {
+    "name": "toggle user information panel action",
+    "message": "toggle user info."
+  },
+  "updateannotationcoloraction": {
+    "name": "Update annotation color action",
+    "message": "Annotation annotationId: {0}, markSchemeId: {1}, markGroupId: {2}, pageNo: {3}, outputPageNo: {4}, height: {5}, width: {6}, leftEdge: {7}, blue: {8}, green: {9}, red: {10}, imageClusterId: {11}  is added to the marking screen."
+  },
+  "savemarksandannotationsaction": {
+    "name": "save marks and annotations",
+    "message": "saving marks and annotations for markgroupId : {markGroupId} : Status: { success }"
+  },
+  "addannotationaction": {
+    "name": "Add annotation action",
+    "message": "Annotation annotationId: {0}, markSchemeId: {1}, markGroupId: {2}, pageNo: {3}, outputPageNo: {4}, height: {5}, width: {6}, leftEdge: {7}, blue: {8}, green: {9}, red: {10}  is added to the marking screen and annotation action is {11}, and previousMarkIndex is {12}."
+  },
+  "stamppanaction": {
+    "name": "stamp pan action",
+    "message": "{0} stamp pan initiated."
+  },
+  "panendaction": {
+    "name": "pan end action",
+    "message": "{0} element id over which pan end happened."
+  },
+  "updateannotationpositionaction": {
+    "name": "Update annotation marking action",
+    "message": "Dragged annotation with ClientToken: {0}, PageNo: {1}, ImageClusterId: {2}, OutputPageNo: {3} has been updated with new leftEdge: {4} , topEdge: {5}, width: {6} , height: {7} position , comment: {8} , isPositionUpdated: {9} , isDrawEndOfStampFromStampPanel: {10} , stampId: {11} and avoidEventEmit: {12}."
+  },
+  "triggersavingmarksandannotationsaction": {
+    "name": "Triggering saving of marks and annotations",
+    "message": "Triggering saving of marks and annotations: Status: { success }"
+  },
+  "browseronlinestatusupdationaction": {
+    "name": "browser online status updation action",
+    "message": "Update the online status of the browser : Status: { success }"
+  },
+  "setnonrecoverableerroraction": {
+    "name": "browser online status updation action",
+    "message": "non-recoverable error set for markgroupId : {markGroupId} : Status: { success }"
+  },
+  "navigatetoaction": {
+    "name": "Navigating to location",
+    "message": "Navigate to location: {url}"
+  },
+  "navigateaftermarkconfirmationaction": {
+    "name": "Navigation after mark confirmation",
+    "message": "This action will navigate from response after the mark confirmation popup fadeout."
+  },
+  "markeditedaction": {
+    "name": "Mark edited flag update",
+    "message": "This action will set that mark is edited, status {success}."
+  },
+  "resetmarksandannotationaction": {
+    "name": "resetting mark and annotation of selected mark scheme",
+    "message": "Reset Mark: {0}, Reset Annotation: {1}."
+  },
+  "clearmarksandannotationsaction": {
+    "name": "marks and annotation clear action",
+    "message": "marks and annotations cleared for markGroupId : {markGroupId} : Status: { success }"
+  },
+  "rotateaction": {
+    "name": "Rotate response action",
+    "message": "Rotate response: {direction}"
+  },
+  "fitresponseaction": {
+    "name": "Fit response action",
+    "message": "Fit response: {position}"
+  },
+  "setfracsdataforzoomaction": {
+    "name": "Set Fracs Data For Zoom",
+    "message": "Set Fracs Data For Zoom"
+  },
+  "setmarkentryselection": {
+    "name": "set the mark entry selection",
+    "message": "setting the marking text box selected"
+  },
+  "fullresponseviewoptionchangedaction": {
+    "name": "full response view option changed action",
+    "message": "full response view option changed: Status: { success }"
+  },
+  "notifymarkchangedaction": {
+    "name": "Notifying mark has been changed",
+    "message": "Notifying mark has been updated."
+  },
+  "contextmenuaction": {
+    "name": "Context menu",
+    "message": "Show context menu at x:{0} and y:{1} position"
+  },
+  "removeselectedannotationaction": {
+    "name": "Remove selected annotation",
+    "message": "Remove selected annotation with unique client token is {0}"
+  },
+  "updatepagenumberindicatoraction": {
+    "name": "update page no indicator",
+    "message": "update the page no indicator when the user scrolls."
+  },
+  "updatepagenumberindicatoronzoomaction": {
+    "name": "Update Page Number Indicator on Zoom",
+    "message": "Refreshes the page number indicator while user changes the zoom settings"
+  },
+  "stamppantodeleteareaaction": {
+    "name": "pan action performed on a stamp to a deletion area",
+    "message": "Annotation dragged {0} a deletion area."
+  },
+  "stampbanneraction": {
+    "name": "Stamp banner action",
+    "message": "Stamp banner action."
+  },
+  "annotationtooltipsetaction": {
+    "name": "Tooltip set action for annoations against markSchemeId.",
+    "message": "Tooltips for annotations are updated."
+  },
+  "showgraceperiodmessageaction": {
+    "name": "Show grace period message action",
+    "message": "Shows the grace period unmarked validation message."
+  },
+  "showallpagenotannotatedmessageaction": {
+    "name": "Show all page not annotated messsage action",
+    "message": "Shows the all page not annotated message."
+  },
+  "editpagecommentaction": {
+    "name": "Edit the onpage comment",
+    "message": "user selected to Edit the onpage comment {stampid} in {hierarchy}."
+  },
+  "showorhidecommentaction": {
+    "name": "Show Or Hide onpage comment Box",
+    "message": "user selected outside the comment box."
+  },
+  "updatecommentaction": {
+    "name": "Updating the comment details to store",
+    "message": "Updating Comment - ClientToken is {0} Comment is: {1}."
+  },
+  "deletecommentaction": {
+    "name": "Deleting the comment from store",
+    "message": "Deleting Comment."
+  },
+  "sendmessageaction": {
+    "name": "Sends the examiner message",
+    "message": "Send message: Status: {success}"
+  },
+  "messageviewaction": {
+    "name": "close or open message section",
+    "message": "message section {0} - Status: {success}"
+  },
+  "popupdisplayaction": {
+    "name": "Show popup displays indicated by the popup type",
+    "message": "The type of popup shown is {popUp}"
+  },
+  "customzoomaction": {
+    "name": "zooming the image container",
+    "message": "zooming the image container"
+  },
+  "zoomupdatedaction": {
+    "name": "updated response zoom value",
+    "message": "updated response zoom value"
+  },
+  "messageaction": {
+    "name": "Get the messages",
+    "message": "Get the messages"
+  },
+  "responseimagerotatedaction": {
+    "name": "response image has been rotated",
+    "message": "response image has been rotated"
+  },
+  "updatemarksandannotationvisibilityaction": {
+    "name": "Updating marks or annotations visibility status",
+    "message": "Updating marks or annotations visibility status"
+  },
+  "acceptqualityfeedbackaction": {
+    "name": "Accept the Quality feedback",
+    "message": "Accept the Quality feedback"
+  },
+  "acceptqualityfeedbackactioncompleted": {
+    "name": "Accept the Quality feedback Action Completed",
+    "message": "Accept the Quality feedback Action Completed"
+  },
+  "updateseenannotationaction": {
+    "name": "Update Seen Annotation",
+    "message": "Update Seen Annotation"
+  },
+  "messagebodydetailsgetaction": {
+    "name": "Get Message Body and details",
+    "message": "Get the message details for the message id {0}."
+  },
+  "messagestatusupdateaction": {
+    "name": "Message Status Update Action",
+    "message": "Update the message status for the message id {0}. new Read status is {1}."
+  },
+  "updatedisplayangleofresponseaction": {
+    "name": "Update display angle",
+    "message": "Display angle of response {responseid} updated to {degree}"
+  },
+  "getexceptionaction": {
+    "name": "Get exceptions",
+    "message": "Get exceptions"
+  },
+  "getexceptiontypeaction": {
+    "name": "Get exception types",
+    "message": "Get exception types"
+  },
+  "setscrollworklistcolumnsaction": {
+    "name": "Setting scroll for the worklist tables to match scroll",
+    "message": "Setting the scroll for the columns"
+  },
+  "markchangereasonupdateaction": {
+    "name": "Mark change reason updated.",
+    "message": "Mark change reason updated with new value {0}."
+  },
+  "showmarkchangereasonneededmessageaction": {
+    "name": "Mark change reason needed error message.",
+    "message": "Mark change reason error message ."
+  },
+  "setmarkchangereasonvisibilityaction": {
+    "name": "set mark change reason visibility.",
+    "message": "set mark change reason visibility."
+  },
+  "openmarkchangereasonaction": {
+    "name": "action for open mark change reason.",
+    "message": "action for open mark change reason."
+  },
+  "opensupervisorremarkdecisionaction": {
+    "name": "action to open the supervisor remark decision popup.",
+    "message": "action to open the supervisor remark decision popup."
+  },
+  "messagenavigateaction": {
+    "name": "Message Naviagtion Action",
+    "message": "Action fired when the user is navigated away from the messaging screen"
+  },
+  "getunreadmandatorymessagestatusaction": {
+    "name": "get unread mandatory message status",
+    "message": "Getting unread mandatory message status - {0}"
+  },
+  "refreshmessagefolderaction": {
+    "name": "refresh then given message folder",
+    "message": "refreshing the {0} message folder"
+  },
+  "responsedatagetaction": {
+    "name": "Get Response Data ",
+    "message": "Get data for the response : Display Id - {displayId}"
+  },
+  "actioninterruptedaction": {
+    "name": "Connection issue",
+    "message": "Some of the user action are interrupted by the connection issue"
+  },
+  "downloadapplicationmoduleaction": {
+    "name": "Downloading application module",
+    "message": "download application module"
+  },
+  "exceptionwindowaction": {
+    "name": "Exception Window Action",
+    "message": "Exception window action {windowaction}"
+  },
+  "raiseexceptionaction": {
+    "name": "Raise Exception",
+    "message": "An Exception has raised of type {exceptionType}"
+  },
+  "showheadericonsaction": {
+    "name": "Show Header Icons",
+    "message": "All QIGS loaded and show the Header bar Icons"
+  },
+  "processsaveandnavigationaction": {
+    "name": "save marks and annotaion trigger",
+    "message": "starting saving marks and annotaion save on response navigation"
+  },
+  "updatewavyaction": {
+    "name": "Rerendering wavy annotations when View Mode is changed in Full Response View",
+    "message": "Rerendering wavy annotations"
+  },
+  "updateexceptionstatusaction": {
+    "name": "Update exception status",
+    "message": "Exception id {exceptionId} for the updated exception"
+  },
+  "dynamicannotationmoveaction": {
+    "name": "Dynamic annotation move",
+    "message": "Action for dynamic annotation movement event: visible: {0}"
+  },
+  "zoomoptionclickedaction": {
+    "name": "Zoom option clicked",
+    "message": "Action for zoom option open or close: isZoomOptionOpen - {0}"
+  },
+  "hidezoompanelaction": {
+    "name": "Hide Zoom Panel",
+    "message": "Action for Hide Zoom Panel event"
+  },
+  "pinchzoomaction": {
+    "name": "Pinch Zoom Action",
+    "message": "is pinch zooming - {0}"
+  },
+  "userinfoclickaction": {
+    "name": "User Info Click Action",
+    "message": "Action for user info panel clicked - {0}"
+  },
+  "markschemeheaderdropdownaction": {
+    "name": "Mark Scheme Header DropDown Action",
+    "message": "Action for markscheme header dropdown opened - {0}"
+  },
+  "exceptiontypescrollresetaction": {
+    "name": "Exception Type Scroll Reset Action",
+    "message": "Action for Exception Type Scroll Reset Action event"
+  },
+  "markschemescrollaction": {
+    "name": "Mark Scheme Scroll Action",
+    "message": "Action for resetting Mark Scheme Scroll after popup"
+  },
+  "contextmenuclickenableaction": {
+    "name": "ContextMenu Click Enable Action",
+    "message": "Action for setting the context menu click handler status - {0}"
+  },
+  "responsepinchzoomaction": {
+    "name": "responsepinchzoomaction",
+    "message": "Action for responsepinchzoomaction event"
+  },
+  "responsepinchzoomcompletedaction": {
+    "name": "responsepinchzoomcompleted",
+    "message": "Action for responsepinchzoomcompleted event"
+  },
+  "setimagezonesforpagenoaction": {
+    "name": "Set Image Zones For Page No",
+    "message": "Action for Set Image Zones For Page No event"
+  },
+  "refreshimagerotationsettingsaction": {
+    "name": "Refresh Image Rotation Settings",
+    "message": "Action for Refresh Image Rotation Settings event"
+  },
+  "setfracsdataforimageloadedaction": {
+    "name": "set fracs data for image loaded",
+    "message": "Action for setting fracs data for response image loaded"
+  },
+  "setmarkthispagenumberaction": {
+    "name": "Mark This Page Action",
+    "message": "Mark This Page Number - {0}"
+  },
+  "sortaction": {
+    "name": "onsortedclick",
+    "message": "Action for onsortedclick event"
+  },
+  "myteamdatafetchaction": {
+    "name": "My Team Data Fetch",
+    "message": "Call for My Team Data Fetch event - status: {success}"
+  },
+  "expandorcollapsenodeaction": {
+    "name": "Expand Or Collapse Node",
+    "message": "Action for Expand Or Collapse Node event with ExaminerRoleId : {examinerRoleId} isExpanded: {isExpanded}"
+  },
+  "openteammanagementaction": {
+    "name": "Open Team Management",
+    "message": "Action for Open Team Management event with ExaminerRoleId : {examinerRoleId} and markSchemeGroupId: {markSchemeGroupId}"
+  },
+  "notifyconcurrentsessionactive": {
+    "name": "notify whether a concurrent session is active",
+    "message": "notifying that a concurrent session is active - {0}"
+  },
+  "leftpaneltoggleaction": {
+    "name": "Team Management Left Panel Toggle",
+    "message": "Team Management Left Panel Toggle Action : {UserAction}"
+  },
+  "standardisationsetupleftpaneltoggleaction": {
+    "name": "Standardisationsetup Left Panel Toggle",
+    "message": "Standardisationsetup Left Panel Toggle Action : {UserAction}"
+  },
+  "standardisationsetupworklistselectaction": {
+    "name": "Standardisationsetup worklist select action",
+    "message": "Standardisationsetup worklist Select Action : {UserAction}"
+  },
+  "getstandardisationtargetdetailslistaction": {
+    "name": "Standardisationsetup get details action",
+    "message": "Standardisationsetup get details action : {UserAction}"
+  },
+  "nonnumericinfoaction": {
+    "name": "Non numeric marking info update action",
+    "message": "Action for update the non numeric marking info"
+  },
+  "getteamaction": {
+    "name": "getteamaction",
+    "message": "Call for getteamaction event status: {success}"
+  },
+  "updateteamlistaction": {
+    "name": "updating team list",
+    "message": "updating team list expand/collapse or check/unchek status"
+  },
+  "entireteamlistcheckedaction": {
+    "name": "entireteamlistcheckedaction",
+    "message": "Action for toaddresslistchecked event"
+  },
+  "updateselectedteamlistaction": {
+    "name": "updateselectedteamlistaction",
+    "message": "Action for updateselectedteamlistaction event"
+  },
+  "navigatetoworklistfromqigselectoraction": {
+    "name": "Navigate To Worklist From Qig Selector Action",
+    "message": "Action for Navigate To Worklist From Qig Selector Action event"
+  },
+  "markbyoptionclickedaction": {
+    "name": "Mark by option clicked",
+    "message": "Action for mark by option open or close: isMarkByOptionOpen - {0}"
+  },
+  "setselectedquestionitemaction": {
+    "name": "setselectedquestionitemaction",
+    "message": "selected question item {0}"
+  },
+  "stopnavigateresponseaction": {
+    "name": "stopnavigateresponseaction",
+    "message": "stopnavigateresponseaction"
+  },
+  "loadcontaineraction": {
+    "name": "load new container",
+    "message": "Action for loadcontaineraction with new container : {containerpage}"
+  },
+  "markeroperationmodechangedaction": {
+    "name": "Marker Operation Mode Changed Action",
+    "message": "Action for {operationMode} Marker Operation Mode Changed Action event"
+  },
+  "updateexaminerdrilldowndataaction": {
+    "name": "Update Examiner Drill Down Data",
+    "message": "Action for Update Examiner Drill Down Data event - ExaminerId : {examinerId} ExaminerRoleId : {examinerRoleId}"
+  },
+  "commentssideviewtoggleaction": {
+    "name": "Comments side view toggle action",
+    "message": "Action for toggle to side view of on page comments"
+  },
+  "commentholderrenderedaction": {
+    "name": "Comment holder rendered action",
+    "message": "Action for completing the renedering of comment holder"
+  },
+  "resetdoloadworkliststatusaction": {
+    "name": "Reset Do Load Worklist Status",
+    "message": "Action for Reset Do Load Worklist Status event"
+  },
+  "updatenavigationaction": {
+    "name": "Update Navigation Action",
+    "message": "Action for Update Navigation Action event"
+  },
+  "teammanagementtabselectaction": {
+    "name": "Selection of the tab in TeamManagement",
+    "message": "Action for the selection of tab in TeamManagement - LinkType: {selectedTab}"
+  },
+  "commentsideviewrenderaction": {
+    "name": "Comment Side View Render Action",
+    "message": "Action for Comment Side View Render Action event"
+  },
+  "islastnodeselectedaction": {
+    "name": "is last node selected action",
+    "message": "action to set islastnode selected"
+  },
+  "showreturntoworklistconfirmationaction": {
+    "name": "show return to worklist confirmation action",
+    "message": "action to show return to worklist confirmation"
+  },
+  "responseidrenderedaction": {
+    "name": "Response Id Rendered Action",
+    "message": "Action for Response Id Rendered Action event"
+  },
+  "changeexaminerstatusaction": {
+    "name": "change examiner status Status",
+    "message": "Action for change examiner Status event"
+  },
+  "providesecondstandardisationaction": {
+    "name": "providesecondstandardisationaction",
+    "message": "Action for providesecondstandardisation event"
+  },
+  "changestatuspopupvisibilityaction": {
+    "name": "Change Status Popup Visibility Action",
+    "message": "Action for Change Status Popup Visibility Action event"
+  },
+  "changeexaminerstatusbuttonbusystatusupdateaction": {
+    "name": "Change Examiner Status Button Busy Status Update Action",
+    "message": "Action for setting change examiner status button busy"
+  },
+  "menuvisibilityaction": {
+    "name": "Menu Visibility Action",
+    "message": "Action for Menu Visibility Action event"
+  },
+  "showlogoutpopupaction": {
+    "name": "Show Logout Popup Action",
+    "message": "Action for Show Logout Popup Action event"
+  },
+  "setasreviewedaction": {
+    "name": "Set as reviewed",
+    "message": "Action for reviewing MarkGroupId : {Mark_Group_Id}"
+  },
+  "createremarkaction": {
+    "name": "return mark group id after creating remark",
+    "message": "action to return success after creating a remark"
+  },
+  "setselectedsideviewcommentaction": {
+    "name": "Set Selected Side View Comment Action",
+    "message": "Action for Set Selected Side View Comment Action event"
+  },
+  "getunactionedexceptionaction": {
+    "name": "get unactioned exceptions",
+    "message": "Retrieves the Team management Unactioned Exceptions for examiner: {examinerId} and markShemegroup: {markSchemeGroupId}"
+  },
+  "setcurrentnavigationaction": {
+    "name": "Set Current Navigation Action",
+    "message": "Set Current Navigation Action"
+  },
+  "markbyannotationvalidmarkaction": {
+    "name": "mark by annotation valid mark action",
+    "message": "action to return the valid mark stamped"
+  },
+  "addmarkbyannotationaction": {
+    "name": "annotation mark adding action",
+    "message": "action to add annotation marks to collection"
+  },
+  "structuredfracsdatasetaction": {
+    "name": "structured Fracs Data Set",
+    "message": "Action for structured Fracs Data Set event"
+  },
+  "helpexaminersdatafetchaction": {
+    "name": "help examiners datafetch action",
+    "message": "Action for Help Examiners"
+  },
+  "mandatorymessagevalidationpopupaction": {
+    "name": "Mandatory Message Validation Popup Action",
+    "message": "Action for Mandatory Message Validation Popup Action event"
+  },
+  "updatemessagepriorityaction": {
+    "name": "Update Message Priority Action",
+    "message": "Action for Update Message Priority Action event"
+  },
+  "removemarksbyannotationaction": {
+    "name": " removes marks by annotation",
+    "message": "Action for removing annotation numeric mark from Stamp : {stamp}"
+  },
+  "canexecuteapprovalmanagementaction": {
+    "name": "Can Execute Approval Management Action",
+    "message": "Verify the action can be proceed"
+  },
+  "executeapprovalmanagementaction": {
+    "name": "Execute Approval Management Action",
+    "message": "Action for Excuting the SEP Actions."
+  },
+  "getteamoverviewdataaction": {
+    "name": "get team management overview data",
+    "message": "Retrieves the Team management overview count for examiner: {examinerRoleId} and markShemegroup: {markSchemeGroupId}"
+  },
+  "atypicalresponsesearchaction": {
+    "name": "get atypical search result",
+    "message": "Retrieves atypical search result"
+  },
+  "atypicalsearchmarknowaction": {
+    "name": "Atypical search mark now click action",
+    "message": "Action for Atypical Search Mark Now Click Action event"
+  },
+  "atypicalsearchmovetoworklistaction": {
+    "name": "Atypical Search Move to worklist click action",
+    "message": "Action for Atypical Search MoveToWorklist Click Action event"
+  },
+  "setmarkinginprogressaction": {
+    "name": "Set Marking In Progress Action",
+    "message": "Action for Set Marking In Progress Action event"
+  },
+  "markingcheckinformationfetchaction": {
+    "name": "Marking Check Information Fetch Action",
+    "message": "Action for fetching marking check information"
+  },
+  "markingcheckrecipientsfetchaction": {
+    "name": "Marking Check Recipients Fetch Action",
+    "message": "Action for fetching marking check recipients"
+  },
+  "additionalobjectflagsaveaction": {
+    "name": "Action for saving additional object flags to a collection",
+    "message": "This saves a collection of  additional object flags aganist response: {responseid} having flagcount: {count}"
+  },
+  "calculaterecipientcountaction": {
+    "name": "Calculate Recipient Count Action",
+    "message": "Action for Calculate Recipient Count Action event"
+  },
+  "supervisorremarkcheckaction": {
+    "name": "Check if supervisor remark already raised for a response",
+    "message": "Action to check if supervisor remark already raised for a response"
+  },
+  "addtorecenthistoryaction": {
+    "name": "Add To Recent History",
+    "message": "Action for Add To Recent History event"
+  },
+  "worklisthistoryinfoaction": {
+    "name": "Worklist History Info",
+    "message": "Action for Worklist History Info event"
+  },
+  "familiarisationaction": {
+    "name": "set Familarisation data",
+    "message": "Action for creating the Familarisation data status - {isCreatedSuccessfully}"
+  },
+  "unmanagedslaoflagasseenaction": {
+    "name": "SLAO flag as seen annotation stamping action",
+    "message": "Action for stamping Flag as seen annotation in unmanaged SLAO having page number: {pageNumber}"
+  },
+  "getmarkingcheckworklistaccessstatusaction": {
+    "name": "Check if the examiner has access to any marking check worklist",
+    "message": "Action to check if the examiner has been given accaes to marking check worklist by other examiners"
+  },
+  "worklistseedfilteraction": {
+    "name": "Filter in the worklist",
+    "message": "Filter option changed"
+  },
+  "promotetoseedaction": {
+    "name": "Promote To Seed",
+    "message": "Call for Promote To Seed event status: {success}"
+  },
+  "selectedexceptionaction": {
+    "name": "selected Exception Action",
+    "message": "Action for selected Exception Action event"
+  },
+  "selectedexceptionresetaction": {
+    "name": "selected Exception Reset Action",
+    "message": "Action for selected Exception Reset Action event"
+  },
+  "markingcheckworklistgetaction": {
+    "name": "Marking Check Worklist Get Action",
+    "message": "Action for fetching worklist of selected marking check examiner"
+  },
+  "getmarkcheckexaminersaction": {
+    "name": "Get Mark Check Examiners",
+    "message": "Call for Get Mark Check Examiners event status: {success}"
+  },
+  "togglerequestmarkingcheckbuttonaction": {
+    "name": "Toggle Request Marking Check Button Action",
+    "message": "Action for Toggle Request Marking Check Button Action event"
+  },
+  "togglemarkingcheckmodeaction": {
+    "name": "Toggle Marking Check Mode Action",
+    "message": "Toggles the marking check mode value with the supplied value"
+  },
+  "rejectrigconfirmedaction": {
+    "name": "Reject rig confirmation action",
+    "message": "Action for reject rig confirmation action having display id: {Display_Id}"
+  },
+  "rejectrigpopupdisplayaction": {
+    "name": "Reject Rig popup display action",
+    "message": "Action for reject rig popup dispaly"
+  },
+  "rejectrigcompletedaction": {
+    "name": "Reject Rig completed action",
+    "message": "Action for notifying reject rig completed with return {status}"
+  },
+  "updateresponseaction": {
+    "name": "Update response collection",
+    "message": "Action for removing markgroup id {markGroup_ID} from worklist response collection"
+  },
+  "markingcheckcompleteaction": {
+    "name": "Mark Check complete action",
+    "message": "Action when Marking check complete button is clicked"
+  },
+  "teammanagementhistoryinfoaction": {
+    "name": "Team Management History Info Action",
+    "message": "Action for Team Management History Info Action event"
+  },
+  "removehistoryitemaction": {
+    "name": "Remove History Item Action",
+    "message": "Action for Remove History Item Action event"
+  },
+  "createexaminerroleforadminremarkeraction": {
+    "name": "create Examiner Role For Admin Remarker",
+    "message": "Action for create Examiner Role For Admin Remarker event"
+
+  },
+  "zoomanimationendaction": {
+    "name": "Zoom Animation End",
+    "message": "Action for Zoom Animation End event"
+  },
+  "promotetoseedcheckremarkaction": {
+    "name": "Promote To Seed Check Remark",
+    "message": "Call for Promote To Seed check Remark event status: {success}"
+  },
+  "togglecommentlinesvisibilityaction": {
+    "name": "Toggle Comment Lines Visibility",
+    "message": "Action for Toggle Comment Lines Visibility event"
+  },
+  "setcommentcontainerrightaction": {
+    "name": "set Comment Container Right Action",
+    "message": "Action for set Comment Container Right Action event"
+  },
+  "setrememberqigaction": {
+    "name": "set Remember Qig",
+    "message": "Action for set Remember Qig event, qidId {qigId}"
+  },
+  "actionexceptionpopupvisibilityaction": {
+    "name": "action Exception Popup Visibility Action",
+    "message": "Action for action Exception Popup Visibility Action event"
+  },
+  "samplingstatuschangeaction": {
+    "name": "Sampling Status Change Action",
+    "message": "Action for Sampling Status Change Action event"
+  },
+  "showresponsenavigationfailurereasonsaction": {
+    "name": "Response Navigation Failure Resons Action",
+    "message": "Action to show response navigation failure resons when navigate to {navigateTo}"
+  },
+  "switchzoompreferenceaction": {
+    "name": "Switch Zoom Preference",
+    "message": "Action for Switch Zoom Preference event"
+  },
+  "validateteammanagementexamineraction": {
+    "name": "validate Team Management Examiner Action",
+    "message": "Call for validate Team Management Examiner Action event status: {success}"
+  },
+  "validationaction": {
+    "name": "Validation Action",
+    "message": "Action for Validation Action event"
+  },
+  "warningmessagenavigationaction": {
+    "name": "Warning Message Navigation Action",
+    "message": "Action for Warning Message Navigation Action event"
+  },
+  "supervisorremarkvisibilityaction": {
+    "name": "Supervisor Remark Visibility Action",
+    "message": "Action for Supervisor Remark Visibility Action event"
+  },
+  "teamsortaction": {
+    "name": "Team Sort Action",
+    "message": "Action for Team Sort Action event"
+  },
+  "supervisorremarkdecisionchangeaction": {
+    "name": "Supervisor Remark Decision Change",
+    "message": "Action for Supervisor Remark Decision Change event"
+  },
+  "getlocksinqigsaction": {
+    "name": "Get Locks In Qigs",
+    "message": "Call for Get Locks In Qigs event status: {success}"
+  },
+  "showlocksinqigpopupaction": {
+    "name": "Show Locks In Qig Popup",
+    "message": "Action for Show Locks In Qig Popup event, value: {doShowLocksInQigPopup}"
+  },
+  "openqigfromlockedlistaction": {
+    "name": "Open Qig From Locked List",
+    "message": "Action for Open Qig From Locked List event, qigID: {qigId}"
+  },
+  "setcommentvisibilityaction": {
+    "name": "setcommentvisibility",
+    "message": "Action for setcommentvisibility event"
+  },
+  "removeresponseaction": {
+    "name": "Remove Response",
+    "message": "Action for Remove Response event"
+  },
+  "previousmarksandannotationscopiedaction": {
+    "name": "Copied Previous Marks And Annotations",
+    "message": "Previous Marks And Annotations Copied."
+  },
+  "exceptionpanelclickedaction": {
+    "name": "Set exception  panel visiblity",
+    "message": "LHS exception  panel is open: {0}"
+  },
+  "messagepanelclickedaction": {
+    "name": "Set message panel visiblity",
+    "message": "LHS message panel is open: {0}"
+  },
+  "navigateaftersubmitaction": {
+    "name": "navigate after submit",
+    "message": "navigation action after submitting response"
+  },
+  "candidateecourseworkmetadataretrievalaction": {
+    "name": "Retrieve candidate e-course work metadata",
+    "message": "retrieve candidate e-course work metadata: Status: {success}"
+  },
+  "awardingindicatoraction": {
+    "name": "Awarding Details Get",
+    "message": "get the awarding details data: Status: {success}"
+  },
+  "taggetaction": {
+    "name": "Tag Get",
+    "message": "Call for Tag Get event status: {success}"
+  },
+  "tagupdateaction": {
+    "name": "Tag Update",
+    "message": "Call for Tag Update event status: {success}"
+  },
+  "mediaplayerpauseaction": {
+    "name": "Media Player Pause Action",
+    "message": "Media Player paused for other operation."
+  },
+  "mediaplayeruserpreferencesaveaction": {
+    "name": "Media Player User Preference Save Action",
+    "message": "User preference for the media player saved."
+  },
+  "ecourseworkfileselectaction": {
+    "name": "ECourseWork File selected",
+    "message": "Ecoursework file selected with docpageId: {docstorePageID}"
+  },
+  "filelistpaneltoggleaction": {
+    "name": "File List Panel Toggle Action",
+    "message": "Action for File List Panel Toggle Action event"
+  },
+  "updatezoomontogglefilelistpanelaction": {
+    "name": "Update Zoom On Toggle File List Panel",
+    "message": "Action for Update Zoom On Toggle File List Panel event"
+  },
+  "displayfilenameaction": {
+    "name": "Display File Name Action",
+    "message": "Action for Display File Name Action event"
+  },
+  "enhancedoffpagecommentsvisibilityaction": {
+    "name": "Enhanced Off Page Comments Visibility",
+    "message": "Action for Enhanced Off Page Comments Visibility event: Visible - {isVisible}"
+  },
+  "enhancedoffpagecommentsortaction": {
+    "name": "Enhanced Off Page Comment Sort Action",
+    "message": "Action for Enhanced Off Page Comment Sort Action event"
+  },
+  "taglistclickaction": {
+    "name": "Tag List Click Action",
+    "message": "Call for Tag List Click event status: {success}"
+  },
+  "showsimulationresponsesubmitconfirmationpopupaction": {
+    "name": "Show Simulation Response Submit Confirmation Popup",
+    "message": "Show Confirmation Popup on Sumbit Simulation Response/s: {markGroupId}, from markschemepanel: {markScheme}"
+  },
+  "saveenhancedoffpagecommentaction": {
+    "name": "Save enhanced off page comments",
+    "message": "Action to add, delete or update enhanced off page comments"
+  },
+  "getsimulationmodeexitedqigsaction": {
+    "name": "Get Simulation Mode Exited Qigs Action",
+    "message": "Action for getting simulation mode exited qigs: Status :{success}"
+  },
+  "getsimulationexitedandlockinqigsaction": {
+    "name": "Get Simulation Exited And Lock In Qigs Action",
+    "message": "Action for getting simulation mode exited qigs : {successSimulation} and Action for getting lock in qigs : {successLock}"
+  },
+  "simulationtargetcompletedaction": {
+    "name": "Simulation Target Completed Action",
+    "message": "Action for simulation target completion : {success}"
+  },
+  "standardisationsetupcompletedaction": {
+    "name": "Standardisation Setup Completed Action",
+    "message": "Action for standardisation setup completion : {success}"
+  },
+  "viewwholepagelinkaction": {
+    "name": "View Whole Page Link",
+    "message": "Action for View Whole Page Link event"
+  },
+  "removemarkentryselectionaction": {
+    "name": "removemarkentryselection",
+    "message": "Action for removemarkentryselection event"
+  },
+  "filereadstatuschangeaction": {
+    "name": "File Read Status Change Action",
+    "message": "Action for File Read Status Change Action event"
+  },
+  "enhancedoffpagecommentupdatedaction": {
+    "name": "Enhanced Off Page Comment Updated Action",
+    "message": "Action for Enhanced Off Page Comment Updated Action event"
+  },
+  "promotetoreusebucketaction": {
+    "name": "promote to reusebucket action",
+    "message": "Action for promoting response to resuse bucket : {success}"
+  },
+  "updatepanelheightaction": {
+    "name": "Update new panel height action",
+    "message": "Updating new panel height."
+  },
+  "enhancedoffpagecommentdataupdateaction": {
+    "name": "Update enhanced offpage Comment data",
+    "message": "Action for updating Enahnced off page comments data for marking index: {index}."
+  },
+  "loadacetatesdataaction": {
+    "name": "Load Acetates Data Action",
+    "message": "Action for loading acetates data : {success}"
+  },
+  "updateoffpagecommentheightaction": {
+    "name": "Update Off Page Comment Height",
+    "message": "Action for Update Off Page Comment Height event"
+  },
+  "updateallfilesviewedstatusaction": {
+    "name": "Update All Files Viewed Status",
+    "message": "Action for Update All Files Viewed Status event"
+  },
+  "mediaplayersourcechangeaction": {
+    "name": "Media player source change action",
+    "message": "Updating new source."
+  },
+  "dynamicannotationdragaction": {
+    "name": "Dynamic Annotation Dragging Action",
+    "message": "Moving existing dynamic annotations on script"
+  },
+  "switchenhancedoffpagecommentsaction": {
+    "name": "Switch Enhanced offpage comments from mark scheme panel dropdown",
+    "message": "Action for switching enhanced offpage comments - showDiscard popup: {showDiscardPopup}"
+  },
+  "addnewbookmarkaction": {
+    "name": "Add new Bookmark",
+    "message": "select to add new bookmark from the bookmark panel"
+  },
+  "bookmarkaddedaction": {
+    "name": "stamp Bookmark in script",
+    "message": "selected bookmark has been stamped in script"
+  },
+  "updatebookmarkstatusaction": {
+    "name": "update book mark status",
+    "message": "Action for update bookmark status event"
+  },
+  "bookmarkpanelclickaction": {
+    "name": "bookmark panel click action",
+    "message": "bookmark panel click action event"
+  },
+  "enhancedoffpagecommentbuttonaction": {
+    "name": "enhanced offpage comment button actions",
+    "message": "Action for various enhanced offpage comment button actions : {buttonAction}"
+  },
+  "filelistpanelswitchviewaction": {
+    "name": "Filelist Panel Switch View Action",
+    "message": "Action for Filelist Panel Switch View Action event"
+  },
+  "filedownloadedoutsideaction": {
+    "name": "File Downloaded Outside Action",
+    "message": "Action for File Downloaded Outside Action event"
+  },
+  "bookmarkselectedaction": {
+    "name": "bookmark Selected Action",
+    "message": "Action for bookmark Selected Action event"
+  },
+  "bookmarkgobackbuttonclickaction": {
+    "name": "book Mark Go Back Button Click Action",
+    "message": "Action for book Mark Go Back Button Click Action event"
+  },
+  "setbookmarkpreviousscrolldataaction": {
+    "name": "set Bookmark Previous Scroll Data Action",
+    "message": "Action for set Bookmark Previous Scroll Data Action event"
+  },
+  "updateannotationselectionaction": {
+    "name": "Update Annotation Selection",
+    "message": "Action for Update Annotation Selection event - isSelected-{isSelected}"
+  },
+  "closeandsavebookmarkaction": {
+    "name": "close and save bookmark Action",
+    "message": "Action for update Bookmark name"
+  },
+  "updatebookmarknameaction": {
+    "name": "update bookmark Action",
+    "message": "Action for update Bookmark on text change"
+  },
+  "showorhidebookmarknameboxaction": {
+    "name": "show Or Hide Bookmark Name Box",
+    "message": "Action for show Or Hide Bookmark Name Box event"
+  },
+  "pancancelaction": {
+    "name": "Pan Cancel Action",
+    "message": "Action for Pan Cancel Action event"
+  },
+  "qigselectedfrommultiqigdropdownaction": {
+    "name": "Qig Selected From Muli Qig Drop Down",
+    "message": "Action for Qig Selected From Muli Qig Drop Down event"
+  },
+  "multiqiglockdatafetchaction": {
+    "name": "Multi Qig Lock Data Fetch Action",
+    "message": "Call for Multi Qig Lock Data Fetch Action event status: {success}"
+  },
+  "updatemultiqiglockselectionaction": {
+    "name": "Update Multi Qig Lock Selection",
+    "message": "Action for Update Multi Qig Lock Selection event"
+  },
+  "multilockdataresetaction": {
+    "name": "Multi Lock Data Reset",
+    "message": "Action for Multi Lock Data Reset event"
+  },
+  "selectacetateaction": {
+    "name": "Select acetate action",
+    "message": "Selected acetate type is : {acetate}"
+  },
+  "addorupdateacetateaction": {
+    "name": "Add or update acetate action",
+    "message": "Acetate is getting : {action}"
+  },
+
+  "saveacetatesdataaction": {
+    "name": "save acetate details",
+    "message": "Action for saving acetates data : {success}"
+  },
+  "candidateebookmarkimagezoneretrievalaction": {
+    "name": "Candidate EBookMarking Image Zone Retrieval Action",
+    "message": "Action for Candidate EBookMarking Image Zone Retrieval Action event"
+  },
+  "removeacetatedataaction": {
+    "name": "Remove overlay marking action",
+    "message": "Remove overlay with client token: {0} has been removed from marking screen."
+
+  },
+  "mediapaneltransitionendaction": {
+    "name": "Media panel transition end action",
+    "message": "Action for transition end of media panel"
+  },
+  "clearecourseworkdataaction": {
+    "name": "Clear Ecoursework Data Action",
+    "message": "Action for clearing the ecoursework file data from the store"
+  },
+  "reloadfailedimageaction": {
+    "name": "Reload Failed Image",
+    "message": "Action for Reload Failed Image event"
+  },
+  "acetatepositionupdateaction": {
+    "name": "acetate position update action",
+    "message": "acetate position update for client token - {0}"
+  },
+  "acetatemovingaction": {
+    "name": "acetates moving action",
+    "message": "acetate having client token - {0} : border - {1}"
+  },
+  "multiqiglockresultaction": {
+    "name": "Multi Qig Lock Result",
+    "message": "Action for Multi Qig Lock Result event"
+  },
+  "acetateingreyareaaction": {
+    "name": "acetate in grey area",
+    "message": "Acetate with client token - {0} is in grey area - {1}."
+  },
+  "removemultilinedataaction": {
+    "name": "remove multiline data action",
+    "message": "Acetate with client token - {0}"
+  },
+  "shareacetatedataaction": {
+    "name": "share overlay action",
+    "message": "Action for sharing overlay."
+  },
+  "addpointtomultilineaction": {
+    "name": "Add Point To Multiline",
+    "message": "Action for Add Point To Multiline event"
+  },
+  "validateresponseaction": {
+    "name": "Validate Response",
+    "message": "Action for Validating the response"
+  },
+  "shareconfirmationpopupaction": {
+    "name": "Share Confirmation Popup Action",
+    "message": "Action for showing confirmation popup for share"
+  },
+  "multilinestyleupdateaction": {
+    "name": "multiline Style Update",
+    "message": "Action for multiline Style Update event"
+  },
+  "resetsharedacetatesaction": {
+    "name": "Reset Shared Acetates Action",
+    "message": "Action for Reset Shared Acetates Action event"
+  },
+  "resetacetatesaveinprogressstatusaction": {
+    "name": "Reset Acetate Save In Progress Status Action",
+    "message": "Action for Reset Acetate Save In Progress Status Action event"
+  },
+  "updateoffpagevisibilityaction": {
+    "name": "Show or hide offpage visibility",
+    "message": "Action for set visiblity for enhanced offpagecomment and offpagecomment"
+  },
+  "setmarkentrytextboxfocusaction": {
+    "name": "Set focus on markentry textbox",
+    "message": "Action to set focus on markentry textbox"
+  },
+  "markingoverlayvisiblityaction": {
+    "name": "Set marking overlay visiblity status",
+    "message": "Action to set marking overlay visiblity status as : {0}"
+  },
+  "deselectannotationaction": {
+    "name": "De Select Annotation",
+    "message": "Action for De Select Annotation event"
+  },
+  "updatemarkingdetailsaction": {
+    "name": "update marking details",
+    "message": "Action for update marking details event"
+  },
+  "rotationcompletedaction": {
+    "name": "Image Rotation Completed Action",
+    "message": "Action on completing the image rotation"
+  },
+  "fullresponseviewscrollaction": {
+    "name": "Set scroll in FRV",
+    "message": "Action to set scroll in FRV"
+  },
+  "fullresponseviewtogglebuttonaction": {
+    "name": "Hide page option buttons in FRV",
+    "message": "Action to hide page option buttons on toggle change"
+  },
+  "stayinresponseaction": {
+    "name": "Stay in response",
+    "message": "Action to navigate through markscheme items after stay in response click"
+  },
+  "standardisationsetuptoggleleftpanelaction": {
+    "name": "Standardisation Setup Left Panel Toggle",
+    "message": "Standardisation Setup Left Panel Toggle Action : {UserAction}"
+  },
+  "getstandardisationresponsedetailsaction": {
+    "name": "Get Classified Response Details",
+    "message": "Action to get the classified response details"
+  },
+  "getscriptsofselectedcentreaction": {
+    "name": "Get Scripts Of Selected Centre Action",
+    "message": "Action Get Scripts Of Selected Centre Action"
+  },
+  "standardisationcentrescriptopenaction": {
+    "name": "Open Response Click In Select Response Tab",
+    "message": "Action for Open Response Click In Select Response Tab event"
+  },
+  "getstandardisationsetupcentresdetailsaction": {
+    "name": "Get Standardisation Centres Details Action",
+    "message": "Action to Get Standardisation Centres Details: {UserAction}"
+  },
+  "standardisationsetuppermissionccdatagetaction": {
+    "name": "standardisation setup permission cc data get action",
+    "message": "Action to Get Standardisation setup permission cc details"
+  },
+  "resetstampbannertypeaction": {
+    "name": "reset Stamp Banner Type Action",
+    "message": "Action for reset Stamp Banner Type Action event"
+  },
+  "selecttomarkpopupaction": {
+    "name": "selecttomarkpopup",
+    "message": "Action for opening select to mark as provisional popup"
+  },
+  "getreuserigdetailsaction": {
+    "name": "Standardisationsetup get reuse rig details action",
+    "message": "Standardisationsetup get reuse rigdetails action : {UserAction}"
+  },
+  "createstandardisationrigaction": {
+    "name": "create Standardisation Rig",
+    "message": "Action for create Standardisation Rig event"
+  },
+  "updateselecttomarkhelpermessagevisibilityaction": {
+    "name": "Update Select to Mark Helper Message Visibility",
+    "message": "Action for Update Select to mark Helper Message Visibility event"
+  },
+  "getsupportadminexaminerlistsaction": {
+    "name": "Get Support Admin Examiner Lists",
+    "message": "Action for Get Support Admin Examiner Lists event"
+  },
+  "adminsupportsortaction": {
+    "name": "Admin Support Sort Action",
+    "message": "Action for Admin Support Sort Action event"
+  },
+  "declassifypopupdisplayaction": {
+    "name": "declassify popup",
+    "message": "Action for opening declassify pop up"
+  },
+  "selectexamineraction": {
+    "name": "Select Examiner From Support Enviornment Grid Action",
+    "message": "Action to Select Examiner From Support Enviornment Grid"
+  },
+  "supportloginaction": {
+    "name": "Support Login Enviornment Action",
+    "message": "Action to Login To Support Enviornment"
+  },
+  "completestandardisationsetupaction": {
+    "name": "Complete Standardisation Setup  Action",
+    "message": "Action to Complete Standardisation Setup  Action: {success}"
+  },
+  "awardingcomponentselectaction": {
+    "name": "awardingcomponentselect",
+    "message": "Action for awardingcomponentselect event"
+  },
+  "componentandsessiongetaction": {
+    "name": "Component And Session Get",
+    "message": "Call for Component And Session Get event status: {success}"
+  },
+  "switchuserbuttonclickaction": {
+    "name": "Switch User Button Click Action",
+    "message": "Reloads the admin support view"
+  },
+  "awardingcandidatedetailsgetaction": {
+    "name": "candidate details Get",
+    "message": "Call for candidate details event: {success}"
+  },
+  "declassifyresponseaction": {
+    "name": "Declassify the Response",
+    "message": "Action for Declassify the Response"
+  },
+  "reclassifypopupdisplayaction": {
+    "name": "reclassify popup",
+    "message": "Action for opening reclassify pop up"
+  },
+  "reclassifyresponseaction": {
+    "name": "reclassify response action",
+    "message": "Action for reclassify response"
+  },
+  "reclassifyerrorpopupdisplayaction": {
+    "name": "Reclassify response error popup",
+    "message": "Action for reclassify error popup"
+  },
+  "reorderresponseaction": {
+    "name": "reorder response action",
+    "message": "Action for reorder response"
+  },
+  "updatehideresponsestatusaction": {
+    "name": "Update the hide response status for Reuse Response",
+    "message": "Action for updating hide response status"
+  },
+  "hidereusetoggleaction": {
+    "name": "Toggle the hide response for Previous Sessions",
+    "message": "Action for toggling the hide reuse responses"
+  },
+  "reclassifymultioptionpopupdisplayaction": {
+    "name": "Reclassify response multi option popup display",
+    "message": "Action for reclassify response multi option popup display"
+  },
+  "copymarksandannotationasdefinitiveaction": {
+    "name": "Copy marks and annotation as definitive Action",
+    "message": "Copy marks and annotation as definitive Action"
+  },
+  "savenoteaction": {
+    "name": "Save note action",
+    "message": "Action for save note"
+  },
+  "loadmarkinginstructionsdataaction": {
+    "name": "Load marking instructions data action",
+    "message": "Action for loading marking instructions"
+  },
+  "standardisationcentrescriptfilteraction": {
+    "name": "std script list filter action",
+    "message": "Action for standardisation script list filter"
+  },
+  "discardstandardisationresponseaction": {
+    "name": "Discard Standardisation response action",
+    "message": "Action for discarding standardisation setup response"
+  },
+  "updatestandardisationsetupresponsecollectionaction": {
+    "name": "Update Standardisation response Collection action",
+    "message": "Action for updating standardisation setup response collection of esMarkGroupId : {esMarkGroupId}"
+  },
+  "awardingexpandorcollapsenodeaction": {
+    "name": "Awarding Expand Or Collapse Node",
+    "message": "Action for Expand Or Collapse Node event with MarkGroupId : {markGroupId} expandOrCollapsedItem : {expandOrCollapsedItem}"
+  },
+  "updatefilterforcandidatedataselectaction": {
+    "name": "Update Candidate Details Grid Data",
+    "message": "get the awarding details data: Status: {success}"
+  },
+  "awardingselectedresponsesaveaction": {
+    "name": "Update selected response details",
+    "message": "Action for setting the selected response details"
+  },
+  "markinginstructionpanelclickaction": {
+    "name": "Marking Instruction Panel Click Action",
+    "message": "Action for setting the marking instruction panel state is open or close: {state}"
+  },
+  "standardisationsetupscriptmetadatafetchaction": {
+    "name": "Standardisation setup script metadata fetch action",
+    "message": "Action for fetching script metadata details for MarkSchemeGroupId:{markSchemeGroupId} and QuestionPaperPartId : {questionPaperPartId}"
+  },
+  "shareresponsepopupdisplayaction": {
+    "name": "Share Response Popup Display Action",
+    "message": "Action for displaying Share Response popup on clicking share button for Provisional Response"
+  },
+  "markinginstructionupdatedaction": {
+    "name": "Marking Instruction Updated Action",
+    "message": "Action for Marking Instruction Updated Action event"
+  },
+  "aggregatedqigexpandorcollapse": {
+    "name": "Aggregated Qig Expand or Collapse Action",
+    "message": "Action for expanding or collapsing aggregated qig on clicking hide or show paper versions "
+  },
+  "classifyresponseaction": {
+    "name": "classify response action",
+    "message": "Action for classify response"
+  },
+  "concurrentsavefailinstmpopupaction": {
+    "name": "Notify user about save fail",
+    "message": "Action for notifying user about his/her save changes fail"
+  },
+  "standardisationselecttabaction": {
+    "name": "Standardisationsetup select tab action in select response worklist",
+    "message": "Standardisationsetup select tab Action : {UserAction}"
+  },
+  "setselectedcandidatedataaction": {
+    "name": "set the selected candidate data action",
+    "message": "Action for setting the selected candidate data"
+  },
+  "copymarksfordefinitiveaction": {
+    "name": "copy Marks For Definitive",
+    "message": "Action for copy Marks For Definitive event"
+  },
+  "showmarkconfirmationpopuponenteraction": {
+    "name": "show mark confirmation popup on enter key press",
+    "message": "Action for show mark confirmation popup on enter key press"
+  },
+  "rignotfoundaction": {
+    "name": "Rig not found action",
+    "message": "Action for showing rig not found pop up"
+  },
+  "awardingjudgementstatusgetaction": {
+    "name": "Get the Awarding Judgement Status",
+    "message": "Action for get awarding judgement status"
+  },
+  "selectawardingjudgementstatusaction": {
+    "name": "Select the Awarding Judgement Status",
+    "message": "Action for get the selected judgement status"
+  },
+  "reuserigpopupdisplayaction": {
+    "name": "Reuse Rig Action Popup Display Action",
+    "message": "Action for show popup with multiple action on ReuseRIG button click"
+  },
+  "reuserigaction": {
+    "name": "Reuse Rig Action",
+    "message": "Action for reuse RIG from previous session when ReuseRIG popup ok click"
+  },
+  "returnresponsetomarkerbuttonclickedaction": {
+    "name": "return response to marker button clicked action",
+    "message": "Action for show or hide Return Response to Marker Worklist confirmation Popup on clicking the button"
+  },
+  "responsereturnedtoworklistaction": {
+    "name": "response returned to worklist action",
+    "message": "Action after returning the response to marker worklist result: {result}"
+  },
+  "resetsearchresponseaction": {
+    "name": "Reset Search Response Action",
+    "message": "Action for Reset Search Response Action event"
+  },
+  "updatedefinitivemarksfordifferentmarkeraction": {
+    "name": "update Definitive Marks For Different Marker",
+    "message": "Action for update Definitive Marks For Different Marker event"
+  },
+  "deleteprovisionalmarksaction": {
+    "name": "delete Provisional Marks",
+    "message": "Action for delete Provisional Marks event"
+  },
+  "standardisationsetuphistoryinfoaction": {
+    "name": "standardisation setup history info",
+    "message": "Action for setting standardisation setup worklist from history to {selectedWorkList} "
+  },
+  "shareandclassifycompletedaction": {
+    "name": "Share and classify  completed",
+    "message": "Share and classify response completed : Status: {success} and error code: {errorCode}"
+  }
+}

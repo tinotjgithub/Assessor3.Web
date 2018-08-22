@@ -1,0 +1,37 @@
+{
+  "definitions": {
+			"Name": {
+				"$id": "1",
+				"GridColumn": "Name",
+				"ColumnHeader": "support-login.support-examiner-grid.name",
+				"CssClass": "col-centre header-col",
+				"ComparerName": "adminSupportNameComparer",
+				"Sortable": "true"
+			},
+			"Username": {
+				"$id": "2",
+				"GridColumn": "Username",
+				"ColumnHeader": "support-login.support-examiner-grid.username",
+				"CssClass": "col-username",
+				"ComparerName": "adminSupportUsernameComparer",
+				"Sortable": "true"
+			},
+			"ExaminerCode": {
+				"$id": "3",
+				"GridColumn": "ExaminerCode",
+				"ColumnHeader": "support-login.support-examiner-grid.examiner-code",
+				"CssClass": "col-examiner-code",
+				"ComparerName": "adminSupportExaminerCodeComparer",
+				"Sortable": "true"
+			}
+  },
+  "adminsupport": {
+				"AdminSupportExaminer": {
+					"GridColumns": [
+						{ "$ref": "1" },
+						{ "$ref": "2" },
+						{ "$ref": "3" }
+					]
+				}
+  }
+}

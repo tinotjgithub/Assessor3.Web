@@ -1,0 +1,83 @@
+﻿{
+  "src_folders" : [ "tests/testautomation/testsuite" ],
+  "output_folder": "tests/testautomation/reports",
+  
+  "selenium" : {
+    "start_process" : false,
+    "live_output":false,
+    "host" : "hub.browserstack.com",
+    "port" : 80
+  },
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "http://hub.browserstack.com/wd/hub",
+      "selenium_port"  : 80,
+      "selenium_host"  : "hub.browserstack.com",
+      "silent": true,
+      "proxy": "http://esiproxysn02.internal.rmplc.net:8081",
+      "browserstack.debug": true,
+      "screenshots" : {
+        "enabled" : true,
+        "path" : "tests/testautomation/screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "Chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "aneejam1",
+        "browserstack.key": "EqaF97HaWxzqsn9As4Y2",
+		    "build": "test"
+      },
+      "globals": {
+       "customer" : "IB"
+     }
+   },
+
+  "Firefox" : {
+   "desiredCapabilities": {
+     "browserName": "Firefox",
+     "javascriptEnabled": true,
+     "acceptSslCerts": true,
+     "browserstack.user": "aneejam1",
+     "browserstack.key": "EqaF97HaWxzqsn9As4Y2"
+   }
+ },
+ "safari" : {
+      "desiredCapabilities": {
+        "browserName": "safari",
+         "browserstack.user": "aneejam1",
+     "browserstack.key": "EqaF97HaWxzqsn9As4Y2"
+      }
+    },
+    "iPhone" : {
+      "desiredCapabilities":{
+        "platform" : "ios",
+    "browserName" : "iPhone",
+    "device" : "iPhone 5"
+  }
+},
+"Android" : {
+  "desiredCapabilities":{
+    "platform" : "Kitkat",
+"browserName" : "android",
+"device" : "Samsung Galaxy S5"
+}
+},
+
+   "ie" : {
+    "desiredCapabilities": {
+      "browserName": "internet explorer",
+       "browserstack.user": "aneejam1",
+      "browserstack.key": "EqaF97HaWxzqsn9As4Y2",    
+      "browser_version": "11.0",
+      "os": "Windows",
+      "os_version" : "10"
+     
+    }
+
+
+      }
+
+    }
+  }

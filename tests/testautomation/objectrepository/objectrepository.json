@@ -1,0 +1,224 @@
+﻿{
+  "signIn": {
+
+    "username": "#usernameBox",
+    "password": "#passwordBox",
+    "login": ".primary.rounded",
+    "errorMessage": ".bubble.error-alert.show.simple-alert.text-center",
+    "loginMessage": ".user-photo",
+    "customerLogo": ".client-logo.text-center>img",
+    "logOutButton": ".primary.rounded.logout-btn",
+    "logOutYes": ".button.primary.rounded",
+    "logOutNo": ".button.rounded.close-button",
+    "logOutMeddageText": "#popup14Desc>p"
+  },
+
+  "changeLanguage": {
+    "selectlanguagebox": ".sprite-icon.menu-arrow-icon",
+    "opendropdown": "//li[@class='dropdown-wrap open']",
+    "english": "//a[text()='English']",
+    "deutsch": "//a[text()='Deutsch']",
+    "spanish": "//a[text()='Español']",
+    "french": "//a[text()='Français']",
+    "arabic": "//a[text()='العربية']",
+    "username": "#usernameBox",
+    "password": "#passwordBox",
+    "usernamelabel": ".relative>label",
+    "header": "ul",
+    "footer": ".footer-links",
+    "loginlinks": ".login-links-holder.text-center"
+  },
+
+  "userinfo": {
+    "userprofileicon": ".sprite-icon.menu-arrow-icon",
+    "userinfopanel": ".user-info-wrapper",
+    "logout": ".primary.rounded.logout-btn",
+    "closeqig": "//a[@class='menu-close']",
+    "notificationicon": ".sprite-icon.notification-icon",
+    "notificationcount": ".notification-count.notification.circle",
+    "userfullname": ".bolder.full-name",
+    "loggedinusername": ".bolder.user-name",
+    "email": ".email-address",
+    "editsettings": ".edit-settings-nav>span",
+    "editsettingsdropdown": ".tab-nav",
+    "general": "//a[@data-tab-nav='settingsTab1']",
+    "languagesettingsform": ".language-settings.form-field.inline",
+    "logoutsettingsform": ".logout-settings.form-field.inline",
+    "marking": "//a[@data-tab-nav='settingsTab2']",
+    "languageField": ".menu-button>span>span",
+    "userImage": ".user-photo",
+    "editSettingsButton": ".edit-settings-nav>span",
+    "menuLogo": ".sprite-icon.assessor-logo",
+    "toggleSwitch": ".toggle-switch",
+    "logOutStatus": "#logoutConfirm",
+    "logOutStatusAttribute": "data-value",
+    "logOutStatusAttributeValue": "true",
+    "logOutStatusAttributeValueFalse": "false",
+    "spanishLanMenu": "//span[text()='Español']",
+    "englisgLanMenu": "//span[text()='English']",
+    "userNameText":  ".bolder.user-name>span"
+  },
+
+  "logOut": {
+    "logOutButton": ".primary.rounded.logout-btn",
+    "logOutYes": ".button.primary.rounded",
+    "logOutNo": ".button.rounded.close-button",
+    "logOutMeddageText": "#popup14Desc>p",
+    "logOutMeddageAsk": "//*[@id='popup14Desc']/div/label"
+  },
+
+  "qigList": {
+    "logOutButton": ".primary.rounded.logout-btn",
+    "logOutYes": ".button.primary.rounded",
+    "logOutNo": ".button.rounded.close-button",
+    "logOutMeddageText": "#popup14Desc>p",
+    "logOutMeddageAsk": "//*[@id='popup14Desc']/div/label"
+  },
+
+  "livemarking": {
+    "livepage": "//div[@class='grid-wrapper']",
+    "menulivetab": "//a[@title='Live']/span[text()]",
+    "opengrid": "//ul[@class='data-grid work-list-grid']",
+    "livetabactive": "//li[@class='active']/a[text()='Live']",
+    "opencount": "//a[@data-tab-nav='responseTab1']/span",
+    "qigdropdown": "#qigSelectorDropdown",
+    "exception": {
+      "classname": {
+        "exceptioniconnormal": "sprite-icon info-icon-dark-small",
+        "exceptioniconblocking": "sprite-icon info-icon-yellow",
+        "exceptioncount": "sprite-icon info-icon-yellow",
+        "progressindicator-yellow": "inline-bubble oval",
+        "submitbutton": "button primary rounded",
+        "gridview": "//div[@class='grid-holder grid-view']",
+        "openresponsetab": "//*[@id='tabHeaderItem_0']/a"
+      }
+    }
+  },
+
+  "worklistsupervisorinformation": {
+    "supervisorpanel": "#supervisor_info_panel",
+    "supervisorname": "#supervisor_name",
+    "sendmessagearea": ".send-message-holder",
+    "onlinestatus": ".online-status"
+  },
+
+  "markerinformation": {
+    "markButton": "#questiongroup_sessiongroup_10qig_0_mark",
+    "userName": "#user_name",
+    "userRole": "#user_role",
+    "userApprovalStatus": "#user_approval_status",
+    "approvalStatusIcon": "#user_approval_icon",
+    "notApprovedCss": "not-approved-small-icon",
+    "approvedCss": "success-small-icon",
+    "suspendedCss": "error-small-icon",
+    "opencount": "//a[@data-tab-nav='responseTab1']/span"
+  },
+  "refactorQig": {
+    "component": "#componentName_1",
+    "session": "#sessionName_2",
+    "qigname": "name",
+    "currentMarkingMode": "currentMarkingMode",
+    "progressIndicator_progress": "progressIndicator_progress",
+    "progressIndicator_openProgress": "progressIndicator_openProgress",
+    "progressIndicator_pendingProgress": "progressIndicator_pendingProgress",
+
+    "progressIndicator_closedProgress": "progressIndicator_closedProgress",
+    "submittedTargetText": "submittedTargetText",
+    "submittedTargetValue": "submittedTargetValue",
+    "targetDateText": "targetDateText",
+    "targetDate": "targetDate",
+    "downloadedIndicator": "downloadedIndicator",
+    "downloadIndicator": "downloadIndicator"
+
+
+  },
+
+  "allocateResponse": {
+    "getNewResponse_button": "#getNewResponseButton",
+    "getNewResponse_text": "#getNewResponseButton_mainText",
+    "lvPoolMsg1": "need to get",
+    "getNewResponseButton_subText": "#getNewResponseButton_subText",
+    "lv_complete_workListMessage_messageHeader": "#workListMessage_messageHeader",
+    "lv_Complete_workListMessage_messageContent": "#workListMessage_messageContent",
+    "getNewResponse_button_disable": "primary rounded large download-rsp-btn disabled empty-download",
+     "getNewResponse_button_enable": "primary rounded large download-rsp-btn",
+    "popup_responseallocationerrordialog_header": "#popup_responseallocationerrordialog_header",
+    "popup_responseallocationerrordialog_description": "#popup_responseallocationerrordialog_description",
+    "popup_responseallocationerrordialog_ok_button": "#popup_responseallocationerrordialog_ok_button"
+
+
+  },
+  "hint": {
+    "messageBody": "//*[@id='responseTab1']/div/div/p/span[2]",
+    "hintDesabledButton": ".primary.rounded.large.download-rsp-btn.disabled.empty-download",
+    "hintEnableButton": ".primary.rounded.large.download-rsp-btn",
+    "qigSelection": "#qigSelectorDropdown",
+    "qigOpenClose": ".header-dropdown",
+    "qigStatusClassName": "dropdown-wrap close header-dropdown"
+  },
+
+  "response": {
+    "responseItemXpath": "//div[@id='responseTab1']/div/div[2]/ul/li[1]/div[2]/div/div/a",
+    "worklistHeaderClass": ".shift-left.page-title",
+    "responseTextId": "#response-header-text",
+    "responseCloseButtonId": "#closeButtonId_1",
+    "worklistSplitViewButtonId": "#gridtogglebutton_liveworklist_worklistcontainer_undefined"
+  },
+
+  "liveworklisttab": {
+    "closedTabPathForCount": "//li[@id='tabHeaderItem_2']/a/span[1]",
+    "closedTabPathForText": "//li[@id='tabHeaderItem_2']/a/span[2]",
+    "inGraceTabPathForCount": "//li[@id='tabHeaderItem_1']/a/span[1]",
+    "inGraceTabPathForText": "//li[@id='tabHeaderItem_1']/a/span[2]",
+    "openTabPathForCount": "//li[@id='tabHeaderItem_0']/a/span[1]",
+    "openTabPathForText": "//li[@id='tabHeaderItem_0']/a/span[2]",
+    "worklistHeaderClass": ".shift-left.page-title",
+    "tabSelectedClassName": "active",
+    "openTabId": "#tabHeaderItem_0",
+    "inGraceTabId": "#tabHeaderItem_1",
+    "closedTabId": "#tabHeaderItem_2",
+    "suspendedCss": "error-small-icon"
+  },
+
+  "tileview": {
+    "viewSwitch": "#gridtogglebutton_liveworklist_worklistcontainer_undefined",
+    "tileViewGrid": ".sprite-icon.switch-view-icon.grid-view-icon",
+    "tileViewDetail": ".sprite-icon.switch-view-icon.tile-view-icon",
+    "closedResponseTab": "#tabHeaderItem_2>a",
+    "openResponseOpen": "//a[text()='6921240']",
+    "openResponseClosed": "//a[text()='6552837']",
+    "responseOpenMessageCheck": ".shift-left.padding-left-10>h1",
+    "tileGridClosed": ".data-grid.work-list-grid.padding-top-15.hide-resp-status",
+    "colourCheckTile": "//*[@id='responseTab1']/div/div[2]/ul/li[2]",
+    "closedListViewTable": "//*[@id='responseTab3']/div/div[2]/ul/li",
+    "tileSwitchButtonSwitch": "//*[@id='gridtogglebutton_liveworklist_worklistcontainer_undefined']/span",
+    "buttonValueSwitch": "sprite-icon switch-view-icon grid-view-icon",
+    "graceResponseTab": "#tabHeaderItem_1>a>span",
+    "graceMessageIcon": "LinkedMessage_2_messgeIndicator",
+    "graceNotificationI": "LinkedException_3_execeptionIndicator",
+    "graceTableView": "//*[@id='responseTab2']/div/div[2]/ul/li",
+    "buttonValueSwitchChange": "sprite-icon switch-view-icon tile-view-icon"
+  },
+
+  "ImageZone": {
+    "ImageData": {
+      "ImagePresent": ".marksheet-img>img"
+    }
+
+  },
+
+  "submission": {
+    "opentab": ".resp-open",
+    "gracetab": ".resp-grace.active",
+    "closedtab": ".resp-closed.active",
+    "submitall": "button#submitResponseAll_liveworklist_worklistcontainer_undefined.primary.rounded",
+    "popup": ".popup-wrap",
+    "busyIndicatorText": ".loading-text.padding-top-30",
+    "gridwrapper": ".wrapper",
+    "errmessagepopup": "div#popup5Desc.popup-content",
+    "livecountcss": ".active a#worklistTypeworklist_live.left-submenu-item span.menu-count"
+
+  }
+
+}
+

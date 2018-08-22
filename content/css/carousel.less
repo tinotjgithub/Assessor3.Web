@@ -1,0 +1,74 @@
+/*Flexible Carousel*/
+@slide-show-delay:0.8s;
+
+.horizontal-carousel-wrap {
+	position: relative;
+}
+.horizontal-carousel-inner {
+	/*height:100%;*/ /*Commented to fix ipad stretching issue in chrome*/
+}
+.horizontal-carousel-mask {
+	/*height: 100%;*/ /*Commented to fix ipad stretching issue in chrome*/
+	overflow: hidden;
+	position: relative;	
+}
+.horizontal-carousel-container .horizontal-slide {
+	opacity:0;
+	position: relative;	
+	width: 100%;
+}
+
+.horizontal-carousel-container .horizontal-slide.active{
+	opacity:1;	
+	.fade-in(@slide-show-delay);
+}
+
+.horizontal-carousel-container .nav-left,
+.horizontal-carousel-container .nav-right {
+	background: @pure-white;
+	display: block;
+	height: 74px;
+	margin-top: -37px;
+	position: absolute;
+	top: 50%;
+	width: 65px;
+	z-index: 9;
+}
+.horizontal-carousel-container .carousel-nav {
+	height: 8px;
+	left: 50%;
+	margin-left: -3px;
+	margin-top: -4px;
+	position: absolute;
+	top: 50%;
+	width: 5px;
+}
+.horizontal-carousel-container .nav-left {
+	left: 0px;
+}
+.horizontal-carousel-container .nav-right {
+	right: 0;
+}
+.carousel-slide-nav li{
+	background-color:@pure-white;
+	cursor:pointer;
+	display:inline-block;	
+	height:15px;	
+	margin-left:3px;
+	text-align:center;
+	width:15px;
+}
+.carousel-slide-nav li.active{
+	background-color:@pure-black;
+}
+.carousel-slide-nav{
+	bottom:0;
+	display:block;
+	margin:0;
+	padding:0;
+	position:absolute;	
+	text-align:center;
+	width:100%;
+}
+
+/*Flexible Carousel End*/

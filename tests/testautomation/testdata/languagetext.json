@@ -1,0 +1,24 @@
+﻿{
+  "cookiename": "language",
+  "cookievalueenglish": "en-GB",
+  "cookievaluespanish": "es-ES",
+  "en": {
+    "usernamelabel": "//input[@id='usernameBox']/../label[text()='Username']",
+    "passwordlabel": "//input[@id='passwordBox']/../label[text()='Password']",
+    "markingbutton": "//button[@class='primary rounded']/span[2][text()='MARKING']",
+    "header": "ContactEnglish",
+    "footer": "System requirements | Terms of use",
+    "loginlinks": "Forgot password?"
+  },
+
+  "es": {
+    "usernamelabel": "//input[@id='usernameBox']/../label[text()='Nombre de usuario']",
+    "passwordlabel": "//input[@id='passwordBox']/../label[text()='Clave']",
+    "markingbutton": "//button[@class='primary rounded']/span[2][text()='CALIFICACIÓN']",
+    "header": "ContactoEspañol",
+    "footer": "Requisitos del sistema | Términos de Uso",
+    "loginlinks": "Se te olvidó tu contraseña?"
+  }
+  
+
+}

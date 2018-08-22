@@ -1,0 +1,20 @@
+/* LESS Document */
+/*Button styles*/
+button{
+	cursor:pointer;	    
+	overflow:visible; 
+	.vendorize(transition;background-color @comp-anim-duration,border-color @comp-anim-duration,color @comp-anim-duration);
+	
+	&[disabled],
+	&.disabled{
+		cursor:default;
+	}
+	
+	&.truncate-text{
+		overflow: hidden;
+		text-overflow:ellipsis;
+	}
+	
+}
+/*Button styles end*/
+

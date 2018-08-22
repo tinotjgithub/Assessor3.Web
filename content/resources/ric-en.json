@@ -1,0 +1,2233 @@
+{
+  "marking": {
+    "worklist": {
+      "worklist-type": {
+        "live": "Live",
+        "atypical": "Atypical",
+        "atypical-header-text": "Atypical marking",
+        "supervisorRemark": "Supervisor Remark",
+        "practice": "Practice",
+        "approval": "Standardisation",
+        "esTeamApproval": "ES Team Approval"
+      },
+      "response-allocation-error-dialog": {
+        "ok-button": "OK",
+        "response-allocation-error-header-withdrawnMarker": "Withdrawn from marking",
+        "response-allocation-error-header": "Unable to get new responses",
+        "response-allocation-error-withdrawnMarker": "You have been withdrawn from marking this question group. This will not prevent you from marking other question groups where you have a quota.",
+        "response-allocation-error-maximumConcurrentResponseLimitReached": "You have already requested the maximum concurrent number of responses for your current marking target.",
+        "response-allocation-error-noResponseAvailable": "There are currently no responses available to download for marking. Please check again later.",
+        "response-allocation-error-concurrentLimitNotMet": "{0} responses have been downloaded. It is not possible to download further responses to mark as there are no more responses available.",
+        "response-allocation-error-markingLimitReached": "Only {0} responses have been downloaded as the number of  responses in your worklist has reached the number of responses required to meet your marking target.",
+        "response-allocation-error-maximumAllocatedResponseLimitReached": "No responses have been downloaded as the number of  responses in your worklist has reached the number of responses required to meet your marking target.",
+        "response-allocation-error-sessionClosed": "It is not possible to download responses to mark as the session has been closed."
+      },
+      "atypical-allocation-dialog": {
+        "header": "Found atypical response",
+        "mark-now": "Mark now",
+        "move-to-worklist": "Move to worklist",
+        "cancel": "Cancel"
+      },
+      "approval-status-changed-dialog": {
+        "header": "Approval status changed",
+        "body": "Your approval status on this question group has changed and you cannot download or submit responses until your supervisor provides you with feedback. You can still review any responses which have already been downloaded into your worklist. This will not prevent you from marking other question groups where you have a quota.",
+        "body-quality-feedback": "Your approval status on this question group has changed and you cannot download or submit responses until you have accepted feedback on this seed, and your supervisor has provided you with further feedback about your marking. This will not prevent you from marking other question groups where you have a quota."
+      },
+      "view-switcher": {
+        "tile-view": "Tile view",
+        "list-view": "List view"
+      },
+      "left-panel": {
+        "send-message": "Send message",
+        "my-supervisor": "My supervisor",
+        "supervisor-online": "Online",
+        "supervisor-offline": "Offline",
+        "supervisor-offline-less-than-1-hour": "Offline less than an hour",
+        "supervisor-offline-hour": "Offline {0} hour",
+        "supervisor-offline-hours": "Offline {0} hours",
+        "supervisor-offline-day": "Offline {0} day",
+        "supervisor-offline-days": "Offline {0} days",
+        "submitted-count-label": "Submitted",
+        "days-until-target": "days until",
+        "target-date-label": "Target:",
+        "target-completed-date-label": "Completed:",
+        "target-completed": "Completed",
+        "over-allocation-tooltip": "Live Target Unlocked",
+        "marking-instructions": "Marking instructions",
+        "show-hide-panel-tooltip": "Show/hide marker information",
+        "request-marking-check-button": "Request marking check"
+      },
+      "supervisor-remark-decision": {
+        "original-marks-chosen": "Original",
+        "remark-chosen": "Re-mark"
+      },
+      "tile-view-labels": {
+        "amd": "Absolute difference:",
+        "tmd": "Total difference:",
+        "allocated": "Allocated",
+        "submitted": "Submitted",
+        "last-updated": "Last updated",
+        "to-end-of-grace-period": " to end of Grace Period"
+      },
+      "response-data": {
+        "amd-tooltip": "The total difference between the marks you awarded and the definitive marks set by the senior examiner team, calculated across each individual question item",
+        "tmd-tooltip": "The difference between the overall total mark you awarded, and the overall total mark set by the senior examiner team",
+        "seed-indicator": "Seed",
+        "promoted-seed-indicator": "Promoted Seed",
+        "definitive-indicator": "Definitive",
+        "marking-not-started": "Marking not started",
+        "submit-button": "Submit",
+        "additional-objects-icon-tooltip": "Response has additional answer pages",
+        "additional-objects-not-annotated-icon-tooltip": "Response has additional answer pages that must be annotated before marks can be submitted",
+        "exceptions-icon-tooltip": "This response has one or more linked exceptions. None of these will prevent the response being submitted when marking is complete. Click this icon to view the exceptions.",
+        "blocking-exceptions-icon-tooltip": "This response has one or more linked exceptions. You will not be able to submit the response until these exceptions have been resolved and closed. Click this icon to view the exceptions.",
+        "resolved-exceptions-icon-tooltip": "This response has {0} exceptions that are resolved and waiting for you to review and close. None of these will prevent the response being submitted when marking is complete. Click this icon to view the exceptions.",
+        "resolved-and-blocking-exceptions-icon-tooltip": "This response has {0} exceptions that are resolved and waiting for you to review and close. You will not be able to submit the response until you have closed these exceptions. Click this icon to view the exceptions.",
+        "not-all-pages-annotated-icon-tooltip": "Not all pages annotated",
+        "response-id-tooltip": "Response - {0}",
+        "hours-to-end-of-grace": "{0} hours",
+        "hour-to-end-of-grace": "{0} hour",
+        "messages-icon-tooltip": "This response has one or more linked messages. Click this icon to view the messages.",
+        "unread-messages-icon-tooltip": "This response has one or more unread linked messages. Click this icon to view the messages.",
+        "practice-response-title": "Practice",
+        "standardisation-response-title": "Standardisation",
+        "second-standardisation-response-title": "2nd Standardisation",
+        "stm-standardisation-response-title": "STM Standardisation",
+        "not-all-files-viewed-icon-tooltip": "Not all files have been viewed in this response",
+        "mark-change-reason-not-specified-icon-tooltip": "This response cannot be submitted until you explain why you have changed the marks",
+        "supervisor-remark-decision-not-specified-icon-tooltip": "This response cannot be submitted until the candidate's final mark, and the reason, is selected"
+      },
+      "auto-approved-dialog": {
+        "ok-button": "OK",
+        "header": "Congratulations",
+        "summary-standardisation": "Your standardisation marking is completed.",
+        "summary-stm-standardisation": "Your STM standardisation marking is completed.",
+        "summary-second-standardisation": "Your 2nd standardisation marking is completed.",
+        "body-standardisation": "The accuracy of your marking is within the defined tolerance and you have been automatically approved to start live marking. You can look at your submitted standardisation and practice responses at any time by selecting the relevant worklist.",
+        "body-excess-standardisation-responses-removed": "The accuracy of your marking is within the defined tolerance and you have been automatically approved to start live marking. Your standardisation marking is now complete and the remaining open standardisation responses in your worklist have been removed. You can look at your submitted standardisation responses at any time by selecting the relevant worklist.",
+        "body-stm-standardisation": "The accuracy of your marking is within the defined tolerance and you have been automatically approved to start live marking. You can refer back to your submitted standardisation and practice responses at any time by clicking on the required response type on the side of the work list screen",
+        "body-excess-second-standardisation-responses-removed": "The accuracy of your marking is within the defined tolerance and you have been automatically approved to start live marking. Your 2nd standardisation marking is now complete and the remaining open 2nd standardisation responses in your worklist have been removed. You can look at your submitted 2nd standardisation responses at any time by selecting the relevant worklist.",
+        "body-excess-stm-standardisation-responses-removed": "The accuracy of your marking is within the defined tolerance and you have been automatically approved to start live marking. Your STM standardisation marking is now complete and the remaining open STM standardisation responses in your worklist have been removed. You can look at your submitted STM standardisation responses at any time by selecting the relevant worklist."
+      },
+      "atypical": {
+        "centre-search-label": "Centre",
+        "candidate-search-label": "Candidate",
+        "search-button": "Search",
+        "search-button-tooltip": "Search for an atypical response to mark",
+        "centre-search-tooltip": "Please enter a centre number to search for",
+        "candidate-search-tooltip": "Please enter a candidate number to search for"
+      },
+      "atypical-search-error-dialog": {
+        "atypical-search-error-0": "No expected candidate for this paper matches the details entered. Please check the centre and candidate numbers and try again.",
+        "atypical-search-error-10": "No expected candidate for this paper matches the details entered. Please check the centre and candidate numbers and try again.",
+        "atypical-search-error-4": "No expected candidate for this paper matches the details entered. Please check the centre and candidate numbers and try again.",
+        "atypical-search-error-5": "The response associated with this candidate is not atypical. Please check the centre and candidate numbers and try again.",
+        "atypical-search-error-6": "You are not eligible to mark papers from this centre. Please check the centre number and try again.",
+        "atypical-search-error-7": "This response was previously removed from your worklist by your awarding body, so it cannot be allocated to you again.",
+        "atypical-search-error-2": "This response is already in your worklist",
+        "atypical-search-error-3": "This response is already in your worklist",
+        "atypical-search-error-8": "This response has already been allocated to another examiner.",
+        "atypical-search-error-9": "You previously rejected this response, so it cannot be allocated to you again.",
+        "atypical-search-error-1": "The response for centre {0}, candidate {1} belongs to {2}. Please confirm whether you would like to mark it now, move it to your worklist to mark later, or cancel and don't download it."
+      },
+      "action-buttons": {
+        "submit-button": "Submit responses",
+        "allocate-button-target-reached-indicator": "Target reached",
+        "allocate-button": "Get new responses",
+        "allocate-button-remarks": "Get new response",
+        "allocate-button-concurrent-limit-reached-indicator": "Reached open response limit",
+        "allocate-button-not-approved-tooltip": "You cannot get new responses until you have received feedback on your marking from your supervisor.",
+        "allocate-button-suspended-indicator": "Pending Review",
+        "submit-button-not-approved-tooltip": "You cannot submit responses until you have received feedback on your marking from your supervisor.",
+        "submit-button-suspended-indicator": "Pending Review",
+        "allocate-single-response": "Single response",
+        "allocate-to-concurrent-limit": "Up to open response limit",
+        "allocate-button-tooltip": "Select number of responses to download"
+      },
+      "no-responses-available-helper": {
+        "header": "Nothing to download",
+        "body": "There are currently no responses available to download for marking. Please check again later."
+      },
+      "marking-target-complete-helper": {
+        "header": "Marking target complete",
+        "body": "You have completed your marking target for this question group and cannot download any more responses. You can continue to mark any outstanding re-mark responses and other question groups where you have a quota."
+      },
+      "empty-worklist-helper": {
+        "header": "No responses downloaded",
+        "body-line-1": "Your worklist is empty. Before you can start marking you need to download some responses. ",
+        "body-line-2": "Clicking the 'Get new responses' button will download responses to fill up your worklist to your limit of {0} open responses.",
+        "body-line-3": "Note that if you have open re-marks that do not have a quota these will also count towards your open response limit and may prevent you from downloading more live responses."
+      },
+      "open-for-marking-tab": "Open for marking",
+      "submitted-editable-tab": "Submitted - editable",
+      "submitted-closed-tab": "Submitted - closed",
+      "worklist-headers": {
+        "live": "Live marking",
+        "practice": "Practice marking",
+        "standardisation": "Standardisation marking",
+        "secondstandardisation": "2nd Standardisation marking",
+        "stm-standardisation": "STM Standardisation marking",
+        "simulation": "Simulation Marking",
+        "atypical": "Atypical marking"
+      },
+      "submit-response-dialog": {
+        "body": "Are you sure you want to submit this response?",
+        "header": "Submit Response",
+        "body-simulation": "Are you sure  you want to submit this response? The response marks shall not be saved or visible after submission."
+      },
+      "submit-all-responses-dialog": {
+        "body": "Are you sure you want to submit all fully marked responses?",
+        "header": "Submit Responses",
+        "body-simulation": "Are you sure you want to submit all marked responses? The response marks shall not be saved or visible after submission."
+      },
+      "response-submission-error-dialog": {
+        "body-single-response-not-submitted": "This response could not be submitted. Please review your worklist and try again.",
+        "body-some-responses-not-submitted": "Some responses could not be submitted. Please review your worklist and try again.",
+        "body-single-response-already-submitted": "This response could not be submitted because it has already been submitted previously.",
+        "body-some-responses-already-submitted": "One or more responses could not be submitted because they have already been submitted previously.",
+        "header": "Unable to submit responses"
+      },
+      "not-approved-helper": {
+        "body-line-1": "Your standardisation marking has been sent to your supervisor for review.",
+        "body-line-2": "You will not be able to continue marking this question group until your supervisor has provided you with feedback. The status will update automatically when the review is complete. This will not prevent you from marking other question groups where you have a quota.",
+        "header": "Please wait for advice"
+      },
+      "quality-feedback-dialog": {
+        "body": "You have submitted one or more seeds within tolerance of the definitive marks given by the senior examiner team. Should you wish to review your marking against the definitive marks, you can do so in the Submitted - Closed worklist.",
+        "header": "Quality feedback"
+      },
+      "marking-check-status": {
+        "Checked": "Checked",
+        "CheckRequested": "Check requested",
+        "Unchecked": "Unchecked",
+        "NotApproved": "Not approved",
+        "Suspended": "Pending Review"
+      },
+      "request-marking-check-error-dialog": {
+        "header-approval-status-changed": "Approval status changed",
+        "body-approval-status-changed": "Your status has changed and you are no longer allowed to perform this action.",
+        "header-withdrawn": "Withdrawn from marking",
+        "body-withdrawn": "You have been withdrawn from this question group. This will not prevent you from accessing other question groups where you have a quota.",
+        "header-hierarchy-changed": "Examiner hierarchy changed",
+        "body-hierarchy-changed": "Your role has changed and you are no longer allowed to perform this action.",
+        "header-no-examiners-available": "Marking check request",
+        "body-no-examiners-available": "A marking check cannot be requested because there is no one in the marking hierarchy with the correct permissions to perform a check."
+      },
+      "request-marking-check-menu": {
+        "header": "Please select the examiner(s) who you want to check your marks."
+      },
+      "perform-marking-check": {
+        "perform-marking-check-body-1": "You have been asked to check the marks of one or more examiners. Select ",
+        "perform-marking-check-link": "here",
+        "perform-marking-check-body-2": " to view and perform a marking check.",
+        "set-marking-as-checked-button": "Set marking as checked",
+        "worklist-of-examiner": "of",
+        "show-hide-left-panel-tooltip": "Show/hide examiner(s)"
+      },
+      "perform-marking-check-confirmation-dialog": {
+        "body": "Are you sure that you want to set the marking of {0} as checked? You will no longer be able to access their worklist.",
+        "header": "Marking check completed"
+      },
+      "list-view-column-headers": {
+        "sort-by-tooltip": "Toggle sorting by",
+        "exceptions": "Exceptions",
+        "messages": "Messages",
+        "last-updated": "Last updated",
+        "allocated": "Allocated",
+        "total-mark": "Marks",
+        "time-to-end-of-grace-period": "Time to end of grace period",
+        "progress": "Progress",
+        "submitted": "Submitted",
+        "centre-number": "Centre",
+        "centre-candidate-number": "Candidate",
+        "original-marker": "Original marker",
+        "response-id": "Response ID",
+        "accuracy": "Accuracy",
+        "amd": "Absolute difference",
+        "tmd": "Total difference",
+        "original-mark-accuracy": "Original mark accuracy",
+        "original-mark": "Original marks",
+        "final-mark-selected": "Final mark selected",
+        "tag": "Tag"
+      },
+      "simulation-helper": {
+        "body-line-1": "Your worklist is empty. Before you can start marking you need to download some responses. Any marking you enter in simulation mode will not be returned as live marks. When the simulation marking period ends, your simulation marking will be deleted automatically and you will not be able to refer back to it.",
+        "body-line-2": "Clicking the 'Get new response' button will download a simulation response into your worklist for you to mark."
+      },
+      "submitted-editable-worklist-helper": "You can edit the marks of the responses in this list until the end of grace period. Any changes you make will be automatically saved. When the grace period  for a response ends, it will automatically move to the closed list and marks will be returned to your awarding body.",
+      "quality-feedback-helper": {
+        "quality-feedback-outstanding": "You have submitted a seed that is out of tolerance with the definitive marks given by the senior examiner team. Please open the response to review the feedback on your seed and then use the 'Accept feedback' button within the response to acknowledge you have accepted the feedback. When you have done this you will be able to continue marking.",
+        "quality-feedback-outstanding-and-suspended": "You have submitted a seed that is out of tolerance with the definitive marks given by the senior examiner team. Please open the response to review the feedback on your seed and then use the 'Accept feedback' button within the response to acknowledge you have accepted the feedback. When you have done this you will be able to continue marking, but you will not be able to download or submit responses until your supervisor has provided you with further feedback about your marking."
+      },
+      "tag-tooltips": {
+        "no-tag": "No tag",
+        "red": "Red tag",
+        "blue": "Blue tag",
+        "yellow": "Yellow tag",
+        "green": "Green tag",
+        "violet": "Violet tag",
+        "pink": "Pink tag",
+        "orange": "Orange tag",
+        "lightgreen": "Light green tag",
+        "purple": "Purple tag",
+        "add-tag": "Add tag"
+      },
+      "exited-simulation-dialog": {
+        "header": "Standardisation setup is complete",
+        "subheader-multiple-qigs": "Standardisation setup is now complete for the following QIG(s):",
+        "subheader-single-qig": "Standardisation setup is now complete for the following QIG:",
+        "body-multiple-qigs": "You are now able to start Marking. Simulation mode will no longer be available for the above QIG(s).",
+        "body-single-qig": "You are now able to start Marking. Simulation mode will no longer be available for the above QIG."
+      }
+    },
+    "response": {
+      "saving-marks-error-dialog": {
+        "header-error-saving-marks": "Error saving marks and annotations",
+        "body-error-saving-marks-single-response": "The marks and annotations you previously applied to this response could not be saved. Please review it and apply any missing marks and annotations again.",
+        "body-error-saving-marks-multiple-responses": "Marks and annotations could not be saved for the following response(s). Please review and apply any missing marks and annotations again.",
+        "body-cannot-leave-response-partially-marked-in-grace": "As you have already submitted this response, you may not leave any question items unmarked. Please ensure that you have entered a mark for every question item before leaving the response.",
+        "header-grace-period-expired": "Grace period expired",
+        "body-response-removed-from-worklist": "Response {0} has now been removed from your worklist and the changes cannot be saved.",
+        "header-response-removed-from-worklist": "Response removed",
+        "body-must-annotate-all-pages-in-grace": "As you have already submitted this response, you cannot leave it and save your changes until you either place at least one annotation on every page, or use the 'Mark as seen' button in full response view to confirm that you have viewed the content of each page.",
+        "header-must-annotate-all-pages-in-grace": "Not all pages are annotated",
+        "body-grace-period-expired-changes-not-saved": "The adjustments you made to the marks and annotations of response {0} were not saved because the grace period has expired. This response has now been moved to your Submitted - closed worklist."
+      },
+      "complete-button-dialog": {
+        "yes-button": "Yes",
+        "no-button": "No",
+        "body": "This will enter a mark of NR for all unmarked question items. Do you wish to continue?"
+      },
+      "script-images": {
+        "script-image-tooltip": "Script Image",
+        "view-whole-page": "View whole page"
+      },
+      "supervisor-remark-decision": {
+        "none": "None: I'll decide later",
+        "nonjudgementalerror": "Re-marks: Non-judgemental error",
+        "judgementaloutsidetolerance": "Re-marks: Judgement outside tolerance",
+        "originalmarks": "Original marks: Original marks as final marks",
+        "popout-body": "Please select which set of marks you want to assign as the final marks, and reason.",
+        "original-mark-accuracy": "Original mark accuracy",
+        "total-mark-difference": "Total mark difference",
+        "absolute-mark-difference": "Absolute mark difference",
+        "popout-header": "Re-marking summary",
+        "no-decision-tooltip": "Re-mark decision not selected",
+        "decision-tooltip": "View / edit re-mark decision"
+      },
+      "previous-marks": {
+        "first-marking-short": "1st",
+        "first-marking-long": "1st marking",
+        "definitive-marking-long": "Definitive marks",
+        "definitive-marking-short": "DEF",
+        "display-marks-header": "Display marks",
+        "display-annotations-header": "Annotations",
+        "comments": "Comments",
+        "current-marks": "Current Marks",
+        "previous-marks-checkbox-tooltip-show": "Show these previous marks",
+        "previous-marks-checkbox-tooltip-hide": "Hide these previous marks",
+        "definitive-marks-checkbox-tooltip-show": "Show definitive marks",
+        "definitive-marks-checkbox-tooltip-hide": "Hide definitive marks",
+        "previous-annotations-switch-tooltip-hide": "Hide these previous annotations",
+        "previous-annotations-switch-tooltip-show": "Show these previous annotations",
+        "definitive-annotations-switch-tooltip-hide": "Hide definitive annotations",
+        "definitive-annotations-switch-tooltip-show": "Show definitive annotations",
+        "current-comments-radio-button-tooltip": "Show current comments",
+        "previous-comments-radio-button-tooltip": "Show these previous comments",
+        "definitive-comments-radio-button-tooltip": "Show definitive comments"
+      },
+      "navigation-bar": {
+        "previous-response-button-tooltip": "Previous response",
+        "next-response-button-tooltip": "Next response",
+        "response-id-label": "Response",
+        "response-position-in-worklist": "{0} of {1} in worklist",
+        "atypical-response-id-label": "Atypical response",
+        "simulation-response-id-label": "Simulation response",
+        "worklist-breadcrumb": "Worklist",
+        "atypical-remark-response-id-label": "Atypical"
+      },
+      "page-number-indicator": {
+        "image-number-label": "Image",
+        "image-number-of-label": "of",
+        "page-number-label": "Page",
+        "image-number-label-booklet-view": "Images",
+        "page-number-label-booklet-view": "Pages",
+        "script-label": "script"
+      },
+      "save-indicator": {
+        "saving-marks": "Saving marks..."
+      },
+      "comments-side-view": {
+        "hide-comments": "Hide comments",
+        "hide-comments-tooltip": "View comments on the script"
+      },
+      "on-page-comment-box": {
+        "side-view-icon-tooltip": "View comments at the side of the script",
+        "comment-placeholder-text": "Type Comments",
+        "delete-icon-tooltip": "Delete comment"
+      },
+      "left-toolbar": {
+        "full-response-view-button-tooltip": "View Full Response",
+        "messages-button-tooltip-new-message": "New Message",
+        "messages-button-tooltip-linked-messages": "Linked Messages",
+        "zoom-rotate-button-tooltip": "Zoom / Rotate",
+        "bookmarks-button-tooltip": "Bookmark",
+        "problems-button-tooltip": "Problems with this response"
+      },
+      "annotations-toolbar": {
+        "expand-button-tooltip": "Expand tools panel",
+        "collapse-button-tooltip": "Collapse tools panel",
+        "plus-button-tooltip": "Add Tool"
+      },
+      "zoom-rotate-panel": {
+        "rotate-clockwise-tooltip": "Rotate image clockwise",
+        "rotate-anticlockwise-tooltip": "Rotate image anticlockwise",
+        "zoom-fit-height-tooltip": "Zoom all images to fit the height of the script display area",
+        "zoom-fit-width-tooltip": "Zoom all images to fit the width of the script display area",
+        "zoom-fit-height": "Fit height",
+        "zoom-fit-width": "Fit width",
+        "zoom-out-tooltip": "Zoom out",
+        "zoom-in-tooltip": "Zoom in",
+        "zoom-level-tooltip": "Current zoom level",
+        "zoom": "Zoom",
+        "rotate": "Rotate"
+      },
+      "mark-scheme-panel": {
+        "previous-question-button-tooltip": "Previous question",
+        "next-question-button-tooltip": "Next question",
+        "reset-mark-button": "Reset",
+        "reset-mark-button-tooltip": "Reset mark and annotations for this question item",
+        "total-marks": "Total marks",
+        "no-response-button": "No response",
+        "next-mark-button-tooltip": "Next",
+        "previous-mark-button-tooltip": "Previous",
+        "no-response": "NR",
+        "optionality-tooltip": "This response contains optional questions. A line will be shown for all question items that will not be included in the total mark according to the defined rubric.",
+        "accept-quality-feedback-button": "Accept feedback",
+        "complete-button": "Complete",
+        "complete-button-tooltip-when-enabled": "Enter a mark of NR for all unmarked question items",
+        "complete-button-tooltip-when-disabled": "You can only use this button once you have manually entered marks against enough question items to satisfy the rubric for this question paper",
+        "mark-by": "Mark by",
+        "mark-by-candidate": "Candidate",
+        "mark-by-question": "Question",
+        "annotations-switch-tooltip-hide": "Click to hide current annotations",
+        "annotations-switch-tooltip-show": "Click to show current annotations",
+        "annotations-switch-label": "Annotations",
+        "comments-switch-tooltip-hide": "Hide comments panel",
+        "comments-switch-tooltip-show": "Show comments panel",
+        "comments-switch-label": "Comments",
+        "unzoned-indicator-tooltip": "No content has been assigned to this question item"
+      },
+      "invalid-mark-dialog": {
+        "header": "Invalid mark",
+        "body-numeric": "Please enter a mark between {0} and {1}",
+        "body-non-numeric": "Please enter a valid mark",
+        "ok-button": "OK"
+      },
+      "mba-max-mark-exceeded-dialog": {
+        "header": "Maximum mark exceeded",
+        "body": "Adding this annotation would cause the maximum mark of {0} for this question item to be exceeded. The annotation has not been applied."
+      },
+      "reset-mark-dialog": {
+        "header": "Reset marks & annotations",
+        "body-when-mark-deleted": "You have reset the marks originally awarded, do you want to remove the annotations and comments as well?",
+        "body-when-reset-button-clicked": "This will reset the mark and remove all annotations and comments for the associated question item. Are you sure you want to do this?"
+      },
+      "annotation-context-menu": {
+        "remove-annotation": "Remove annotation",
+        "change-colour": "Change Color",
+        "black": "Black",
+        "red": "Red",
+        "green": "Green",
+        "blue": "Blue",
+        "yellow": "Yellow",
+        "pink": "Pink"
+      },
+      "end-of-list-dialog": {
+        "header": "Return to worklist",
+        "body": "You have reached the last response in your worklist. Would you like to go back to your worklist?",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "delete-comment-dialog": {
+        "header": "Confirm Delete",
+        "body": "Are you sure you want to delete this comment?",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "annotation-toolbar-helper": {
+        "header": "Customise your toolbar",
+        "body-before-adding-stamp-with-overlays": "Drag annotations you use regularly into this toolbar. Note that you cannot drag the Overlay tools into the favourites toolbar.",
+        "body-before-adding-stamp": "Drag the annotations you use regularly into this toolbar.",
+        "body-after-adding-stamp": "When you have finished adding annotations to your favourites toolbar, use this button to collapse the full list of annotations and start marking. You can expand the toolbar again by selecting this button."
+      },
+      "accept-quality-feedback-dialog": {
+        "header": "Accept feedback",
+        "body": "Please confirm that you have reviewed and accepted the feedback provided for this response.",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "overlays": {
+        "ruler-tooltip": "Ruler",
+        "protractor-tooltip": "Protractor",
+        "multiline-overlay-tooltip": "Multi-line"
+      },
+      "stamps": {
+        "stamp_11": "Tick",
+        "stamp_21": "Cross",
+        "stamp_31": "BOD",
+        "stamp_41": "FT",
+        "stamp_51": "ISW",
+        "stamp_61": "M0",
+        "stamp_71": "M1",
+        "stamp_81": "M2",
+        "stamp_91": "A0",
+        "stamp_101": "A1",
+        "stamp_111": "A2",
+        "stamp_121": "W0",
+        "stamp_131": "W1",
+        "stamp_141": "W2",
+        "stamp_151": "Highlight",
+        "stamp_161": "Link",
+        "stamp_171": "Click to view comment",
+        "stamp_181": "Off Page Comment",
+        "stamp_182": "Enhanced Off Page Comment",
+        "stamp_191": "NBOD",
+        "stamp_201": "TV",
+        "stamp_211": "P",
+        "stamp_221": "E",
+        "stamp_231": "/",
+        "stamp_241": "ECF",
+        "stamp_251": "SC",
+        "stamp_261": "^",
+        "stamp_271": "REP",
+        "stamp_281": "?",
+        "stamp_291": "I",
+        "stamp_301": "R",
+        "stamp_311": "L1",
+        "stamp_321": "L2",
+        "stamp_331": "L3",
+        "stamp_341": "L4",
+        "stamp_351": "C",
+        "stamp_361": "S",
+        "stamp_371": "A",
+        "stamp_381": "L1---",
+        "stamp_391": "L1--",
+        "stamp_401": "L1-",
+        "stamp_411": "L2--",
+        "stamp_421": "L2-",
+        "stamp_431": "L3-",
+        "stamp_441": "L5",
+        "stamp_451": "R1",
+        "stamp_461": "R2",
+        "stamp_471": "R3",
+        "stamp_481": "CON",
+        "stamp_491": "POT",
+        "stamp_501": "NAQ",
+        "stamp_511": "RE",
+        "stamp_521": "NGE",
+        "stamp_531": "SF",
+        "stamp_541": "{",
+        "stamp_551": "} ",
+        "stamp_561": "LNK",
+        "stamp_571": "B1",
+        "stamp_581": "B2",
+        "stamp_591": "RM1",
+        "stamp_601": "KU",
+        "stamp_611": "K ",
+        "stamp_621": "CONT",
+        "stamp_631": "REL",
+        "stamp_641": "NAR",
+        "stamp_651": "BIO",
+        "stamp_661": "EG",
+        "stamp_671": "ILL",
+        "stamp_681": "Q",
+        "stamp_691": "EXP",
+        "stamp_701": "SLASH",
+        "stamp_711": "GM",
+        "stamp_721": "OFR",
+        "stamp_731": "VG ",
+        "stamp_741": "DEV",
+        "stamp_751": "RES",
+        "stamp_761": "SUS",
+        "stamp_771": "DET",
+        "stamp_781": "PLC",
+        "stamp_791": "IRRL",
+        "stamp_801": "|",
+        "stamp_811": "SEEN",
+        "stamp_821": "U",
+        "stamp_831": "J",
+        "stamp_841": "T-",
+        "stamp_851": "T",
+        "stamp_861": "T+",
+        "stamp_881": "P-",
+        "stamp_891": "F",
+        "stamp_901": "F-",
+        "stamp_911": "Pre",
+        "stamp_921": "Te",
+        "stamp_931": "O",
+        "stamp_941": "V",
+        "stamp_951": "JU",
+        "stamp_961": "L",
+        "stamp_971": "HA",
+        "stamp_981": "INVL",
+        "stamp_991": "FA",
+        "stamp_1001": "Ruler",
+        "stamp_1002": "QWC+",
+        "stamp_1011": "Protractor",
+        "stamp_1012": "Tick Plus",
+        "stamp_1021": "Overlay",
+        "stamp_1022": "XCS",
+        "stamp_1031": "Tick Question",
+        "stamp_1041": "Up Arrow",
+        "stamp_1051": "Down Arrow",
+        "stamp_1061": "-1",
+        "stamp_1071": "Caret",
+        "stamp_1081": "DOT",
+        "stamp_1091": "+",
+        "stamp_1101": "Green L",
+        "stamp_1111": "IR ",
+        "stamp_1121": "NE",
+        "stamp_1131": "AL",
+        "stamp_1141": "IL",
+        "stamp_1151": "LM",
+        "stamp_1161": "NOM",
+        "stamp_1171": "-",
+        "stamp_1181": "POS",
+        "stamp_1191": "Tick 1",
+        "stamp_1201": "Tick 2",
+        "stamp_1211": "Tick 3",
+        "stamp_1221": "Tick 4",
+        "stamp_1231": "Tick 5",
+        "stamp_1241": "Tick 6",
+        "stamp_1251": "Tick 7",
+        "stamp_1261": "Tick 8",
+        "stamp_1271": "Tick 9",
+        "stamp_1281": "Tick 10",
+        "stamp_1291": "Tick 11",
+        "stamp_1301": "Tick 12",
+        "stamp_1311": "XSP",
+        "stamp_1321": "XP",
+        "stamp_1331": "XSS",
+        "stamp_1341": "XV",
+        "stamp_1351": "Ellipse",
+        "stamp_1361": "H Line",
+        "stamp_1371": "H Wavy",
+        "stamp_1381": "V Wavy",
+        "stamp_1391": "Word Order",
+        "stamp_1401": "[",
+        "stamp_1411": "]",
+        "stamp_1421": "1",
+        "stamp_1431": "2",
+        "stamp_1441": "3",
+        "stamp_1451": "4",
+        "stamp_1461": "5",
+        "stamp_1471": "Tick Half Mark",
+        "stamp_1481": "Left Arrow",
+        "stamp_1491": "Right Arrow",
+        "stamp_1501": "ND",
+        "stamp_1511": "PE",
+        "stamp_1521": "AE",
+        "stamp_1531": "EE",
+        "stamp_1541": "NUT",
+        "stamp_1551": "PD",
+        "stamp_1561": "2+2",
+        "stamp_1571": "1+2",
+        "stamp_1581": "2+1",
+        "stamp_1591": "1+1",
+        "stamp_1601": "0",
+        "stamp_1611": "N0",
+        "stamp_1621": "N1",
+        "stamp_1631": "N2",
+        "stamp_1641": "N3",
+        "stamp_1651": "N4",
+        "stamp_1661": "APP",
+        "stamp_1671": "AN",
+        "stamp_1681": "BP",
+        "stamp_1691": "OF",
+        "stamp_1701": "OFR_BIG",
+        "stamp_1711": "PAG",
+        "stamp_1721": "REP_BIG",
+        "stamp_1731": "SEEN_BIG",
+        "stamp_1741": "ZERO",
+        "stamp_1751": "TICK_1",
+        "stamp_1761": "TICK_2",
+        "stamp_1771": "TICK_HALF",
+        "stamp_1781": "A3",
+        "stamp_1791": "B0",
+        "stamp_1801": "EVAL",
+        "stamp_1811": "FTX",
+        "stamp_1821": "MR",
+        "stamp_1831": "TError",
+        "stamp_1841": "Not Relevant",
+        "stamp_1851": "Tick_3",
+        "stamp_1861": "Tick_5",
+        "stamp_1871": "AG",
+        "stamp_1881": "R0",
+        "stamp_1891": "N5",
+        "stamp_1901": "N6",
+        "stamp_1911": "D",
+        "stamp_1921": "AP",
+        "stamp_1931": "WB",
+        "stamp_1941": "Rad",
+        "stamp_1951": "Deg",
+        "stamp_1961": "WV",
+        "stamp_1971": "VAM",
+        "stamp_1981": "C0",
+        "stamp_1991": "C1",
+        "stamp_2001": "C2",
+        "stamp_2011": "C3",
+        "stamp_2021": "C4",
+        "stamp_2031": "C5",
+        "stamp_2041": "C6",
+        "stamp_2051": "FP",
+        "stamp_2061": "UP",
+        "stamp_2071": "G0",
+        "stamp_2081": "G1",
+        "stamp_2091": "G2",
+        "stamp_2101": "G3",
+        "stamp_2111": "GDIG",
+        "stamp_2121": "AQ",
+        "stamp_2131": "CKS",
+        "stamp_2141": "GA",
+        "stamp_2151": "GD",
+        "stamp_2161": "GEXA",
+        "stamp_2171": "GEXP",
+        "stamp_2181": "GUT",
+        "stamp_2191": "IU",
+        "stamp_2201": "L0",
+        "stamp_2211": "LD",
+        "stamp_2221": "LLS",
+        "stamp_2231": "TCE",
+        "stamp_2241": "TNCE",
+        "stamp_2251": "UR",
+        "stamp_2261": "OC",
+        "stamp_2271": "WARG",
+        "stamp_2281": "WKAR",
+        "stamp_2291": "NMRD",
+        "stamp_2301": "VL",
+        "stamp_2311": "SGP",
+        "stamp_2321": "ALT",
+        "stamp_2331": "NWS",
+        "stamp_2341": "OK",
+        "stamp_2351": "RQ",
+        "stamp_2361": "SD",
+        "stamp_2371": "NEX",
+        "stamp_2381": "-1U",
+        "stamp_2391": "NW",
+        "stamp_2401": "Qcl",
+        "stamp_2411": "Qst",
+        "stamp_2421": "=",
+        "stamp_2431": "WTTE",
+        "stamp_2441": "Adv",
+        "stamp_2451": "Dis",
+        "stamp_2461": "diff",
+        "stamp_2471": "sim",
+        "stamp_2481": "Tick_Colourable",
+        "stamp_2491": "APD",
+        "stamp_2501": "UPD",
+        "stamp_2511": "FPD",
+        "stamp_2521": "-1SD",
+        "stamp_2531": "Change",
+        "stamp_2541": "Synthesis",
+        "stamp_2551": "Descriptive",
+        "stamp_2561": "EXC",
+        "stamp_2571": "Assertion",
+        "stamp_2581": "Good Point",
+        "stamp_2591": "Ticka",
+        "stamp_2601": "Tickb",
+        "stamp_2611": "Tickc",
+        "stamp_2621": "Tickd",
+        "stamp_2631": "Ticke",
+        "stamp_2641": "Tickf",
+        "stamp_2651": "Tickg",
+        "stamp_2661": "Tickh",
+        "stamp_2671": "Ticki",
+        "stamp_2681": "Tickj",
+        "stamp_2691": "Tickk",
+        "stamp_2701": "Tickl",
+        "stamp_2711": "Tickm",
+        "stamp_2721": "Tickn",
+        "stamp_2731": "Tick_1_half",
+        "stamp_2741": "Tick_2_half",
+        "stamp_2751": "Tick_3_half",
+        "stamp_2761": "Tick_4_half",
+        "stamp_2771": "MAX",
+        "stamp_2781": "big_P",
+        "stamp_2791": "Tick_4",
+        "stamp_2801": "G",
+        "stamp_2811": "A1FT",
+        "stamp_2821": "CPV",
+        "stamp_2831": "GIN",
+        "stamp_2841": "CTH",
+        "stamp_2851": "GKI",
+        "stamp_2861": "NTH",
+        "stamp_2871": "DNF",
+        "stamp_2881": "HEX",
+        "stamp_2891": "DES",
+        "stamp_2901": "REF",
+        "stamp_2911": "GEN",
+        "stamp_2921": "A+",
+        "stamp_2931": "B+",
+        "stamp_2941": "C+",
+        "stamp_2951": "D+",
+        "stamp_2961": "A-",
+        "stamp_2971": "B-",
+        "stamp_2981": "C-",
+        "stamp_2991": "D-",
+        "stamp_3001": "AEr",
+        "stamp_3011": "DM",
+        "stamp_3021": "GP",
+        "stamp_3031": "ILbl",
+        "stamp_3041": "NExa",
+        "stamp_3051": "REx",
+        "stamp_3061": "TSmp",
+        "stamp_3071": "UA",
+        "stamp_3081": "PP",
+        "stamp_3091": "RP",
+        "stamp_3101": "PN",
+        "stamp_3111": "RN",
+        "stamp_3121": "JP",
+        "stamp_3131": "JN",
+        "stamp_3132": "FLIP",
+        "stamp_3133": "FM",
+        "stamp_3134": "XE",
+        "stamp_3135": "Tick Per",
+        "stamp_3136": "0+1",
+        "stamp_3137": "1+0",
+        "stamp_3138": "0+2",
+        "stamp_3139": "2+0",
+        "stamp_3140": "PU",
+        "stamp_3141": "*SYN",
+        "stamp_3142": "BaEv",
+        "stamp_3143": "AdEv",
+        "stamp_3144": "PEOC",
+        "stamp_3145": "CriA",
+        "stamp_3146": "CriB",
+        "stamp_3147": "CriC",
+        "stamp_3148": "CriD",
+        "stamp_3149": "CriE",
+        "stamp_3150": "CriF",
+        "stamp_3151": "CriG",
+        "stamp_3152": "CriH",
+        "stamp_3153": "CriI",
+        "stamp_3154": "CriJ",
+        "stamp_3155": "CriK",
+        "stamp_3156": "+RQ",
+        "stamp_3157": "-RQ",
+        "stamp_3158": "Unsp",
+        "stamp_3159": "CTX",
+        "stamp_3160": "+Str",
+        "stamp_3161": "GSEv",
+        "stamp_3162": "NSEv",
+        "stamp_3163": "EUOS",
+        "stamp_3164": "Tick Quarter Mark",
+        "stamp_3165": "GKQ",
+        "stamp_3166": "A1F",
+        "stamp_3167": "Acc?",
+        "stamp_3168": "AO1",
+        "stamp_3169": "AO2",
+        "stamp_3170": "AO3",
+        "stamp_3171": "BAN",
+        "stamp_3172": "B1F",
+        "stamp_3173": "BEV",
+        "stamp_3174": "DP",
+        "stamp_3175": "DT",
+        "stamp_3176": "E0",
+        "stamp_3177": "E1",
+        "stamp_3178": "E2",
+        "stamp_3179": "ELAB",
+        "stamp_3180": "ENG",
+        "stamp_3181": "FIW",
+        "stamp_3182": "FW",
+        "stamp_3183": "Gan",
+        "stamp_3184": "Gapp",
+        "stamp_3185": "Geval",
+        "stamp_3186": "INAC",
+        "stamp_3187": "JUST",
+        "stamp_3188": "LF",
+        "stamp_3192": "NC",
+        "stamp_3193": "NMS",
+        "stamp_3194": "PAR",
+        "stamp_3195": "Ran",
+        "stamp_3196": "Rapp",
+        "stamp_3197": "REL?",
+        "stamp_3198": "Reval",
+        "stamp_3199": "UNCO",
+        "stamp_3200": "VAGU",
+        "stamp_3201": "WAO1",
+        "stamp_3202": "WAO2",
+        "stamp_3203": "WEAK",
+        "stamp_3204": "WENG",
+        "stamp_3205": "WKU",
+        "stamp_3206": "WLAB",
+        "stamp_3207": "WNR",
+        "stamp_3208": "WR",
+        "stamp_3209": "SUMC",
+        "stamp_3210": "WAYS",
+        "stamp_3211": "TF",
+        "stamp_3212": "WRPO",
+        "stamp_3213": "WRPR",
+        "stamp_3214": "WRDR",
+        "stamp_3215": "dM0",
+        "stamp_3216": "dM1",
+        "stamp_3217": "SC0",
+        "stamp_3218": "SC1",
+        "stamp_3219": "SC2",
+        "stamp_3220": "Perhaps Implied",
+        "stamp_3221": "CS0",
+        "stamp_3222": "Subtle point",
+        "stamp_3223": "Complex",
+        "stamp_3224": "Range",
+        "stamp_3225": "Reasonable Argument",
+        "stamp_3226": "Good argument",
+        "stamp_3227": "Depth",
+        "stamp_3228": "Balance",
+        "stamp_3229": "Mft",
+        "on-page-comment-tooltip": "Comment"
+      },
+      "discard-message-or-exception-dialog": {
+        "body": "Opening another message will discard changes to any new messages or exceptions that are unsaved. Are you sure you want to lose your unsaved changes?"
+      },
+      "message-list-panel": {
+        "create-new-message": "Create new message"
+      },
+      "message-panel": {
+        "header": "Message"
+      },
+      "bookmarks-panel": {
+        "page": "Page",
+        "add-new-bookmark": "Add new bookmark",
+        "go-back": "Go back",
+        "return-to-selected-page": "Return to selected page"
+      },
+      "raise-exception-panel": {
+        "selected-question": "Selected question ",
+        "entire-response": "Entire response",
+        "exception-relates-to-label": "This exception relates to:",
+        "exception-type-label": "I am raising an exception for the following reason:",
+        "minimise-icon-tooltip": "Minimize",
+        "maximise-icon-tooltip": "Maximize",
+        "close-icon-tooltip": "Close",
+        "submit-button": "Submit",
+        "open-exception-exists-against-response": "There is already an open exception of this type against this response",
+        "open-exception-exists-against-question": "There is already an open exception of this type against this question",
+        "comment-placeholder": "Write your message here...",
+        "select-exception-type-placeholder": "Select Exception Type",
+        "exception-type-tooltip": "Exception type",
+        "blocking-exception-description": " Raising this exception will prevent you from submitting this response and only once the exception has been resolved and closed by you it will be possible to submit the response.",
+        "non-blocking-exception-description": " Raising this exception will not prevent you from submitting this response.",
+        "incorrect-component-or-paper-additional-description": " Please note that if the response is moved to correct component it will no longer appear in your list of responses to mark.",
+        "file-cannot-be-accessed-or-read-additional-description": " Please note that if this file is removed in order for another one to be uploaded in its place, it is likely that you will not receive this same response again for marking and any marking would unfortunately be lost."
+      },
+      "exception-list-panel": {
+        "raise-new-exception": "Raise new exception",
+        "reject-rig": "Reject the response",
+        "open-blocking-exception-tooltip": "You will not be able to submit the response until the exception has been resolved and closed"
+      },
+      "reject-rig-confirmation-dialog": {
+        "body": "Rejecting this response will put it back into the pool for someone else to mark; you will not be able to download it again. You should only do this if you believe you know the candidate, or your awarding body has advised you of other cases where you should reject a response. Are you sure you want to continue?",
+        "header": "Reject response",
+        "cancel-button": "Cancel",
+        "ok-button": "OK"
+      },
+      "discard-exception-dialog": {
+        "body": "Are you sure you want to discard this exception without submitting?",
+        "body-navigate-away": "Are you sure you want to navigate from this page as the exception is unsaved and will be discarded?",
+        "body-raise-new": "Are you sure you want to discard your existing unsubmitted exception?",
+        "body-open-another": "Opening another exception will discard changes to any new messages or exceptions that are unsaved. Are you sure you want to lose your unsaved changes?",
+        "header": "Discard exception",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "view-exception-panel": {
+        "header": "Exception ID"
+      },
+      "close-exception-dialog": {
+        "body": "Are you sure you want to close this exception?",
+        "header": "Close Exception"
+      },
+      "exception-escalation-points": {
+        "4": "This exception will be escalated to RM Service desk.",
+        "3": "This exception will be escalated to the Assessment Operations Officer for the subject you are marking.",
+        "2": "This exception will be raised to your Supervisor."
+      },
+      "eur-marks-change-popout": {
+        "body": "Please explain why you have changed the marks for this response",
+        "header": "Reason for marks change"
+      },
+      "leaving-response-warning-dialog": {
+        "header": "Leaving response",
+        "body": "Please review the following before leaving this response:",
+        "stay-in-response-button": "Stay in response",
+        "leave-response-button": "Leave response",
+        "ok-button": "OK"
+      },
+      "submit-response-warning-dialog": {
+        "header": "Submit response",
+        "body": "Please review the following before submitting this response:",
+        "stay-in-response-button": "Stay in response",
+        "submit-response-button": "Submit response"
+      },
+      "leaving-or-submitting-response-warnings": {
+        "not-all-pages-annotated": "Not all pages are annotated. You will be unable to submit the response until you either place at least one annotation on every page, or use the 'Mark as seen' button in full response view to confirm that you have viewed the content of each page.",
+        "not-all-pages-annotated-in-grace": "You cannot leave this response and save your changes until you either place at least one annotation on every page, or use the 'Mark as seen' button in full response view to confirm that you have viewed the content of each page.",
+        "eur-mark-change-reason-not-applied": "You will be unable to submit the response until you explain why you have changed the marks.",
+        "eur-mark-change-reason-not-applied-in-grace": "You cannot leave this response and save your changes until you explain why you have changed the marks.",
+        "message-will-be-discarded": "The message you are currently writing will be discarded.",
+        "exception-will-be-discarded": "The exception you are currently raising will be discarded.",
+        "not-all-slaos-annotated": "Not all additional pages are annotated. You will be unable to submit the response until you place at least one annotation on every additional page.",
+        "not-all-slaos-annotated-in-grace": "You cannot leave this response and save your changes until you place at least one annotation on every additional page.",
+        "all-questions-marked-nr": "All question items in this response have been assigned a ‘No response’ (NR) mark which implies that the candidate has not attempted any of the questions.",
+        "supervisor-remark-decision-not-applied": "You will be unable to submit the response until you select a set of marks to use as the candidate's final mark.",
+        "supervisor-remark-decision-not-applied-in-grace": "You cannot leave this response and save your changes until you select a set of marks to use as the candidate's final mark.",
+        "questions-marked-nr": "'No response (NR)' has been assigned to one or more items included in the total mark. This implies that the candidate has not followed the rubric.",
+        "questions-marked-nr-used-in-total": "A ‘No response’ (NR) mark has been assigned to one or more mandatory question items. This implies that the candidate has not attempted these questions.",
+        "questions-marked-not-used-in-total": "Marks have been assigned to one or more items that are not included in the total mark. This implies that the candidate has not followed the rubric.",
+        "enhanced-off-page-comment-will-be-discarded": "Changes you have made to the selected comment will be discarded.",
+        "not-all-files-viewed": "Not all files associated with the current response has been viewed. You will be unable to submit the response until you have viewed all the files.",
+        "file-downloaded-outside": "Please ensure that you have closed any files you have downloaded and opened outside of Assessor for this response."
+      },
+      "ecoursework-file-browser": {
+        "header": "Files",
+        "collapse-button-tooltip": "Collapse file list panel",
+        "expand-button-tooltip": "Expand file list panel",
+        "previous-button-tooltip": "Previous",
+        "next-button-tooltip": "Next",
+        "show-more-metadata": "Show more ...",
+        "show-less-metadata": "Show less ..."
+      },
+      "media-player": {
+        "download-icon-tooltip": "Download file",
+        "play-original-file": "Play original file",
+        "play-transcoded-file": "Play transcoded file",
+        "file-to-play-icon-tooltip": "Select version of file to play",
+        "download-transcoded-icon-tooltip": "Download transcoded version of this file",
+        "browser-not-supported-error": "Your browser is not able to play the audio/video file. Please make sure you are using a supported device and browser",
+        "play-pause-button-tooltip": "play/pause",
+        "play-button-tooltip": "Play",
+        "pause-button-tooltip": "Pause",
+        "playback-time-tooltip": "Media playback time",
+        "unmute-button-tooltip": "UnMute",
+        "mute-button-tooltip": "Mute",
+        "volume-slider-tooltip": "Media volume level",
+        "mute-unmute-button-tooltip": "mute/unmute",
+        "full-screen-button-tooltip": "Full screen",
+        "exit-full-screen-button-tooltip": "Exit full screen",
+        "file-name": "File name",
+        "thumbnail-view": "Thumbnail view",
+        "list-view": "List view"
+      },
+      "media-player-error-dialog": {
+        "header-audio": "Unable to play audio file",
+        "body-audio-network-error": "There was a problem with the connection when trying to load the audio file. Please try selecting the file again.",
+        "body-audio-generic-error": "There was a problem loading the audio file. Please try selecting the file again. If the issue persists, please try ",
+        "header-video": "Unable to play video file",
+        "body-video-network-error": "There was a problem with the connection when trying to load the video file. Please try selecting the file again.",
+        "body-video-generic-error": "There was a problem loading the video file. Please try selecting the file again. If the issue persists, please try ",
+        "error-details": "Error Code : {0} <br/> Error details : {1}",
+        "quick-link-play-transcoded": "transcoded version",
+        "quick-link-play-original": "original version",
+        "quick-link-download-file": "opening the file outside Assessor 3",
+        "quick-link-or": " or ",
+        "quick-link-raise-exception": "raise an exception.",
+        "quick-link-play-alternate": "You can also try playing the ",
+        "quick-link-play-alternate-suffix": " of the file."
+      },
+      "off-page-comments-panel": {
+        "comment-text-placeholder": "Add comment here"
+      },
+      "enhanced-off-page-comments-panel": {
+        "add-comment": "Add comment",
+        "comment-text-placeholder": "Add comment here",
+        "item-column-header": "Item",
+        "file-column-header": "File",
+        "comment-column-header": "Comment",
+        "delete-button": "Delete",
+        "cancel-button": "Cancel",
+        "close-button": "Close",
+        "save-button": "Save",
+        "question-item-dropdown-tooltip": "Associated question item: ",
+        "file-dropdown-tooltip": "Associated file: "
+      },
+      "delete-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "Are you sure you want to delete this comment?",
+        "header": "Delete comment"
+      },
+      "discard-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "Are you sure you want to discard the changes you have made to this comment?",
+        "header": "Discard changes"
+      },
+      "discard-new-enhanced-off-page-comment-confirmation-dialog": {
+        "body": "Are you sure you want to discard this comment?",
+        "header": "Discard comment"
+      },
+      "discard-enhanced-off-page-comment-other-set-confirmation-dialog": {
+        "header": "Discard comment",
+        "body": "If you select a different set of comments, the comment you are currently editing will be discarded. Are you sure you want to continue?"
+      },
+      "ecoursework-unsupported-file-placeholder": {
+        "line-1": "This file cannot be viewed within RM Assessor",
+        "line-2": "It can be downloaded and opened on your computer."
+      },
+      "zoning-warning-dialog": {
+        "ok-button": "OK",
+        "header": "Zoning under review",
+        "body": "The zoning of this candidate's script is being reviewed following an exception raised against another response. Please be aware that the image zones displayed may be changed as a result of this exception. It is suggested that you select other responses to mark until this exception is resolved."
+      }
+    },
+    "full-response-view": {
+      "script-page": {
+        "suppressed-page-tooltip": "You are not allowed to view this page; it is not part of the candidate's response and it may contain information that identifies them",
+        "suppressed-page": "PAGE SUPPRESSED",
+        "additional-page-indicator": "Additional page",
+        "mark-this-page-button": "Mark this page",
+        "view-this-page-button": "View this page",
+        "flag-as-seen-button": "Flag as seen",
+        "link-to-question-button": "Link to question",
+        "view-and-edit-links-button": "View & edit links"
+      },
+      "view-one-page": "1 page",
+      "view-two-page": "2 page",
+      "view-four-page": "4 page",
+      "view-one-page-tooltip": "1 page view",
+      "view-two-page-tooltip": "2 page view",
+      "view-four-page-tooltip": "4 page view",
+      "only-show-unannotated-pages": "Only show unannotated pages",
+      "show-all-pages-of-script": "Show all pages",
+      "show-all-pages-of-script-tooltip": "Show all pages of script",
+      "only-show-unannotated-additional-pages-tooltip": "Only show unannotated additional pages",
+      "all-pages-annotated-text-full-response": "All pages of this response have been annotated",
+      "all-pages-annotated-text-no-pages-to-display-full-response": "There are no unannotated pages to display",
+      "only-show-unannotated-additional-pages": "Only show unannotated additional pages",
+      "all-additional-pages-annotated-text-full-response": "All additional pages of this response have been annotated",
+      "all-additional-pages-annotated-text-no-pages-to-display-full-response": "There are no unannotated additional pages to display",
+      "page-linking-popup": {
+        "header": "Please choose question item(s) to link this page to",
+        "ok-button": "Cancel",
+        "cancel-button": "OK"
+      },
+      "unlink-annotations-exist-dialog": {
+        "header": "Annotated pages",
+        "body": "You may not unlink the following question item(s) because there are annotations related to them on this page. Please remove the annotations before unlinking."
+      },
+      "manage-slaos-dialog": {
+        "header": "Manage additional pages",
+        "body": "This candidate's response contains additional pages that are not part of the main answer booklet. Please review these pages carefully. Once you have either linked each page to one or more question items, or flagged it as \"Seen\", you will be able to start marking the response.",
+        "ok-button": "OK"
+      },
+      "slaos-managed-dialog": {
+        "header": "Additional pages managed",
+        "body": "All additional pages have been linked to a question item or flagged as \"Seen\". Would you like to start marking this response now?",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "slao-link-removal-dialog": {
+        "header": "Confirm review of additional page",
+        "body": "By removing all links from this page you are confirming that this page does not contain anything that would count towards the candidate's mark for this response. If this is correct please select \"OK\". Otherwise please select \"Cancel\" and then link it to the question item(s) it relates to.",
+        "ok-button": "OK",
+        "cancel-button": "Cancel"
+      },
+      "manage-slaos-remark-dialog": {
+        "header": "Review additional pages",
+        "body": "This candidate's response contains additional pages that are not part of the main answer booklet. The original examiner has already reviewed these and either linked them to question item(s) or flagged them as \"Seen\". Please review these pages and links carefully, and make adjustments if required, before you start reviewing and adjusting the original marks.",
+        "ok-button": "OK"
+      },
+      "back-to-marking-button": "Marking",
+      "back-to-marking-button-tooltip": "Return to Marking",
+      "problems-button-while-managing-slaos-tooltip": "Problems with this response",
+      "flag-as-seen-dialog": {
+        "header": "Confirm review of additional page",
+        "body": "By selecting \"OK\" you are confirming that this page does not contain anything that would count towards the candidate's mark for this response. If this is correct please select \"OK\". Otherwise please select \"Cancel\" and then link it to the question item(s) it relates to.",
+        "ok-button": "OK",
+        "cancel-button": "Cancel"
+      }
+    }
+  },
+  "generic": {
+    "busy-indicator": {
+      "responseAllocation": "Responses being downloaded, please wait...",
+      "submit": "Submitting response, please wait...",
+      "submitAll": "Submitting responses, please wait...",
+      "none": "Loading..",
+      "saveEmail": "Saving email address...",
+      "loadingResponse": "Loading..",
+      "savingMarksAndAnnotations": "Saving marks and annotations. Please wait...",
+      "savingMarksAndAnnotations-offline": "Assessor 3 is attempting to save your work, but you are currently offline. Please check your Internet connection. Once a connection is established your work will automatically be saved. Please don't close your browser or you will lose any unsaved changes.",
+      "loadingModules": "Loading..",
+      "submitInResponseScreen": "Submitting response, please wait...",
+      "loadResponseInMessage": "Loading Response Details..",
+      "loadingHistoryDetails": "Loading.."
+    },
+    "error-dialog": {
+      "header": "Unexpected Error",
+      "view-more": "View more information",
+      "ok-button": "OK",
+      "body": "This action could not be completed. Please try again, and contact your helpdesk if the issue persists.",
+      "body-error-saving-user-options": "Sorry, the changes you made to user settings could not be saved. Please open the user menu and try again.",
+      "body-network-error": "Network error. Cannot connect to server.",
+      "body-response-removed": "For your information response ID {0} has been removed  for question group {1}."
+    },
+    "browser-warnings": {
+      "close-browser-warning": "Please use the 'Logout' button to log out of Assessor 3 and ensure your work is saved. If you close the browser without logging out you will lose any unsaved work."
+    },
+    "offline-dialog": {
+      "header": "Working offline",
+      "body": "This action cannot be completed because RM Assessor{0} cannot communicate with the server. Please check your Internet connection and try again. To avoid losing work, please don't log out or close your browser until you are back online.",
+      "body-user-options-changed": "Assessor 3 cannot communicate with the server to save your preferences and log out. Please check your Internet connection and try again.",
+      "body-application-files-not-downloaded": "This action cannot be completed because RM Assessor{0} cannot communicate with the server. Please check your Internet connection. Once you are back online you will be automatically taken to the area you were trying to access. To avoid losing work, please don’t close your browser."
+    },
+    "approval-statuses": {
+      "None": "None",
+      "NotApproved": "Not Approved",
+      "PracticeCompleted": "Practice Completed",
+      "StandardisationCompleted": "Standardisation Completed",
+      "Approved": "Approved",
+      "ApprovedReview": "ApprovedReview",
+      "UnapprovedRestandardise": "Un Approved Restandardise",
+      "UnapprovedRejected": "Un Approved Rejected",
+      "Withdrawn": "Withdrawn",
+      "Suspended": "Pending Review",
+      "ConditionallyApproved": "Conditionally Approved",
+      "status-changed-header": "Approval status changed",
+      "status-changed": "Your approval status on this question group has changed and you cannot download or submit responses until your supervisor provides you with feedback. You can still review any responses which have already been downloaded into your worklist. This will not prevent you from marking other question groups where you have a quota.",
+      "status-changed-qualityfeedback": "Your approval status on this question group has changed and you cannot download or submit responses until you have accepted feedback on this seed, and your supervisor has provided you with further feedback about your marking. This will not prevent you from marking other question groups where you have a quota.",
+      "AwaitingApproval": "Awaiting Approval",
+      "Complete": "Complete"
+    },
+    "examiner-roles": {
+      "assistantExaminer": "Assistant Examiner",
+      "teamLeader": "Team Leader",
+      "principalExaminer": "Principal Examiner",
+      "administrator": "Administrator",
+      "generalMarker": "General Marker",
+      "viewer": "Viewer",
+      "assistantPrincipalExaminer": "Assistant Principal Examiner",
+      "assistantExaminer_MFI_SSU": "Assistant Examiner MFI SSU",
+      "assistantExaminer_MFI": "Assistant Examiner MFI",
+      "subjectMarker_MFI_Marking_Centre": "SubjectMarker MFI Marking Centre",
+      "subjectMarker_MFI_Home": "Subject Marker MFI Home",
+      "serviceDelivery": "Service Delivery",
+      "superAdministrator": "Super Administrator",
+      "seniorTeamLeader": "Senior Team Leader",
+      "principalModerator_Postal": "Principal Moderator Postal",
+      "autoMarker": "AutoMarker",
+      "subjectMarker_MFI_H_SSU": "Subject Marker MFI H SSU",
+      "autoApprovedSeniorTeamLeader": "Auto Approved Senior Team Leader",
+      "autoMessaging": "Auto Messaging",
+      "adminRemarker": "Admin Re-marker",
+      "assistantExaminer_Visiting": "Assistant Examiner Visiting"
+    },
+    "logout-dialog": {
+      "body": "Are you sure you want to logout?",
+      "header": "Logout confirmation",
+      "yes-button": "Yes",
+      "no-button": "No",
+      "ask-every-time": "Ask every time"
+    },
+    "user-menu": {
+      "profile-section": {
+        "logout-button": "Logout",
+        "edit-settings": "Edit settings",
+        "user-name": "User name",
+        "email-validation-message": "Please enter a valid email address",
+        "email-address-placeholder": "Enter email address",
+        "save-email-button": "Save",
+        "cancel-email-button": "Cancel"
+      },
+        "user-options": {
+            "logout-confirmation": "Logout confirmation",
+            "logout-confirmation-tooltip": "Logout confirmation",
+            "assign-single-digit-marks-without-pressing-enter": "Assign single digit marks without pressing Enter",
+            "pause-media-when-offpage-comments-are-added": "Pause media when offpage comments are added",
+            "language": "Language"
+        },
+      "email-address-saved-dialog": {
+        "body": "The email address associated with your RM Assessor account has been updated successfully. Please make sure you also update your email address in associated systems if required (e.g. if your awarding body requires you to notify them of email address changes, or if you raise support calls via rm.com).",
+        "header": "Updated Successfully"
+      }
+    },
+    "marking-modes": {
+      "None": "None",
+      "PreStandardisation": "PreStandardisation",
+      "Practice": "Practice",
+      "Approval": "Standardisation",
+      "ES_TeamApproval": "STM Standardisation",
+      "Pre_ES_TeamStandardisation": "Pre ES TeamStandardisation",
+      "StandardisationReview": "Standardisation Review",
+      "SeedingReview": "Seeding Review",
+      "LiveMarking": "Marking",
+      "Remarking": "Remarking",
+      "Adjudication": "Adjudication",
+      "Sample": "Sample",
+      "Seeding": "Seeding",
+      "MarkFromPaper": "Mark From Paper",
+      "Simulation": "Simulation",
+      "Marking": "Marking",
+      "SecondStandardisation": "2nd Standardisation",
+      "RemarkPooled": "Remark Pooled",
+      "PooledResultsEnquiry": "Results Enquiry Pooled",
+      "AtRiskPooled": "At Risk Pooled",
+      "EnquiryUponResultPooled": "Enquiry Upon Results Review",
+      "GradeReviewPooled": "Grade Review Pooled",
+      "PooledAdminRemark": "Pooled Admin Re-mark",
+      "PooledCaseReviewRemark": "Pooled Case Review Re-mark",
+      "AdjudicationPooled": "Adjudication Pooled",
+      "RemarkPooled1": "Re-mark Pooled 1",
+      "RemarkPooled2": "Re-mark Pooled 2",
+      "RemarkPooled3": "Re-mark Pooled 3"
+    },
+    "navigation-bar": {
+      "inbox-tooltip": "Inbox",
+      "inbox": "Inbox",
+      "user-menu-tooltip": "User profile and settings",
+      "offline-tooltip": "Working offline; last online ",
+      "offline-tooltip-minutes-ago": " minute(s) ago",
+      "breadcrumbs": {
+        "home": "Home",
+        "team-management-for": "Team Management for ",
+        "worklist-for": "Worklist for ",
+        "team": "Team",
+        "worklist": "Worklist",
+        "inbox": "Inbox",
+        "team-management": "Team Management",
+        "marking-check": "Marking Check",
+        "reports": "Reports"
+      },
+      "menu": "Menu",
+      "menu-tooltip": "Navigation options"
+    },
+    "accuracy-indicators": {
+      "accurate": "Accurate",
+      "accurate-tooltip": "Your marks for this response exactly match the definitive marks",
+      "inaccurate": "Inaccurate",
+      "inaccurate-tooltip": "Your marks for this response do not exactly match the definitive marks, and are outside of the acceptable tolerance",
+      "in-tolerance": "In Tolerance",
+      "in-tolerance-tooltip": "Your marks for this response do not exactly match the definitive marks, but are within the acceptable tolerance",
+      "accurate-tooltip-team-management": "The marks for this response exactly match the definitive marks",
+      "inaccurate-tooltip-team-management": "The marks for this response do not exactly match the definitive marks, and are outside of the acceptable tolerance",
+      "in-tolerance-tooltip-team-management": "The marks for this response do not exactly match the definitive marks, but are within the acceptable tolerance",
+      "original-mark-accurate-tooltip": "Your marks for this response exactly match the original marks",
+      "original-mark-inaccurate-tooltip": "Your marks for this response do not exactly match the original marks, and are outside of the acceptable tolerance",
+      "original-mark-in-tolerance-tooltip": "Your marks for this response do not exactly match the original marks, but are within the acceptable tolerance",
+      "original-mark-accurate-tooltip-team-management": "The marks for this response exactly match the original marks",
+      "original-mark-inaccurate-tooltip-team-management": "The marks for this response do not exactly match the original marks, and are outside of the acceptable tolerance",
+      "original-mark-in-tolerance-tooltip-team-management": "The marks for this response do not exactly match the original marks, but are within the acceptable tolerance"
+    },
+    "remark-types": {
+      "long-names": {
+        "PooledResultsEnquiry": "Results Enquiry Pooled",
+        "GradeReviewPooled": "Grade Review Pooled",
+        "AtRiskPooled": "At-Risk Pooled",
+        "EnquiryUponResultPooled": "Enquiry Upon Results Review",
+        "RemarkPooled": "Pooled Re-mark",
+        "PooledAdminRemark": "Pooled Admin Re-mark",
+        "PooledCaseReviewRemark": "Pooled Case Review Re-mark",
+        "RemarkPooled1": "RP1 Remark",
+        "RemarkPooled2": "RP2 Remark",
+        "RemarkPooled3": "RP3 Remark",
+        "AdjudicationPooled": "Adjudication Pooled Remark",
+        "ArbitrationRemark": "Arbitration Remark",
+        "PriorityRemark": "Priority Remark",
+        "AtRisk": "At Risk",
+        "EnquiryUponResult": "Enquiry Upon Results",
+        "RemarkRIGExaminer": "General Re{0}mark 3",
+        "RemarkCandidateExaminer": "General Re{0}mark 4",
+        "GradeReviewDirected": "Grade Review Directed",
+        "PartialRemark": "Partial Re{0}mark",
+        "Remark": "Re{0}mark",
+        "ResultEnquiry": "Result Enquiry",
+        "ReviewRemark": "Review Re{0}mark",
+        "SampleRemark": "Sample Re{0}mark",
+        "SeedingRemark": "Seeding Re{0}mark",
+        "SupervisorRemark": "Supervisor Re{0}mark",
+        "WithdrawnSeedRemark": "Withdrawn Seed Re{0}mark",
+        "RemarkCandidateRIG": "G1 Re{0}mark"
+      },
+      "short-names": {
+        "AberrantMarker": "AM",
+        "ReallocateRIG": "RM",
+        "GradeReview": "GR",
+        "PriorityResultEnquiry": "PRE",
+        "ResultEnquiry": "RE",
+        "SeedingRemark": "SR",
+        "RemarkCandidate": "RC",
+        "RemarkRIGExaminer": "RRE",
+        "RemarkCandidateExaminer": "RCE",
+        "PartialRemark": "PRM",
+        "GradeReviewDirected": "GRD",
+        "InsufficientSample": "IS",
+        "PooledResultsEnquiry": "REP",
+        "SupervisorRemark": "SPR",
+        "GradeReviewPooled": "GRP",
+        "RemarkCandidateRIG": "G1",
+        "SampleRemark": "SAM",
+        "AtRisk": "AR",
+        "AtRiskPooled": "ARP",
+        "EnquiryUponResult": "EUR",
+        "EnquiryUponResultPooled": "ERP",
+        "Remark": "R",
+        "RemarkPooled": "RP",
+        "ReviewRemark": "RR",
+        "PooledAdminRemark": "ADR",
+        "PooledCaseReviewRemark": "CRR",
+        "WithdrawnSeedRemark": "WSR",
+        "RemarkPooled1": "RP1",
+        "RemarkPooled2": "RP2",
+        "RemarkPooled3": "RP3",
+        "AdjudicationPooled": "ADJ",
+        "DeallocationRemark": "DLR",
+        "DoubleMarking": "DM",
+        "ArbitrationRemark": "ARB",
+        "PriorityRemark": "PR1"
+      }
+    },
+    "exception-statuses": {
+      "open": "Open",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    },
+    "exception-types": {
+      "1": {
+        "name": "Colour Image Request",
+        "details": "I am unable to mark the candidate's response because the image is unclear.  I would like to request a colour version of this image as I believe this will make it clearer.  I do not need the whole script to be scanned again.  Examples include use of pale coloured writing implements or a graphical response that is difficult to read.  Please note that a colour image request may take up to 24 hours to be delivered and may take longer to download and mark due to the increased image processing required."
+      },
+      "2": {
+        "name": "Image Rescan Request",
+        "details": "I am unable to mark this candidate's response because the image is of poor quality.  Examples may be scan lines, folded paper or image skew."
+      },
+      "3": {
+        "name": "Suspected Malpractice",
+        "details": "I suspect malpractice in relation to this candidate's response.  I would like this to be reviewed."
+      },
+      "4": {
+        "name": "Offensive Content",
+        "details": "The candidate's response is offensive or obscene.  I would like to make the awarding body aware of this."
+      },
+      "5": {
+        "name": "Material of Concern",
+        "details": "The candidate's response gives me concern about the candidate's well-being.  I would like to make the awarding body aware of this."
+      },
+      "6": {
+        "name": "Incorrect Question Paper",
+        "details": "I cannot mark this item because the image does not correspond to the question paper I am marking."
+      },
+      "7": {
+        "name": "Undecipherable",
+        "details": "I am unable to mark the candidate's response because the response is undecipherable.  A further rescan will not improve the situation because the problem is with the writing and not the image.  Examples include poor handwriting or overwriting the original response."
+      },
+      "8": {
+        "name": "Answer outside of Guidance",
+        "details": "Unable to mark because the mark scheme instructions do not cover this candidate's response."
+      },
+      "9": {
+        "name": "Misclassified",
+        "details": "Unable to mark because I suspect that part of the response belongs to a different candidate or has been otherwise misclassified."
+      },
+      "10": {
+        "name": "Concatenated Script Exception",
+        "details": "This candidate response contains scripts for two or more candidates."
+      },
+      "11": {
+        "name": "Script Contains Coversheet Only",
+        "details": "This candidate response contains only the coversheet."
+      },
+      "12": {
+        "name": "Incorrect Component or Paper",
+        "details": "I cannot mark this question paper because the candidate's response does not correspond to the component or paper I am marking."
+      },
+      "13": {
+        "name": "Non-Script Object",
+        "details": "This script contains one or more objects that I believe to be non-script objects."
+      },
+      "14": {
+        "name": "Image cannot be accessed or read",
+        "details": "I am unable to mark this response because one or more images cannot be accessed or read. (Re-conversion of file will cause all current marks to be lost)"
+      },
+      "15": {
+        "name": "Candidate Welfare Concern",
+        "details": "I have concerns about this candidate's response. I would like this to be investigated."
+      },
+      "16": {
+        "name": "Malpractice Concern",
+        "details": "I suspect malpractice in relation to this candidate's response. I would like this to be reviewed."
+      },
+      "17": {
+        "name": "PA Referral",
+        "details": "I have a problem marking this response, which cannot be resolved with my Supervisor's help."
+      },
+      "18": {
+        "name": "Zoning Error Missing Content",
+        "details": "The zone for this question does not capture all the candidate response relating to the question."
+      },
+      "19": {
+        "name": "Zoning Error Other Content",
+        "desc": "The zone for this question contains response content relating to another question within this script."
+      },
+      "20": {
+        "name": "Mark Scheme Query",
+        "details": "Unable to zone because the mark scheme does not appear to match this candidate's responses."
+      },
+      "21": {
+        "name": "Supervisory Concerns other than Hours Spent",
+        "details": "This exception is to alert the IB to supervisory concerns including the omission of a supervisor comment, or concerning information contained within the comment. This can also be used to communicate any other supervisory concern to the IB, provided details are given."
+      },
+      "22": {
+        "name": "Violation of a Policy",
+        "details": "This exception is to alert the IB to the violation of a policy, such as the animal experimentation policy. Please provide specific details."
+      },
+      "23": {
+        "name": "Violation of Ethical or Subject-Specific Guidelines",
+        "details": "This exception is to alert the IB to the violation of ethical guidelines, or subject-specific guidelines as outlined in the associated subject. Please provide specific details."
+      },
+      "24": {
+        "name": "Incorrect file",
+        "details": "this type of exception should be raised if the response being marked contains a file that is not correctly associated with a particular Question Item. This exception will be escalated to the Awarding Body Administrators. It will only be possible to submit a response which has had this type of exception raised against it when the exception has been resolved and you have closed the exception."
+      },
+      "25": {
+        "name": "File access error",
+        "details": "This type of exception should be raised if the response being marked contains a file that does not open correctly. This exception will be escalated to the Awarding Body Administrators. It will only be possible to submit a response which has had this type of exception raised against it when the exception has been resolved and you have closed the exception."
+      },
+      "26": {
+        "name": "Incorrect Image",
+        "details": "This type of exception should be raised if the response being marked contains a file that is not correctly associated with a particular Question Item Group. This exception will be escalated to the Awarding Body Administrators. It will only be possible to submit a response which has had this type of exception raised against it when the exception has been resolved and you have closed the exception."
+      },
+      "27": {
+        "name": "Incomplete coursework",
+        "details": "Raised when an examiner believes that the candidate has submitted incomplete coursework."
+      },
+      "28": {
+        "name": "Work not following course requirements",
+        "details": "Raised when an examiner believes that the candidate has followed the wrong level or possibly last years (or next years) requirements"
+      },
+      "29": {
+        "name": "General Coursework Exception",
+        "details": "General coursework exception"
+      },
+      "30": {
+        "name": "Missing Letter for External Institute",
+        "details": "This exception is to alert the IB when the letter for external institute is missing"
+      },
+      "31": {
+        "name": "Issue accessing file",
+        "details": "I am experiencing problems accessing a file related to this response and require Awarding Body assistance to resolve this and to allow me to carry on marking."
+      },
+      "32": {
+        "name": "Missing and/or Incorrect File",
+        "details": "I believe one or more files related to this candidate response is incorrect, or are missing, preventing me from completing marking."
+      },
+      "33": {
+        "name": "Word count exceeded",
+        "details": "The candidate’s evidence has exceeded the stipulated word count  by more than 10%"
+      },
+      "34": {
+        "name": "Additional material - Missing",
+        "details": "The candidate has not submitted the required Resource, Research Evidence or Processed Information Sheet(s)."
+      },
+      "35": {
+        "name": "Additional material – Word/page count exceeded",
+        "details": "The candidate has exceeded the word/page count for Resource, Research Evidence or Processed information Sheet(s)."
+      },
+      "36": {
+        "name": "Additional material – Significant copying",
+        "details": "The candidate has copied extended pieces of text/narrative from the Resource Sheet, Research or Processed Information Sheet(s)."
+      },
+      "37": {
+        "name": "General Exception A",
+        "details": "Use as detailed in Marking Instructions"
+      },
+      "38": {
+        "name": "General Exception B",
+        "details": "Use as detailed in Marking Instructions"
+      }
+    },
+    "response": {
+      "exception-panel": {
+        "back-to-exceptions": "Back to Exceptions",
+        "escalate-button": "Escalate",
+        "resolve-button": "Resolve"
+      },
+      "view-exception-panel": {
+        "Escalate": "Escalate",
+        "Resolve": "Resolve",
+        "Close": "Close"
+      },
+      "escalate-exception-dialog": {
+        "header": "Escalate exception",
+        "body": "Please add a comment before escalating this exception."
+      },
+      "resolve-exception-dialog": {
+        "header": "Resolve exception",
+        "body": "Please add a comment before resolving this exception."
+      }
+    },
+    "navigation-menu": {
+      "close": "Close",
+      "home": "Home",
+      "recent": "Recent",
+      "my-marking": "My Marking",
+      "reports": "Reports",
+      "team-management": "Team Management"
+    },
+    "time-periods": {
+      "hour-single": "hour",
+      "hours-plural": "hours",
+      "day-single": "day",
+      "days-plural": "days"
+    },
+    "toggle-button-states": {
+      "on": "ON",
+      "off": "OFF"
+    },
+    "worklist": {
+      "information-text": "Information"
+    }
+  },
+  "home": {
+    "qig-statuses": {
+      "Suspended": "Pending Review",
+      "Practice": "Practice Marking",
+      "StandardisationMarking": "Standardisation Marking",
+      "AwaitingApproval": "Awaiting Approval",
+      "SecondStandardisationMarking": "Second Standardisation Marking",
+      "STMStandardisationMarking": "STM Standardisation Marking",
+      "LiveMarking": "Live Marking",
+      "WaitingStandardisation": "Awaiting Standardisation",
+      "LiveComplete": "Live Complete",
+      "Simulation": "Simulation Marking",
+      "QualityFeedback": "Quality feedback pending",
+      "NoLiveTarget": "No Live Marking Quota",
+      "LiveTargetOverAllocation": "Live Target Unlocked",
+      "AdminRemark": "Admin Re-marking"
+    },
+    "qig-data": {
+      "responses-in-worklist-icon-tooltip": "You have open responses allocated to you that you must complete marking",
+      "responses-available-simulation-icon-tooltip": "There are responses available for Simulation Marking",
+      "simulation-status-tooltip": "You are currently working in Simulation mode. When standardisation completes, any scripts will be cleared down and Simulation mode will end.",
+      "responses-available-icon-tooltip": "There are unallocated responses available in the pool that you could download and mark (subject to any eligibility restrictions)",
+      "marking-progress-tooltip": "{0} submitted - closed, {1} submitted - editable, {2} open for marking",
+      "open-responses-in-over-allocation": "open",
+      "my-marking-button": "My Marking",
+      "remarks-available-indicator": "Re-marks",
+      "remarks-available-indicator-tooltip": "There are unallocated remark responses available in the pool that you could download and mark (subject to any eligibility restrictions)",
+      "team-management-button": "Team Management",
+      "team-management-button-stuck-examiners-tooltip": "There are stuck examiners requiring action",
+      "team-management-button-locked-examiners-tooltip": "You have locked examiners requiring action"
+    },
+    "home-page": {
+      "no-qigs-available-to-mark-placeholder": "No question groups available to mark"
+    }
+  },
+  "login": {
+    "login-page": {
+      "login-to": "Login to",
+      "marking-button-tooltip": "Login to RM Assessor{0}",
+      "marking-button": "MARKING",
+      "marking-or-fam": "OR",
+      "fam-button-tooltip": "Login to Familiarisation mode to practice using RM Assessor{0}",
+      "fam-button": "FAMILIARISATION",
+      "forgot-password-tooltip": "Forgot password?",
+      "forgot-password": "Forgot password?",
+      "username": "Username",
+      "password": "Password",
+      "username-password-validation-message": "Please enter your username and password",
+      "username-validation-message": "Please enter a username",
+      "password-validation-message": "Please enter a password",
+      "cookies-disabled": "Please enable cookies in your browser settings before logging in.",
+      "caps-lock-on-warning": "Caps lock is on",
+      "copyright": " RM Results, All Rights Reserved",
+      "welcome-message": "Welcome to RM Assessor{0}",
+      "welcome-detail": "The world's most widely used and innovative high stakes e{0}marking platform.",
+      "language-selector-tooltip": "Select language",
+      "language-selector-dropdown-tooltip": "Languages",
+      "awarding-body-logo-tooltip": "Awarding body logo"
+    },
+    "logging-in": {
+      "fam-loading": "Setting up familiarisation environment",
+      "please-wait": "Logging in, please wait...",
+      "password-changed": "Your password has been changed successfully.",
+      "password-changed-logging-in": "Logging you in to RM Assessor{0}...",
+      "incorrect-password": "The username or password that you've entered is incorrect. Please try again.",
+      "connection-lost": "RM Assessor is unable to connect to the server. Please check your internet connection and try again.",
+      "login-failed": "Login failed, please try again"
+    },
+    "auto-log-out": {
+      "automatically-logged-out-timeout": "You have been logged out due to a period of inactivity",
+      "automatically-logged-out-logged-in-different-browser": "You have been logged out as you have logged in again in a different browser window"
+    },
+    "cookie-panel": {
+      "close-button": "Close",
+      "cookies-link": "Cookies",
+      "message-part-1": "RM Assessor{0} uses cookies to deliver an efficient and reliable marking experience for you. Full details of what cookies are and why we use them can be found by reading our ",
+      "message-part-2": " page. Please note that by continuing to use this site you are consenting to the use of cookies.",
+      "message-part-2-cookies-disabled": " page. We have detected that cookies are currently disabled in your browser - this will prevent you from logging in. Please adjust your browser settings to enable cookies before you try to log in.",
+      "dont-show-again": "Don't show me this message again",
+      "cookies-link-tooltip": "View information about the cookies RM Assessor{0} uses"
+    },
+    "cookie-detail-page": {
+      "table-header-name": "Name",
+      "table-header-purpose": "Purpose",
+      "language-cookie-purpose": "Storing user selected language.",
+      "cookie-page-cookie-purpose": "Determines whether the user has chosen to permanently hide the cookie notification panel.",
+      "cookies-on-this-site-part-1": "In order for this site to work properly your computer needs to accept a number of cookies; without them some fundamental parts of the website won't work as intended. ",
+      "cookies-on-this-site-part-2": "The cookies used on this site include:",
+      "cookies-on-this-site-header": "Cookies on this site",
+      "table-header-type": "Type (session or persistent)",
+      "cookie-type-persistent": "persistent",
+      "what-are-cookies-part-1": "Cookies are small text files which are sent to and then stored on your computer when you visit different web pages. We do not store detailed personal information in our cookies, but we use information gathered from cookies to help make your experience on the site better, e.g. by making navigation within the site easier or remembering your preferences. Please note that cookies can't harm your computer or your files.",
+      "what-are-cookies-part-2": "Cookies are either \"session cookies\", which are only stored for the duration of your visit to the site and deleted when you close your browser, or \"persistent cookies\", which are stored for a period of time and activated when you return to the site. In general, session cookies are often used for authentication, and persistent cookies are often used to save your preferences.",
+      "what-are-cookies-header": "What are cookies?",
+      "ga-cookie-purpose": "Used for Google analytics.",
+      "gat-cookie-purpose": "Used for Google analytics.",
+      "auth-cookie-purpose": "Used for authentication.",
+      "cookie-type-session": "session",
+      "session-id-cookie-purpose": "Used for denying multiple user logins from different instance of the same browser."
+    },
+    "forgot-password-dialog": {
+      "body": "This will open a new browser window or tab. Do you want to continue?",
+      "header": "Forgot Password",
+      "yes-button": "Yes",
+      "no-button": "No"
+    }
+  },
+  "team-management": {
+    "examiner-worklist": {
+      "response-data": {
+        "amd-tooltip": "The total difference between the marks awarded and the definitive marks set by the senior examiner team, calculated across each individual question item",
+        "tmd-tooltip": "The difference between the overall total mark awarded, and the overall total mark set by the senior examiner team",
+        "exceptions-icon-tooltip": "This response has one or more linked exceptions. None of these will prevent the response being submitted when marking is complete. Click this icon to view the exceptions.",
+        "blocking-exceptions-icon-tooltip": "This response has one or more linked exceptions. The marker will not be able to submit the response until these exceptions have been resolved and closed. Click this icon to view the exceptions.",
+        "resolved-exceptions-icon-tooltip": "This response has {0} exceptions that are resolved and waiting to be closed. None of these will prevent the response being submitted when marking is complete. Click this icon to view the exceptions.",
+        "resolved-and-blocking-exceptions-icon-tooltip": "This response has {0} exceptions that are resolved and waiting to be closed. The marker will not be able to submit the response until they have closed these exceptions. Click this icon to view the exceptions.",
+        "messages-icon-tooltip": "This response has one or more linked messages.",
+        "unread-messages-icon-tooltip": "This response has one or more unread linked messages.",
+        "reviewed-by-me": "Me",
+        "auto-reviewed": "Auto-reviewed",
+        "mark-change-reason-not-specified-icon-tooltip": "No reason for marks change has been entered."
+      },
+      "change-status": {
+        "ok-button": "OK",
+        "change-status-button": "Change status",
+        "not-approved": "Not Approved",
+        "approve": "Approve",
+        "suspend": "Suspend",
+        "send-second-standardisation": "Send 2nd Standardisation",
+        "approve-pending-review": "Approve pending review"
+      },
+      "change-status-error-dialog": {
+        "header": "Change Examiner Status",
+        "body-already-changed": "The examiner status has been already changed.",
+        "body-not-allowed": "Your role has changed and you are no longer allowed to perform this action."
+      },
+      "column-headers": {
+        "sampled": "Sampled",
+        "reviewed-by": "Reviewed by",
+        "review-comment": "Review comment"
+      },
+      "change-status-sep": {
+        "Approve": "Approve",
+        "ProvideSecondStandardisation": "Send 2nd Standardisation",
+        "Re_approve": "Re{0}approve"
+      },
+      "hierarchy-changed-dialog": {
+        "body-priority-changed": "Your position in the hierarchy has changed and this is no longer an available action.",
+        "HierarchyChanged-title": "Examiner hierarchy changed",
+        "HierarchyChanged-content": "Your role has changed and you are no longer allowed to perform this action."
+      },
+      "lock-failure-dialog": {
+        "body": "The lock status of this examiner has been changed and you are no longer allowed to perform this action.",
+        "header-lock-removed": "Lock removed",
+        "ExaminerAlreadyLocked-title": "Examiner already locked",
+        "ExaminerAlreadyunlocked-title": "Examiner already unlocked"
+      },
+      "filters": {
+        "filter-by": "Filter by:",
+        "all-responses": "All responses",
+        "seeds-only": "Seeds only",
+        "unreviewed-seeds-only": "Unreviewed seeds only"
+      },
+      "subordinate-withdrawn-dialog": {
+        "SubordinateExaminerWithdrawn-title": "Examiner withdrawn from marking",
+        "SubordinateExaminerWithdrawn-content": "This examiner has been withdrawn from this question group and this is no longer an available action."
+      },
+      "withdrawn-dialog": {
+        "Withdrawn-title": "Withdrawn from marking",
+        "Withdrawn-content": "You have been withdrawn from this question group. This will not prevent you from accessing other question groups where you have a quota."
+      },
+      "suspended-dialog": {
+        "Suspended-title": "Approval status changed",
+        "Suspended-content": "Your status has changed and you are no longer allowed to perform this action."
+      },
+      "subordinate-status-already-changed-dialog": {
+        "ExaminerStatusAlreadyChanged-title": "Status already changed",
+        "ExaminerStatusAlreadyChanged-content": "The examiner status has been already changed."
+      },
+      "lock-limit-reached-dialog": {
+        "LockLimitReached-title": "Lock limit reached",
+        "LockLimitReached-content": "You have already locked the maximum number of examiners allowed. Please manage your existing locked examiners before you lock another examiner."
+      }
+    },
+    "full-response-view": {
+      "back-to-response-button": "Response",
+      "back-to-response-button-tooltip": "Return to Response"
+    },
+    "response": {
+      "mark-scheme-panel": {
+        "set-as-reviewed-button": "Set as reviewed",
+        "reviewed-button": "Reviewed",
+        "set-as-reviewed-button-tooltip": "Set this response as reviewed.",
+        "reviewed-button-tooltip": "This response is reviewed.",
+        "supervisor-sampling-button": "Supervisor sampling"
+      },
+      "already-reviewed-dialog": {
+        "header": "Response reviewed",
+        "body": "This response is already reviewed by another examiner."
+      },
+      "supervisor-remark-mark-later-confirmation-dialog": {
+        "body": "Re-mark request successfully created. The response is now available for marking in your Supervisor re-mark worklist.",
+        "header": "Re-mark request created"
+      },
+      "supervisor-remark-panel": {
+        "mark-now-button": "Mark now",
+        "mark-later-button": "Mark later",
+        "header": "Raise supervisor re-mark",
+        "supervisor-remark-already-raised": "Please note, a supervisor re-mark has already been raised for this response, either by you or another senior examiner."
+      },
+      "left-toolbar": {
+        "supervisor-remark-button-tooltip": "Raise supervisor re-mark",
+        "promote-to-seed-button-tooltip": "Promote response to seed"
+      },
+      "supervisor-sampling-comments": {
+        "0": "None",
+        "1": "OK",
+        "2": "Feedback given",
+        "3": "Action required"
+      },
+      "sampling-error-dialog-already-sampled": {
+        "header": "Response already sampled",
+        "body": "This response has been sampled by another supervisor. Please select OK and then re-open the response to view the updated sampling status."
+      },
+      "sampling-error-dialog-withdrawn": {
+        "header": "Withdrawn from marking",
+        "body": "You have been withdrawn from this question group. This will not prevent you from accessing other question groups where you have a quota."
+      },
+      "sampling-error-dialog-subordinate-withdrawn": {
+        "header": "Examiner withdrawn from marking",
+        "body": "This examiner has been withdrawn from this question group and this is no longer an available action."
+      },
+      "sampling-error-dialog-hierarchy-changed": {
+        "header": "Examiner hierarchy changed",
+        "body": "Your role has changed and you are no longer allowed to perform this action."
+      },
+      "promote-panel": {
+        "header": "Promote response",
+        "promote-to-reuse-bucket-button-tooltip": "Promote response to Re-use Bucket",
+        "promote-to-seed-button": "To Seed",
+        "promote-to-reuse-bucket-button": "To Re-use Bucket"
+      },
+      "promote-to-reuse-bucket-dialog": {
+        "header": "Promote to Reuse Bucket",
+        "body": "Are you sure you want to promote the selected response to re-use bucket?",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "promote-to-reuse-bucket-not-latest-marks-dialog": {
+        "header": "Latest Response",
+        "body": "The response you have selected is not the latest set of marks awarded for this candidate and therefore cannot be promoted to the re-use bucket",
+        "ok-button": "OK"
+      },
+      "promote-to-seed-dialog": {
+        "header": "Promote to seed",
+        "body-own-response": "Promoting this response to a seed will remove it from your marking worklist and it will be available in Standardisation Setup.",
+        "body-stm-subordinate-response": "Promoting this response to a seed will remove it from the current examiner's worklist and it will be available in Standardisation Setup.",
+        "body-non-stm-subordinate-response": "By promoting this response to a seed it will remain in the current examiner's worklist and it will also be available in Standardisation Setup.",
+        "ok-button": "OK",
+        "cancel-button": "Cancel",
+        "body-not-fully-marked": "This response must be 100%% marked before it can be promoted to a seed.",
+        "body-remarks-exist": "The following re-marks exist for this response:",
+        "body-remarks-exist-confirmation": "Promoting this responses to a seed will remove it from your marking worklist and it will be available in the Standardisation Setup.",
+        "body-dynamic-sampling": "By promoting this response to a seed it will remain in your marking worklist and it will also be available in Standardisation Setup."
+      },
+      "promote-to-seed-no-seeding-dialog": {
+        "header": "Response not promoted",
+        "body": "The response cannot be promoted to seed as examiners have not been assigned a seeding rate or seeding frequency and the Standardisation seed target is set as zero."
+      },
+      "promote-to-seed-examiner-withdrawn-dialog": {
+        "header": "Examiner withdrawn from marking",
+        "body": "This examiner has been withdrawn from this question group and this is no longer an available action."
+      },
+      "review-comments": {
+        "1": "All correct",
+        "2": "Good",
+        "3": "Acceptable: no feedback",
+        "4": "Acceptable: give feedback",
+        "5": "Causing concern: give feedback",
+        "6": "Unacceptable: consult PE"
+      }
+    },
+    "left-panel": {
+      "my-team": "My team",
+      "help-examiners": "Help examiners",
+      "exceptions": "Exceptions",
+      "show-hide-panel-tooltip": "Show/hide team overview",
+      "sublink-Exceptions": "open exception",
+      "sublink-multi-Exceptions": "open exceptions",
+      "sublink-HelpExaminersLocked": "locked to me",
+      "sublink-Stuck": "requiring action"
+    },
+    "my-team": {
+      "column-headers": {
+        "examiner": "Examiner",
+        "target-progress": "Target progress",
+        "lock-duration": "Lock duration",
+        "locked-by": "Locked by",
+        "state": "State",
+        "responses-to-review": "Responses to review",
+        "total-qigs-active": "Total QIGs Active",
+        "total-qigs-requiring-action": "Total QIGs Requiring action"
+      },
+      "my-team-data": {
+        "locked-by-me": "Me"
+      },
+      "examiner-targets": {
+        "live": "Live",
+        "practice": "Practice",
+        "standardisation": "Standardisation",
+        "stm-standardisation": "STM Standardisation",
+        "second-standardisation": "2nd Standardisation",
+        "examiner-target-live": "Remarking",
+        "examiner-target-simulation": "Simulation"
+      }
+    },
+    "exceptions": {
+      "exception-list-column-headers": {
+        "exception-id": "Exception Id",
+        "exception-type": "Exception type",
+        "time-open": "Time Open"
+      }
+    },
+    "help-examiners": {
+      "help-examiners-data": {
+        "lock": "Lock",
+        "unlock": "Unlock",
+        "times-suspended-time-label": "time"
+      },
+      "unlock-confirmation-dialog": {
+        "header": "Unlock examiner",
+        "body": "Are you sure that you want to unlock {examinername}?",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "column-headers": {
+        "examiner": "Examiner",
+        "role": "Role",
+        "state": "State",
+        "time-in-current-state": "Time in current state",
+        "supervisor": "Supervisor",
+        "lock-duration": "Lock duration"
+      },
+      "examiner-states": {
+        "not-approved-1st-std": "Awaiting Approval (1st Standardisation)",
+        "not-approved-all-std": "Awaiting Approval (All Standardisation)",
+        "suspended": "Pending Review"
+      },
+      "locks-in-qig-dialog": {
+        "header": "Examiner(s) requiring feedback",
+        "body": "You currently have the following lock(s).",
+        "select-a-qig": "Please select a question group to manage.",
+        "locks-plural": "locks",
+        "lock-single": "lock",
+        "body-logout": "Either select a question group to manage, or confirm that you want to logout below.",
+        "cancel-button": "Cancel"
+      }
+    },
+    "multiqig-selecteditem-default-text": "Select another QIG",
+    "multiqig-name-header-text": "QIGs",
+    "multiqig-examiner-lockcount-header-text": "Examiners locked",
+    "multiqig-examiner-stuckcount-header-text": "Examiners stuck"
+  },
+  "messaging": {
+    "compose-message": {
+      "please-select-qig-placeholder": "Please select...",
+      "new-message-header": "New Message",
+      "send-button": "Send",
+      "send-button-tooltip": "Send",
+      "discard-message-dialog": {
+        "body-discard": "Are you sure you want to discard this message without sending?",
+        "body-navigated-away": "Are you sure you want to navigate from this page as the message is unsaved and will be discarded?",
+        "body-start-new-message-while-composing": "Are you sure you want to discard your existing unsent message?",
+        "header": "Discard message",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "to-button": "To",
+      "subject": "Subject",
+      "associated-response": "Associated response",
+      "subject-placeholder": "Add a Subject",
+      "message-body-placeholder": "Write your message here...",
+      "priority": {
+        "standard": "Standard",
+        "important": "Important",
+        "mandatory": "Mandatory",
+        "priority-tooltip": "Message Priority"
+      },
+      "minimise-icon-tooltip": "Minimize",
+      "maximise-icon-tooltip": "Maximize",
+      "close-icon-tooltip": "Close",
+      "select-qig-placeholder": "Select a Question Group",
+      "reply-header": "Reply to message",
+      "forward-header": "Forward message",
+      "forward-prefix": "FW:",
+      "reply-prefix": "RE:",
+      "question-group": "Question group",
+      "recipient-selector": {
+        "entire-team": "Entire team",
+        "ok-button": "OK",
+        "cancel-button": "Cancel"
+      },
+      "mandatory-message-warning-dialog": {
+        "body": "This message has been changed to Standard priority as Mandatory messages cannot be sent when no subordinates are included in the recipient list.",
+        "header": "Message priority changed"
+      },
+      "question-group-tooltip": "Question group this message relates to",
+      "tiny-mce": {
+        "Cut": "Cut",
+        "Div": "Div",
+        "Paste": "Paste",
+        "Close": "Close",
+        "Pre": "Pre",
+        "Blockquote": "Blockquote",
+        "Formats": "Formats",
+        "Headers": "Headers",
+        "Blocks": "Blocks",
+        "Undo": "Undo",
+        "Strike-through": "Strike-through",
+        "Superscript": "Superscript",
+        "Subscript": "Subscript",
+        "Redo": "Redo",
+        "Paragraph": "Paragraph",
+        "Ok": "Ok",
+        "Bold": "Bold",
+        "Code": "Code",
+        "Italic": "Italic",
+        "Underline": "Underline",
+        "Cancel": "Cancel",
+        "Justify": "Justify",
+        "Inline": "Inline",
+        "Copy": "Copy",
+        "Square": "Square",
+        "Default": "Default",
+        "Circle": "Circle",
+        "Disc": "Disc",
+        "Name": "Name",
+        "Anchor": "Anchor",
+        "Emoticons": "Emoticons",
+        "Robots": "Robots",
+        "Title": "Title",
+        "Keywords": "Keywords",
+        "Encoding": "Encoding",
+        "Description": "Description",
+        "Author": "Author",
+        "Full-screen": "Full-screen",
+        "General": "General",
+        "Advanced": "Advanced",
+        "Source": "Source",
+        "Border": "Border",
+        "Style": "Style",
+        "Dimensions": "Dimensions",
+        "URL": "URL",
+        "Anchors": "Anchors",
+        "None": "None",
+        "Target": "Target",
+        "Poster": "Poster",
+        "Embed": "Embed",
+        "Preview": "Preview",
+        "Print": "Print",
+        "Save": "Save",
+        "Replace": "Replace",
+        "Next": "Next",
+        "Find": "Find",
+        "Prev": "Prev",
+        "Spell-check": "Spell-check",
+        "Finish": "Finish",
+        "Ignore": "Ignore",
+        "Rows": "Rows",
+        "Height": "Height",
+        "Alignment": "Alignment",
+        "Row": "Row",
+        "Body": "Body",
+        "Caption": "Caption",
+        "Footer": "Footer",
+        "Scope": "Scope",
+        "Column": "Column",
+        "Cell": "Cell",
+        "Header": "Header",
+        "Right": "Right",
+        "Cols": "Cols",
+        "Width": "Width",
+        "Left": "Left",
+        "Centre": "Centre",
+        "Templates": "Templates",
+        "Insert": "Insert",
+        "File": "File",
+        "Edit": "Edit",
+        "Tools": "Tools",
+        "View": "View",
+        "Table": "Table",
+        "Format": "Format"
+      },
+      "new-message-templates": {
+        "reply": "<p><span style=\"font-family:{0}; font-size:{1};\">&#65279;</span></p><p><span style=\"font-family:{0}; font-size: {1};\"><br><br>Date: {2} <br> From: {3}<br>{4}</span></p>",
+        "forward": "<p><span style=\"font-family:{0}; font-size:{1};\">&#65279;</span></p><p><span style=\"font-family:{0}; font-size: {1};\"><br><br>Date: {2} <br> From: {3}<br>{4}</span></p>",
+        "new": "<p><span style=\"font-family:{0}; font-size: {1};\">&#65279;</span></p>"
+      }
+    },
+    "message-lists": {
+      "top-panel": {
+        "inbox-tab": "Inbox",
+        "sent-tab": "Sent",
+        "deleted-tab": "Deleted",
+        "new-message-button": "New message"
+      },
+      "message-detail": {
+        "date-today": "Today",
+        "inbox": "From:",
+        "sent": "To:",
+        "associated-response-id": "Response ID:",
+        "high-important-banner": "This message was sent with high importance",
+        "high-mandatory-banner": "This is a mandatory message",
+        "reply-button": "Reply",
+        "forward-button": "Forward",
+        "delete-button": "Delete",
+        "more-recipients": "more",
+        "system-message": "System message"
+      },
+      "delete-message-dialog": {
+        "body": "Are you sure you want to delete this message?",
+        "header": "Delete message",
+        "yes-button": "Yes",
+        "no-button": "No"
+      },
+      "search-by-sender": {
+        "search-by-sender-placeholder": "Search by sender",
+        "search-result-for": "Search result for",
+        "search-by-sender-tooltip": "Enter a name here to search for messages sent by a particular person",
+        "cancel-search-tooltip": "Cancel search"
+      },
+      "message-summaries": {
+        "qig-group-tooltip": "Show/hide messages for this question group"
+      },
+      "quality-feedback-pending-dialog": {
+        "body": "Please go to your closed worklist and accept quality feedback on submitted seeds before viewing this response."
+      }
+    },
+    "mandatory-message-dialog": {
+      "header": "View mandatory message",
+      "body": "You have received one or more mandatory messages. Please click OK to view the message(s)."
+    },
+    "system-messages": {
+      "1": {
+        "subject": "Auto Approval",
+        "content": "Following successful standardisation, you have been auto approved for QIG {0} and can start live marking. You may receive additional feedback from your reviewer at a later date."
+      },
+      "2": {
+        "subject": "Subordinate Auto Approved",
+        "content": "Following successful standardisation on QIG {0}, I have been auto approved."
+      },
+      "3": {
+        "subject": "RefreshMarkingTeam",
+        "content": "Marker Auto Approved for QIG {0}."
+      },
+      "4": {
+        "subject": "Conditional Auto Approval",
+        "content": "Following successful standardisation, you have been conditionally auto approved for QIG {0}. You may now start live marking up to the conditional approval limit set by your reviewer. You will be fully approved at a later date by your reviewer."
+      },
+      "5": {
+        "subject": "Subordinate Conditionally Approved",
+        "content": "Following successful standardisation, I have been conditionally approved for QIG {0}. I can mark live scripts up to the conditional approval limit but require you to fully approve me."
+      },
+      "6": {
+        "subject": "RefreshMarkingTeam",
+        "content": "Marker Conditionally Approved for QIG {0}."
+      },
+      "7": {
+        "subject": "Auto Suspension",
+        "content": "You have been suspended from marking QIG {0} due to submitting inaccurate responses. You may receive additional feedback from your reviewer at a later date."
+      },
+      "8": {
+        "subject": "Subordinate Auto Suspended",
+        "content": "I have been suspended from marking due to submitting inaccurate responses on QIG {0}."
+      },
+      "10": {
+        "subject": "Please check my marking",
+        "content": "I have given you access to view my Live marking worklist for {0}. Please review my marking and if you agree I have marked my responses correctly please indicate you have checked my work. If you have any comments or concerns about my marking please discuss this with me."
+      },
+      "11": {
+        "subject": "Marks Checked",
+        "content": "I have checked your marks for '{0}'."
+      },
+      "12": {
+        "subject": "Review Re-mark Completed",
+        "content": "I have completed all the Review Re-marks requested."
+      },
+      "13": {
+        "subject": "Refresh Marking Targets",
+        "content": "Your marking target(s) for '{0}' have been updated. The following targets are affected:{1}"
+      },
+      "14": {
+        "subject": "Grace period updated",
+        "content": "Please note that the grace period of {0} has been changed to {2} hours. This means that any scripts submitted before the time of this message will stay pending after submission for {1} hours; any submitted after the time of this message will close {2} hours after submission."
+      },
+      "16": {
+        "subject": "Zoning Exception Raised",
+        "content": "The Zoning of a candidate response ID {0} in your closed worklist is being reviewed following an exception raised by another marker. Please be aware that the image zones displayed may be changed as a result of this exception. You will be notified when this has been resolved at which point you should review your submitted response and check that the marks you had awarded are still appropriate. Should you find this not to be the case then please contact your Awarding Body Admin team as soon as possible."
+      },
+      "17": {
+        "subject": "Zoning Exception Resolved",
+        "content": "The Zoning of a candidate response ID {0} in your closed worklist has been resolved following an exception raised by another marker. This may have changed the zones for the response items you have marked.  Please review your submitted response and check that the marks you had awarded are still appropriate. Should you find this not to be the case then please contact your Awarding Body Admin team as soon as possible."
+      },
+      "18": {
+        "subject": "Subordinate Status Update",
+        "content": "I have updated the approval status of {0} from {1} to {2}"
+      },
+      "19": {
+        "subject": "Notification of Change for Display ID {0}",
+        "content-removed": "For your information, Display ID {0} has been removed from your worklist due to quality checks.",
+        "content-replaced": "For your information, Display ID {0} has been put back in your worklist following quality checks, thanks for your time.",
+        "content-permanently-removed": "For your information, Display ID {0} has been permanently removed from your worklist following quality checks, sorry for any inconvenience caused."
+      },
+      "20": {
+        "subject": "Locked Examiner Withdrawn",
+        "content": "I have been withdrawn from marking on QIG {0}, and therefore no longer need action taken from the Approval Management worklist."
+      },
+      "21": {
+        "subject": "RIG Removed",
+        "content": "For your information Display ID {0} has been removed from your worklist for QIG {1}."
+      },
+      "22": {
+        "subject": "Notification of Change to Marking Instructions document",
+        "content": "A new version of the Marking Instructions for {0} has been made available. Please ensure you access and use this version instead of the previous one."
+      },
+      "23": {
+        "subject": "Response removed from worklist for {0}",
+        "content": "Please be Informed that one or more responses have been de-allocated from your worklist for the component-{0}"
+      },
+      "24": {
+        "subject": "RIG {0} is de-allocated",
+        "content": "The RIG {0} has been de-allocated from your worklist due to quality checks."
+      },
+      "25": {
+        "subject": "Notification of Change to Marking Instructions document",
+        "content": "A new version of the Marking Instructions for {0} has been made available. Please ensure you access and use this version instead of the previous one."
+      },
+      "26": {
+        "subject": "Notification for re-mark removal",
+        "content": "This is to inform you that Display ID {0} has been removed from your re-mark work list for question item {1}."
+      },
+      "27": {
+        "subject": "Notification of response moved from worklist",
+        "content": "The Response - {0} in your {1} worklist with open exception(s) of '{2}' has been taken by your team leader {3} and moved to the {1} worklist of {3} for further marking. You can no longer access this response in your {1} worklist for viewing or marking."
+      }
+    }
+  }
+}

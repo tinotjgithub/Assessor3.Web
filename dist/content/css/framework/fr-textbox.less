@@ -1,0 +1,31 @@
+/* LESS Document */
+/*TextBox Styles*/
+textarea.text-underline+label,
+input.text-underline+label{
+	display:block;
+	.vendorize(transition, all @comp-anim-duration);
+}
+
+input.text-underline{
+	border-radius:0;
+	.vendorize(transition, border-bottom padding-left @comp-anim-duration);
+}
+input.text-underline~.bar,
+textarea.text-underline~.bar{
+	width:0;
+	.vendorize(transition, all @comp-anim-duration);
+}
+
+.show-undeline(){
+	left:0;
+	width:100%;
+}
+input.text-underline:focus~.bar,
+textarea.text-underline:focus~.bar{
+	.show-undeline();
+}
+input.text-underline.error:focus~.bar,
+textarea.text-underline.error:focus~.bar{
+	.show-undeline();
+}
+/*TextBox styles end*/

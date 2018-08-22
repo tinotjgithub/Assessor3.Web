@@ -1,0 +1,27 @@
+/*Layout styles*/
+@column-count:12;
+.layout-loop(@layout-index:1) when(@layout-index<=@column-count){	
+	.column-loop(@col-index:1) when(@col-index<=@layout-index){
+		@col-width:(@col-index/@layout-index)*100;
+		.col-@{col-index}-of-@{layout-index} {
+			width:unit(@col-width,%);
+		}		
+		.column-loop(@col-index+1);
+	}
+	.column-loop(1);
+	.layout-loop(@layout-index+1);
+}
+.layout-loop(1);
+
+@media (max-width: @responsive-width) {
+	.col-wrap.responsive-medium [class*='col-']{
+		 display:block;
+		 float:none;
+		 width:auto;		 
+	}
+}
+
+.col-wrap [class*='col-']{
+ 	float:left;
+}
+/*Layout styles end*/

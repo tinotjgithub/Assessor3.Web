@@ -1,0 +1,147 @@
+{
+  "rulesDirectory": [
+    "./node_modules/tslint-microsoft-contrib"
+  ],
+  "rules": {
+    "class-name": true,
+    "curly": true,
+    "eofline": false,
+    "export-name": false,
+    "forin": true,
+    "indent": [
+      false
+    ],
+    "jquery-deferred-must-complete": true,
+    "jsdoc-format": true,
+    "label-position": true,
+    "max-line-length": [
+      true,
+      140
+    ],
+    "missing-optional-annotation": false,
+    "no-arg": true,
+    "no-backbone-get-set-outside-model": false,
+    "no-banned-terms": true,
+    "no-bitwise": true,
+    "no-console": [
+      true,
+      "debug",
+      "info",
+      "log",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "no-constant-condition": true,
+    "no-construct": true,
+    "no-parameter-properties": true,
+    "no-control-regex": true,
+    "no-cookies": true,
+    "no-debugger": true,
+    "no-delete-expression": true,
+    "no-disable-auto-sanitization": true,
+    "no-document-write": true,
+    "no-duplicate-case": true,
+    "no-duplicate-parameter-names": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-empty-interfaces": true,
+    "no-eval": true,
+    "no-exec-script": true,
+    "no-for-in": false,
+    "no-function-constructor-with-string-args": true,
+    "no-function-expression": false,
+    "no-http-string": [
+      true,
+      ""
+    ],
+    "no-increment-decrement": false,
+    "no-invalid-regexp": true,
+    "no-missing-visibility-modifiers": true,
+    "no-multiline-string": true,
+    "no-multiple-var-decl": true,
+    "no-octal-literal": true,
+    "no-regex-spaces": true,
+    "no-reserved-keywords": true,
+    "no-sparse-arrays": true,
+    "no-string-based-set-immediate": false,
+    "no-string-based-set-interval": false,
+    "no-string-based-set-timeout": false,
+    "no-string-literal": true,
+    "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": [
+      true,
+      "ignore-comments",
+      "ignore-jsdoc"
+    ],
+    "comment-format": [
+      true,
+      {
+        "ignore-words": [
+          "TODO",
+          "HACK"
+        ]
+      }
+    ],
+    "completed-docs": [
+      true,
+      "enums",      
+      "functions",
+      "methods"
+    ],
+    "no-unnecessary-bind": false,
+    "no-unnecessary-semicolons": true,
+    "no-unused-expression": true,
+    "no-unused-variable": false,
+    "no-use-before-declare": true,
+    "no-var-requires": false,
+    "no-with-statement": true,
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-catch",
+      "check-else"
+    ],
+    "prefer-array-literal": false,
+    "promise-must-complete": true,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "react-no-dangerous-html": false,
+    "semicolon": [
+      true,
+      "ignore-bound-class-methods"
+    ],
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "typedef": [
+      false,
+      "call-signature",
+      "parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration"
+    ],
+    "use-isnan": true,
+    "use-named-parameter": true,
+    "use-strict": false,
+    "valid-typeof": true,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ]
+  }
+}

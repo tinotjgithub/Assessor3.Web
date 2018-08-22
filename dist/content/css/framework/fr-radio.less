@@ -1,0 +1,39 @@
+/* LESS Document */
+input[type="radio"] {
+	.visually-hidden();
+	&[disabled]+label .radio-ui,
+	&[disabled]+label .label-text{
+		cursor:default;
+		opacity:0.4;
+		
+	}
+}
+
+input[type="radio"] + label .radio-ui {
+    background-color:@pure-white;
+    display:inline-block;
+    width:14px;
+    height:14px;
+    margin:-1px 6px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+	border:3px solid @pure-white;
+	 .vendorize(box-shadow,0 0 0 1px @radio-border-color);
+}
+input[type="radio"] + label .label-text{
+	display:inline-block;
+	vertical-align:top;
+	.calc-fn(max-width,"100% - 20px");		
+}
+
+input[type="radio"]:checked + label .radio-ui{
+     background-color:@radio-fill-color;
+	  .vendorize(box-shadow,0 0 0 1px @radio-fill-color);
+}
+
+input[type="radio"] + label .radio-ui,
+input[type="radio"]:checked + label .radio-ui{
+	.vendorize(transition,background-color @comp-anim-duration linear);
+}

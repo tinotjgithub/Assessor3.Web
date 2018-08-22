@@ -1,0 +1,36 @@
+﻿{
+  "userinformation": {
+    "testAwaitingUserName": "A3IB_nseena8",
+    "testAwaitingPassword": "Computer1",
+    "teststandUserName": "A3IB_kbincy6",
+    "teststandPassword": "Computer1",
+    "testSTMUserName": "A3IB_aancy10",
+    "testSTMPassword": "Computer1",
+     "testlvAtypicalUserName": "A3IB_rrakesh4",
+    "testlvAtypicalPassword": "Computer1",
+     "testlvWLMeetTargetQigNameUserName": "A3IB_bgeorge9",
+    "testlvWLMeetTargetQigNamePassword": "Computer1",
+    "testImagePEUserName": "A3IB_atjoselive135",
+    "testImagePEPassword": "Computer1"
+
+  },
+  "liveMarking": {
+    "GetNewResponses": "Get new responses",
+    "lvPoolMsg1": "No responses downloaded.Your worklist is empty. Before you can start marking you need to download some responses. Clicking the 'Get new responses' button will download responses to fill up your  worklist to your limit of 5 open responses",
+    "lvPoolResponseIDCount": "5",
+    "lvPoolGetResponseSubText": "Reached open response limit",
+    "lvCompleteGetResponseSubText": "Nothing to download",
+
+    "lvComplete_workListMessage_messageHeader": "Nothing to download",
+    "lvComplete_workListMessage_messageContent": "There are currently no responses available to download for marking. Please check again later.",
+    "lvResponse_Allocation_Error": "Get new responses",
+    "lvpopup_responseallocationerrordialog_description": "No responses have been downloaded as the number of responses in your worklist has reached the number of responses required to meet your marking target.",
+    "lvpopup_responseallocationerrordialog_aTypical": "You have already requested the maximum concurrent number of responses for your current marking target.",
+    "lvpopup_responseallocationerrordialog_lvWLMeetTargetQigName": "No responses have been downloaded as the number of responses in your worklist has reached the number of responses required to meet your marking target."
+
+
+
+  }
+
+
+}

@@ -1,0 +1,79 @@
+/* LESS Document */
+
+.toggle-button{
+   position: relative;  
+   display:inline-block;
+   vertical-align:middle;
+   
+    .vendorize(user-select,none);
+   input[type="checkbox"]{
+	  opacity:0;
+	  position:absolute;
+	  height:0;
+	  left:0;	  
+	  width:0;
+	  z-index:-1;	 
+   }
+   .toggle-label{
+	   cursor: pointer;
+	   display: block;
+	  
+	   position:relative;
+	   vertical-align:middle;
+	   
+	    .toggle-content{
+		   display:block;	   
+		   margin-left:3px;
+		    overflow: hidden;
+			position:relative;
+		   .calc-fn(width,"100% -  7px");
+		   
+		   &:before,&:after{
+				display: block; 
+				float: left;				
+		   }		   
+		   
+		   .on-text,.off-text{
+				display:block;
+				text-align:center;
+				position:relative;
+				white-space:nowrap;
+				
+				.vendorize(transition,left @comp-anim-duration);
+		   }
+		   .on-text {
+			   left:-103%;
+			  padding-right:24px;	
+			  padding-left:5px;		 
+		   }
+		   .off-text{
+			   left:0px;	
+				margin-top:-12px;			
+				padding-left:20px;
+				padding-right:10px;
+				
+		   }
+	   }
+	   .toggle-switch{
+		   display: block;
+		   left:0;
+		   position: absolute;
+		   z-index:2;	
+		   	   
+		   .vendorize(transition;width @comp-anim-duration,height @comp-anim-duration,left @comp-anim-duration,top @comp-anim-duration,background-color @comp-anim-duration);
+	   }	    
+   }
+  
+   
+   input[type="checkbox"]:checked+.toggle-label .toggle-content{
+	.on-text{
+		left:0;	
+	}
+	.off-text{
+		left:100%;
+	}
+   }
+   input[type="checkbox"]:checked+.toggle-label .toggle-switch{
+	   left:100%;	   	 
+   }
+}

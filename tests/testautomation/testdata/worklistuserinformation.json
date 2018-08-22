@@ -1,0 +1,50 @@
+﻿{
+  "supervisorinformation": {
+    "testAEUserName": "A3AQ_aizabelle17",
+    "testAEPassword": "COmputer12",
+    "testPEUserName": "A3AQ_selijah23",
+    "testPEPassword": "COmputer12",
+    "testTLUserName": "A3AQ_maasher21",
+    "testTLPassword": "COmputer12",
+    "supervisornameAEText": "Nathaniel P",
+    "supervisornameTLText": "Elijah S",
+    "onlinestatustext":  "Online"
+  },
+
+  "markerinformation": {
+    "testAEUserName": "A3AQ_aizabelle17",
+    "testAEPassword": "COmputer12",
+    "testPEUserName": "A3AQ_selijah23",
+    "testPEPassword": "COmputer12",
+    "testTLUserName": "A3AQ_maasher21",
+    "testTLPassword": "COmputer12",
+    "testSuspendedUserName": "A3AQ_zruth16",
+    "testSuspendedPassword": "COmputer12",
+    "userRoleAEText": "Assistant Examiner",
+    "userRoleAESpanishText": "Auxiliar examinador",
+    "userRoleAEFrenchText": "adjoint examinateur",
+    "userRolePEText": "Principal Examiner",
+    "userRolePESpanishText": "examinador Principal",
+    "userRolePEFrenchText": "principal Examiner",
+    "userRoleTLText": "Team Leader",
+    "userRoleTLSpanishText": "Capitan del equipo",
+    "userRoleTLFrenchText": "Chef d'équipe",
+    "userApprovalStatusNotApprovedText": "Not Approved",
+    "userApprovalStatusNotApprovedSpanishText": "No aprobado",
+    "userApprovalStatusNotApprovedFrenchText": "Non approuvé",
+    "userApprovalStatusApprovedText": "Approved",
+    "userApprovalStatusApprovedSpanishText": "Aprobado",
+    "userApprovalStatusApprovedFrenchText": "A approuvé",
+    "userApprovalStatusSuspendedText": "Suspended",
+    "userApprovalStatusSuspendedSpanishText": "Suspendido",
+    "userApprovalStatusSuspendedFrenchText": "Suspendu"
+  },
+  "worklistSidepanel": {
+    "lvPoolTargetText": "Target:",
+    "lvPoolTargetDate": "5/11/2013",
+    "pendingday": "0days until",
+    "lvPoolSubmittedText": "Submitted",
+    "lvPoolTargetSubmitted": "0/20"
+   
+  }
+}

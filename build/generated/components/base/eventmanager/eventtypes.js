@@ -1,0 +1,30 @@
+"use strict";
+var EventTypes;
+(function (EventTypes) {
+    EventTypes.PAN = 'pan';
+    EventTypes.PAN_START = 'panstart';
+    EventTypes.PAN_END = 'panend';
+    EventTypes.PAN_MOVE = 'panmove';
+    EventTypes.PAN_CANCEL = 'pancancel';
+    EventTypes.PAN_LEFT = 'panleft';
+    EventTypes.PAN_RIGHT = 'panright';
+    EventTypes.PAN_UP = 'panup';
+    EventTypes.PAN_DOWN = 'pandown';
+    EventTypes.TAP = 'tap';
+    EventTypes.PRESS = 'press';
+    EventTypes.PRESS_UP = 'pressup';
+    EventTypes.SWIPE_LEFT = 'swipeleft';
+    EventTypes.SWIPE_RIGHT = 'swiperight';
+    EventTypes.SWIPE_UP = 'swipeup';
+    EventTypes.SWIPE_DOWN = 'swipedown';
+    EventTypes.INPUT = 'input';
+    EventTypes.SWIPE = 'swipe';
+    EventTypes.PINCH = 'pinch';
+    EventTypes.PINCH_START = 'pinchstart';
+    EventTypes.PINCH_IN = 'pinchin';
+    EventTypes.PINCH_OUT = 'pinchout';
+    EventTypes.PINCH_END = 'pinchend';
+    EventTypes.PINCH_CANCEL = 'pinchcancel';
+})(EventTypes || (EventTypes = {}));
+module.exports = EventTypes;
+//# sourceMappingURL=eventtypes.js.map

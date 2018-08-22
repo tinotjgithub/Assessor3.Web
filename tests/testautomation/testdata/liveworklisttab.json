@@ -1,0 +1,21 @@
+﻿{
+  "logincredentials": {
+    "openResponseUserName": "A3IB_bgeorge9",
+    "openResponsePassword": "Computer1",
+    "graceTabCheckUserName": "A3IB_aancy10",
+    "graceTabCheckPassword": "Computer1"
+  },
+  "text": {
+    "closedTabCount": "4",
+    "closedTabText": "Closed",
+    "inGraceTabCount": "0",
+    "inGraceTabText": "In Grace",
+    "openTabCount": "16",
+    "openTabText": "Open",
+    "worklistHeaderText": "Live Marking",
+    "noGraceQigName": "physics - QFB",
+    "allTabQigName": "AT1bioSP1ENGTZ1XXXX"
+  }
+}
+
+

@@ -1,0 +1,891 @@
+{
+  "definitions": {
+    "ResponseIdColumnOpen": {
+      "$id": "1",
+      "GridColumn": "ResponseIdColumn",
+      "ColumnHeader": "Response",
+      "ComparerName": "responseIdComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "displayId": "displayId",
+        "rigOrder": "rigOrder",
+        "esDisplayId": "esDisplayId",
+        "selectedLanguage": "selectedLanguage",
+        "updatedDate": "updatedDate"
+      }
+    },
+    "ResponseIdColumnClosed": {
+      "$id": "2",
+      "GridColumn": "ResponseIdColumn",
+      "ColumnHeader": "Response",
+      "ComparerName": "responseIdComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "displayId": "displayId",
+        "rigOrder": "rigOrder",
+        "esDisplayId": "esDisplayId",
+        "submittedDate": "submittedDate",
+        "selectedLanguage": "selectedLanguage"
+      }
+    },
+    "LastUpdatedColumnOpen": {
+      "$id": "14",
+      "GridColumn": "LastUpdatedColumn",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.last-updated",
+      "ComparerName": "updatedDateComparer",
+      "CssClass": "col-modified",
+      "Sortable": "true",
+      "ComponentProps": {
+        "updatedDate": "updatedDate",
+        "dateType": "dateType",
+        "isTileView": "isTileView"
+      }
+    },
+    "LastUpdatedColumnPending": {
+      "$id": "18",
+      "GridColumn": "LastUpdatedColumn",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.last-updated",
+      "ComparerName": "lastUpdatedDateComparer",
+      "CssClass": "col-modified",
+      "Sortable": "true",
+      "ComponentProps": {
+        "updatedDate": "lastUpdatedDate",
+        "dateType": "dateType",
+        "isTileView": "isTileView"
+      }
+    },
+    "LastUpdatedColumnClosed": {
+      "$id": "19",
+      "GridColumn": "LastUpdatedColumn",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.submitted",
+      "CssClass": "col-modified",
+      "ComparerName": "submittedDateComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "submittedDate": "submittedDate",
+        "dateType": "dateType",
+        "isTileView": "isTileView"
+      }
+    },
+    "AllocatedDateColumnOpen": {
+      "$id": "15",
+      "GridColumn": "AllocatedDate",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.allocated",
+      "CssClass": "col-allocated",
+      "ComparerName": "allocatedDateComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "allocatedDate": "allocatedDate",
+        "dateType": "dateType",
+        "showAllocatedDate": "showAllocatedDate"
+      }
+    },
+    "ResponseIdColumnPending": {
+      "$id": "3",
+      "GridColumn": "ResponseIdColumn",
+      "ColumnHeader": "Response",
+      "ComparerName": "responseIdComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "displayId": "displayId",
+        "rigOrder": "rigOrder",
+        "esDisplayId": "esDisplayId",
+        "updatedDate": "lastUpdatedDate",
+        "selectedLanguage": "selectedLanguage"
+      }
+    },
+    "TotalMark": {
+      "$id": "4",
+      "GridColumn": "TotalMark",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.total-mark",
+      "CssClass": "col-mark-obt",
+      "ComparerName": "markComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "hasNumericMark": "hasNumericMark",
+        "maximumMark": "maximumMark",
+        "totalMarkValue": "totalMarkValue",
+        "markingProgress": "markingProgress",
+        "selectedLanguage": "selectedLanguage"
+      }
+    },
+    "AllocatedDate": {
+      "$id": "5",
+      "GridColumn": "AllocatedDate",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.allocated",
+      "CssClass": "col-allocated",
+      "ComparerName": "allocatedDateComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "allocatedDate": "allocatedDate",
+        "hasAdditionalObjects": "hasAdditionalObjects",
+        "hasAllPagesAnnotated": "hasAllPagesAnnotated",
+        "markingProgress": "markingProgress",
+        "selectedLanguage": "selectedLanguage"
+      }
+    },
+    "LinkedMessageIndicator": {
+      "$id": "6",
+      "GridColumn": "LinkedMessageIndicator",
+      "ColumnHeader": "",
+      "CssClass": "col-message",
+      "ComponentProps": {
+        "hasMessages": "hasMessages",
+        "unreadMessagesCount": "unreadMessagesCount",
+        "displayId": "displayId",
+        "isTeamManagementMode": "isTeamManagementMode"
+      }
+    },
+    "SLAOIndicator": {
+      "$id": "17",
+      "GridColumn": "SLAOIndicator",
+      "ColumnHeader": "",
+      "CssClass": "col-slao",
+      "ComponentProps": {
+        "hasAdditionalObjects": "hasAdditionalObjects",
+        "hasAllPagesAnnotated": "hasAllPagesAnnotated",
+        "markingProgress": "markingProgress"
+      }
+    },
+    "LinkedExceptionIndicator": {
+      "$id": "7",
+      "GridColumn": "LinkedExceptionIndicator",
+      "ColumnHeader": "",
+      "CssClass": "col-notification",
+      "ComponentProps": {
+        "hasExceptions": "hasExceptions",
+        "hasZoningExceptions": "hasZoningExceptions",
+        "isZoningExceptionRaisedInSameScript": "isZoningExceptionRaisedInSameScript",
+        "hasBlockingExceptions": "hasBlockingExceptions",
+        "resolvedExceptionsCount": "resolvedExceptionsCount",
+        "markingProgress": "markingProgress",
+        "displayId": "displayId",
+        "isTeamManagementMode": "isTeamManagementMode",
+        "unactionedExceptionCount": "unactionedExceptionCount"
+      }
+    },
+    "GracePeriodTime": {
+      "$id": "8",
+      "GridColumn": "GracePeriodTime",
+      "CssClass": "col-grace-period",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.time-to-end-of-grace-period",
+      "ComparerName": "timeToEndGracePeriodComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "timeToEndOfGracePeriod": "timeToEndOfGracePeriod"
+      }
+    },
+    "markGroupId": {
+      "$id": "9",
+      "markGroupId": "markGroupId"
+    },
+    "MarkingProgress": {
+      "$id": "10",
+      "GridColumn": "MarkingProgress",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.progress",
+      "CssClass": "col-status",
+      "ComparerName": "progressComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "markingProgress": "markingProgress",
+        "selectedLanguage": "selectedLanguage",
+        "markGroupId": "markGroupId",
+        "isTeamManagementMode": "isTeamManagementMode"
+      }
+    },
+    "AccuracyIndicator": {
+      "$id": "11",
+      "GridColumn": "AccuracyIndicator",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.accuracy",
+      "CssClass": "col-accuracy",
+      "ComparerName": "accuracyComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "accuracyIndicatorTypeID": "accuracyIndicatorTypeID"
+      }
+    },
+    "MarksDifference": {
+      "$id": "12",
+      "GridColumn": "MarksDifference",
+      "Sortable": "true",
+      "ComponentProps": {
+        "absoluteMarksDifference": "absoluteMarksDifference",
+        "totalMarksDifference": "totalMarksDifference",
+        "accuracyIndicatorTypeID": "accuracyIndicatorTypeID"
+      }
+    },
+    "AllPageAnnotedIndicator": {
+      "$id": "13",
+      "GridColumn": "AllPageAnnotedIndicator",
+      "CssClass": "col-slao",
+      "ColumnHeader": "",
+      "ComponentProps": {
+        "hasAllPagesAnnotated": "hasAllPagesAnnotated",
+        "markingProgress": "markingProgress",
+        "isTileView": "isTileView"
+      }
+    },
+    "AbsoluteMarksDifference": {
+      "$id": "20",
+      "GridColumn": "AbsoluteMarksDifference",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.amd",
+      "ComparerName": "absoluteDifferenceComparer",
+      "CssClass": "col-amd",
+      "Sortable": "true",
+      "ComponentProps": {
+        "absoluteMarksDifference": "absoluteMarksDifference",
+        "totalMarksDifference": "totalMarksDifference"
+      }
+    },
+    "TotalMarksDifference": {
+      "$id": "21",
+      "GridColumn": "TotalMarksDifference",
+      "ComparerName": "totalDifferenceComparer",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.tmd",
+      "CssClass": "col-tmd",
+      "Sortable": "true",
+      "ComponentProps": {
+        "absoluteMarksDifference": "absoluteMarksDifference",
+        "totalMarksDifference": "totalMarksDifference"
+      }
+    },
+    "OriginalMarkerName": {
+      "$id": "25",
+      "CssClass": "col-original-marker",
+      "GridColumn": "OriginalMarkerName",
+      "ComparerName": "originalMarkerComparer",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.original-marker",
+      "Sortable": "true",
+      "ComponentProps": {
+        "name": "name"
+      }
+    },
+    "CentreNum": {
+      "$id": "23",
+      "CssClass": "col-centre",
+      "ComparerName": "centreComparer",
+      "GridColumn": "CentreNum",
+      "Sortable": "true",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.centre-number",
+      "ComponentProps": {
+        "centre": "centre"
+      }
+    },
+    "CentreCandidateNum": {
+      "$id": "24",
+      "CssClass": "col-candidate",
+      "GridColumn": "CentreCandidateNum",
+      "ComparerName": "candidateComparer",
+      "Sortable": "true",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.centre-candidate-number",
+      "ComponentProps": {
+        "candidate": "candidate"
+      }
+    },
+    "ResponseTypeLabel": {
+      "$id": "22",
+      "GridColumn": "ResponseTypeLabel",
+      "ColumnHeader": "",
+      "CssClass": "col-seed",
+      "ComponentProps": {
+        "isResponseTypeLabelVisible": "isResponseTypeLabelVisible"
+      }
+    },
+    "MarkChangeReason": {
+      "$id": "26",
+      "GridColumn": "MarkChangeReason",
+      "ColumnHeader": "",
+      "CssClass": "col-eur-reason",
+      "ComponentProps": {
+        "isInResponse": "isInResponse",
+        "selectedLanguage": "selectedLanguage",
+        "markingProgress": "markingProgress",
+        "markChangeReason": "markChangeReason"
+      }
+    },
+    "SampleLabel": {
+      "$id": "27",
+      "GridColumn": "SampleLabel",
+      "ComparerName": "sampledColumnComparer",
+      "Sortable": "true",
+      "ColumnHeader": "team-management.examiner-worklist.column-headers.sampled",
+      "CssClass": "col-sampled",
+      "ComponentProps": {
+        "sampleCommentId": "sampleCommentId"
+      }
+    },
+    "ReviewedByLabel": {
+      "$id": "28",
+      "GridColumn": "ReviewedByLabel",
+      "ComparerName": "reviewedByComparer",
+      "Sortable": "true",
+      "ColumnHeader": "team-management.examiner-worklist.column-headers.reviewed-by",
+      "CssClass": "col-reviewed",
+      "ComponentProps": {
+        "reviewedById": "reviewedById",
+        "reviewedByInitials": "reviewedByInitials",
+        "reviewedBySurname": "reviewedBySurname"
+      }
+    },
+    "Finalmarkselected": {
+      "$id": "29",
+      "GridColumn": "Finalmarkselected",
+      "ComparerName": "finalMarkSelectedComparer",
+      "Sortable": "true",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.final-mark-selected",
+      "CssClass": "col-final-mark-sltd",
+      "ComponentProps": {}
+    },
+    "SupervisorRemarkDecision": {
+      "$id": "30",
+      "GridColumn": "SupervisorRemarkDecision",
+      "ColumnHeader": "",
+      "CssClass": "col-eur-reason"
+    },
+    "OriginalMark": {
+      "$id": "31",
+      "GridColumn": "OriginalMark",
+      "ComparerName": "OriginalMarkComparer",
+      "Sortable": "true",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.original-mark",
+      "CssClass": "col-original-mark",
+      "ComponentProps": {
+        "isNonNumericMark": "isNonNumericMark",
+        "originalMarkTotal": "originalMarkTotal",
+        "isVisible": "isVisible",
+        "accuracyIndicatorTypeID": "accuracyIndicatorTypeID"
+      }
+    },
+    "OriginalMarkAccuracy": {
+      "$id": "32",
+      "GridColumn": "OriginalMarkAccuracy",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.original-mark-accuracy",
+      "CssClass": "col-original-mark-accuracy",
+      "ComparerName": "OriginalMarkAccuracyComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "accuracyIndicatorTypeID": "accuracyIndicatorTypeID",
+        "isVisible": "isVisible"
+      }
+    },
+    "SpecialistType": {
+      "$id": "36",
+      "GridColumn": "SpecialistType",
+      "ComparerName": "specialistTypeComparer",
+      "Sortable": "true",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.specialist-type",
+      "CssClass": "col-spcl-type"
+    }
+  },
+    "TagIndicator": {
+      "$id": "33",
+      "GridColumn": "TagIndicator",
+      "ColumnHeader": "marking.worklist.list-view-column-headers.tag",
+      "CssClass": "col-tag",
+      "ComparerName": "tagComparer",
+      "Sortable": "true",
+      "ComponentProps": {
+        "selectedTagId": "selectedTagId",
+        "tagList": "tagList",
+        "markGroupId": "markGroupId"
+      },
+      "AllFilesNotViewedIndicator": {
+        "$id": "34",
+        "GridColumn": "AllFilesNotViewedIndicator",
+        "CssClass": "col-slao",
+        "ColumnHeader": "",
+        "ComponentProps": {
+          "allFilesViewed": "allFilesViewed",
+          "markingProgress": "markingProgress",
+          "isTileView": "isTileView",
+          "isECourseworkComponent":  "isECourseworkComponent"
+        }
+      },
+      "SupervisorReviewComment": {
+        "$id": "35",
+        "GridColumn": "SupervisorReviewComment",
+        "ComparerName": "SupervisorReviewCommentComparer",
+        "Sortable": "true",
+        "ColumnHeader": "team-management.examiner-worklist.column-headers.review-comment",
+        "CssClass": "col-review-comment",
+        "ComponentProps": {
+        }
+      }
+    },
+    "marking": {
+      "liveworklist": {
+        "open": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "1" },
+              { "$ref": "10" },
+              { "$ref": "13" },
+              { "$ref": "7" },
+              { "$ref": "17" },
+              { "$ref": "34" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "36" },
+              { "$ref": "10" },
+              { "$ref": "4" },
+              { "$ref": "34" },
+              { "$ref": "17" },
+              { "$ref": "14" },
+              { "$ref": "13" },
+              { "$ref": "7" },
+              { "$ref": "6" },
+              { "$ref": "33" },
+              { "$ref": "5" },
+              { "$ref": "22" },
+              { "$ref": "27" }
+
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        },
+        "closed": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "2" },
+              { "$ref": "12" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "23" },
+              { "$ref": "36" },
+              { "$ref": "4" },
+              { "$ref": "17" },
+              { "$ref": "11" },
+              { "$ref": "20" },
+              { "$ref": "21" },
+              { "$ref": "19" },
+              { "$ref": "7" },
+              { "$ref": "6" },
+              { "$ref": "33" },
+              { "$ref": "22" },
+              { "$ref": "27" },
+              { "$ref": "28" },
+              { "$ref": "35" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        },
+        "pending": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "3" },
+              { "$ref": "8" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "8" },
+              { "$ref": "36" },
+              { "$ref": "4" },
+              { "$ref": "17" },
+              { "$ref": "18" },
+              { "$ref": "7" },
+              { "$ref": "6" },
+              { "$ref": "33" },
+              { "$ref": "22" },
+              { "$ref": "27" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        }
+      },
+      "standardisationworklist": {
+        "open": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "1" },
+              { "$ref": "10" },
+              { "$ref": "13" },
+              { "$ref": "17" },
+              { "$ref": "34" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "10" },
+              { "$ref": "4" },
+              { "$ref": "34" },
+              { "$ref": "17" },
+              { "$ref": "14" },
+              { "$ref": "13" },
+              { "$ref": "6" },
+              { "$ref": "5" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        },
+        "closed": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "2" },
+              { "$ref": "12" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "4" },
+              { "$ref": "11" },
+              { "$ref": "20" },
+              { "$ref": "21" },
+              { "$ref": "17" },
+              { "$ref": "19" },
+              { "$ref": "6" },
+              { "$ref": "28" },
+              { "$ref": "35" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        }
+      },
+      "practiceworklist": {
+        "open": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "1" },
+              { "$ref": "10" },
+              { "$ref": "13" },
+              { "$ref": "17" },
+              { "$ref": "34" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "10" },
+              { "$ref": "4" },
+              { "$ref": "34" },
+              { "$ref": "17" },
+              { "$ref": "14" },
+              { "$ref": "13" },
+              { "$ref": "6" },
+              { "$ref": "5" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        },
+        "closed": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "2" },
+              { "$ref": "12" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "4" },
+              { "$ref": "11" },
+              { "$ref": "20" },
+              { "$ref": "21" },
+              { "$ref": "17" },
+              { "$ref": "19" },
+              { "$ref": "6" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        }
+      },
+      "directedremarkworklist": {
+        "open": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "1" },
+              { "$ref": "10" },
+              { "$ref": "13" },
+              { "$ref": "30" },
+              { "$ref": "7" },
+              { "$ref": "26" },
+              { "$ref": "17" },
+              { "$ref": "34" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "23" },
+              { "$ref": "24" },
+              { "$ref": "36" },
+              { "$ref": "10" },
+              { "$ref": "4" },
+              { "$ref": "34" },
+              { "$ref": "31" },
+              { "$ref": "32" },
+              { "$ref": "29" },
+              { "$ref": "17" },
+              { "$ref": "14" },
+              { "$ref": "13" },
+              { "$ref": "30" },
+              { "$ref": "7" },
+              { "$ref": "6" },
+              { "$ref": "26" },
+              { "$ref": "33" },
+              { "$ref": "5" },
+              { "$ref": "25" },
+              { "$ref": "22" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        },
+        "closed": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "2" },
+              { "$ref": "12" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "23" },
+              { "$ref": "24" },
+              { "$ref": "36" },
+              { "$ref": "4" },
+              { "$ref": "31" },
+              { "$ref": "32" },
+              { "$ref": "29" },
+              { "$ref": "11" },
+              { "$ref": "20" },
+              { "$ref": "21" },
+              { "$ref": "17" },
+              { "$ref": "19" },
+              { "$ref": "7" },
+              { "$ref": "6" },
+              { "$ref": "33" },
+              { "$ref": "22" },
+              { "$ref": "25" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        },
+        "pending": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "3" },
+              { "$ref": "8" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "23" },
+              { "$ref": "24" },
+              { "$ref": "36" },
+              { "$ref": "8" },
+              { "$ref": "4" },
+              { "$ref": "31" },
+              { "$ref": "32" },
+              { "$ref": "29" },
+              { "$ref": "17" },
+              { "$ref": "18" },
+              { "$ref": "7" },
+              { "$ref": "6" },
+              { "$ref": "33" },
+              { "$ref": "25" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        }
+      },
+      "atypicalworklist": {
+        "open": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "1" },
+              { "$ref": "10" },
+              { "$ref": "13" },
+              { "$ref": "7" },
+              { "$ref": "26" },
+              { "$ref": "17" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "23" },
+              { "$ref": "24" },
+              { "$ref": "10" },
+              { "$ref": "4" },
+              { "$ref": "17" },
+              { "$ref": "14" },
+              { "$ref": "13" },
+              { "$ref": "7" },
+              { "$ref": "6" },
+              { "$ref": "5" },
+              { "$ref": "25" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        },
+        "closed": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "2" },
+              { "$ref": "12" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "23" },
+              { "$ref": "24" },
+              { "$ref": "4" },
+              { "$ref": "17" },
+              { "$ref": "19" },
+              { "$ref": "7" },
+              { "$ref": "6" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        },
+        "pending": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "3" },
+              { "$ref": "8" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "23" },
+              { "$ref": "24" },
+              { "$ref": "8" },
+              { "$ref": "4" },
+              { "$ref": "17" },
+              { "$ref": "18" },
+              { "$ref": "7" },
+              { "$ref": "6" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        }
+      },
+      "markingcheckworklist": {
+        "open": {
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "10" },
+              { "$ref": "4" },
+              { "$ref": "14" },
+              { "$ref": "6" },
+              { "$ref": "5" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        },
+        "closed": {
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "4" },
+              { "$ref": "19" },
+              { "$ref": "6" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        },
+        "pending": {
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "8" },
+              { "$ref": "4" },
+              { "$ref": "18" },
+              { "$ref": "6" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        }
+      },
+      "simulationworklist": {
+        "open": {
+          "tileview": {
+            "GridColumns": [
+              { "$ref": "1" },
+              { "$ref": "10" },
+              { "$ref": "13" },
+              { "$ref": "7" },
+              { "$ref": "17" }
+            ]
+          },
+          "detailview": {
+            "GridColumns": [
+              { "$ref": "10" },
+              { "$ref": "4" },
+              { "$ref": "17" },
+              { "$ref": "14" },
+              { "$ref": "13" },
+              { "$ref": "5" }
+            ]
+          },
+          "frozenRows": {
+            "GridColumns": [
+              { "$ref": "1" }
+            ]
+          }
+        }
+      }
+    }
+  }

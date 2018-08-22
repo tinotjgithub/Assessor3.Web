@@ -1,0 +1,3 @@
+﻿ interface LanguageList {
+     languages: Languages;
+}
